@@ -58,7 +58,25 @@ Current state of Emmanuel's Upwork profile. Track all profile metrics here. Upda
 ### Portfolio
 - [ ] At least 2 portfolio items before first bid
 - [ ] Each portfolio item: real outcome, specific numbers, tech used
-- [ ] German medical clinic workflows: 4 workflows, 4 days — this IS the proof
+
+**CRITICAL FLAG — What can and cannot be used:**
+The German medical clinic workflows (4 workflows, 4 days) were done as a middleman under another person's Upwork account. They CANNOT be listed as Upwork portfolio items (Upwork will find the mismatch). They can be referenced verbally ("I built similar workflows in a prior engagement") but not documented on the profile.
+
+**Real portfolio items available (from GitHub — all verifiable):**
+
+| Item | What to show | Proof angle |
+|---|---|---|
+| `Distill` | URL → structured JSON for AI pipelines | AI data engineering, n8n-ready outputs |
+| `n8n-Aigent-app` | Webhook-driven n8n workflow manager | n8n expertise, real deployed system |
+| `hyperframes` | HTML → video renderer for agents | Agentic tooling, novel use case |
+| `yct-exam-nav-system` | Graph coloring + Dijkstra shortest path | CS fundamentals, TypeScript depth |
+| `open-design` | 19 skills, 71 design systems, multi-agent | System architecture, Claude API depth |
+| `Arroxy` | Cross-platform GUI downloader, 21 languages | Shipped product, real users |
+
+**Priority for portfolio build:**
+1. Create a demo video (Loom) of n8n workflow in action — most relevant to AI automation niche
+2. Document Distill with a real use case (e.g., "feed any URL into an n8n node as structured data")
+3. Screenshot/record open-design as a technical depth signal
 
 ### Tests / Certifications
 - [ ] Upwork Skill Certifications (if offered in niche)
