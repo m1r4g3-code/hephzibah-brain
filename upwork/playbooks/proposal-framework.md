@@ -269,6 +269,36 @@ This is non-optional on jobs scoring 75+. Ramshaw built $10k/month specifically 
 
 ---
 
+## SOW — Post-Discovery Call Structure
+
+When a client replies and a discovery call happens, the SOW closes the deal. It is not a
+follow-up email. It is a formal document that signals: this is a practice.
+
+Full template in `identity/brand.md`. Key additions beyond the basic structure:
+
+**Checkpoint gates in every multi-phase build:**
+Number them into the pipeline. "⟳ CHECKPOINT 1 — Prompt Review" between steps. The client
+approves before work continues. This protects JSS (no "it wasn't what I expected") and signals
+professionalism. Never deliver a multi-phase project without at least one explicit gate.
+
+**Cost per run (automation projects only):**
+For any project that produces repeating outputs — leads processed, reports generated, emails
+sent, records synced — include a line-item cost table: tool/API + per-unit cost + role.
+Then add: manual baseline cost vs automated cost vs savings per run. This turns the project
+fee into a math problem the client wins. Niche-agnostic: works for CRM automation, lead
+scoring, content pipelines, data sync — anything with a recurring output.
+
+**Ongoing platform costs (if client needs tool subscriptions):**
+List every tool the system depends on post-delivery, with monthly cost and why it's in the
+stack. Clients hate surprise bills after delivery. Showing this upfront is a trust signal.
+Clearly note: "These are tool costs, not fees to me."
+
+**When NOT to include cost sections:**
+One-time builds, static integrations, or any project with no recurring compute cost. Don't
+add sections that don't apply — an overcomplicated SOW reads as padding.
+
+---
+
 ## Wikilinks
 
 [[proposal-anatomy]] · [[upwork-psychology]] · [[elite-freelancer-model]] · [[pain-before-pitch]] · [[upwork-voice]] · [[job-scoring]]

@@ -327,8 +327,45 @@ freelancer making it up as they go. Ramshaw: Fathom transcript → AI → SOW PD
      How: [technology used]
      Outcome: [what this does for their business]
 
+  ⟳ CHECKPOINT 1 — [Name the review gate]
+     You review [specific output] before work continues.
+     Nothing builds on unapproved foundations.
+
   2. [Deliverable name]
-     ... (repeat)
+     What / How / Outcome
+
+  ⟳ CHECKPOINT 2 — Final Walkthrough
+     Complete system demo before handoff. You test, I document.
+
+  [Add/remove checkpoints based on project complexity.
+   Simple projects: 1 checkpoint. Complex: 2-3. Never zero.]
+
+▪ COST PER RUN  [include for automation/recurring-output projects only]
+
+  Operational cost per [unit — e.g., report generated, lead processed, record synced]:
+
+  [Tool or API]          [per-unit cost]    [role in the workflow]
+  [Tool or API]          [per-unit cost]    [role in the workflow]
+  ──────────────────────────────────────────────────────────────
+  Automated cost/run     $X.XX
+
+  Manual baseline:       $XX.XX   (current staff/VA time at market rate)
+  Automated cost:        $X.XX
+  Savings per run:       $XX.XX   |  Payback in: [N weeks at projected volume]
+
+  [This section turns the project fee into a math problem the client wins.]
+
+▪ ONGOING PLATFORM COSTS  [include if client needs tool subscriptions post-delivery]
+
+  Running costs after delivery — what the system depends on:
+
+  [Tool]    [Plan]     [~Monthly]    [Why it's in the stack]
+  [Tool]    [Plan]     [~Monthly]
+  ──────────────────────────────────────────────────────────
+  Total     ~$XX/month
+
+  These are tool costs, not fees to me. I'll flag before including
+  anything that requires a paid subscription.
 
 ▪ TIMELINE
 
@@ -354,6 +391,18 @@ freelancer making it up as they go. Ramshaw: Fathom transcript → AI → SOW PD
   Emmanuel Adekoya   hephzibah.dev   femijames613@gmail.com
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+### When to Include Optional Sections
+
+| Section | Include when |
+|---|---|
+| `▪ COST PER RUN` | Project automates a repeating output (reports, leads, records, posts, emails) |
+| `▪ ONGOING PLATFORM COSTS` | Client needs to pay for tools after delivery (API subscriptions, SaaS plans) |
+| `⟳ CHECKPOINT` gates | Any project with >1 sequential phase — always include at least one |
+| Neither cost section | One-time builds with no recurring compute (static website, one-off integration) |
+
+**Why cost sections work:**
+The client is already doing the math in their head. If you show it first — honestly, with the manual baseline alongside — you control the frame. The automated cost looks small against what they're currently spending. This is not manipulation; it is clarity.
 
 ### SOW Color Application
 
