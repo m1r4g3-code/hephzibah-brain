@@ -1,36 +1,131 @@
 ---
 sensitivity: sensitive
-
 alias: Emmanuel Adekoya / mirage
 aliases: []
 entity_type: person
-last_updated: 2026-05-24
+last_updated: '2026-05-28'
 name: Hephzibah Ifeoluwa
 relationships:
-- {target: '[[middleman-lesson]]', type: embodies, strength: 9, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[4-workflows-4-days]]', type: embodies, strength: 10, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[builds-before-asking]]', type: embodies, strength: 10, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[financial-fragility]]', type: embodies, strength: 8, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[planning-execution-gap]]', type: embodies, strength: 7, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[compound-discipline]]', type: embodies, strength: 7, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[geographic-edge]]', type: embodies, strength: 9, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[challenger-reframe]]', type: uses, strength: 8, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[specificity-as-credibility]]', type: uses, strength: 8, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[pain-before-pitch]]', type: uses, strength: 9, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[n8n]]', type: uses, strength: 8, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[claude-api]]', type: uses, strength: 9, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[heygen]]', type: uses, strength: 5, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[hephzibah-os]]', type: built, strength: 10, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[github]]', type: identity_on, strength: 10, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[contra]]', type: identity_on, strength: 8, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[linkedin]]', type: identity_on, strength: 6, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[fiverr]]', type: mentioned_in, strength: 2, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[cyrus]]', type: knows, strength: 9, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[oba]]', type: knows, strength: 8, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[yemi]]', type: knows, strength: 7, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[cold-outreach]]', type: uses, strength: 9, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[doctor-admin-pain]]', type: sells_to, strength: 8, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
-- {target: '[[lagos]]', type: part_of, strength: 10, first_seen: '2026-05-27', last_reinforced: '2026-05-27'}
+- target: '[[middleman-lesson]]'
+  type: embodies
+  strength: 9
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[4-workflows-4-days]]'
+  type: embodies
+  strength: 10
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[builds-before-asking]]'
+  type: embodies
+  strength: 10
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[financial-fragility]]'
+  type: embodies
+  strength: 8
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[planning-execution-gap]]'
+  type: embodies
+  strength: 7
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[compound-discipline]]'
+  type: embodies
+  strength: 7
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[geographic-edge]]'
+  type: embodies
+  strength: 9
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[challenger-reframe]]'
+  type: uses
+  strength: 8
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[specificity-as-credibility]]'
+  type: uses
+  strength: 8
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[pain-before-pitch]]'
+  type: uses
+  strength: 9
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[n8n]]'
+  type: uses
+  strength: 8
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[claude-api]]'
+  type: uses
+  strength: 9
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[heygen]]'
+  type: uses
+  strength: 5
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[hephzibah-os]]'
+  type: built
+  strength: 10
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[github]]'
+  type: identity_on
+  strength: 10
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[contra]]'
+  type: identity_on
+  strength: 8
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[linkedin]]'
+  type: identity_on
+  strength: 6
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[fiverr]]'
+  type: mentioned_in
+  strength: 2
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[cyrus]]'
+  type: knows
+  strength: 9
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[oba]]'
+  type: knows
+  strength: 8
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[yemi]]'
+  type: knows
+  strength: 7
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[cold-outreach]]'
+  type: uses
+  strength: 9
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[doctor-admin-pain]]'
+  type: sells_to
+  strength: 8
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[lagos]]'
+  type: part_of
+  strength: 10
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
 type: identity
 ---
 
@@ -155,3 +250,23 @@ The real story is: skilled, fast, young, hungry, with real systems built. That's
 13. Talk Like TED — Carmine Gallo
 14. How to Win Friends and Influence People — Carnegie
 
+### GitHub Presentation Audit 2026-05-28 — 2026-05-28 09:14
+
+## GitHub Presentation Issues
+
+**Rating: 7/10 — strongest asset, weakest presentation**
+
+The code is real and deep. The presentation is raw and unfinished.
+
+**Issues to fix:**
+- Forks polluting profile: n8n (main), ComfyUI, LangFlow, excalidraw, and others appear in repo list — clients see these and can't tell what Emmanuel built vs. what he starred/forked. Unpin and unstar forks from profile view.
+- Key repos have no README: Distill, n8n-Aigent-app, yct-exam-nav-system need at minimum: one paragraph describing what it does, the tech used, and a screenshot or GIF showing it working.
+- No pinned repos set strategically — should pin: Distill, n8n-Aigent-app, yct-exam-nav-system, Habit-Tracker, Viral-ShortsAi
+
+**Priority README targets (this week):**
+1. Distill — 'Feed any URL into an n8n node as structured JSON for AI pipelines and RAG systems'
+2. n8n-Aigent-app — 'Webhook-driven AI agent workflow manager built with n8n'
+3. yct-exam-nav-system — 'Exam timetable generator using DSatur graph coloring + Dijkstra shortest-path'
+
+**Portfolio site cross-reference note:**
+Portfolio website has fake testimonials, inflated claims (7+ years, 50+ workflows), and broken metrics. All flagged in profile.md audit 2026-05-28. These must be fixed before sending any client to the site — a single Google search on the fake company names ends the deal.

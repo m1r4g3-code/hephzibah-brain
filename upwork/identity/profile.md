@@ -2,19 +2,21 @@
 sensitivity: private
 entity_type: concept
 name: Upwork Profile State
-aliases: ["upwork-profile", "profile-optimization"]
-last_updated: 2026-05-27
+aliases:
+- upwork-profile
+- profile-optimization
+last_updated: '2026-05-28'
 relationships:
-  - target: "[[identity]]"
-    type: part_of
-    strength: 9
-    first_seen: "2026-05-27"
-    last_reinforced: "2026-05-27"
-  - target: "[[social-proof-gap]]"
-    type: reinforces
-    strength: 8
-    first_seen: "2026-05-27"
-    last_reinforced: "2026-05-27"
+- target: '[[identity]]'
+  type: part_of
+  strength: 9
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
+- target: '[[social-proof-gap]]'
+  type: reinforces
+  strength: 8
+  first_seen: '2026-05-27'
+  last_reinforced: '2026-05-27'
 ---
 
 # Upwork Profile State
@@ -113,3 +115,59 @@ After each successful project, use this protocol:
 ## Wikilinks
 
 [[identity]] · [[social-proof-gap]] · [[4-workflows-4-days]] · [[builds-before-asking]]
+
+### Profile Audit — Cross-Platform Roast 2026-05-28 — 2026-05-28 09:14
+
+## Portfolio Site (v0-portfolio-website-plan-indol.vercel.app) — RATING: 3/10
+
+### CRITICAL ISSUES (fix today)
+
+1. **Fake testimonials** — Sarah Chen/NexaStream, Marcus Thorne/Peak Logistics, Elena Rodriguez/ScaleUp AI, Priya N./FinEdge, Daniel K./CloudWorks — all AI-generated names and fake companies. Only Cyrus is real. A client who Googles any of these and finds nothing will blacklist Emmanuel and warn others.
+
+2. **'Trusted by Industry Leaders' logo strip** — Microsoft, Google Cloud, Salesforce, Shopify etc. Emmanuel has NOT worked with these companies. This is an unmodified template. Any serious client sees this and thinks fraud.
+
+3. **Broken live metrics showing 0** — '0hrs Hours Saved | 0 Active Automations | 0 Projects Delivered | 0.0% System Uptime' — counters that were never configured. Worse than not having them.
+
+4. **'7+ years building production AI systems'** — He is 20. Started Nov 2025. This is a lie. Will destroy trust the moment any client checks.
+
+5. **'Shipped 50+ automation workflows for global clients'** — Real number: 4 (German clinic, under another account). The gap is not rounding — it is a character issue.
+
+6. **'Former engineer at high-growth B2B SaaS companies'** — False. No employment history backs this.
+
+### What's good on the site
+- Tech stack is accurate and specific (n8n, Claude API, Make.com, Supabase, VAPI, Twilio)
+- Process section (Analyze → Design → Engineer → Optimize) is clean
+- Contact info visible (email + Telegram)
+
+---
+
+## GitHub (m1r4g3-code) — RATING: 7/10
+
+**Strongest asset, undersold everywhere.**
+
+Real and compelling: yct-exam-nav-system (DSatur + Dijkstra), Distill (URL→JSON for AI pipelines), n8n-Aigent-app + n8n-workflow-app (real n8n depth), Viral-ShortsAi, Habit-Tracker, 40+ repos total.
+
+**Issues:**
+- Forks (n8n main, ComfyUI, LangFlow, excalidraw etc.) sitting in profile dilute signal — unstar/unpin
+- Most repos have no README, no screenshot, no one-line description
+- Ramshaw principle: first 10 seconds must communicate value. Currently just raw code.
+
+---
+
+## Immediate Action List (priority order)
+
+1. TODAY: Remove all fake testimonials except Cyrus
+2. TODAY: Remove 'Trusted by Industry Leaders' logo strip
+3. TODAY: Fix or hide broken live metrics (0hrs, 0 automations, 0 projects)
+4. THIS WEEK: Replace '7+ years' with the real story — 40+ shipped GitHub projects, freelancing since 2025, fast and technical
+5. THIS WEEK: Add READMEs to Distill, n8n-Aigent-app, yct-exam-nav-system (one paragraph + screenshot)
+6. THIS WEEK: Upwork profile to 100% — bio, title, skills, 2+ portfolio items
+7. THIS WEEK: Loom video of n8n workflow running — highest ROI action for Upwork portfolio
+
+---
+
+## The Real Story (stronger than the fake one)
+
+20-year-old in Lagos, 40+ shipped GitHub projects, deep n8n expertise proven by building workflow apps for himself, full AI stack (Claude API, n8n, TypeScript, Python, Supabase, VAPI), built 4 production workflows for a real client in 4 days, learning sales psychology and negotiation in parallel.
+
+This story — told honestly — is more compelling to the right client than '7+ years, 50+ workflows.' The fake credentials attract wrong clients and repel right ones.
