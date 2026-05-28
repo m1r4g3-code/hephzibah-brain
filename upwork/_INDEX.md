@@ -41,7 +41,8 @@ upwork/
 │   ├── profile.md               ← Upwork profile: JSS, badges, bio, portfolio gaps
 │   ├── niche.md                 ← active niche + rotation log
 │   ├── pricing.md               ← rate philosophy, anchor points, value stack
-│   └── voice.md                 ← writing style guide + calibration notes
+│   ├── voice.md                 ← writing style guide + calibration notes
+│   └── brand.md                 ← visual identity: colors, fonts, portfolio thumbnails, SOW template
 ├── market/
 │   ├── intelligence.md          ← running market observations log
 │   ├── niches/                  ← one .md per niche dossier
