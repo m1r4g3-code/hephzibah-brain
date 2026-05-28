@@ -152,6 +152,37 @@ Hires and then goes silent. Often returns weeks later. Red flag: irregular past 
 
 ---
 
+## The Client Reading 70 Proposals — What It Actually Looks Like
+
+Ryan Ramshaw has hired 70+ people on Upwork. Here's what the experience reveals from the client side — things freelancers never see:
+
+**The first 3 words decide the fate of 80% of proposals.**
+Clients skim. They are tired after reading proposal 30. If the opening line is "Hi, I'm [name] and I have [X] years of experience", they already know what this proposal says. They stop. The proposals that get read are the ones that start with something that stops the skim — usually because it names their specific situation.
+
+**Generic is detectable in milliseconds.**
+Clients can feel when you read their post vs. didn't. They can't always explain why, but they feel it. A proposal that contains one detail specific to their job — one thing that couldn't be in any other proposal — immediately signals a different category of applicant.
+
+**Video breaks the pattern completely.**
+After reading 40 text proposals, receiving one with a Loom video link in the first line is jarring in the best way. Even if the text of the proposal was mediocre, the video makes the applicant seem more real, more invested, more capable of communication. Ramshaw uses this asymmetry deliberately: when everyone sends text, send video.
+
+**Shorter almost always wins over longer — if the short one shows understanding.**
+A 180-word proposal that contains a real insight beats a 400-word proposal that's comprehensive but generic. Length signals confidence. Brevity says: "I've thought about this enough to get to the point."
+
+**The question at the end is the real filter.**
+Clients who read to the end notice what the last line says. "I hope to hear from you" reads as low investment. A specific question — one that required the freelancer to actually think about the project — reads as "this person is already engaged." That's the freelancer clients want to talk to.
+
+**Portfolio relevance > years of experience.**
+"5 years experience" is everywhere. A screenshot of a project that looks exactly like what the client needs is rare and immediately compelling. If your portfolio has one piece that maps to their exact use case, that piece is worth more than everything else in your profile combined.
+
+**What clients do when they like a proposal:**
+1. Open the freelancer's profile
+2. Look at portfolio first (before reading the overview)
+3. Check JSS and reviews quickly
+4. If JSS 90%+ and portfolio relevant: invite or reply
+The proposal gets them to click. The profile closes.
+
+---
+
 ## Wikilinks
 
 [[proposal-anatomy]] · [[elite-freelancer-model]] · [[client-quality-score]] · [[challenger-reframe]] · [[pain-before-pitch]]

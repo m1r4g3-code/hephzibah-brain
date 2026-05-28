@@ -147,6 +147,32 @@ If any answer is no — fix it before sending.
 
 ---
 
+## Niche Dominance — The Ramshaw #1 Ranking Model
+
+Ryan Ramshaw is ranked #1 for "N8N" on Upwork. This isn't luck. It's a deliberate architecture. The system:
+
+**Step 1: One category, deep**
+Pick one tool or niche and build every portfolio piece around it. Not "automation freelancer." Not "AI developer." Specifically: "N8N AI Automation." The algorithm rewards depth, not breadth. A profile with 8 N8N portfolio items outranks a profile with 8 different tool portfolio items, every time.
+
+**Step 2: Portfolio pieces that match search terms**
+Each portfolio item title should contain the keyword clients search for. "N8N Workflow Automation — E-commerce Order Processing" will surface in more searches than "Automation Project." Build 5–8 highly specific portfolio items before applying broadly.
+
+**Step 3: Title engineering**
+Profile title format: `[Tool/Niche] Expert | [Outcome] | [Credential if real]`
+Example: `N8N & AI Automation Expert | Workflow Builder | Zapier Certified`
+The title is the highest-weight field in Upwork's search algorithm. It must contain the exact keywords your ideal client types.
+
+**Step 4: Keyword anchoring through reviews**
+When you close a project well, the review often mentions the tools you used. Clients naturally say "great N8N developer" or "built our Zapier workflow." Each review that contains your target keyword strengthens your search ranking for that term. This is why client relationship quality is a ranking strategy, not just a JSS strategy.
+
+**Step 5: Proposal timing as ranking input**
+Upwork's algorithm boosts proposals submitted in the first 60 minutes of a job being posted. The proposals that arrive first get more client opens, which feeds the algorithm's "quality score" for your profile. Set job alerts for exact keywords. Bid fast on high-score jobs.
+
+**For Emmanuel:**
+The dominant keyword to own is: **N8N AI Automation** (or similar — confirm against current search demand). Every portfolio item, every review, every proposal CTA should reinforce this positioning. Once 3+ reviews mention the keyword organically, the ranking compounds.
+
+---
+
 ## What Elite Freelancers Don't Do
 
 - Don't use templates unchanged

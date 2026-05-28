@@ -127,6 +127,52 @@ If score < 7: revise. Rerun check.
 
 ---
 
+### Pass 6 — Loom Script
+
+**Output:** 60–90 second video script ready to record.
+
+This is non-optional on jobs scoring 75+. Ramshaw built $10k/month specifically on Loom video proposals. A personalized video attached to a proposal is immediately memorable — most clients have never received one. It makes the proposal feel 10x more custom regardless of the text quality.
+
+**Structure (60–90 seconds exactly):**
+```
+[0:00–0:10] Hook — Name the specific thing from their job post that caught your attention.
+            "I noticed you're building [X] — you mentioned [specific detail]."
+            DO NOT say "Hi, I'm Emmanuel." They can see your name. Start with their situation.
+
+[0:10–0:25] Problem reframe — Show you understand the real problem.
+            "The thing that usually trips people up with this is [non-obvious insight]."
+            This is the diagnosis from Pass 2, spoken aloud.
+
+[0:25–0:55] Solution sketch — Walk through how you'd approach it.
+            If possible: open a blank doc or whiteboard and sketch the architecture live.
+            Ramshaw often builds a quick workflow diagram on screen while narrating.
+            "Here's how I'd structure this: [X] feeds into [Y], and the tricky part is [Z]."
+            This is PROOF. You are demonstrating thinking, not claiming capability.
+
+[0:55–1:10] One result — Name a similar thing you built and the outcome.
+            "I did this for [type of company], they went from [state A] to [state B]."
+            Specific. Not "I have experience with similar projects."
+
+[1:10–1:20] CTA — Same sharp question as the written proposal.
+            "One thing I'd want to know before scoping this: [the question]."
+            Close. Don't say "I hope to hear from you."
+```
+
+**Recording notes:**
+- Use Loom (loom.com) — the client gets a link, not a file attachment
+- Paste the Loom link in the first line of your written proposal, above the text
+- Video thumbnail should show your face + screen share simultaneously (Loom default)
+- No script reading on camera — talk like you're explaining to a colleague
+- One take unless you stumble badly. Imperfect = authentic. Perfect = scripted.
+- Title the Loom: "[Job type] — Quick thoughts on your project"
+
+**When to skip Loom:**
+- Jobs scoring below 75 (don't spend the time)
+- Client has 0% hire rate (window shoppers won't watch a video)
+- Very simple/small tasks where a video feels disproportionate
+
+---
+
 ## Proposal Anti-Patterns (With Fixes)
 
 ### The Resume Dump

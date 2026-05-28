@@ -60,7 +60,8 @@ upwork/
 │   ├── _template.md             ← client quality card
 │   └── active/                  ← active/past client nodes
 ├── playbooks/
-│   ├── proposal-framework.md    ← master proposal methodology
+│   ├── proposal-framework.md    ← master proposal methodology (6-pass pipeline)
+│   ├── loom-strategy.md         ← Loom video proposal playbook (Pass 6)
 │   ├── objections.md            ← Upwork-specific objection library
 │   ├── client-types.md          ← client archetypes + psychology
 │   ├── niche-dossiers.md        ← niche-specific positioning intel
