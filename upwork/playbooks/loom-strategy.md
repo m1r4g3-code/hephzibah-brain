@@ -24,142 +24,181 @@ relationships:
 
 # Loom Video Strategy
 
-Ryan Ramshaw attributes Loom videos as one of the primary drivers of his first $10k/month on Upwork. The mechanism is simple: when every freelancer sends text, sending video creates immediate pattern interruption. The client has been reading for 20 minutes. Your Loom link breaks the wall of text and signals: this person already thought about my problem before applying.
+Source: Ryan Ramshaw's direct transcript — "How Loom Videos Got Me $10K/Month on Upwork in 47 Days" and "$500k Proposal System (Live)".
 
-This is not a nice-to-have. On jobs scoring 75+, a Loom is part of the standard proposal pipeline (Pass 6).
-
----
-
-## Why Loom Works
-
-**Pattern interruption.** Clients read dozens of text proposals before seeing yours. A Loom link in the first line of the proposal is immediately different. They click out of curiosity before even finishing the text.
-
-**Trust acceleration.** A face on camera builds rapport faster than paragraphs. The client hears your tone, sees your thinking, and forms a judgment about you as a person — not just an applicant.
-
-**Proof through demonstration.** You can't fake a real-time walkthrough of how you'd solve a problem. A 60-second architecture sketch on screen is more credible than three paragraphs claiming expertise.
-
-**View notification.** Loom notifies the sender when the video is watched. You know exactly when the client opened it. This timing data can inform follow-up.
+The Loom IS the proposal. The text around it is 2-3 lines max. This is the entire system.
 
 ---
 
-## When to Record a Loom
+## The Core Insight
 
-**Always for jobs scoring 75+.** The higher the stakes, the more important the differentiation.
+Ramshaw's exact words: "Clients are busy business owners. They haven't got time to sit and go through a long application. When I applied to jobs, I just literally send a Loom because that's all they want to see anyway. I keep it very short."
 
-**Skip Loom when:**
-- Job scores below 75 (not worth the time investment)
-- Client has 0% hire rate on their profile (they're window shopping, not hiring)
-- Job is extremely simple (a 2-hour task doesn't warrant a video — it would feel disproportionate)
-- You are in a high-volume day and the job is mid-tier — use text proposal only, save Loom for priority bids
+The written proposal is not a letter. It is a frame for the video link. Everything else is noise.
 
 ---
 
-## The 90-Second Script Structure
+## The Two Types of Jobs — The Entire Framework
 
-This is the exact timing framework. Practice this until it's natural — then record in one take.
+Every job falls into one of two categories. The Loom type depends on the job type.
+
+### Type 1: No-Context Jobs (80% of all jobs)
+
+**Definition:** No website link, no social media link, no business name you can Google, no personal name in the description. Even if the description is 500 words — if it has no external links or identifiable business, it's no-context.
+
+**What to send:**
+A short Loom (under 60 seconds) saying:
+> "Hey, hope you're doing well. My name is [Emmanuel]. I really want to help you with this project, but there isn't enough context in this post for me to give you a full audit — which is what I actually want to do. If you could send me your website or social media links, I can do a proper walkthrough and show you exactly how I'd approach this. Where are you from, by the way? I see you're in [country from their profile]."
+
+That's it. Nothing more. Screen share their job post while recording. You in the corner (Loom bottom-left).
+
+**Why this works:**
+- Gets a reply (you find out if they're serious)
+- When they reply, you get your connects back (Upwork returns connects on reply)
+- Sets up the full-audit Loom as Act 2
+- Shows more personalization than 99% of text proposals
+
+### Type 2: Context Jobs (20% of jobs — the best ones)
+
+**Definition:** Has a website link, social media link, or a business name you can identify and research outside Upwork.
+
+**How to find them:** In Upwork's Advanced Search, type `www` in the "Any of these words" field. This filters for job posts that contain URLs.
+
+**What to send:**
+A full-audit Loom (60–90 seconds). This is the high-value version.
+
+Open their website, check their ads, review their social media, look at their funnel, read their reviews. Find one gap, mistake, or specific opportunity. Then record yourself showing it to them.
+
+Ramshaw on why this works: "Nobody is putting this much personalization into their proposals. It just massively stands out."
+
+---
+
+## The Full Audit Loom Structure (Context Jobs)
 
 ```
-[0:00–0:08] HOOK — Start with their situation, not your name.
-            "I noticed you're building [X] for [type of business]..."
-            "Your job description mentioned [specific detail] — that caught my attention because..."
-            DO NOT open with "Hi, I'm Emmanuel." Start with them.
+[0:00–0:08] Start with their situation, not your name.
+            "I was looking at your [website/Instagram/funnel]..."
+            Point at something specific on the screen as you say this.
 
-[0:08–0:22] REFRAME — The real problem, not the stated one.
-            "The thing that usually trips people up with [their stated need] is [non-obvious issue]."
-            "Most freelancers would approach this by [common approach], but that creates [problem]."
-            This shows you've thought past the surface request.
+[0:08–0:40] Show the specific finding.
+            "I noticed [specific issue, gap, or opportunity]."
+            "Most people in this niche [do X], but looking at your setup, [Y]."
+            Make it concrete. Point at the actual thing on their site.
+            Example: "Your CPC isn't your issue. Your quality score is tanking because
+            your ad copy doesn't match your landing page headline. Fix that alignment
+            and CPC probably drops 15-20% without touching your bids."
 
-[0:22–0:55] SOLUTION SKETCH — Walk through your approach on screen.
-            Open a blank doc, Miro board, or draw.io.
-            Sketch the architecture or workflow structure live while narrating.
-            "Here's how I'd think about this: [X] feeds into [Y] via [method].
-             The tricky part is [Z] — I'd handle that by [approach]."
-            This is DEMONSTRATION, not description. It is irreproducible proof.
+[0:40–1:00] Show your proof of being the right person.
+            Show portfolio items that map to their situation.
+            "I did something similar for [type of company] — here's what I built."
+            Navigate to the actual example on screen.
 
-[0:55–1:10] ONE PROOF POINT — Name a specific result from a similar project.
-            "I built this exact flow for [type of company] — they went from [A] to [B]."
-            One sentence. One result. Don't list everything you've done.
-
-[1:10–1:20] SHARP CTA — The same question from your written proposal.
-            "One thing I'd want to know before scoping this: [your sharp question]."
-            End there. Do not say "I hope to hear from you."
+[1:00–1:15] CTA — Easy question.
+            "One thing I'd want to know: [question they can answer in 10 seconds]."
+            End. Don't say "I hope to hear from you."
 ```
 
-**Total: 70–90 seconds.** If you're running long, cut the proof point or compress the reframe. Never cut the hook or the question.
+---
+
+## The No-Context Loom Structure
+
+```
+[0:00–0:05] Open on their job post (screen share).
+            "Hey [name if known], hope you're doing well."
+
+[0:05–0:25] The ask.
+            "I really want to help you with this, but there isn't enough context here
+            for me to give you a full audit — which is what I actually want to do.
+            If you can send me your website or social links, I can do that for you."
+
+[0:25–0:35] Personalization.
+            "Where are you from? I can see you're in [country] —
+            are you in [city]?" Or any other short personal observation.
+```
+
+Simple. Under 45 seconds. Face in corner. Screen shares their job.
+
+---
+
+## The Written Text Around the Loom (CRITICAL)
+
+Most people make the mistake of writing a long ChatGPT proposal AROUND the Loom link. This buries the video. The client never sees it.
+
+The written proposal should be:
+
+```
+Hey [client name],
+
+I made you a personalized Loom video. Check it out: [link]
+
+P.S. [Something personalized — where they're from, something specific from their post]
+```
+
+That is the entire written proposal. The Loom is the proposal. The text is a frame.
+
+**Finding the client's name:** Go to the reviews section on their profile. Read the freelancer reviews TO the client — freelancers write the client's name in the first line. That's how you find it.
+
+**The P.S. trick:** People scroll to the bottom and always read the P.S. Put personalization there. It signals the proposal wasn't mass-sent.
+
+---
+
+## Loom Title and URL — The Professional Edge
+
+**Title:** Put their name or niche as the first word.
+- "Masood — Quick thoughts on your automation project"
+- "E-commerce social media — Full audit"
+
+**Rebrandly URL trick:** Instead of `loom.com/share/abc123xyz`, use Rebrandly to create a custom URL like `emmanuelh.com/upwork-proposal`. Looks professional. Signals you take this seriously.
 
 ---
 
 ## Recording Protocol
 
-**Tool:** Loom (loom.com). Free tier supports this use case.
+**Tool:** loom.com — Screen + Cam mode (face in corner, screen fills frame)
 
-**Setup:**
-- Use "Screen + Cam" mode — shows your face as a small overlay while screen shares
-- Share a blank screen before starting, then navigate live (more authentic than pre-staging)
-- Good lighting, quiet room, headphone mic
-
-**Pre-record checklist:**
-- [ ] Read the job post once more immediately before recording
-- [ ] Open a blank doc/whiteboard ready to sketch on
-- [ ] Have one specific result ready to mention
-- [ ] Know your sharp closing question before pressing record
+**Before recording:**
+- Open their job post (and website if context job) — have it visible on screen
+- Know the one thing you're going to show/say
+- Loom title ready
 
 **Recording philosophy:**
-- One take unless you genuinely stumble or say something wrong
-- Filler words ("um", "like") are fine — they signal a real human, not a polished script
-- Looking slightly off-camera is fine — you're sketching, not presenting
-- If you make a small mistake mid-video, just keep going
+- One take. Imperfections make it feel real.
+- Don't read off a script — talk like explaining to a colleague
+- 45-90 seconds maximum. Under 60 for no-context.
 
 **After recording:**
-- Set Loom title: "[their project type] — Quick thoughts"
-- Do not use: "Proposal for [job title]" (sounds transactional)
-- Enable view notifications in Loom settings
+- Set the title (their name or niche)
+- Change URL via Rebrandly if you have it set up
+- Enable view notifications
 
 ---
 
-## Placement in the Written Proposal
+## Tracking Loom Views
 
-The Loom link goes in the FIRST LINE of the written proposal, above everything else:
+Loom emails you when someone watches. Ramshaw uses this:
 
-```
-[Loom link] — Quick walkthrough of how I'd approach this (90 sec)
-
-[Then your written proposal text follows normally]
-```
-
-This way, clients who prefer text get the full proposal. Clients who click the link get the video + context. Both paths work.
+- **Watched 80%+ but no reply:** They're interested, hesitating. Short follow-up: "Saw you had a chance to watch — happy to answer anything or jump on a quick call."
+- **Watched 10-20%:** Not hooked. Different approach needed.
+- **Watched multiple times:** High intent. Prioritize responding fast.
 
 ---
 
-## What to Show on Screen
+## Frequency
 
-The screen demo is the highest-value part of the Loom. Options ranked by impact:
+Ramshaw: "Send 10 a day. That's the industry standard. That's what works."
 
-**1. Live architecture sketch (highest impact)**
-Open draw.io, Miro, or even a blank Google Doc. Draw boxes and arrows showing the data flow or system design for their specific use case. Say what you're drawing as you draw it.
-
-**2. Relevant portfolio walkthrough**
-Open a previous project that closely matches their use case. Walk through what it does. "This is what I built for [type of company] — you can see it does [X]. Yours would do the same for [their specific use case] but with [difference]."
-
-**3. Problem demonstration**
-If you can quickly mock up or show the problem they're describing, show it. "Here's what the issue looks like in [tool/context] — and here's why the standard fix doesn't work..."
-
-**Avoid:** Screen shares of your profile, your portfolio page, or generic slides about your services. Show their problem, not your credentials.
+Do a few practice runs before going live — mistakes in the first few are expected.
 
 ---
 
-## Loom View Data — How to Use It
+## The Connects-Back Economics
 
-When Loom notifies you a client watched your video:
-- If they watched 80%+ and haven't replied: they're interested but hesitating. Send a short follow-up in Upwork chat: "Saw you had a chance to look at the video — happy to answer any questions or jump on a call if helpful."
-- If they watched 20%: they weren't hooked. Don't follow up with the same approach.
-- If they watched multiple times: very interested. Be responsive.
+When a client replies to your proposal on Upwork, you get the connects back. This is a major strategic point:
 
----
-
-## Loom Script Generation
-
-The `/write-proposal` command generates a Loom script as Pass 6. The script will follow this exact structure, customized to the specific job. Use it as a guide, not a verbatim script — the goal is to internalize the structure so the recording sounds natural.
+- No-context Looms are partially a connect-recovery strategy
+- Getting replies (even to ask for more context) returns capital
+- This means high-volume no-context Looms are nearly free in connects cost
+- Invest the recovered connects into proper full-audit Looms for context jobs
 
 ---
 

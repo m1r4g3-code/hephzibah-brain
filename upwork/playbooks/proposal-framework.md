@@ -28,9 +28,31 @@ The operational playbook for writing Upwork proposals through the OS. This is th
 
 ---
 
-## The 5-Pass Pipeline
+## The Goal of a Proposal
 
-Every proposal goes through 5 passes. For high-value jobs (composite score 80+): all 5 passes. For mid-range (65–79): passes 1, 3, 4, 5.
+Ramshaw's words: "The goal of your proposal isn't even to get hired. The goal is to get viewed. Stop trying to win the job in 200 words. Start trying to win the conversation."
+
+The sequence: Proposal → get viewed → get replied → start conversation → close on call.
+
+The written proposal's only job is to make them reply. The close happens on the call.
+
+---
+
+## Step 0 — Determine Job Type (Context vs No-Context)
+
+Before any other pass, classify the job:
+
+**Context job:** Has website URL, social media links, or a Google-able business name → Full Audit pipeline (all passes)
+
+**No-context job (80% of jobs):** No external links, no identifiable business → Short Loom asking for more context. Skip to Pass 6 only.
+
+**To find context jobs quickly:** In Upwork Advanced Search, type `www` in the "Any of these words" field. Filters for jobs containing URLs.
+
+---
+
+## The 6-Pass Pipeline (Context Jobs)
+
+Every proposal goes through 6 passes. For high-value jobs (composite score 80+): all passes. For mid-range (65–79): passes 1, 3, 4, 5, 6.
 
 ### Pass 1 — Research
 
@@ -96,17 +118,26 @@ Positioning angle: [how Emmanuel positions relative to this job]
 
 **Structure (from `concepts/proposal-anatomy.md`):**
 ```
-[Hook — 1 sentence. Their situation. NOT "I".]
-[Diagnosis — 2-3 sentences. Name the real problem.]
-[Proof — 1-2 sentences. One specific relevant thing.]
-[Question — 1 sentence. Sharp. Specific to this job.]
+[Opener — 1 sentence. Their situation. NOT "I". Something specific from their job.]
+[Bullets — 3-4 observations about THEIR specific situation. Scannable. Not skills.]
+[Loom link — "I put together a quick walkthrough: [link]"]
+[Question — 1 sentence. Low friction. Answerable in 10 seconds.]
 ```
+
+**The closing question rule (Ramshaw: "increases reply rate 50%+"):**
+A question mark creates an open loop the brain can't ignore. But the question must require minimal cognitive load. Ask something answerable in 10 seconds:
+- YES: "Is this project live yet or still in planning?"
+- YES: "Roughly how many leads are you generating per month?"
+- YES: "Would Tuesday work for a quick call?"
+- NO: "What's the big vision for the company?" (homework — too much effort)
+- NO: "What are your thoughts on my approach?" (vague — no clear answer)
 
 **Voice constraints:**
 - First word: not "I"
 - No AI-smell phrases (see `identity/voice.md`)
 - Confident, not eager
 - Length: 150–250 words
+- Bullets = specific findings, not skill lists
 
 ---
 
