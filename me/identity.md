@@ -74,27 +74,27 @@ Since then:
 
 ## Verified Builds (GitHub: m1r4g3-code)
 
-Sourced from full repo scan 2026-05-28. These are real, verifiable, deployable products.
+Sourced from full repo scan 2026-05-28 with fork verification. Original projects only (not forks).
 
 | Repo | What it is | Tech | Portfolio-ready |
 |---|---|---|---|
-| `yct-exam-nav-system` | Exam timetable generator + hall navigation (DSatur coloring + Dijkstra) | TypeScript | Yes — shows algorithms depth |
-| `Arroxy` | Cross-platform yt-dlp GUI downloader, 21 languages, no ads/tracking | TypeScript | Yes — real shipped product |
-| `Distill` | URL → structured JSON for AI pipelines and RAG systems | TypeScript | Yes — directly relevant to AI work |
-| `hyperframes` | HTML → video renderer built for agents | TypeScript | Yes — early agentic tooling |
-| `open-design` | 19 skills, 71 design systems, multi-agent — Claude Code alternative | TypeScript | Yes — ambitious scope |
-| `n8n-Aigent-app` | Manage AI agent workflows via webhooks | TypeScript | Yes — n8n proof |
-| `n8n-workflow-app` | n8n workflow management app | TypeScript | Yes — n8n proof |
-| `tradingview-mcp-jackson` | TradingView + Claude Code MCP for chart analysis | JavaScript | Yes — shows MCP/agentic depth |
-| `Miva` | Personal AI assistant (private) | Python | Reference only |
-| `moltbot` | Any-platform personal AI assistant | TypeScript | Reference |
-| `claude-code-system-prompts` | Extracted full Claude Code system prompt + all tool schemas | JavaScript | Shows systems-level understanding |
+| `yct-exam-nav-system` | Exam timetable generator + hall navigation. DSatur graph coloring + Dijkstra shortest-path | TypeScript | Yes — shows real algorithms depth |
+| `Distill` | URL → structured JSON for AI pipelines, RAG systems, and agents | TypeScript | Yes — directly relevant to AI automation |
+| `n8n-Aigent-app` | Webhook-driven AI agent workflow manager (private) | TypeScript | Yes — n8n proof |
+| `n8n-workflow-app` | n8n workflow management app built for personal use (private) | — | Yes — n8n proof |
+| `Viral-ShortsAi` | Generate viral shorts from long-form video (AI) | TypeScript | Yes — AI product thinking |
+| `Habit-Tracker` | Mood-aware, gamified habit tracker with XP + streaks | TypeScript | Yes — full-stack React depth |
+| `Miva` | Personal AI assistant (Python, private) | Python | Reference only |
+| `VYBE` | AI-powered shopping site | — | Reference |
+| `MoodBoard-Architect` | Story moodboards from undetailed prompt | TypeScript | Reference |
+| `Prompt-Studio` | Simple prompt studio | TypeScript | Reference |
+| `LiveAudio-withGemini` | Live chat with Gemini audio | TypeScript | Reference |
 
-**Stack confirmed from GitHub (broader than brain knew):**
-n8n · Claude API · OpenAI · Anthropic SDK · Next.js · React · TypeScript · Python · Supabase · LangChain · HeyGen · Apify · VAPI · Twilio · Meta API · Make.com · Playwright · SQLite · Langflow · ComfyUI
+**Forks on profile (NOT his originals):**
+Arroxy, hyperframes, open-design, claude-code-system-prompts, excalidraw, ComfyUI, langflow, n8n (main), tradingview-mcp-jackson, moltbot, superpowers, n8n-templates, awesome-* collections, system-prompts-and-models-of-ai-tools — all forks of existing projects.
 
-**Systems-level understanding:**
-Emmanuel has extracted and analyzed system prompts for: Claude Code, v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf, Gemini. This means he understands how AI coding tools are instructed at an architectural level — rare for someone without formal engineering background.
+**Stack confirmed from GitHub + portfolio (broader than brain knew):**
+n8n · Claude API · OpenAI · Anthropic SDK · Next.js · React · TypeScript · Python · Supabase · LangChain · HeyGen · Apify · VAPI · Twilio · Meta API · Make.com · Playwright · SQLite
 
 **Critical flag — Portfolio honesty on Upwork:**
 The portfolio website claims "7+ years" and "50+ automation workflows shipped." At age 20, this is false and will destroy trust if a client asks directly. On Upwork, honesty builds JSS. The real story is stronger than the inflated one:

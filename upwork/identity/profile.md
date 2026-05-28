@@ -66,12 +66,13 @@ The German medical clinic workflows (4 workflows, 4 days) were done as a middlem
 
 | Item | What to show | Proof angle |
 |---|---|---|
-| `Distill` | URL → structured JSON for AI pipelines | AI data engineering, n8n-ready outputs |
-| `n8n-Aigent-app` | Webhook-driven n8n workflow manager | n8n expertise, real deployed system |
-| `hyperframes` | HTML → video renderer for agents | Agentic tooling, novel use case |
-| `yct-exam-nav-system` | Graph coloring + Dijkstra shortest path | CS fundamentals, TypeScript depth |
-| `open-design` | 19 skills, 71 design systems, multi-agent | System architecture, Claude API depth |
-| `Arroxy` | Cross-platform GUI downloader, 21 languages | Shipped product, real users |
+| `Distill` | URL → structured JSON for AI pipelines | AI data engineering, n8n-ready outputs — his own project |
+| `n8n-Aigent-app` | Webhook-driven n8n workflow manager | n8n expertise, real system — his own project |
+| `yct-exam-nav-system` | Graph coloring + Dijkstra shortest path | CS fundamentals, TypeScript depth — his own project |
+| `Viral-ShortsAi` | AI-powered shorts from long video | AI product thinking — his own project |
+| `Habit-Tracker` | Mood-aware gamified habit tracker | Full-stack React/TypeScript depth — his own project |
+
+Note: Arroxy, hyperframes, open-design, tradingview-mcp-jackson are FORKS. Do not present as his own work on Upwork profile.
 
 **Priority for portfolio build:**
 1. Create a demo video (Loom) of n8n workflow in action — most relevant to AI automation niche
