@@ -8,29 +8,50 @@ account_owner: "partner"
 badge: "rising_talent"
 jss: null
 rate_usd: 20
-total_reviews: 0
-total_earned_usd: 0
+total_reviews: 1
+total_earned_usd: 10
 
-title: "AI Automation & Workflow Specialist | n8n | Claude API | No-Code"
+title: "n8n Automation Expert | AI Workflows, CRM Automation | Claude"
 
 overview_keywords:
-  - "automation"
   - "n8n"
-  - "workflow"
+  - "automation"
   - "AI"
   - "Claude"
+  - "CRM"
+  - "workflow"
+  - "API integration"
+  - "webhook"
+  - "AI agent"
+  - "chatbot"
 
 portfolio_items:
-  - title: "(none yet)"
-    category: "none"
-    tools: []
+  - title: "AI Video Automation Workflow Using n8n (URL to Shorts System)"
+    category: "automation"
+    tools: ["n8n", "AI", "video"]
+  - title: "AI Script-to-Avatar Video Automation Using n8n"
+    category: "automation"
+    tools: ["n8n", "HeyGen", "AI"]
+  - title: "AI-Powered Workflow Automation for Business Efficiency"
+    category: "automation"
+    tools: ["n8n", "API", "workflow"]
 
 skills_listed:
   - "n8n"
-  - "AI Automation"
-  - "Claude API"
-  - "Workflow Automation"
+  - "AI Agent Development"
+  - "Automated Workflow"
+  - "CRM Automation"
   - "API Integration"
+  - "OpenAI API"
+  - "Chatbot Development"
+  - "System Automation"
+  - "Email Automation"
+  - "Business Process Automation"
+  - "Claude"
+  - "AI Model Integration"
+  - "Python"
+  - "JavaScript"
+  - "Webhook Integration"
 ---
 
 # Active Upwork Profile — State Document
@@ -47,8 +68,23 @@ Source of truth for the active Upwork profile. `qualify.py` reads this to score 
 
 ## Rate ladder log (append only)
 
-- 2026-05-29 | $20/hr | baseline — Rising Talent, 0 reviews
+- 2026-05-29 | $20/hr | baseline — Rising Talent, 1 review (5.0), $10 earned
+
+## Completed jobs
+
+1. "n8n Automation Expert Needed to Build Simple AI UGC Video Ad Generator"
+   - Rating: 5.0 | Fixed price $10 | Dec 28 2025 - Jan 3 2026
+   - Review: "Adelaja is a true professional! He understood my requirements perfectly and executed the project with outstanding quality."
+   - Skills: API Integration, Business Process Automation, JavaScript, Python
+
+## Project catalog
+
+- OPENCLAW CRM AI agent with n8n + CLAWDBOT Lead Gen — from $100, 3 days
+- n8n Workflow Automation & API Integration — from $45, 2 days
+- AI Automation Systems | n8n, Zapier, Make.com & AI Agents — from $50, 2 days
+- AI Video Creator, Social Media Ads, YouTube & TikTok — from $15, 1 day
 
 ## Current account notes
 
-Partner account, 50/50 split. Handback ~June 2026. Emmanuel's own account launches then at $40/hr minimum.
+Partner account (Adelaja O.), 50/50 split. Handback ~June 2026. Emmanuel's own account launches then at $40/hr minimum.
+Profile is solid for automation jobs. 1 five-star review, 3 portfolio items (all automation), strong keyword-matched title.
