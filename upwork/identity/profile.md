@@ -35,6 +35,12 @@ portfolio_items:
   - title: "AI-Powered Workflow Automation for Business Efficiency"
     category: "automation"
     tools: ["n8n", "API", "workflow"]
+  - title: "AI Virtual Assistant for Spa Appointment Booking (n8n + Telegram)"
+    category: "automation"
+    tools: ["n8n", "Telegram", "chatbot", "AI agent"]
+  - title: "Automated Lead Generation & CRM Pipeline Using n8n"
+    category: "automation"
+    tools: ["n8n", "CRM", "lead generation", "automation"]
 
 skills_listed:
   - "n8n"
