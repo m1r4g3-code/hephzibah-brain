@@ -202,6 +202,59 @@ When a client replies to your proposal on Upwork, you get the connects back. Thi
 
 ---
 
+---
+
+## Lessons from First Loom Review — 2026-05-31
+
+First proposal Loom reviewed via loom_coach.py. Key corrections extracted for future recordings.
+
+### Stack matching (critical)
+The diagram showed Notion/Google Sheets. The client listed MySQL/Microsoft in his job post.
+**Rule:** Every tool in the diagram must mirror what the client stated. Re-read the post before recording.
+
+### "So" is a filler word
+20x "so" in one 3:19 Loom. Start every sentence without "so" — cut it or replace with silence.
+
+### Domain-specific labels are the differentiator
+Generic: "Action Items / Key Decisions / Anything at all"
+Correct for a law firm: "Client Names / Next Court Dates / Billing Hours / Action Items"
+15 seconds of research → 10x more credibility. The labels are what the client reads while you talk.
+
+### Hard stop: 90 seconds
+3:19 is double the limit. The closing question was at 3:06 — mostly unwatched. Clients don't
+finish unsolicited 3-minute videos. Keep something for the call.
+
+### Face cam must be on and lit
+A voice over a screenshare is weaker than a face + screen. Black cam panel = no trust signal.
+Pre-flight: confirm camera on, lit from front, visible in lower-left corner.
+
+### Cut tangents that clients don't need
+Explaining Claude model tiers (Opus vs Sonnet) to a law firm client = wasted 15 seconds.
+Every sentence must answer: does this person understand my problem? Can they build it? What next?
+If it doesn't answer one of those three, cut it.
+
+### Timing beats perfection when competition is moving
+With 4+ bidders already active, an edited "good enough" Loom sent fast beats a perfect
+re-record sent after the window closes. Edit and send. Re-record only when competition is
+still cold or issues are severe enough to guarantee no reply.
+
+### Diagram typos are visible
+"Get Errror" (triple R) was on screen throughout. Pre-flight: read every label in the diagram
+aloud before recording.
+
+### Opening line = their situation, not yours
+"Good evening from here" wastes 3 seconds. Format: "[Name], [their situation]. Here's how I'd fix it."
+
+### Pre-Loom Checklist (extracted from this review)
+- [ ] Re-read job post — confirm all diagram tools match their stated stack
+- [ ] Check every label — domain-specific names, zero typos
+- [ ] Camera on, front-lit, lower-left corner
+- [ ] First line written: "[Name], [their situation]..."
+- [ ] Hard stop at 90 seconds planned
+- [ ] No "so" — practice opening 3 sentences without it
+
+---
+
 ## Wikilinks
 
 [[proposal-anatomy]] · [[elite-freelancer-model]] · [[specificity-as-credibility]] · [[proposal-framework]]
