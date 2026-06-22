@@ -20,6 +20,7 @@ Giovanni runs SERAMAN — an Italian tactical and military gear brand selling pr
 ## Project: AI Video Production System
 
 **Platform:** Fiverr (via Oba's account — 50/50 split)
+**Partnership:** Emmanuel built the entire pipeline solo. Oba managed client relationship and follow-up. Revenue split 50/50. Oba currently in Ibadan, back in Lagos ~July 2026 — long-form build will be done together.
 **Status:** Milestone 1 complete. Milestone 2 in progress.
 
 **What was built:**
