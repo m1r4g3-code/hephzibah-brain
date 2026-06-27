@@ -55,6 +55,43 @@ Full automated pipeline — Tally Form → n8n → Claude AI (Italian script) �
 - **Green:** Long-form project already scoped at $1,500
 - **Watch:** Blotato posting failed once (execution 279, "Call Seraman Post to Socials") — social publishing still being confirmed
 
+## M2 Testing — Bugs Found (2026-06-28)
+
+Two test videos run: Gatorz Magnum OPz sunglasses + CVN4 Tactical Responder Bandage.
+
+**Confirmed bugs (all root-caused):**
+
+1. **English caption "That changes everything" (sunglasses video, frame 4)**
+   Root cause: n8n Edit Videos Code node maps `video_prompt` (English) to Creatomate caption field instead of `voiceover_text` (Italian).
+   Fix: Change caption field source in Edit Videos Code node to `voiceover_text`.
+
+2. **Doubled/garbled captions (sunglasses video, frame 9)**
+   Root cause: Creatomate template has a second text element also receiving voiceover_text.
+   Fix: Delete second text element in Creatomate template editor.
+
+3. **"s bliped" hallucinated background text (sunglasses video, frame 9)**
+   Root cause: Kie AI reads blurry store shelf packaging and completes partial text. "no text overlays" doesn't cover environmental surfaces.
+   Fix: Add full environment text block to every presenter scene prompt. See [[kie-ai-veo3-prompt-engineering]].
+
+4. **Hallucinated label on CVN4 package (CVN4 video, frames 1-2, 15-16)**
+   Root cause: Product name "CVN4 Tactical Responder Bandage" in opening dialogue declaration → Kie AI renders it as a printed label on the packaging surface.
+   Fix: Don't open dialogue with product name as standalone declaration. Move name mid-sentence. Put no-text block at START of prompt.
+
+5. **Skull and crossbones on CVN4 (CVN4 video, frame 7) — HARD BLOCKER**
+   Root cause: TCCC + "no second chance" language triggers Kie AI danger symbol association.
+   Fix: Add `no skulls no crossbones no danger symbols no hazard markings` to no-text block. Put block at top of prompt.
+
+6. **Wrong product form (CVN4 video, frame 9)**
+   Root cause: CVN4 prompts alternate between vacuum package and unrolled bandage across scenes, but only one product image URL is passed to all scenes. Kie AI generates inconsistent product representations.
+   Fix: Either (a) pick one product form for the whole video, or (b) support per-scene product images in the pipeline schema.
+
+**System prompt fix needed (v5.1 → v5.2):**
+- No-text rules block must be FIRST in prompt, before camera and dialogue
+- Dialogue must not open with product name as standalone declaration
+- Remove Think tool from LangChain agent (incompatible with Structured Output Parser)
+
+**Strategy:** Include scene-level approval + selective regen system in M2 delivery (not as paid M3). Rebuilds trust after these QC issues. Long-form ($1,500) pitched as clean M3 from restored trust position.
+
 ## Tech Stack (Giovanni's side)
 
 - Kie AI credits (pay-per-use, no subscription)
