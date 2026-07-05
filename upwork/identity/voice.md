@@ -95,8 +95,6 @@ Not formal. Not casual. The register of a smart person who respects your time an
 - Explaining what your tech stack is before diagnosing their problem
 - Writing more than 250 words
 
-**Note on bullet points:** Bullets are allowed — but ONLY for specific observations about the client's situation (3-4 findings from their website/job). Bullets for credentials or skills ("5 years React, proficient in AWS") are banned. The rule is: if the bullet could appear in any proposal, delete it. If it names something specific to this client, keep it.
-
 ---
 
 ## Structure Patterns

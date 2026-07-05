@@ -28,54 +28,16 @@ The structural breakdown of a proposal that converts. This is not a template. Te
 
 ---
 
-## The Two Proposal Types — Ramshaw's Actual System
-
-Before writing anything, determine job type. This determines which structure to use.
-
-**Type A: No-Context Job (80% of jobs)**
-No website, no social links, no identifiable business. The proposal IS the Loom + 3 lines of text. No prose. See `playbooks/loom-strategy.md`.
-
-**Type B: Context Job (20% of jobs — the best ones)**
-Has a URL, social media link, or a Google-able business name. Use the Full Audit structure below.
-
----
-
-## Structure for Context Jobs (Full Audit)
-
-From Ramshaw's transcript: "A one sentence opener, something specific about their job. Three or four bullet points — real observations, quick hit value. They can scan in 5 seconds. Then a Loom attached. Then one easy question at the end. Total 150–250 words."
+## The Four-Part Structure
 
 ```
-[OPENER]     — 1 sentence. Their situation. Not "I". Something specific from their job.
-
-[BULLETS]    — 3-4 bullet points. Each = one specific observation about their business.
-               NOT: "I have experience with X" 
-               YES: "Your landing page headline doesn't match your ad copy — this tanks quality score"
-               These must be findings from their actual website/post. Scannable in 5 seconds.
-
-[LOOM]       — Link. "I put together a quick walkthrough: [link]"
-
-[QUESTION]   — 1 sentence. Easy to answer in 10 seconds. Opens a conversation.
+[HOOK]       — 1 sentence. Their situation. Not "I".
+[DIAGNOSIS]  — 2-3 sentences. Name the real problem.
+[PROOF]      — 1-2 sentences. One specific relevant thing.
+[QUESTION]   — 1 sentence. Sharp. Opens a conversation.
 ```
 
 Total: 150–250 words. Not more. Not less.
-
----
-
-## The Observation Bullets — What They Are
-
-The bullets are NOT a skills list. They are specific findings from doing 2 minutes of research on their site/profile/job. Each bullet names something real about their specific situation.
-
-**Wrong (skills list):**
-- 5 years experience with React
-- Proficient in AWS deployment
-- Available immediately
-
-**Right (specific observations):**
-- Your checkout page has 4 form fields — industry data shows every extra field drops conversion 10-15%
-- Your Facebook ads are running without a retargeting pixel on the thank-you page — leaving 30%+ of warm traffic on the table
-- The API endpoint in your job description is returning 429s under load — this is a rate limiting config issue, not a scaling issue
-
-The difference: one talks about Emmanuel. The other talks about their business. Clients aren't hiring skills, they're hiring understanding.
 
 ---
 

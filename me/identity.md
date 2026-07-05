@@ -96,11 +96,16 @@ relationships:
   strength: 2
   first_seen: '2026-05-27'
   last_reinforced: '2026-05-27'
+- target: '[[upwork]]'
+  type: identity_on
+  strength: 5
+  first_seen: '2026-05-29'
+  last_reinforced: '2026-05-29'
 - target: '[[cyrus]]'
   type: knows
-  strength: 9
+  strength: 10
   first_seen: '2026-05-27'
-  last_reinforced: '2026-05-27'
+  last_reinforced: '2026-06-07'
 - target: '[[oba]]'
   type: knows
   strength: 8
@@ -111,6 +116,31 @@ relationships:
   strength: 7
   first_seen: '2026-05-27'
   last_reinforced: '2026-05-27'
+- target: '[[ayo]]'
+  type: knows
+  strength: 5
+  first_seen: '2026-06-28'
+  last_reinforced: '2026-06-28'
+- target: '[[yekini]]'
+  type: knows
+  strength: 5
+  first_seen: '2026-06-28'
+  last_reinforced: '2026-06-28'
+- target: '[[zaynab]]'
+  type: knows
+  strength: 6
+  first_seen: '2026-06-28'
+  last_reinforced: '2026-06-28'
+- target: '[[giovanni]]'
+  type: sells_to
+  strength: 9
+  first_seen: '2026-06-28'
+  last_reinforced: '2026-06-28'
+- target: '[[yabatech]]'
+  type: part_of
+  strength: 7
+  first_seen: '2026-06-28'
+  last_reinforced: '2026-06-28'
 - target: '[[cold-outreach]]'
   type: uses
   strength: 9
@@ -132,7 +162,9 @@ type: identity
 ## Core Identity
 
 **Full Name:** Hephzibah Ifeoluwa (also goes by Emmanuel Adekoya)
-**Age:** 20
+**Age:** 21
+**Birthday:** June 15
+**Mother's Birthday:** June 29
 **Location:** Lagos, Nigeria (targeting Yaba)
 **Education:** Miva Open University (online, flexible)
 **Faith:** Born-again Christian. Holy Ghost filled. This is the foundation, not a label.
@@ -158,14 +190,17 @@ Since then:
 4 months in. Under $500 total earned. Still standing. Based in [[lagos]].
 
 **Tools:** [[n8n]] · [[claude-api]] · [[heygen]]
-**Platforms:** [[github]] · [[contra]] · [[linkedin]]
+**Platforms:** [[github]] · [[contra]] · [[linkedin]] · [[upwork]]
 **Concepts:** [[builds-before-asking]] · [[geographic-edge]] · [[planning-execution-gap]] · [[compound-discipline]] · [[financial-fragility]] · [[challenger-reframe]] · [[specificity-as-credibility]] · [[pain-before-pitch]]
 
 ## Inner Circle
 
-- **[[cyrus]]** — Real G. Deferred his Miva exam to stay with you. Rare loyalty.
-- **[[oba]]** — Close brother. Landed Upwork client. You helped him prep for the meeting.
+- **[[cyrus]]** — Real G. Deferred his Miva exam to stay with you. Rare loyalty. Birthday: June 26.
+- **[[oba]]** — Close brother. Landed Upwork client. Introduced Giovanni/Seraman — Emmanuel's most complex active build. 50/50 split.
 - **[[yemi]]** — Gadget business partner. Phone deals, profit splits.
+- **[[ayo]]** — Close circle. Details thin — add as known.
+- **[[yekini]]** — Close circle. Details thin — add as known.
+- **[[zaynab]]** — Friend. Mobile hair stylist, Ilorin. Emmanuel built her a surprise website.
 
 ## Verified Builds (GitHub: m1r4g3-code)
 
