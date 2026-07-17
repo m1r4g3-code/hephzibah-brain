@@ -2,7 +2,7 @@
 name: madson-children-animation
 sensitivity: private
 platform: fiverr
-status: proposal_sent
+status: follow_up_sent
 created: 2026-07-17
 updated: 2026-07-17
 ---
@@ -23,12 +23,30 @@ Fully automated children's cartoon production pipeline triggered from Telegram. 
 
 ## Discovery Answers Received (2026-07-17)
 
-1. **Characters:** Consistent across ALL episodes. Client controls when to upgrade. This is the hardest architecture constraint — character reference system required.
+1. **Characters:** Consistent across ALL episodes. Client controls when to upgrade. Character reference system required.
 2. **Audio:** Both voiceover narration AND music confirmed. ElevenLabs + Suno both in scope.
-3. **Volume:** 100 videos/month at full capacity. 3-minute videos. This changes running cost math significantly.
-4. **Approval:** 4-stage approval per episode via Telegram (described below). "Every stage requires my approval."
+3. **Volume:** 100 videos/month at full capacity. 3-minute videos.
+4. **Approval:** 4-stage Telegram approval per episode.
 5. **Budget:** Asked for total fixed price. Opened the door to us naming the number.
-6. **Bonus scope:** Also interested in music video editing (providing footage angles, lighting cues, per-moment instructions). Scoped as Phase 2.
+6. **Bonus scope:** Also interested in music video editing. Scoped as Phase 2.
+
+---
+
+## Competitive Intelligence (2026-07-17)
+
+**MadSoN is shopping multiple platforms simultaneously.**
+
+Same job scope appeared on Upwork through a separate middleman group (the same group that previously underpaid Emmanuel on a different project). They cropped their screenshot to hide the real Upwork budget, then offered Emmanuel $500 to build it.
+
+**Moves executed:**
+- Move 1: Told the greedy middlemen the scope requires $2,500 minimum. They cannot build without Emmanuel. Their Upwork channel is dead.
+- Move 2: Oba sent a follow-up message to MadSoN on Fiverr re-engaging before the middlemen can regroup with another builder or quote lower directly.
+
+**Awaiting:** Responses from both MadSoN (Fiverr) and the middlemen (to confirm they've folded).
+
+**Advantage:** Emmanuel completed a full discovery with MadSoN. Understands his requirements (character consistency, 4-stage approval, 100 videos/month, Phase 2 interest) better than any competing bidder. That depth is the moat.
+
+**Risk:** If middlemen find another builder quickly, they may submit a lower Upwork quote before MadSoN commits to Oba. Speed of close matters.
 
 ---
 
@@ -45,8 +63,6 @@ Fully automated children's cartoon production pipeline triggered from Telegram. 
 | Music | Suno API |
 | Final assembly | Creatomate |
 
-**Ruled out:** Claude Code (not needed), Shotstack (replaced by Creatomate), Trello (unnecessary), Runway/Luma/Midjourney (replaced by Kie AI)
-
 ---
 
 ## Character Consistency Architecture
@@ -54,17 +70,17 @@ Fully automated children's cartoon production pipeline triggered from Telegram. 
 **What we build:** Reference image system.
 - First session: client describes character, AI generates 4-6 image options, client selects one
 - That approved image is stored and injected as a reference into every future generation call
-- Consistency: ~75-85% (same design, colors, style across episodes; minor variation between clips)
+- Consistency: ~75-85% (same design, colors, style; minor variation between clips)
 - Limitation disclosed: not pixel-perfect. Current ceiling of AI video generation.
-- Upgrade path (not in scope): custom character LoRA training for 95%+ consistency (different project, different timeline)
+- Upgrade path (not in scope): custom character LoRA training for 95%+ consistency
 
-**At 100 videos/month with 18-36 clips per video = 1,800-3,600 individual clip generations/month.** Variation will be visible. Client acknowledged.
+At 100 videos/month with 18-36 clips per video = 1,800-3,600 individual clip generations/month.
 
 ---
 
 ## Approval Flow (4 Stages Per Episode)
 
-1. Client submits episode brief via Telegram → Claude generates script → sent to client for approval or edit
+1. Client submits episode brief via Telegram → Claude generates script → sent for approval or edit
 2. Character reference displayed for confirmation before scene generation begins
 3. Generated clips previewed before assembly
 4. Assembled video presented before final delivery
@@ -78,62 +94,43 @@ At 100 videos/month: ~400 approval interactions/month on client's end. Disclosed
 | Tool | Cost |
 |---|---|
 | n8n Cloud | $24-50/month |
-| Kie AI (2,500+ clips at ~$0.20-0.40/clip) | $400-800/month |
+| Kie AI (2,500+ clips) | $400-800/month |
 | Creatomate (100 renders) | $100-150/month |
-| ElevenLabs (at this volume) | $22-50/month |
+| ElevenLabs | $22-50/month |
 | Suno API | $20-30/month |
-| Claude API (scripts) | $15-30/month |
+| Claude API | $15-30/month |
 | **Total** | **~$580-1,100/month** |
-
-Client holds these subscriptions directly.
 
 ---
 
 ## Pricing
 
-**Quoted:** $3,500 fixed price (sent in discovery response)
-**Covers:** Full cartoon pipeline, 4-stage Telegram approval, character consistency system, voiceover + music, Phase 1 delivery
+**Quoted:** $3,500 fixed price
+**Covers:** Full cartoon pipeline, 4-stage Telegram approval, character consistency system, voiceover + music
 **Running costs disclosed:** $600-1,000/month at 100 videos/month
 **Payment terms:** 50% before build, 50% on delivery and handoff
-**Phase 2 (music video editing):** Separate scope and quote after Phase 1
-
-**Pricing rationale:**
-- 4x more complex than Elbert ($1,500 Full Stack)
-- 4-stage approval flow adds significant n8n workflow complexity
-- Character consistency architecture adds a layer Elbert didn't have
-- 100 video/month scale requires queueing, error handling, retry logic
-- Running costs are high enough that client must be financially capable to operate it
-
----
-
-## Phase 2 Scope Interest (Music Video Editing)
-
-Client described: provide footage angles, lighting, per-moment editing instructions, receive fully edited finished video. This is video editing automation, not AI generation. Possible with Creatomate templates but requires custom template architecture per music video type. Scoped separately after Phase 1.
+**Phase 2 (music video editing):** Separate scope and quote
 
 ---
 
 ## Client Behavior
 
 - New to Fiverr
-- Proposed $10-11/hr x 10hrs/day x ~20 days = ~$2,000 max (initial signal)
+- Proposed $10-11/hr x 10hrs/day originally (~$2,000 max signal)
 - Psychology: scared of being duped, not actually broke
-- Fix: milestone payments (50/50) + proof of similar work + honest limitation disclosure
-- Hold price. $3,500 fixed, not hourly.
-- Once client sees the running cost math ($600-1,000/month), the build fee is obviously justified.
+- Hold price. $3,500 fixed. Monthly running cost makes the build fee look small.
+- Shopping multiple platforms simultaneously — close speed matters
 
 ---
 
 ## Status
 
-- Discovery questions: answered (2026-07-17)
-- Response sent via Oba with $3,500 price + Phase 2 note
-- Awaiting MadSoN's response to price
-- No formal proposal document built yet
+- Discovery answered (2026-07-17)
+- $3,500 quote sent via Oba
+- Oba follow-up sent (2026-07-17) to re-engage before competing channel closes
+- Greedy middleman Upwork channel neutralized (2026-07-17)
+- Awaiting MadSoN response
 
 ---
-
-## Key Lesson
-
-Same asset pricing principle as Elbert, but at a higher tier. A production studio capable of 100 videos/month cannot be priced at $2,000. The monthly running cost alone ($600-1,000) makes the build fee look small by month 3.
 
 [[automation-asset-pricing]] [[elbert-savvysox]]
