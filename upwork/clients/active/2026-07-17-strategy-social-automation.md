@@ -2,16 +2,19 @@
 name: strategy-social-automation
 sensitivity: private
 platform: direct (school contact)
-status: discovery
+status: awaiting_pricing
 created: 2026-07-17
+updated: 2026-07-18
 ---
 
-# Client: Strategy Social Automation (Business unnamed)
+# Client: Revamp Consulting LLC — Social Media Automation
 
-**Business:** Unknown — business strategy consulting/content brand (confirmed topic areas below)
-**Platform:** Direct. School contact introduced Emmanuel to end client. Not through Oba.
-**Middleman:** School friend passes messages between Emmanuel and end client
-**Pay:** $200 fixed. Emmanuel keeps 100% (friend giving his full cut)
+**Business:** Revamp Consulting LLC — Strategic Advisory & Business Transformation
+**Website:** https://www.revampconsult.com (recently developed by Bayonet)
+**Platform:** Direct. School contact (Bayonet) intermediary. End client is a strategy consulting firm.
+**Middleman:** Bayonet (school friend) — passes messages, pays Emmanuel directly from his cut
+**Pay:** TBD — Bayonet said "I'll sort u from my end." Emmanuel asked for a number. Awaiting confirmation.
+**Emmanuel's floor:** $200 (original agreement). Do not build without confirmed number.
 
 ---
 
@@ -21,7 +24,7 @@ Daily social media automation tool that generates business strategy content, pre
 
 **Cron trigger:** 9:00 AM daily
 
-**Platforms confirmed:** Instagram, LinkedIn (with image), others TBD
+**Platforms confirmed:** Instagram + LinkedIn only. No others.
 
 **Content specs:**
 - Max 75 words per post
@@ -47,54 +50,74 @@ Daily social media automation tool that generates business strategy content, pre
 | Layer | Tool |
 |---|---|
 | Trigger | n8n cron node (9:00 AM daily) |
-| Content generation | Claude API (recommended) or OpenAI GPT-4 |
+| Content generation | Claude API |
 | Image generation | Kie AI (image models) |
-| Approval flow | Telegram bot in n8n (approve/cancel/edit) |
+| Approval flow | Telegram bot in n8n (approve / edit / regenerate image) |
 | Social posting | Upload-Post ($16/month) |
+| n8n hosting | Self-hosted VPS — Hostinger or Namecheap (Bayonet's server) |
 
-**Why Upload-Post over Blotato:** Upload-Post ($16/month) covers same platforms with official n8n node. Blotato ($29/month) adds AI content features we don't need since Claude handles generation. $13/month cheaper with identical posting capability.
+**n8n hosting update:** NOT n8n Cloud. Bayonet will host on a VPS. Reduces monthly running cost significantly vs Cloud ($24/month saved). Emmanuel builds on Bayonet's n8n instance using JWT credentials Bayonet shared.
 
-**LLM recommendation:** Claude API. Same price range as OpenAI at this volume (~$5-15/month daily posting). Slightly stronger reasoning for nuanced strategy content.
+**Trial approach:** Build goes live on Bayonet's own LinkedIn + Instagram credentials first. Once client sees the demo and approves, credentials switch to the end client's accounts. Lower-stakes first run.
 
 ---
 
-## Monthly Running Costs
+## Monthly Running Costs (Updated — Self-Hosted n8n)
 
 | Tool | Cost |
 |---|---|
-| n8n Cloud Starter | $24/month |
+| VPS (Hostinger/Namecheap) | ~$3-6/month |
 | Claude API | ~$5-15/month |
 | Kie AI credits | Already available (from existing bundle) |
 | Upload-Post Basic | $16/month |
-| **Total estimate** | **~$45-55/month** |
+| **Total estimate** | **~$25-37/month** |
+
+Cost drops significantly from original estimate ($45-55) because n8n Cloud ($24/month) is replaced by a self-hosted VPS.
 
 ---
 
-## Approval Flow Design
+## Approval Flow Design (Confirmed)
 
 1. Cron fires at 9AM
-2. Claude generates 75-word post + picks CTA
-3. Kie AI generates matching image
-4. Telegram bot sends text + image to approver
-5. Approver replies: approve / cancel / edit
-6. Edit: bot collects revised text, re-presents
-7. Approve: posts to all confirmed platforms simultaneously
+2. Claude generates 75-word post + picks CTA pointing to revampconsult.com contact form
+3. Kie AI generates matching strategy-themed image
+4. Telegram bot sends text + image to single approver
+5. Approver options: approve / edit text / regenerate image
+6. Edit: bot collects revised text, re-presents with original image
+7. Regenerate image: Kie AI generates new image, re-presents for approval
+8. Approve: posts to LinkedIn + Instagram simultaneously
+
+**Confirmed:** 1 person approving (not a team). Edit and image regeneration both required.
 
 ---
 
-## Discovery Questions Sent (Awaiting Response)
+## Discovery Status (2026-07-18)
 
-1. Which platforms beyond Instagram and LinkedIn? (Facebook, Twitter, others?)
-2. What does the business do and what services does it offer? (for CTA accuracy)
-3. Contact form link
-4. Instagram Business account already connected to a Facebook Page?
-5. Brand assets: logo, colors, preferred image style
-6. One person approving on Telegram or does a team need to review?
+| Question | Status |
+|---|---|
+| Platforms beyond Instagram/LinkedIn? | Answered: LinkedIn + Instagram only |
+| What does the business do? | Answered: Revamp Consulting LLC — Strategic Advisory & Business Transformation |
+| Contact form link | Pending — pull from revampconsult.com once site is fully live |
+| Instagram Business account linked to Facebook Page? | NOT YET CONFIRMED — critical before build |
+| Brand assets: logo, colors, image style | Logo PNG pending (Bayonet said he'll send) |
+| One person or team approving? | Answered: 1 person on Telegram |
+
+---
+
+## Pending Before Build Starts
+
+1. Bayonet confirms his number (pricing — BLOCKER)
+2. Logo PNG from Bayonet
+3. Confirm Instagram is a Business account linked to a Facebook Page
+4. Contact form URL from revampconsult.com
 
 ---
 
 ## Key Notes
 
-- Instagram API requires Facebook Business account + Instagram Business account linked to a Facebook Page. Most complex setup step. Must confirm client has this before build starts.
-- This is Emmanuel's own job. No Oba involvement. Full $200 retained.
-- Business name and service details needed before any content generation can be configured.
+- Instagram API requires Facebook Business account + Instagram Business account linked to Facebook Page. Most complex setup step. Must confirm before build starts — cannot post to Instagram without this.
+- Trial build uses Bayonet's own credentials. Switch to end client credentials after demo approval.
+- n8n credentials: Bayonet shared JWT token (his n8n instance, email: bayomisimon@gmail.com). Do not store the raw token here.
+- This is Emmanuel's own job. No Oba involvement.
+- "Free tier" request is dead — Emmanuel correctly flagged $25-37/month running cost. Bayonet agreed client will pay once tested.
+- Business topic areas (for Claude prompt): strategy case studies, strategy definition/myths, strategy development process, business nuggets (finance/culture/people/org), disruption/innovation, competition, leadership, succession planning, strategy execution.
