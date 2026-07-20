@@ -11,10 +11,14 @@
             "id": "dc36e1863c6871b5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "outreach/contacts/giovanni.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "giovanni"
             }
           }
         ]
@@ -178,6 +182,9 @@
   },
   "active": "dc36e1863c6871b5",
   "lastOpenFiles": [
+    "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.a7e3ad675f91",
+    "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.d47b34ac4773",
+    "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.7a2b915e0118",
     "Untitled.canvas",
     "concepts/builds-before-asking.md",
     "upwork/market/patterns/red-flags.md",
@@ -211,8 +218,6 @@
     "startup/ideas/ai-memory-system.md",
     "concepts/financial-fragility.md",
     "outreach/companies/river-hills-family-medicine.md",
-    "upwork/proposals",
-    "upwork/playbooks",
-    "upwork/performance"
+    "upwork/proposals"
   ]
 }
