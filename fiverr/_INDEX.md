@@ -48,6 +48,25 @@ fiverr/
 
 ---
 
+## SUSPENSION RECORD — 2026-07-24
+
+**Oba's Fiverr account permanently suspended.** General TOS violation — AI video of public figures.
+No appeal. No recovery. Account is gone.
+
+**Pipeline lost at time of suspension:**
+| Client | Project | Value | Contact Status |
+|--------|---------|-------|---------------|
+| MadSoN | Children animation cartoon pipeline | $3,500 | No contact captured. Unrecoverable. |
+| Liubovi | B2B AI video pipeline | $9,000 | No contact captured. Unrecoverable. |
+| Elbert (SavvySox) | Phase 2 hologram automation | $700-1,200 | Contact found externally. Recovery possible. |
+
+**Total lost: $12,500+ in pipeline. Root cause: no off-platform contacts captured at intake.**
+
+Fiverr is no longer an active channel. All future work goes through Upwork direct or direct outreach.
+See [[client-intake-protocol]] and [[platform-crisis-protocol]].
+
+---
+
 ## Wikilinks
 
-[[fiverr-clients]] · [[automation-asset-pricing]] · [[financial-fragility]]
+[[fiverr-clients]] · [[automation-asset-pricing]] · [[financial-fragility]] · [[client-intake-protocol]] · [[platform-crisis-protocol]]
