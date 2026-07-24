@@ -40,7 +40,7 @@ Update this file whenever a client's status changes. Read this at session start 
 
 | Prospect | Channel | Project | Value | Status | Contact |
 |---|---|---|---|---|---|
-| Fradel Saks (Petit Lit Furniture) | Direct email | Shopify website redesign | $800 (+$350 automation) | Email not sent yet — ready to send | sales@petitlitfurniture.com / 718.851.0367 |
+| Fradel Saks (Petit Lit Furniture) | Direct email | Shopify website redesign | $800 (+$350 automation) | Email sent 2026-07-24 — awaiting reply | sales@petitlitfurniture.com / 718.851.0367 |
 
 ---
 

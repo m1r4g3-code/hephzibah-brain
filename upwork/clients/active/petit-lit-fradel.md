@@ -50,7 +50,7 @@ Direct = 100% to Emmanuel. Floor is now $700 if she pushes. Ideal is $800.
 
 ## Contact Log
 
-_(empty — no contact made yet)_
+- **2026-07-24** — Reconnect email sent to sales@petitlitfurniture.com. Subject: "Following up from Fiverr." Warm, no pitch — just re-establishing contact after Fiverr suspension. Awaiting reply.
 
 ## Wikilinks
 
