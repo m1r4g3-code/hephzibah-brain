@@ -36,6 +36,14 @@ Update this file whenever a client's status changes. Read this at session start 
 
 ---
 
+## Cold Outreach — Prospects
+
+| Prospect | Channel | Project | Value | Status | Contact |
+|---|---|---|---|---|---|
+| Fradel Saks (Petit Lit Furniture) | Direct email | Shopify website redesign | $800 (+$350 automation) | Email not sent yet — ready to send | sales@petitlitfurniture.com / 718.851.0367 |
+
+---
+
 ## Suspended / Lost (Platform Gone)
 
 | Client | Platform | Project | Value Lost | Off-Platform Contact | Recovery Possible? |
