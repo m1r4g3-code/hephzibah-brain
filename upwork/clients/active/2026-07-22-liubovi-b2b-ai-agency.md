@@ -2,10 +2,15 @@
 name: liubovi-b2b-ai-agency
 sensitivity: private
 platform: fiverr
-status: awaiting_response
+status: suspended-platform
 introduced_by: "Oba (Adelaja O.)"
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-24
+off_platform_contacts:
+  email: "unknown"
+  linkedin: "unknown"
+  instagram: "unknown"
+  notes: "Lost access when Oba's Fiverr account was permanently suspended 2026-07-24. No off-platform contact captured at intake. Unrecoverable."
 ---
 
 # Client: liubovi_b — B2B AI Agency (Unknown company name)

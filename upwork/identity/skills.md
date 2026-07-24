@@ -50,6 +50,8 @@ Emmanuel is NOT a single-niche person. He is creative and technical. Do not skip
 **Backend / Database**
 - Supabase (PostgreSQL + Row Level Security + Auth) — used across multiple shipped apps
 - Firebase (Firestore + Auth) — zaynab-touch, deployed
+- Django + Django REST Framework (Python backend)
+- FastAPI (Python API — used in Distill, automation backends)
 - Cloudinary (image/media management)
 - EmailJS
 

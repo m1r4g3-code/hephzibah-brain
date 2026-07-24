@@ -44,7 +44,7 @@ Emmanuel does not just build features. He builds AI-powered systems that run ent
 |---|---|---|
 | hephzibah-os (public) | AI cold outreach intelligence — lead research, call analysis, coaching, script generation | Python |
 | upwork-os (public) | Full Upwork operating system — proposal writing, job qualification, analytics, brain | Python |
-| Locaro (private) | Automated local business lead gen. Scrapes Google Maps, qualifies leads, finds emails, sends Claude cold outreach | Python + Claude API |
+| Locaro (private, FORK) | Cyrus's project. Emmanuel forked privately. DO NOT claim as own build — do not put in portfolio or mention as original work. | Python + Claude API |
 | kairos (public) | Football value-bet prediction engine. Poisson/Dixon-Coles math, Kelly criterion, backtester. Zero external deps. | Python (pure) |
 | HephFlow (private) | Push-to-talk offline STT for Windows. Whisper, floating pill UI, instant paste. No cloud. | Python + Whisper |
 | Miva (private) | Personal AI assistant | Python |
@@ -130,7 +130,7 @@ Vercel, Railway, Lovable
 | 2 | SavvySox hologram | Yes | Yes | Yes |
 | 3 | zaynab-touch | Yes | Yes | Needs screenshots |
 | 4 | noryx-studio | No | Yes | Needs write-up |
-| 5 | Locaro (lead gen pipeline) | Self | Yes | Needs write-up |
+| 5 | Locaro (lead gen pipeline) | Cyrus (forked — not Emmanuel's original) | Yes | Do NOT claim as own work |
 | 6 | Distill (URL-to-JSON API) | Self | Yes | Needs README |
 | 7 | n8n-Aigent-app | Self | No | Needs README |
 | 8 | cyber-academy | No | Yes | Needs write-up |
