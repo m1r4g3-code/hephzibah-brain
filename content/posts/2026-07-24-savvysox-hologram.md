@@ -51,10 +51,15 @@ client: Elbert (SavvySox)
 ## Performance Tracking
 
 - Posted: 2026-07-24
-- 24h engagement: [log here]
-- 7-day reach: [log here]
+- 10h impressions: 77 (77% in-network, 23% out-of-network)
+- Members reached: 22
+- Reactions: 2 | Comments: 3 | Reposts: 3 | Saves: 2
+- Profile viewers from post: 0
+- Followers gained: 0
+- Top audience: Senior (46%), Tech/Info industry (32%), 11-50 company size (27%)
+- 7-day account impressions: 108 total | Followers: 612
 - Notable comments: [log here]
-- Leads generated: [log here]
+- Leads generated: 0
 
 ## See Also
 
