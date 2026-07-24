@@ -13,8 +13,8 @@ linkedin: null
 website: petitlitfurniture.com
 address: 1122 58th St, Brooklyn NY 11219
 country: USA
-status: prospect
-introduced_by: null
+status: prospect — proposal sent via Fiverr, reconnecting direct
+introduced_by: Oba (Adelaja O.) via Fiverr gig
 first_contact: null
 last_updated: "2026-07-24"
 ---
@@ -23,7 +23,7 @@ last_updated: "2026-07-24"
 
 **Prospect.** Children's furniture Shopify store, Brooklyn NY. Founded November 2024 — young business, probably still in growth mode. Solo or minimal staff.
 
-Originally found through Oba's Fiverr gig (job posted for website redesign). Fiverr suspended before any contact was made. Now pursuing as direct cold outreach.
+Came through Oba's Fiverr gig. Full PDF proposal was sent via Fiverr and she was in active conversation. Fiverr suspended 2026-07-24 — thread cut. Now reaching out directly to resume. This is NOT cold outreach — she's seen the proposal already.
 
 ## Business Context
 
@@ -36,10 +36,12 @@ Originally found through Oba's Fiverr gig (job posted for website redesign). Fiv
 
 ## Proposal On File
 
-`outputs/proposals/2026-07-10-petit-lit-furniture-redesign.md`
+`outputs/proposals/2026-07-10-petit-lit-furniture-redesign.md` — full text + Loom script
+`outputs/strategy/2026-07-10-petit-lit-furniture-redesign-proposal.pdf` — **rendered PDF, already sent via Fiverr**
+
 - $800 fixed website redesign
 - +$350 automation add-on (back-in-stock + abandoned cart)
-- Loom audit script already written
+- She has seen this proposal. Re-send it once she replies to the reconnect email.
 
 ## Rate Notes
 
