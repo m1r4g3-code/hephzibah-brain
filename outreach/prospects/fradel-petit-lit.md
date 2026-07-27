@@ -7,9 +7,9 @@ phone: 718.851.0367
 website: petitlitfurniture.com
 instagram: "@petit_lit"
 linkedin: 
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: Oba (Fiverr gig — suspended 2026-07-24)
+2026-07-27
 platform: direct
 send_from: adekoyaafolasade29@gmail.com
 sensitivity: private
@@ -40,3 +40,5 @@ Rate: $800 fixed (hold at $700 floor if she negotiates).
 
 ## Conversation Log
 2026-07-24 — Fiverr account suspended. Contact found: sales@petitlitfurniture.com / 718.851.0367. Outreach email drafted.
+
+**2026-07-27** — Auto-sent — 'Quick thing re: Petit Lit Furniture LLC'
