@@ -30,3 +30,22 @@ If you still want to move forward with the website work, we can continue right h
 
 Emmanuel
 ```
+
+## 2026-07-27 16:41 — nardos
+**To:** salesnyc@nardosdesign.com
+**Subject:** Hey,
+
+```
+Hey Nardos,
+
+Hey,
+
+Found via Google Maps search. Haute couture fashion house business.
+Website: https://www.nardosdesign.com/pages/new-york/
+Tech stack: Shopify
+Rating: 4.9
+
+Worth a quick call?
+
+Emmanuel
+```
