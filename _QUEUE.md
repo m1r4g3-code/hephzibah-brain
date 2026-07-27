@@ -130,16 +130,16 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
   },
   {
     "id": "q009",
-    "action": "OS Tier 2 — Priority Queue + Heartbeat built",
-    "context": "Architectural improvements to move OS from reactive shell to intelligent event-driven system. In progress this session.",
+    "action": "OS Tier 2 + Tier 3 — full autonomous stack built",
+    "context": "Tier 2 (heartbeat, pulse, queue) + Tier 3 (email_watcher, job_watcher, follow_up, outreach, prospector) all built and registered in Windows Task Scheduler. Playwright prospector tested successfully.",
     "priority": "MEDIUM",
     "revenue_impact": "INDIRECT",
     "deadline": "2026-07-27",
     "owner": "Emmanuel",
     "created": "2026-07-27",
-    "state": "in_progress",
+    "state": "resolved",
     "platform": "OS",
-    "next_action": "Complete build: state machine, event catalog, heartbeat.py, pulse.py, CLAUDE.md updates."
+    "next_action": "Done. Monitor logs/ directory for daemon errors. Run prospector as needed."
   }
 ]
 ```
@@ -159,7 +159,7 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 | 🟡 MEDIUM | q006 | Gadget OS design | Emmanuel | — | open |
 | 🟡 MEDIUM | q007 | SERAMAN scene 1/8 volume fix | Emmanuel | — | open |
 | 🟡 MEDIUM | q008 | SERAMAN Gemini Omni greenlight | Oba | — | open |
-| 🟡 MEDIUM | q009 | OS Tier 2 build | Emmanuel | 2026-07-27 | in_progress |
+| ✅ DONE | q009 | OS Tier 2 + 3 build | Emmanuel | 2026-07-27 | resolved |
 
 ---
 
