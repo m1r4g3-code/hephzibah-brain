@@ -49,3 +49,22 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-07-27 16:43 — alter
+**To:** alter_brooklyn_website_header_d1835c38-1a64-4abe-a39d-5b747a4907cb_x100@2x.jpg
+**Subject:** Hey,
+
+```
+Hey Alter,
+
+Hey,
+
+Found via Google Maps search. Clothing store business.
+Website: http://www.alterbrooklyn.com/
+Tech stack: Shopify
+Rating: 4.4
+
+Worth a quick call?
+
+Emmanuel
+```
