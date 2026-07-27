@@ -12,6 +12,39 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
+## Last Session: 2026-07-27
+
+**What we worked on:**
+- SERAMAN Generate Images workflow: reverted trigger from webhook → executeWorkflowTrigger (production architecture restored)
+- Built credits exhaustion detection system: 402 → IF node → Giovanni client alert (amber branded email) + Emmanuel internal alert. Both nodes set executeOnce: true. Fired successfully via CUGAR wrapper (execution 680, 4s, success).
+- All Images Ready Gate updated: suppresses review email when all scenes = FAILED (prevents broken links reaching Giovanni)
+- Giovanni's partner ran a job → got scene email → didn't click Approve → nothing else arrived. Kie credits were zero at the time. Giovanni since topped up credits.
+- Strategic decision: NO video tutorial for Giovanni's partner. Keeping the black box. Partner confusion = dependency = moat. Scoping the NGO project onboarding as a paid deliverable instead.
+- NGO project identified as second contract opportunity — Giovanni's partner is the operator, needs separate scoping conversation.
+- Upwork billing: Raenest card added successfully (Visa ending in 0928). Account still restricted — Trust & Safety flag. Support ticket being submitted to adekoyaemmanuel15@gmail.com.
+- Elbert (SavvySox): all recovery attempts exhausted. Moving on.
+- Gadget/phone sales business OS scoping started — awaiting Emmanuel's answers on 5 questions before full OS design.
+
+**What is LIVE and needs action:**
+1. **Giovanni — partner job**: Reply sent explaining Approve button. Partner needs to click Approve in original scene email OR resubmit form. Kie credits now available.
+2. **Giovanni — NGO project**: Probe opened. Awaiting Giovanni's reply on what product the partner is running. Position onboarding as paid scope.
+3. **Upwork account**: Restricted — Trust & Safety flag. Support ticket submitted. Watch adekoyaemmanuel15@gmail.com for response (24-48h).
+4. **Gadget OS**: Emmanuel needs to answer 5 questions (stock type, brand name, volume, WhatsApp Business status, photo setup) before full OS build.
+5. **Petit Lit (Fradel Saks)**: Still awaiting reply to reconnect email at sales@petitlitfurniture.com.
+6. **Revamp Consulting (Bayonet)**: Still waiting on payment number + logo PNG.
+7. **LinkedIn Post 3**: Due 2026-07-29 8AM WAT.
+
+**What was decided:**
+- No Loom/video tutorial for Giovanni — protects identity (Emmanuel not revealed to Giovanni), maintains black-box complexity, preserves dependency moat.
+- NGO project = new contract. Partner onboarding is billable, not free support.
+- Elbert exhausted — closed.
+- Upwork billing done. Restriction is Trust & Safety, not payment method. Support ticket is the only path.
+
+**Brain commits needed:**
+- _SESSION.md ✓ (this update)
+- _PIPELINE.md — update Giovanni row (credits restored, partner job pending approve, NGO opportunity)
+- upwork/clients/active/2026-06-22-giovanni-seraman.md — add NGO partner note, credit exhaustion system, strategic decision on no-tutorial
+
 ## Last Session: 2026-07-24 (UPDATED — full day)
 
 **What we worked on:**
