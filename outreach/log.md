@@ -87,3 +87,19 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-07-29 06:15 — local-eyes-video-production
+**To:** info@localeyesit.com
+**Subject:** Quick thing re: Local Eyes Video Production
+
+```
+Hey,
+
+No automated reporting visible — monthly reports probably eat 1-2 days of someone's time.
+
+I build automated reporting systems for agencies — data from GA, Meta, and your ad platforms formatted per client and emailed out automatically, built in n8n. Agencies usually recover 15-20 hours/week from manual reporting alone.
+
+Usually a 1-2 week build. Worth a quick call?
+
+Emmanuel
+```
