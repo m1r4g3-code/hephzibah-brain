@@ -17,6 +17,7 @@ Update this file whenever a client's status changes. Read this at session start 
 | Client | Platform | Project | Status | Next Action | Off-Platform Contact |
 |---|---|---|---|---|---|
 | Revamp Consulting (Bayonet) | Direct | Social media automation (n8n + Claude + Upload-Post) | Build pending — waiting on Bayonet pricing confirmation + logo | Chase Bayonet for number + logo PNG | bayomisimon@gmail.com |
+| Giovanni (SERAMAN) | Direct (email) — Fiverr banned 2026-07-24 | AI video pipeline — ongoing + next phase | M1+M2 done, 5-starred. Honest ask sent 2026-07-29. Long-form + NGO scope pending. | Await honest ask response. Open long-form conversation when he replies. | seraman.adv@gmail.com |
 
 ---
 
@@ -58,7 +59,7 @@ Update this file whenever a client's status changes. Read this at session start 
 
 | Client | Platform | Project | Revenue | Date |
 |---|---|---|---|---|
-| Giovanni (SERAMAN) | Direct | AI product video pipeline | — | 2026-06 |
+| Giovanni (SERAMAN) — M1+M2 | Direct (was Fiverr) | AI product video pipeline | $1,000 total | 2026-06/07 |
 
 ---
 
