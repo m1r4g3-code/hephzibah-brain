@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6588317986536944",
+        "id": "3446e7687f7dee1b",
         "type": "tabs",
         "children": [
           {
-            "id": "dc36e1863c6871b5",
+            "id": "312d2f9043095ce2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "outreach/contacts/oba.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "oba"
             }
           }
         ]
@@ -176,9 +180,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "dc36e1863c6871b5",
+  "active": "312d2f9043095ce2",
   "lastOpenFiles": [
     "outreach/contacts/giovanni.md",
+    "outreach/companies/seraman.md",
     "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.a7e3ad675f91",
     "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.d47b34ac4773",
     "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.7a2b915e0118",
@@ -194,7 +199,6 @@
     "me/identity.md.tmp.12668.018cc6d6d988",
     "outreach/contacts/giovanni.md.tmp.12668.9118df80e3fc",
     "outreach/contacts/zaynab.md.tmp.12668.62eec4593825",
-    "outreach/companies/seraman.md",
     "outreach/companies/seraman.md.tmp.12668.55b42d2d1d43",
     "upwork/playbooks/profile-gravity.md",
     "upwork/playbooks/loom-strategy.md",
