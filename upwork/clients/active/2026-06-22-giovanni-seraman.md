@@ -3,7 +3,7 @@ sensitivity: private
 entity_type: person
 name: "Giovanni"
 company: "SERAMAN"
-platform: "Direct (email) — was Fiverr, banned 2026-07-24"
+platform: "Fiverr"
 website: "shop.seraman.com"
 email: "seraman.adv@gmail.com"
 country: "Italy"
@@ -17,13 +17,11 @@ introduced_by: "Oba (Adelaja O.)"
 
 Giovanni runs SERAMAN — an Italian tactical and military gear brand selling products like sunglasses (Gator Spectre), boots (AKU Tactical), bandages, and other gear via shop.seraman.com. He was originally a freelancer client of Oba's, who introduced the automation opportunity.
 
-**Personal context:** In his 60s. No children. Patient, calm, kind man. Experienced businessman. Has partners he answers to ("I just have to keep my partners happy" — Jul 05) — not a solo decision-maker. Has been patiently working with Oba/Emmanuel for 1+ months, knows the pricing was low, still actively using the system. The relationship with Oba is warm and personal, not just transactional.
-
 ## Project: AI Video Production System
 
-**Platform:** Was Fiverr (Oba's account — 50/50 split). Fiverr permanently suspended 2026-07-24 (TOS: AI video of public figures). Relationship maintained via direct email: seraman.adv@gmail.com. All future work is direct, no platform fee.
-**Partnership:** Emmanuel built the entire pipeline solo. Oba managed client relationship and follow-up. Revenue split 50/50.
-**Status:** BOTH milestones fully delivered and 5-starred BEFORE the Fiverr ban. Project is complete. Giovanni is now in ongoing relationship / next-phase pipeline.
+**Platform:** Fiverr (via Oba's account — 50/50 split)
+**Partnership:** Emmanuel built the entire pipeline solo. Oba managed client relationship and follow-up. Revenue split 50/50. Oba currently in Ibadan, back in Lagos ~July 2026 — long-form build will be done together.
+**Status:** Milestone 1 complete. Milestone 2 functionally complete — pipeline proven end-to-end 2026-07-06, final video with Giovanni for approval.
 
 **What was built:**
 Full automated pipeline — Tally Form → n8n → Claude AI (Italian script) → Kie AI Veo 3.1 (video generation, dual-branch parallel) → Creatomate (video assembly + captions) → Blotato (social publishing to 4 platforms) → branded email notifications (success + error). Google Sheets tracks every run across 3 sheets.
@@ -39,14 +37,13 @@ Full automated pipeline — Tally Form → n8n → Claude AI (Italian script) �
 
 | Milestone | Amount | Status |
 |---|---|---|
-| M1 + M2 combined | $1,000 total | Both delivered — both 5-starred before Fiverr ban |
-| Long-form pipeline (5–8 min) | $3,000–$5,000 (market rate) | Not started — conversation to open |
-| NGO project (partner) | $500+ for onboarding | Pending scope |
-| Script preview gate (audio fix) | Small add-on if scoped separately | Being added |
+| Milestone 1 | $1,000 | Delivered — 5-star review |
+| Milestone 2 | $1,000 | In progress |
+| Long-form pipeline (5–8 min) | ~$1,500 (agreed floor, not a fixed quote) | Not started |
 
-**Note on financials:** Total project was $1,000 across both milestones. After Fiverr 20% fee → $800 → 50/50 with Oba → $400 each net. Market rate for what was built is $5,000–$8,000. Underpriced deliberately as a case study trade-off. The $1,500 floor mentioned in earlier notes was an internal Oba/Emmanuel agreement — not a price Giovanni accepted.
+**Net reality per $1,000 milestone:** Fiverr takes 20% → $800 → 50/50 with Oba → **$400 each.** The $1,500 figure is an agreement between Emmanuel and Oba that no future Giovanni job goes below $1,500 — not a price Giovanni has accepted.
 
-**Pricing note:** Never renegotiate closed delivered work. Future scope (long-form, NGO, retainer) to be priced at market rate with ROI framing. Giovanni's partners control his budget decisions — any price pitch must give him numbers he can show them.
+**Pricing note (2026-07-06):** This build is worth $5K–8K at market. Underpricing accepted as cost of the first flagship case study. Decision: never renegotiate delivered work; reprice future scope (long-form, retainer) with ROI framing. Giovanni signals budget pressure from his own partners ("I just have to keep my partners happy" — Jul 05), so any price move must arm him with ROI numbers he can show them, not squeeze him.
 
 ## Review (Milestone 1)
 
@@ -193,45 +190,3 @@ Investigated whether to replace the current stock background track. Key findings
 
 Handoff doc generated: `outputs/strategy/2026-06-22-seraman-handoff-v1.pdf`
 Includes: workflow architecture screenshots, Google Sheet breakdown, email alert examples, engineering depth, running costs, Italian closing message.
-
----
-
-## Session Log — 2026-07-28/29
-
-### Fiverr Ban Impact
-Oba's Fiverr account permanently suspended 2026-07-24 (TOS: AI video of public figures). Giovanni was not lost — relationship maintained because his email was on file. Direct email channel is now the only contact method. No platform fee going forward.
-
-### Giovanni Email — 2026-07-28 21:10
-Giovanni emailed Oba/Adelaja directly at seraman.adv@gmail.com with two issues on the water-purifying tablets video:
-
-1. **Audio editing request:** "I need to figure out how to edit the audio text directly after the video is generated, if possible." — He wants to catch wrong pronunciations/lines before final render. VO is baked into Kie clips and cannot be edited post-generation. Fix: add a script preview/approval gate so he sees and edits the script BEFORE Kie runs. Being added as a feature.
-
-2. **Pill packaging display errors:** "In the various clips, there are many errors in the display of the pill packaging. The only real one is the one you see at the end of the video." — Classic Kie AI product hallucination across scenes. Earlier clips showing wrong/inconsistent packaging. Fix: isolate affected scenes, regenerate with cleaner product image references and tighter prompt constraints. Same root cause as CVN4 packaging bug (see M2 bugs section).
-
-He also said: "The audio is almost perfect" — positive signal. Still actively using the system on new products post-ban.
-
-### Honest Ask — 2026-07-29
-After the pipeline went cold on all other fronts (Elbert ghosted, Petit Lit no reply, DesignRush no conversions, Bayonet demo-blocking), Giovanni is the only warm relationship active.
-
-Oba sent Giovanni a direct honest ask (2026-07-29) — not manipulation, not guilt. Acknowledged the $1,000 was their own call, mentioned the AI tools need renewing, gave him a clean exit ("nothing changes between us if the answer's no"). Also mentioned the script preview gate fix being added as a goodwill gesture.
-
-Final message sent by Oba:
-> "We built the SERAMAN pipeline at $1,000, we know that was below what the work was worth. That was our call, we wanted the project and the case study, and we stand by it. We're also adding a fix on our end so you can catch a wrong line in the script before the video's even generated, should mean you never need a full remake again. Separately: we're at the point where we need to renew the AI tools behind the fast builds. Not asking to revisit what's already paid, just being straight with you. If you've been happy with the work and want to see it keep improving, any contribution toward that would go a long way. No pressure either way, nothing changes between us if the answer's no."
-
-Awaiting Giovanni's reply.
-
-### Next Pipeline (Priority Order)
-1. **Honest ask response** — await Giovanni's reply, no follow-up pressure
-2. **Long-form video package** — $3,000–$5,000. Open this conversation after honest ask resolves. Use ROI framing for his partners.
-3. **NGO onboarding** — Giovanni's partner runs an NGO project on the pipeline. Scope as a separate paid contract (~$500+). Not free support.
-4. **Script preview gate** — build the approval step so Giovanni sees and edits script before Kie runs. Solves the audio editing request permanently.
-5. **Gemini Omni switch** — awaiting Giovanni's greenlight on the model comparison (q008). Follow up if no reply.
-6. **Volume fix** — Scene 1 (60%) and Scene 8 (100%) need to be normalized to 200% to match scenes 2–7 (q007).
-
-### Relationship Intelligence
-- Warm, personal, patient relationship — primarily via Oba
-- Giovanni is not a solo decision-maker — his partners control budget approvals
-- He knows the price was low — has never weaponized this
-- No children — has shown genuine interest in the work, not just transactional
-- Most likely to respond positively to honest, direct communication — not sales framing
-- Any price pitch for future work must include ROI numbers he can show his partners
