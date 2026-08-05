@@ -27,15 +27,93 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
   {
     "id": "q001",
     "action": "Resolve Upwork account restriction",
-    "context": "Trust & Safety flag. Support ticket submitted. Watch adekoyaemmanuel15@gmail.com for response. Blocking all bidding and connect purchases.",
+    "context": "RESOLVED 2026-08-05. Restriction lifted. Own account (011b48d2eabbfa6361) now active and being built.",
     "priority": "CRITICAL",
     "revenue_impact": "DIRECT",
     "deadline": "2026-07-29",
     "owner": "Emmanuel",
     "created": "2026-07-27",
+    "state": "resolved",
+    "platform": "Upwork",
+    "next_action": "Done."
+  },
+  {
+    "id": "q010",
+    "action": "Complete Upwork ID verification",
+    "context": "Own account (011b48d2eabbfa6361) active. Profile fully built. ID verification not completed — blocks account from being fully active. Settings → Identity Verification.",
+    "priority": "CRITICAL",
+    "revenue_impact": "DIRECT",
+    "deadline": "2026-08-07",
+    "owner": "Emmanuel",
+    "created": "2026-08-06",
     "state": "open",
     "platform": "Upwork",
-    "next_action": "Check email for Upwork support reply. If no reply by 2026-07-29, follow up via support ticket."
+    "next_action": "Settings → Identity Verification. Takes 10-15 min."
+  },
+  {
+    "id": "q011",
+    "action": "Add withdrawal method to Upwork",
+    "context": "Cannot receive payment without this. Settings → Get Paid → add bank or Payoneer.",
+    "priority": "CRITICAL",
+    "revenue_impact": "DIRECT",
+    "deadline": "2026-08-07",
+    "owner": "Emmanuel",
+    "created": "2026-08-06",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "Settings → Get Paid → add withdrawal method."
+  },
+  {
+    "id": "q012",
+    "action": "Record 3 portfolio Looms and upload to profile",
+    "context": "Portfolio is the last major profile section not done. SERAMAN pipeline first (strongest — real client, 5-star, complex architecture). SavvySox second. One software project third. Format: WATCH THIS: [Topic]: Full n8n Breakdown!",
+    "priority": "HIGH",
+    "revenue_impact": "INDIRECT",
+    "deadline": "2026-08-13",
+    "owner": "Emmanuel",
+    "created": "2026-08-06",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "Record SERAMAN Loom first. Show n8n canvas, each module, Claude AI node, Kie AI branch, Creatomate assembly, Blotato publishing."
+  },
+  {
+    "id": "q013",
+    "action": "Record and upload Upwork intro video",
+    "context": "Script saved at outputs/strategy/2026-08-06-profile-intro-video-script.md. 60-90 seconds. Record like a Loom but for profile context.",
+    "priority": "MEDIUM",
+    "revenue_impact": "INDIRECT",
+    "deadline": null,
+    "owner": "Emmanuel",
+    "created": "2026-08-06",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "Read script, record, upload to Upwork profile intro video section."
+  },
+  {
+    "id": "q014",
+    "action": "Follow up on 5 testimonials if not submitted by 2026-08-16",
+    "context": "5 LinkedIn testimonials in motion: Cyrus, Rejoice, Oba, Bayonet, Samuel. All emailed with review text + Upwork recommendation requests sent. Takes 8-10 days to appear. Check by 2026-08-16.",
+    "priority": "MEDIUM",
+    "revenue_impact": "INDIRECT",
+    "deadline": "2026-08-16",
+    "owner": "Emmanuel",
+    "created": "2026-08-06",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "Check profile by 2026-08-16. If any not submitted, WhatsApp the person directly."
+  },
+  {
+    "id": "q015",
+    "action": "Confirm payment terms with Bayonet before solar project",
+    "context": "Bayonet called 2026-08-06 with solar calculator project (fuel spend → solar capacity recommendation). US client connection behind it. Emmanuel expressed interest. Must confirm: what is Bayonet paying Emmanuel, by when.",
+    "priority": "HIGH",
+    "revenue_impact": "DIRECT",
+    "deadline": "2026-08-08",
+    "owner": "Emmanuel",
+    "created": "2026-08-06",
+    "state": "open",
+    "platform": "Direct",
+    "next_action": "Reply to Bayonet: 'I'm in. Before committing fully — what's the payment structure on my side?'"
   },
   {
     "id": "q002",
@@ -151,15 +229,21 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 
 | Priority | ID | Action | Owner | Deadline | State |
 |---|---|---|---|---|---|
-| 🔴 CRITICAL | q001 | Resolve Upwork account restriction | Emmanuel | 2026-07-29 | open |
-| 🟠 HIGH | q002 | Chase Bayonet — payment + logo | Emmanuel | 2026-07-28 | open |
-| 🟠 HIGH | q003 | Petit Lit follow-up if no reply | Emmanuel | 2026-07-27 | open |
-| 🟠 HIGH | q004 | LinkedIn Post 3 — 8AM WAT | Emmanuel | 2026-07-29 | open |
-| 🟠 HIGH | q005 | Giovanni NGO — scope onboarding | Oba | 2026-07-30 | open |
+| 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
+| 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
+| 🟠 HIGH | q012 | Record 3 portfolio Looms | Emmanuel | 2026-08-13 | open |
+| 🟠 HIGH | q015 | Confirm Bayonet solar payment terms | Emmanuel | 2026-08-08 | open |
+| 🟠 HIGH | q002 | Chase Bayonet — Revamp payment + logo | Emmanuel | — | open |
+| 🟠 HIGH | q003 | Petit Lit follow-up | Emmanuel | — | open |
+| 🟠 HIGH | q005 | Giovanni NGO — scope onboarding | Oba | — | open |
+| 🟡 MEDIUM | q013 | Record + upload intro video | Emmanuel | — | open |
+| 🟡 MEDIUM | q014 | Follow up testimonials by 2026-08-16 | Emmanuel | 2026-08-16 | open |
+| 🟡 MEDIUM | q004 | LinkedIn posts 4-6 (overdue — reschedule) | Emmanuel | — | open |
 | 🟡 MEDIUM | q006 | Gadget OS design | Emmanuel | — | open |
 | 🟡 MEDIUM | q007 | SERAMAN scene 1/8 volume fix | Emmanuel | — | open |
 | 🟡 MEDIUM | q008 | SERAMAN Gemini Omni greenlight | Oba | — | open |
-| ✅ DONE | q009 | OS Tier 2 + 3 build | Emmanuel | 2026-07-27 | resolved |
+| ✅ DONE | q001 | Upwork account restriction resolved | Emmanuel | — | resolved |
+| ✅ DONE | q009 | OS Tier 2 + 3 build | Emmanuel | — | resolved |
 
 ---
 

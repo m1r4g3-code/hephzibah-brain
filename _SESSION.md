@@ -12,6 +12,58 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
+## Last Session: 2026-08-05 to 2026-08-06 — Upwork own account full profile build
+
+**What we worked on:**
+- Upwork restriction on Emmanuel's own account (011b48d2eabbfa6361) was lifted. Switched from partner account to own account.
+- `profile_scraper.py` fixed — clipboard method, CRLF normalization, parser rebuilt from scratch.
+- Scraped 4 competitor profiles: Brian Wade ($73/hr), Mikhail Oskola ($95/hr), Gopal/Twopir ($65/hr), Ryan Ramshaw ($50/hr).
+- Full competitor intelligence node written → `upwork/market/patterns/competitor-profiles-n8n-niche.md`.
+- Built Emmanuel's profile section by section in Ramshaw coaching mode:
+  - Title: "AI Automation & Python Engineer | n8n | Full Stack | API Integration" (68 chars, $55/hr)
+  - Overview: Ramshaw format (promise opener + Loom offer + "A little more about me" + bullet proof + expertise list). SERAMAN project referenced as real proof.
+  - Skills: 20 skills in priority order (AI Agent Development, n8n, Automated Workflow, API Integration, BPA, Workflow Automation, AI Model Integration, CRM Automation, AI Implementation, Automation, Python, Django, React, Next.js, TypeScript, JavaScript, OpenAI API, Zapier, Airtable, Email Automation).
+  - Certifications: 4 total (updated n8n cert name, kept Hugging Face, added 2 custom manual certs).
+  - Employment History: 4 entries. Fixed "Upwork | Upwork" and "Contract | Contract" duplicates.
+  - Other Experiences: Basketball & Chess entry written. Keyword spam section removed.
+- 5 LinkedIn testimonial requests sent via email + Upwork recommendation requests:
+  1. Cyrus (osawayecyrus@gmail.com) — n8n technical peer, 4 workflows in 4 days. LinkedIn: cyrus-osawaye-6b71a1267
+  2. Rejoice (rejoicedindu18@gmail.com) — content automation client. LinkedIn: rejoice-chikeluba-08326a386
+  3. Oba (obanijesu7@gmail.com) — full-stack web app client (outside client voice). LinkedIn: adelaja-obanijesu-730490396
+  4. Bayonet (bayomisimon@gmail.com) — social media automation collaboration (Revamp project). LinkedIn: bayomi-simon-b92870238
+  5. Samuel (jammyrix@gmail.com) — lead generation automation client. LinkedIn: samuel-john-b24911205
+- Intro video script written → `outputs/strategy/2026-08-06-profile-intro-video-script.md`
+- Client account created on Upwork ("Adekoya Digital") for competitive research and fake job analysis.
+- Bayonet new opportunity: solar energy calculator project (fuel spend → solar capacity recommendation). US client connection behind it. Emmanuel advised to confirm payment terms before committing.
+
+**What is LIVE and needs action:**
+1. **Upwork ID verification** — NOT done. Blocker. Settings → Identity Verification.
+2. **Withdrawal method** — NOT done. Blocker. Settings → Get Paid.
+3. **Available Now badge** — NOT confirmed on. Settings → toggle on. 2 connects/day.
+4. **Portfolio Looms** — 3 needed: SERAMAN pipeline first, SavvySox second, one software project third.
+5. **Intro video** — script ready. Needs recording and upload.
+6. **Project catalog** — not set up yet. Do after ID verification.
+7. **Testimonials** — 5 in motion. Follow up if not submitted by 2026-08-16.
+8. **Bayonet solar project** — Emmanuel must confirm payment structure before committing to the build.
+9. **SERAMAN (Giovanni)** — M2 test status unknown from last session. Check with Oba.
+10. **Revamp Consulting (Bayonet)** — still blocked on payment number + logo. Now deprioritized given solar project is the new conversation.
+
+**What was decided:**
+- Own Upwork account (011b48d2eabbfa6361) is now the active account. Partner account retired.
+- Rate set at $55/hr (held the line against Emmanuel's $15/hr push).
+- Ramshaw's actual overview format is longer than previously documented — includes promise + Loom offer + "A little more about me" + bullet credibility + expertise list.
+- Testimonials: "Basics" is a weak word in cert titles. Generic company names trigger Upwork account review.
+- Client account company name: "Adekoya Digital" — can be changed later via Settings → My Info.
+- Fake job strategy: use adjacent title (not exact niche) to avoid recognition by savvy freelancers.
+
+**Brain commits needed:**
+- _SESSION.md (this file) ✓
+- _QUEUE.md (q001 resolved, new items added) — doing now
+- upwork/identity/profile.md (full rewrite for own account) — doing now
+- upwork/market/patterns/competitor-profiles-n8n-niche.md — already committed earlier in session
+
+---
+
 ## Last Session: 2026-07-24 (UPDATED — full day)
 
 **What we worked on:**
