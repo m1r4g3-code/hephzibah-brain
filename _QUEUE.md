@@ -53,15 +53,15 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
   {
     "id": "q017",
     "action": "Set up Project Catalog — 2 items",
-    "context": "James D. competitor analysis revealed Project Catalog is a geo-neutral discovery channel. Two items: (1) AI agent built in n8n that runs a real task in your business every day — $499, 7 days. (2) Diagnose your broken n8n workflow and give you a written repair plan — $149, 3 days. The $149 diagnostic is the entry point. Do after ID verification.",
+    "context": "James D. competitor analysis revealed Project Catalog is a geo-neutral discovery channel. Two items: (1) AI agent built in n8n that runs a real task in your business every day — $499, 7 days. (2) Diagnose your broken n8n workflow and give you a written repair plan — $149, 3 days. Both items submitted to review 2026-08-07.",
     "priority": "HIGH",
     "revenue_impact": "INDIRECT",
     "deadline": "2026-08-14",
     "owner": "Emmanuel",
     "created": "2026-08-07",
-    "state": "open",
+    "state": "resolved",
     "platform": "Upwork",
-    "next_action": "After ID verification: Upwork profile → Project Catalog → Create. Two items with above titles, prices, delivery times."
+    "next_action": "Done. Both items sent to review 2026-08-07."
   },
   {
     "id": "q018",
@@ -271,7 +271,7 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 | 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
 | 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
 | 🟠 HIGH | q016 | Cert sprint: 14 Anthropic + 4 n8n Academy | Emmanuel | 2026-08-14 | open |
-| 🟠 HIGH | q017 | Project Catalog: 2 items ($499 agent + $149 diagnostic) | Emmanuel | 2026-08-14 | open |
+| ✅ DONE | q017 | Project Catalog: 2 items ($499 agent + $149 diagnostic) | Emmanuel | — | resolved |
 | 🟠 HIGH | q012 | Record 3 portfolio Looms | Emmanuel | 2026-08-13 | open |
 | 🟠 HIGH | q015 | Confirm Bayonet solar payment terms | Emmanuel | 2026-08-08 | open |
 | 🟠 HIGH | q002 | Chase Bayonet — Revamp payment + logo | Emmanuel | — | open |

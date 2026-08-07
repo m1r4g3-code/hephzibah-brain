@@ -12,6 +12,45 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
+## Last Session: 2026-08-07 to 2026-08-08 — Portfolio batch 2 + Project Catalog + SolarCheck
+
+**What we worked on:**
+- Rendered 3 new portfolio slide sets (3 slides each, 9 PNGs total):
+  - Kairos — statistical value bet engine (Python, Pinnacle, Kelly Criterion)
+  - YCT Exam Nav — university exam scheduling system (Next.js, Supabase, DSatur)
+  - Hephzibah OS — autonomous AI outreach system (Python, Claude AI, Playwright, Telegram)
+- Portfolio form copy written for all 3 projects → `outputs/strategy/2026-08-07-portfolio-copy-batch2.md`
+- All 10 portfolio projects have slides + form copy. Upload order documented.
+- Project Catalog set up on Upwork: both items sent to review
+  - $149 diagnostic: "Diagnose your broken n8n workflow and give you a written repair plan"
+  - $499 agent build: "I'll build an n8n AI agent that runs a real task in your business every day"
+- SolarCheck Contributor Agreement reviewed (Bayonet team sent it)
+  - Agreement gives zero guaranteed compensation, permanent IP assignment, permanent confidentiality
+  - Advised counter-proposal with 3 asks: (1) 2-year confidentiality limit, (2) monthly hour cap, (3) equity clause (0.5-1% vesting over 2 years)
+  - Emmanuel has not signed yet — waiting to send counter to Bayonet
+
+**What is LIVE and needs action:**
+1. **Upwork ID verification** (q010) — still not confirmed done. CRITICAL. Settings → Identity Verification.
+2. **Withdrawal method** (q011) — still not confirmed done. CRITICAL. Settings → Get Paid.
+3. **Bayonet solar (SolarCheck)** (q015) — send counter message to Bayonet with 3 asks before signing.
+4. **Cert sprint** (q016) — education.anthropic.com (14 courses) then learn.n8n.io (4 courses). Deadline 2026-08-14.
+5. **Portfolio Looms** (q012) — Emmanuel recording 3 Looms himself. SERAMAN first.
+6. **Overview rewrite** (q018) — Recent work section + new CTA. Can run /profile-audit to get current text.
+7. **Testimonials** (q014) — Follow up if any not submitted by 2026-08-16.
+8. **Portfolio slide design** — product color accent planned: each slide gets one color pulled from the actual product's visual identity. Not done yet.
+
+**What was decided:**
+- Do NOT sign SolarCheck agreement as written. Counter first with 3 asks.
+- Equity must be in writing before any work starts on SolarCheck.
+- Project Catalog q017 resolved — both items sent to review.
+- Portfolio slides for all 10 projects are complete (form data ready, images uploaded separately).
+
+**Brain commits needed:**
+- _SESSION.md ✓ (this update)
+- _QUEUE.md ✓ (q017 resolved earlier this session)
+
+---
+
 ## Last Session: 2026-08-05 to 2026-08-06 — Upwork own account full profile build
 
 **What we worked on:**
