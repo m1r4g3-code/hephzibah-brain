@@ -38,6 +38,45 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
     "next_action": "Done."
   },
   {
+    "id": "q016",
+    "action": "Complete cert sprint: all n8n Academy + Anthropic Education courses",
+    "context": "James D. competitor analysis (2026-08-07) revealed he holds 18 certs — 4 n8n Academy + 14 Anthropic Education — all completed in August 2026. All free. Keyword density, credibility signals, verification links. n8n Academy: learn.n8n.io (QS101, N8N101, N8N102, N8N103). Anthropic Education: education.anthropic.com (14 courses). Emmanuel currently has 4 certs. Target: 18+.",
+    "priority": "HIGH",
+    "revenue_impact": "INDIRECT",
+    "deadline": "2026-08-14",
+    "owner": "Emmanuel",
+    "created": "2026-08-07",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "Go to education.anthropic.com → complete all 14 courses. Then learn.n8n.io → complete N8N102 and N8N103. Add each cert to Upwork profile as you finish with verification link."
+  },
+  {
+    "id": "q017",
+    "action": "Set up Project Catalog — 2 items",
+    "context": "James D. competitor analysis revealed Project Catalog is a geo-neutral discovery channel. Two items: (1) AI agent built in n8n that runs a real task in your business every day — $499, 7 days. (2) Diagnose your broken n8n workflow and give you a written repair plan — $149, 3 days. The $149 diagnostic is the entry point. Do after ID verification.",
+    "priority": "HIGH",
+    "revenue_impact": "INDIRECT",
+    "deadline": "2026-08-14",
+    "owner": "Emmanuel",
+    "created": "2026-08-07",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "After ID verification: Upwork profile → Project Catalog → Create. Two items with above titles, prices, delivery times."
+  },
+  {
+    "id": "q018",
+    "action": "Rewrite overview: add Recent work section + update closing CTA",
+    "context": "James D. analysis revealed two gaps: (1) No Recent work section — SERAMAN needs operational language: four n8n workflows, exactly-once job tracking, error routing with amber/red alert classification, human review gate, Creatomate rendering, Blotato multi-platform publishing, running in production. (2) Closing CTA is sales pitch not advisory. Target: 'Tell me what you are trying to automate and I will tell you the simplest honest way to get it done.'",
+    "priority": "MEDIUM",
+    "revenue_impact": "INDIRECT",
+    "deadline": "2026-08-14",
+    "owner": "Emmanuel",
+    "created": "2026-08-07",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "Run /profile-audit to get current overview text. Rewrite Recent work section and CTA. Paste into Upwork overview editor."
+  },
+  {
     "id": "q010",
     "action": "Complete Upwork ID verification",
     "context": "Own account (011b48d2eabbfa6361) active. Profile fully built. ID verification not completed — blocks account from being fully active. Settings → Identity Verification.",
@@ -231,11 +270,14 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 |---|---|---|---|---|---|
 | 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
 | 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
+| 🟠 HIGH | q016 | Cert sprint: 14 Anthropic + 4 n8n Academy | Emmanuel | 2026-08-14 | open |
+| 🟠 HIGH | q017 | Project Catalog: 2 items ($499 agent + $149 diagnostic) | Emmanuel | 2026-08-14 | open |
 | 🟠 HIGH | q012 | Record 3 portfolio Looms | Emmanuel | 2026-08-13 | open |
 | 🟠 HIGH | q015 | Confirm Bayonet solar payment terms | Emmanuel | 2026-08-08 | open |
 | 🟠 HIGH | q002 | Chase Bayonet — Revamp payment + logo | Emmanuel | — | open |
 | 🟠 HIGH | q003 | Petit Lit follow-up | Emmanuel | — | open |
 | 🟠 HIGH | q005 | Giovanni NGO — scope onboarding | Oba | — | open |
+| 🟡 MEDIUM | q018 | Rewrite overview: Recent work section + CTA | Emmanuel | 2026-08-14 | open |
 | 🟡 MEDIUM | q013 | Record + upload intro video | Emmanuel | — | open |
 | 🟡 MEDIUM | q014 | Follow up testimonials by 2026-08-16 | Emmanuel | 2026-08-16 | open |
 | 🟡 MEDIUM | q004 | LinkedIn posts 4-6 (overdue — reschedule) | Emmanuel | — | open |
