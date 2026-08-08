@@ -26,13 +26,61 @@ Two posts from the same vendor, same day, make this explicit:
 
 The vendor volunteers "Physical & eSIM" as a selling point and flags "eSIM Locked" as a qualifier. That asymmetry is the tell: **physical SIM support carries a premium in this market, and eSIM-only carries a discount.**
 
-**Why:** Nigerian carriers support eSIM unevenly. Activation means a specific visit and the right SIM-swap process, and not every buyer can or will do it. An eSIM-only phone is a smaller buyer pool, so it prices lower.
+**CORRECTION 2026-08-08 — the first explanation written here was wrong.** It said Nigerian eSIM support is patchy. It is not: MTN, Airtel, Glo and 9mobile all support eSIM, Glo since March 2025. Emmanuel's own read was closer, and researching it produced a much worse answer than the one being replaced.
 
-**Consequence for Hephzibah:** an eSIM-only phone is cheaper *because it is harder to sell*, not because it is a bargain. The discount is the market pricing a real constraint. Passing that phone to a buyer who does not understand the limitation is the fastest possible route to a return and a complaint — see [[trust-as-margin]].
+**What "eSIM Locked" actually means, and why it is severe:**
 
-**This has to be disclosed in the listing, in plain words, above the price.** Not "eSIM locked" — that is trade shorthand a normal buyer will not parse.
+Two separate facts combine into one problem.
 
-**Open:** does "Esim Locked" here mean eSIM-only hardware (US model, no SIM tray), or carrier-locked-but-eSIM? Those are different problems. **Ask the vendor.**
+1. **US iPhones from the 14 onward have no physical SIM tray at all.** eSIM is the only way in.
+2. **A carrier lock covers the eSIM chip, not just the SIM slot.** A phone locked to AT&T or Verizon will refuse any other carrier's eSIM — the profile may appear to install and then simply never connect.
+
+Put together on a US model: **no SIM tray + cannot accept an MTN, Airtel, Glo or 9mobile eSIM = no cellular service in Nigeria at all.** No calls, no SMS, no mobile data. A very expensive iPod touch.
+
+That is the real reason it is ₦30k+ cheaper, and it is not a discount — it is the market pricing a device that cannot do the main thing a phone does.
+
+**The check, before ever quoting one:**
+`Settings → General → About → Carrier Lock`
+- **"No SIM Restrictions"** → genuinely unlocked, any Nigerian eSIM will work. Fine.
+- **"SIM Locked"** → locked to a foreign carrier. On an eSIM-only body, WiFi only.
+
+Ninety seconds, on the unit, before any money moves. There is no way to establish this from a photo or a group post.
+
+**Consequence for Hephzibah:** this is the single most dangerous unit type seen so far. A buyer paying ₦735,000 for a phone that cannot take their line is not a complaint — it is a refund, a public thread, and the end of the trust position ([[trust-as-margin]]). If one is ever sold it must say, in plain words above the price: *"This phone cannot use a Nigerian SIM or eSIM. WiFi only."*
+
+Better rule while volume is low: **do not touch eSIM-locked units.** The spread is not worth the exposure.
+
+---
+
+### 4. Apple "Important Message" codes — IBM / ICM / IDM
+
+Vendor shorthand that appears in group posts, usually unexplained. Emmanuel flagged these; researched 2026-08-08.
+
+| Code | Full name | What was replaced |
+|---|---|---|
+| **IBM** | **I**mportant **B**attery **M**essage | Battery |
+| **ICM** | **I**mportant **C**amera **M**essage | Camera |
+| **IDM** | **I**mportant **D**isplay **M**essage | Screen |
+
+They appear when iOS cannot verify a component as a genuine Apple part — i.e. **the phone has been opened and repaired with an aftermarket part.** Anything not fitted by Apple or an Apple Authorised Service Provider triggers it.
+
+**Where to see it:** `Settings → General → About → Parts and Service History`
+
+**The honest assessment, both directions:**
+
+*Not as bad as it sounds:* calls, messages, apps and browsing all work normally. Aftermarket parts are often functionally fine. The message itself breaks nothing.
+
+*Worse than the vendor implies:* the phone has been opened. Something was damaged badly enough to need replacing. A replaced display can lose True Tone; a replaced camera or Face ID assembly can lose functions outright. Resale value drops hard and permanently, so **the discount transfers to the next seller too** — the buyer inherits it.
+
+**Why this matters more than the price:** these units are posted cheap precisely because of the flag, and vendors typically do not explain unless asked. A buyer sees a good deal, buys, and finds the warning in Settings later. That is the exact dynamic this brand exists to invert.
+
+**Rule: an IBM/ICM/IDM unit can be sold — but the code goes in the listing, translated into plain words, with the discount explained.**
+
+> "Screen was replaced with a non-Apple part, so the phone shows an Important Display Message in settings. Everything works and it's ₦40k under a clean one because of it."
+
+That is the flaw-first listing doing its job, and on this category it is worth more than on any other — because every competitor is hiding exactly this.
+
+**Also worth checking on the same screen: MDM.** A corporate/school management lock. `Settings → General → About` and an IMEI check will show it. An MDM-locked phone can be remotely wiped or bricked by the organisation that owns it. That one is not a discount — it is a skip.
 
 ### 2. Activation status — worth ₦30,000 on a ₦700k phone
 
@@ -70,6 +118,29 @@ On a **₦1,120,000** phone that is the single most important missing fact, and 
 | `Physical & Esim` | Takes a normal SIM too | Premium — vendor states it unprompted |
 | `HMU` | "Hit me up" — contact to claim | Signals limited quantity |
 | `2 above` | Two units available | Quantity on hand |
+| **`IBM`** | Important **Battery** Message | Battery replaced, non-genuine |
+| **`ICM`** | Important **Camera** Message | Camera replaced, non-genuine |
+| **`IDM`** | Important **Display** Message | Screen replaced, non-genuine |
+| `MDM` | Mobile Device Management lock | **Skip.** Corporate-owned, can be remotely bricked |
+| `FMI` | Find My iPhone / Activation Lock | Must read **OFF**. On = iCloud locked = worthless |
+| `Mint` | Vendor's cosmetic grade | Unstandardised. Means nothing until inspected |
+| `Factory Unlock` | No carrier restriction | **Premium state.** Any network, any SIM |
+
+**The pattern across IBM / ICM / IDM / Mint:** these are the codes that make a phone cheap, and vendors post them without explanation. A buyer reads the low price, not the three letters. That gap is the business.
+
+## The Three-Screen Check
+
+Everything above resolves on the unit in about two minutes. This is the routine, and it runs on every phone regardless of who it came from.
+
+| Screen | Path | Pass |
+|---|---|---|
+| **Carrier lock** | Settings → General → About → Carrier Lock | "No SIM Restrictions" |
+| **Parts history** | Settings → General → About → Parts and Service History | No Important Messages, or they are known and priced |
+| **Battery** | Settings → Battery → Battery Health | Number recorded, screenshotted |
+
+Plus the IMEI check for FMI, MDM and blacklist status.
+
+**Photograph all three.** They are the condition report, they take two minutes, and they are the entire difference between Hephzibah and a stall.
 
 ---
 
