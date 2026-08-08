@@ -12,46 +12,6 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
-## Last Session: 2026-08-08 — HyperFrames video editor + README rewrite + Gadget OS prompt + WhatsApp pipeline audit
-
-**What we worked on:**
-- HyperFrames test render: built 6-card composition (index.html + card-01 through card-06) for Hephzibah Terminal Precision intro video (1920x1080, 63s). Fixed 5 lint errors (missing composition metadata, imperative video control removed). Render confirmed working. All cards: kinetic title overlay, lower-third tech stack pill, stack layout build list, PiP + feature cards, count-up stat, outro wordmark.
-- Brain vault node written: `hephzibah-brain-temp/concepts/hyperframes-video-editor.md`
-- README fully rewritten: ASCII art header, 3-tier architecture diagram, Telegram control plane, 20+ scripts table, HyperFrames section, cold outreach section, strategy frameworks table, platform crisis lesson. Modern, deep, reflects actual OS power.
-- Gadget OS prompt: delivered top-engineer prompt to build Hephzibah Gadget OS with shared brain + graphics designer. User will run it independently.
-- Static graphics designer prompt: delivered separate block covering Playwright-based HTML→PNG renderer for flyers/posts/images.
-- WhatsApp pipeline audit (4 folders, 1,490 files): reviewed Cyrus chat + Naim proposal PDF + SERAMAN docs. Key findings logged below.
-
-**WhatsApp audit findings:**
-- Naim (naimselmani142) — Fiverr proposal for A-Frame cabin AI video pipeline (n8n + kie.ai + Rendi). Sent May 2026. No off-platform contact captured. Lost when Fiverr suspended 2026-07-24. Logged in _PIPELINE.md.
-- Cyrus testimonial — 800-char limit bug. Emmanuel sent text over limit, Cyrus never confirmed submission. Need to resend shorter version. Added as q019.
-- Upwork platform status — restrictions lifted 2026-08-01 confirmed. _PIPELINE.md updated.
-- Cyrus is now Top Rated on Upwork (confirmed 2026-08-02). Good contact for future collaboration.
-- TIN/tax setup done by Emmanuel on 2026-08-07.
-
-**What is LIVE and needs action:**
-1. **Cyrus testimonial** (q019) — send shorter version (<800 chars) on WhatsApp. DEADLINE: 2026-08-10.
-2. **Upwork ID verification** (q010) — still pending. Settings → Identity Verification.
-3. **Withdrawal method** (q011) — Raenest discussed, TIN done. Still needs to be added on Upwork Settings → Get Paid.
-4. **Cert sprint** (q016) — 14 Anthropic + 4 n8n Academy. Deadline 2026-08-14.
-5. **Portfolio Looms** (q012) — 3 Looms to record. SERAMAN first.
-6. **Bayonet solar payment** (q015) — confirm before committing. Deadline was 2026-08-08.
-7. **Overview rewrite** (q018) — Recent work section + CTA. After ID verification.
-8. **Testimonials check** (q014) — follow up by 2026-08-16 for any not submitted.
-
-**What was decided:**
-- Naim is an unrecoverable lost client (no contact, Fiverr suspended). Logged and closed.
-- Cyrus testimonial needs a re-send at shorter length — not abandoned, just a bug.
-- HyperFrames composition is the reusable template for the real intro video (record Emmanuel on camera, same pipeline).
-
-**Brain commits needed:**
-- _SESSION.md (this file) ✓
-- _PIPELINE.md (Naim added, Upwork status updated) ✓
-- _QUEUE.md (q019 added) ✓
-- concepts/hyperframes-video-editor.md ✓ (done earlier this session)
-
----
-
 ## Last Session: 2026-08-07 to 2026-08-08 — Portfolio batch 2 + Project Catalog + SolarCheck
 
 **What we worked on:**

@@ -51,7 +51,6 @@ Update this file whenever a client's status changes. Read this at session start 
 | Elbert Irving (SavvySox) | Fiverr (Oba) | Phase 2 hologram automation | $700-1,200 | elbert@savvysox.com / (909) 989-9100 | YES — recovery email sent 2026-07-24 |
 | MadSoN (children animation) | Fiverr (Oba) | Cartoon pipeline $3,500 | $3,500 | Unknown — not captured at intake | NO |
 | Liubovi (B2B AI agency) | Fiverr (Oba) | Video pipeline $9,000 | $9,000 | Unknown — not captured at intake | NO |
-| Naim Selmani (naimselmani142) | Fiverr (Oba) | AI video pipeline automation — A-Frame cabin timelapse, n8n + kie.ai + Rendi | Unknown — proposal stage | Unknown — not captured at intake | NO |
 
 ---
 
@@ -67,7 +66,7 @@ Update this file whenever a client's status changes. Read this at session start 
 
 | Platform | Account | Status | Notes |
 |---|---|---|---|
-| Upwork | Emmanuel's own | Active — restrictions lifted 2026-08-01 | ID verification + withdrawal method (Raenest) pending |
+| Upwork | Emmanuel's own | Active — restricted (payment method not added) | Fix payment method to unlock bidding |
 | Fiverr | Oba's gig | **PERMANENTLY SUSPENDED 2026-07-24** | General TOS violation — AI video of public figures |
 | Direct | — | Active | Revamp Consulting via Bayonet |
 
