@@ -116,6 +116,51 @@ Two consequences:
 
 ---
 
+## ⚠ THE 50/50 SPLIT — Halve Every Number
+
+**Emmanuel and Yemi split deal profit in half.** Confirmed 2026-08-08.
+
+Every figure this OS produced before that date quoted the gross spread as though he kept it. **His actual take is half of every spread shown.** A ₦20,000 spread is ₦10,000 in his hand — and that ₦10,000 still has to cover his own transport to Ikeja and to the buyer.
+
+`qualify.py` now prints both. `PARTNER_SPLIT = 0.50`.
+
+**Open question:** does the split apply to deals sourced from [[matte]] — Emmanuel's own vendor, found independently of Yemi? Both logged deals were split, but neither is clearly a Matte-sourced deal. If Matte-sourced deals are also halved, then Emmanuel's own sourcing relationship earns him nothing extra, which is worth renegotiating rather than assuming.
+
+---
+
+## The Real Deal History — 2026
+
+Two closed deals this year. This is the entire revenue record.
+
+### Deal 1 — Oyin (coursemate), swap
+`iPhone 11 Pro Max 256GB → iPhone 14 128GB`
+**Gross profit ₦50,000 · Emmanuel's half ₦25,000**
+
+⚠ **The ₦25,000 was never paid to Yemi.** Emmanuel's phone was stolen around that period ([[financial-fragility]]), and the debt is still outstanding. It breaks his own personal rule — *"send your partner's share the same day it lands"* — for a reason nobody would argue with, and it is still a live obligation to the person he depends on for supply.
+
+### Deal 2 — Aunt's husband, laptop repair
+HP laptop — screen and keyboard replaced.
+**Gross profit ₦24,000 · split ₦12,000 each**
+
+Not a resale at all. A **repair service** — a revenue line the OS did not know existed and has no schema for.
+
+### What the two deals actually say
+
+| | Deal 1 | Deal 2 |
+|---|---|---|
+| Source | coursemate | aunt's husband |
+| Channel | **personal relationship** | **personal relationship** |
+| Type | **swap** | **repair** |
+| Gross | ₦50,000 | ₦24,000 |
+
+**Neither came from WhatsApp Status.** Both came from someone who already knew and trusted him. The posting has produced zero closed deals.
+
+**Both were also non-standard.** Not "buy phone, sell phone" — a swap and a repair. The two things that actually worked were the two things that were not straight reselling.
+
+**2026 totals: ₦74,000 gross · ₦37,000 his share · ₦12,000 actually in hand** once the unpaid ₦25,000 is set against it.
+
+---
+
 ## Confirmed Operating Facts
 
 From Emmanuel directly, 2026-08-08. These are stated, not inferred — everything else in this node is reasoning built on top of them.
@@ -126,7 +171,28 @@ From Emmanuel directly, 2026-08-08. These are stated, not inferred — everythin
 | **Does it scale with ticket?** | **Yes** — more on expensive phones | Produces the expected-spread bands below, as guidance rather than a gate. |
 | **Does he hold the phone?** | **Sometimes** — depends on the deal | The central brand risk. See the rule below. |
 | **Transport per deal** | ₦2,000–₦4,000 | The ₦3,000 default is right. On a ₦10k spread that is 30% of the profit. |
-| **Volume** | **1–3 deals per week** | The most important number here. See below. |
+| ~~**Volume**~~ | ~~1–3 deals per week~~ | **SUPERSEDED — see below** |
+| **Volume (actual)** | **2 closed deals in 2026** | Changes everything again. |
+| **Profit split** | **50/50 with Yemi** | Halves every number the OS produces |
+| **Vendor process** | Price-check **both** Matte and Yemzy per deal | A real competitive process — see below |
+
+### The volume correction
+
+An earlier answer put volume at 1–3 deals a week. The deal history shows **two closed deals in roughly eight months.** The first figure was probably read as *how much stock moves through the group*, not *how many deals Emmanuel closes*.
+
+This is the third time a working assumption has been corrected by real data, and it is the largest correction of the three. Treat every remaining unverified number here as provisional in the same way.
+
+**What it changes:** the business is not "low volume." It is pre-revenue. The OS should stop optimising deal quality — two deals a year does not have a quality problem — and concentrate entirely on **deal count**. Gates, scorecards and margin discipline are defending capital that is not at risk and time that is not scarce.
+
+### The vendor price-check — the one process that already works
+
+When a buyer appears, Emmanuel:
+1. Asks **Yemi** for the current price
+2. Asks **Matte (Matthew)** for his price
+3. Compares the two
+4. Takes whichever leaves the better margin
+
+This is genuinely good practice and it is already habit. It is also the reason the two-vendor position matters beyond the supplier gate: **competing quotes per deal is a margin lever, not just a redundancy measure.** Worth logging both quotes each time — the record of who wins on which model becomes real sourcing intelligence, and there is one visible discrepancy already (the ProBook 440 G6 at ₦270k versus ₦440k).
 
 ### Expected spread by ticket — guidance, not a gate
 
