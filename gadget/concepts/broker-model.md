@@ -124,7 +124,24 @@ Every figure this OS produced before that date quoted the gross spread as though
 
 `qualify.py` now prints both. `PARTNER_SPLIT = 0.50`.
 
-**Open question:** does the split apply to deals sourced from [[matte]] — Emmanuel's own vendor, found independently of Yemi? Both logged deals were split, but neither is clearly a Matte-sourced deal. If Matte-sourced deals are also halved, then Emmanuel's own sourcing relationship earns him nothing extra, which is worth renegotiating rather than assuming.
+**RESOLVED 2026-08-08 — the split is symmetric and runs both ways.** Emmanuel takes half of Yemi's own deals exactly as Yemi takes half of his, including deals Emmanuel plays no part in. This is a genuine pooled partnership, not a sourcing fee, and an earlier reading of it here as a possible "tax" was wrong.
+
+### What symmetry actually implies
+
+**1. The partner who closes more subsidises the one who closes less.** Emmanuel closed two deals in 2026; Yemi "closed the most deals" last year. On a symmetric split that makes Emmanuel the **net receiver** so far. Nothing wrong with that between partners — but it is the honest frame, and it sharpens two things:
+
+- The outstanding ₦25,000 is owed to the partner who has been producing more. That is worth clearing on those grounds alone.
+- The single highest-leverage variable Emmanuel controls is **his own deal count.** It is the only side of the ledger he can move.
+
+**2. Yemi is not merely a supplier — he is an investor in Emmanuel's deal flow.** He earns from every deal Emmanuel closes, whether or not he touches it. That inverts how Emmanuel should be treating the relationship:
+
+- Asking Yemi for the best price is not an imposition; Yemi profits from the sale either way
+- Asking Yemi for help, coaching, introductions or leads costs nothing and pays Yemi directly
+- Yemi has a **direct financial stake** in Emmanuel getting better at closing
+
+Emmanuel has been treating Yemi as a vendor to negotiate against. The structure says he is a partner to recruit. *"Help me close more — you earn from it too"* is a true statement, and it is almost certainly an unspent asset.
+
+**3. It makes the two-vendor process cleaner than it looked.** Price-checking [[matte]] against Yemzy is not disloyalty — a better price means a bigger pot, and Yemi takes half of that pot regardless of where the unit came from. Both partners gain from Emmanuel sourcing well.
 
 ---
 
