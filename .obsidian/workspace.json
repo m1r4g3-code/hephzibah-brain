@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "outreach/contacts/cyrus.md",
+                "file": "outreach/contacts/oba.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cyrus"
+              "title": "oba"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "252a1aa79c8bd2ee",
   "lastOpenFiles": [
+    "outreach/contacts/oba.md",
+    "outreach/contacts/cyrus.md",
     "concepts/client-intake-protocol.md",
     "_CONTEXT.md",
     "outreach/contacts/olami.md",
@@ -198,7 +200,6 @@
     "_PIPELINE.md",
     "upwork/identity/pricing.md",
     "fiverr-clients.md",
-    "outreach/contacts/oba.md",
     "outreach/contacts/giovanni.md",
     "outreach/companies/seraman.md",
     "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.a7e3ad675f91",
@@ -222,7 +223,6 @@
     "upwork/jobs/archive/2026-06-01-marketing-automation-n8n-austria.md",
     "upwork/jobs/archive/2026-06-01-canada-ai-seo-automation.md",
     "upwork/jobs/archive/2026-05-31-zoom-transcripts-tom.md",
-    "upwork/jobs/archive/2026-05-31-ai-automation-growth-engineer.md",
     "upwork/clients/active"
   ]
 }
