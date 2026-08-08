@@ -126,6 +126,10 @@ Every figure this OS produced before that date quoted the gross spread as though
 
 **RESOLVED 2026-08-08 — the split is symmetric and runs both ways.** Emmanuel takes half of Yemi's own deals exactly as Yemi takes half of his, including deals Emmanuel plays no part in. This is a genuine pooled partnership, not a sourcing fee, and an earlier reading of it here as a possible "tax" was wrong.
 
+**The operating structure, confirmed:** each partner sources independently, closes independently, and works his own deals alone. Neither needs the other's involvement to trade. All profit is pooled and halved regardless of who did the work. Close friends; the arrangement runs on understanding rather than paperwork.
+
+**What this means for how the OS should think:** there is no "my deal" and "his deal" — there is one book with two people writing into it. Emmanuel's deal count is not a personal scoreboard, it is his contribution to a shared P&L. And because either partner can trade without the other, **the ceiling on the business is simply how many deals the two of them start**, not how well any single deal is executed.
+
 ### What symmetry actually implies
 
 **1. The partner who closes more subsidises the one who closes less.** Emmanuel closed two deals in 2026; Yemi "closed the most deals" last year. On a symmetric split that makes Emmanuel the **net receiver** so far. Nothing wrong with that between partners — but it is the honest frame, and it sharpens two things:
@@ -153,7 +157,7 @@ Two closed deals this year. This is the entire revenue record.
 `iPhone 11 Pro Max 256GB → iPhone 14 128GB`
 **Gross profit ₦50,000 · Emmanuel's half ₦25,000**
 
-⚠ **The ₦25,000 was never paid to Yemi.** Emmanuel's phone was stolen around that period ([[financial-fragility]]), and the debt is still outstanding. It breaks his own personal rule — *"send your partner's share the same day it lands"* — for a reason nobody would argue with, and it is still a live obligation to the person he depends on for supply.
+The ₦25,000 has not yet been paid to Yemi — Emmanuel's phone was stolen around that period ([[financial-fragility]]). **Spoken about and acknowledged between them (2026-08-08); Emmanuel has told Yemi he will pay.** Close friends, understood on both sides. Recorded here as an open balance, not as a problem — the OS should not raise it again unless it is still open in a month.
 
 ### Deal 2 — Aunt's husband, laptop repair
 HP laptop — screen and keyboard replaced.
