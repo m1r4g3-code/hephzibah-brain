@@ -147,6 +147,58 @@ Time boost: deadline today or past → ×2.0 · deadline tomorrow → ×1.5 · o
     "state": "resolved",
     "category": "supplier",
     "next_action": "Done. matte + yemi-group nodes exist. Commercial terms still blank — that is g006."
+  },
+  {
+    "id": "g011",
+    "action": "Pay Yemi the ₦25,000 — or put a dated plan on it",
+    "context": "Outstanding since the Oyin swap; unpaid because Emmanuel's phone was stolen that period. He has spoken to Yemi and committed to paying. The split is symmetric and Yemi has closed more deals, so this is owed to the partner currently carrying more of the load. It also breaks Emmanuel's own stated rule — send your partner's share the same day it lands.",
+    "priority": "HIGH",
+    "revenue_impact": "INDIRECT",
+    "deadline": "2026-08-22",
+    "owner": "Emmanuel",
+    "created": "2026-08-08",
+    "state": "open",
+    "category": "cash",
+    "next_action": "Either pay it in full or send Yemi a specific weekly figure and a finish date. A stated plan changes the relationship; silence does not."
+  },
+  {
+    "id": "g012",
+    "action": "Work the warm list — the only channel that has ever closed a deal",
+    "context": "Both 2026 deals came from people who already knew Emmanuel (coursemate Oyin, aunt's husband). Zero came from WhatsApp Status despite months of posting. The bottleneck is not reach or creative — nobody is deliberately working the ~15-30 people who already trust him. Do NOT blast 200 coursemates; that reads as broadcast and Emmanuel already rejected it as robotic.",
+    "priority": "CRITICAL",
+    "revenue_impact": "DIRECT",
+    "deadline": "2026-08-15",
+    "owner": "Emmanuel",
+    "created": "2026-08-08",
+    "state": "open",
+    "category": "sales",
+    "next_action": "Write down every person who actually knows you. For each, note what phone they carry if known. Lead with the swap question — 'what are you using now?' — not with stock. Both closes were a swap and a repair, not a straight sale."
+  },
+  {
+    "id": "g013",
+    "action": "Log the two 2026 deals into gadget.db, and add a schema for swaps and repairs",
+    "context": "The Oyin swap (₦50k gross) and the laptop repair (₦24k gross) are the only real revenue data that exists, and they live only in broker-model.md. analytics.py has no concept of a repair or a swap — both are proven revenue lines here, and the second-biggest deal of the year was a repair the OS cannot represent.",
+    "priority": "MEDIUM",
+    "revenue_impact": "INDIRECT",
+    "deadline": "2026-08-20",
+    "owner": "Claude",
+    "created": "2026-08-08",
+    "state": "open",
+    "category": "ops",
+    "next_action": "Extend the sales table with a deal_type (sale|swap|repair) and a partner_share column, then log both deals. Until then every margin figure the OS reports is modelled, not measured."
+  },
+  {
+    "id": "g014",
+    "action": "Ask every vendor for cycle count, not just battery health",
+    "context": "'Non Boosted' commands +21% in the Yemzy data — which means battery health readings in this market are routinely faked. The brand's planned proof was a battery screenshot; that screenshot alone is now known to be insufficient. Cycle count is far harder to fake and vendors already use the term.",
+    "priority": "HIGH",
+    "revenue_impact": "DIRECT",
+    "deadline": "2026-08-15",
+    "owner": "Emmanuel",
+    "created": "2026-08-08",
+    "state": "open",
+    "category": "sourcing",
+    "next_action": "On every unit from now on, ask for cycles alongside BH, and ask 'is it boosted?' by name. Both numbers go on the product card — that pair is the thing no competitor is publishing."
   }
 ]
 ```
