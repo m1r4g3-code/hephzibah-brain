@@ -116,11 +116,69 @@ Two consequences:
 
 ---
 
-## Calibration Warning
+## Confirmed Operating Facts
 
-The ₦15,000 and 8% floors are **reasoned defaults, not measurements.** Nobody has told the OS what Emmanuel's actual spreads look like.
+From Emmanuel directly, 2026-08-08. These are stated, not inferred — everything else in this node is reasoning built on top of them.
 
-After 10 logged deals, check: what is the median spread? What is the smallest one that was worth doing? What is the largest that was achievable? Then set the floor from the data and record the change in `identity/pricing.md`. A floor invented at build time and never revisited is just a number that gets argued with.
+| Fact | Value | What it changes |
+|---|---|---|
+| **Margin added** | ₦10,000 and above | The hard floor. An earlier build guessed ₦15k + 8% and would have rejected his entire book. |
+| **Does it scale with ticket?** | **Yes** — more on expensive phones | Produces the expected-spread bands below, as guidance rather than a gate. |
+| **Does he hold the phone?** | **Sometimes** — depends on the deal | The central brand risk. See the rule below. |
+| **Transport per deal** | ₦2,000–₦4,000 | The ₦3,000 default is right. On a ₦10k spread that is 30% of the profit. |
+| **Volume** | **1–3 deals per week** | The most important number here. See below. |
+
+### Expected spread by ticket — guidance, not a gate
+
+| Sell price | Expected spread |
+|---|---|
+| under ₦150k | ₦10,000 |
+| ₦150k – ₦400k | ₦15,000 |
+| ₦400k – ₦800k | ₦25,000 |
+| ₦800k+ | ₦40,000 |
+
+**The hard floor stays ₦10,000 everywhere.** A deal below its band still passes — it is flagged as underpriced for the work, not rejected. Rejecting a real ₦12k deal on a ₦435k phone would repeat exactly the mistake the ₦15k guess made.
+
+These bands are **inferred from "it scales", not stated.** Emmanuel has not given the actual numbers per tier. Recalibrate from logged deals — queue `g007`.
+
+---
+
+## The Volume Read — What 1–3 Deals A Week Actually Means
+
+**The constraint on this business is demand, not time and not capital.**
+
+At 1–3 deals a week, Emmanuel is not running out of hours and he is not running out of stock — Ikeja has effectively unlimited supply. He is running out of **buyers**.
+
+This inverts the OS's natural priorities. Most of the machinery built into it — sourcing discipline, supplier scorecards, margin gates — optimises a constraint he does not currently have. They are still worth keeping because they stop bad deals, but they are not where the growth is.
+
+What follows from it:
+
+1. **Content is the highest-return activity available, by a wide margin.** Not a side activity. Every hour not spent on a live deal should be building the audience that produces the next one. `playbooks/content-strategy.md` is the growth document; the qualification rubric is merely the defence.
+2. **Thin deals are less bad than they look.** At 8+ deals a week, a ₦10k deal crowds out a ₦40k one and should be refused. At 1–3, there is nothing being crowded out — the alternative is an idle day. Take it, and note it.
+3. **Raising the floor is the wrong first move.** The instinct at low volume is to protect margin. The correct move is to widen the top of the funnel; margin discipline matters once there is competition for the hours.
+4. **A single repeat buyer is worth more than a better vendor price.** Referral share is the metric that compounds here.
+5. **Higher-ticket units are the cheapest growth available.** Same work, more spread. Moving from ₦400k phones to ₦800k phones roughly doubles the week without adding a single deal.
+
+**When this flips:** at roughly 8 deals a week the constraint becomes time, and every point above reverses. That is also the point at which holding stock starts to pay.
+
+---
+
+## The "Sometimes I Hold It" Rule
+
+Emmanuel collects the phone himself on some deals; on others the vendor delivers straight to the buyer. That mixed reality is the most dangerous version, because the same brand voice ends up covering two very different levels of knowledge.
+
+**The rule: verification status is a property of the deal, and the listing must match it.**
+
+| Deal type | What may be published |
+|---|---|
+| **He collects and checks it** | Verified specs, stated flatly: *"Battery 91%, checked today"* + the battery screenshot. Full Hephzibah position. |
+| **Vendor delivers direct** | **Attributed claims only:** *"Seller states battery 91% — I have not held this unit."* No verified-spec table. No inspection photos. |
+
+Never publish a spec as checked on a unit that was never held. One buyer discovering that costs more than the margin on every deal that month — see [[trust-as-margin]].
+
+**And the flag has to be recorded**, not just remembered: every pipeline row and product node carries `verified: true|false`. When a complaint arrives, the first question is which kind of deal it was, and that has to be answerable from the record rather than from memory.
+
+**The strategic version of this question:** direct-delivery deals are the ones that can end the business, and they are worth the least defending. The natural resolution as volume grows is to collect personally on high-ticket deals — where the spread justifies the trip — and be plainly honest about the rest.
 
 ---
 
