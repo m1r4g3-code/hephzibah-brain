@@ -172,11 +172,27 @@ The mechanism is atmospheric perspective — the eye reads low saturation as fur
 
 **Cutout becomes the right choice only on a photo shot against a plain background** — at which point there is nothing to remove and the isolation is clean.
 
+### The editorial grade
+
+Background recedes, subject comes forward, and the two must separate on **chroma as well as focus** — blur alone is not enough, because saturation reads as *near* regardless of how out of focus something is.
+
+| Parameter | Default | Why |
+|---|---|---|
+| `--blur` | 0.038 | Two passes, not one. A single large Gaussian looks like frosted glass; two fall off like a lens. |
+| `--sat` | 1.22 | Subject chroma up, **skin protected** — see below. |
+| `--warmth` | 5.0 | LAB b-shift, so luminance is untouched. A warm image that also got brighter looks like a mistake. |
+| `--contrast` | 0.13 | S-curve, not a contrast slider. Deepens shadows and opens highlights with black and white still anchored — what film does. |
+
+**Skin protection is the part that matters.** Boosting chroma globally turns a hand orange long before the product looks rich, because Nigerian shop tungsten has already pushed skin warm. So the boost runs **selectively**: full strength on the device, the label and the shelves, tapering to roughly neutral across skin hues (H 0–22, wrapping). Warmth is held back on skin too.
+
+That is ordinary colourist practice, and it is the whole difference between a graded photograph and a saturation slider. A hand that has gone orange is the fastest way to look amateur.
+
 ### Then
 
 ```
 python scripts/prep_photo.py <file>.jpg -o sources/products/<sku>.png
 python scripts/prep_photo.py <file>.jpg --treatment cutout    # own photo, plain bg
+python scripts/prep_photo.py <file>.jpg --sat 1.1 --warmth 3  # dial it back
 ```
 
 ---
