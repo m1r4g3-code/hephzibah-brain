@@ -137,6 +137,34 @@ Nothing off-grid. If a gap looks wrong, the fix is the next step on the scale, n
 
 ---
 
+## Product Photography — The Input That Decides Everything
+
+**No amount of processing rescues a bad source.** `scripts/prep_photo.py` isolates a device from a vendor snapshot, removes the camera tilt and grades it — and it still cannot invent detail. The iPhone 12 test unit occupied 244×408px of an 810×1080 vendor photo, so the hero image had to be upscaled 2.7× and reads soft. That is a source problem, not a processing one.
+
+**Shoot the unit at collection.** It takes two minutes and it is required by the trust position anyway — the condition report is only credible with your own photographs.
+
+### The two-minute setup
+
+| | |
+|---|---|
+| **Surface** | Plain matte. A sheet of white A4, a grey desk, a plain wall. Never a patterned cloth or a shop shelf. |
+| **Light** | One source, off to the side, indirect. Daylight through a window is ideal. Never direct flash — it blows the glass out and hides scratches. |
+| **Angle** | Square on. Phone flat, camera directly above, edges parallel to the frame. Straight beats artistic. |
+| **Distance** | Fill the frame. The device should occupy at least 70% of the photo — that is the difference between a sharp hero and a 2.7× upscale. |
+| **Frames** | Back · front powered on · the battery screen · **each named flaw close up** · the grading label if present. |
+
+**The flaw photo is not optional.** It is the proof the inspection happened, and it is the shot every competitor leaves out.
+
+### Then
+
+```
+python scripts/prep_photo.py sources/products/<file>.jpg -o sources/products/<sku>-hero.png
+```
+
+Shot properly, the isolation is clean, no upscale is needed, and the device sits on white as an object rather than as a crop.
+
+---
+
 ## What This System Forbids
 
 - Gradients used as decoration
