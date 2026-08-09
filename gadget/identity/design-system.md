@@ -176,6 +176,25 @@ The mechanism is atmospheric perspective — the eye reads low saturation as fur
 
 Background recedes, subject comes forward, and the two must separate on **chroma as well as focus** — blur alone is not enough, because saturation reads as *near* regardless of how out of focus something is.
 
+### The Apple tonal signature — what it actually is
+
+Researched rather than guessed at ([Apple Log grading workflow](https://gamut.io/apple-log-2-color-grading-workflow-the-3-step-method/), [Photographic Styles](https://petapixel.com/2024/10/24/how-apples-next-gen-photographic-styles-transform-iphone-photography/)). Three things define it, and the first build got all three backwards:
+
+| Apple does | The first build did |
+|---|---|
+| **Lifts the blacks.** Darkest tone sits near 14/255, never crushed to zero. | S-curve **deepened** shadows |
+| **Rolls highlights off** through a soft shoulder. | S-curve drove highlights harder into the clip |
+| **Smooth, global tonality.** | CLAHE added **local** contrast — the defining move of HDR processing |
+
+The result was the crunchy, over-processed look. Corrected:
+
+- `_filmic()` replaces the S-curve — mild midtone contrast, a `tanh` shoulder above the knee, then the black point lifted last so the whole range sits off zero.
+- **CLAHE removed entirely.** Local contrast is what makes a photo read as over-cooked. A bilateral denoise runs in its place, so the tone curve works on clean pixels rather than amplifying grain.
+- Sharpening radius 2.2 → 1.1 and amount 1.55 → 1.22. Large-radius sharpening leaves a bright halo along every edge, which is the single clearest "digital" tell.
+- Saturation 1.22 → 1.12, warmth 2.0 → 1.0.
+
+**Sharp is not the goal — clean is.** An Apple photo has fine detail and smooth tone. Crunch is what happens when sharpening and local contrast fight over the same pixels.
+
 **Correct the light before grading it.** Lagos shop lighting is tungsten, so every vendor photo arrives with an orange cast baked in. Adding warmth on top of that compounds it — the first attempt turned the hand orange and left the inspection label reading cream. White balance runs first, warmth second, and it is small.
 
 **The diagnostic: the inspection label is white paper.** If it reads cream on screen, the cast is still there. That one object is a free reference in almost every vendor photo.
