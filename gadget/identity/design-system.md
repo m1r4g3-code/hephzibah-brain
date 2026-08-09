@@ -151,7 +151,7 @@ Nothing off-grid. If a gap looks wrong, the fix is the next step on the scale, n
 | **Light** | One source, off to the side, indirect. Daylight through a window is ideal. Never direct flash — it blows the glass out and hides scratches. |
 | **Angle** | Square on. Phone flat, camera directly above, edges parallel to the frame. Straight beats artistic. |
 | **Distance** | Fill the frame. The device should occupy at least 70% of the photo — that is the difference between a sharp hero and a 2.7× upscale. |
-| **Frames** | Back · front powered on · the battery screen · **each named flaw close up** · the grading label if present. |
+| **Frames** | Back · front powered on · the battery screen · **the 3uTools cycle-count readout** · **each named flaw close up** · the grading label if present. |
 
 **The flaw photo is not optional.** It is the proof the inspection happened, and it is the shot every competitor leaves out.
 
