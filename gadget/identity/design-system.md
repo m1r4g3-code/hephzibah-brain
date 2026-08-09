@@ -176,11 +176,16 @@ The mechanism is atmospheric perspective — the eye reads low saturation as fur
 
 Background recedes, subject comes forward, and the two must separate on **chroma as well as focus** — blur alone is not enough, because saturation reads as *near* regardless of how out of focus something is.
 
+**Correct the light before grading it.** Lagos shop lighting is tungsten, so every vendor photo arrives with an orange cast baked in. Adding warmth on top of that compounds it — the first attempt turned the hand orange and left the inspection label reading cream. White balance runs first, warmth second, and it is small.
+
+**The diagnostic: the inspection label is white paper.** If it reads cream on screen, the cast is still there. That one object is a free reference in almost every vendor photo.
+
 | Parameter | Default | Why |
 |---|---|---|
+| `--wb` | 0.85 | Neutralises the tungsten cast. Reference is the brightest unclipped pixels — label, shelf lights, specular highlights — which are genuinely white, so a far better anchor than a grey-world average over skin and dark glass. 0.85 not 1.0, because full neutral reads clinical. |
 | `--blur` | 0.038 | Two passes, not one. A single large Gaussian looks like frosted glass; two fall off like a lens. |
 | `--sat` | 1.22 | Subject chroma up, **skin protected** — see below. |
-| `--warmth` | 5.0 | LAB b-shift, so luminance is untouched. A warm image that also got brighter looks like a mistake. |
+| `--warmth` | 2.0 | LAB b-shift, so luminance is untouched. Deliberately small — the correction already removed the cast, this only puts a touch back. |
 | `--contrast` | 0.13 | S-curve, not a contrast slider. Deepens shadows and opens highlights with black and white still anchored — what film does. |
 
 **Skin protection is the part that matters.** Boosting chroma globally turns a hand orange long before the product looks rich, because Nigerian shop tungsten has already pushed skin warm. So the boost runs **selectively**: full strength on the device, the label and the shelves, tapering to roughly neutral across skin hues (H 0–22, wrapping). Warmth is held back on skin too.
