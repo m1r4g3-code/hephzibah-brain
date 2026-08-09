@@ -155,13 +155,29 @@ Nothing off-grid. If a gap looks wrong, the fix is the next step on the scale, n
 
 **The flaw photo is not optional.** It is the proof the inspection happened, and it is the shot every competitor leaves out.
 
+### Background treatment — the decision, and why
+
+A vendor photo is taken in a busy shop. Treating the shelves and the product identically is what makes the frame read as chaos. Four options were rendered against the same photo (`outputs/graphics/2026-08-09-background-treatments.png`):
+
+| Treatment | Verdict |
+|---|---|
+| **Flat** — untouched | The shelves, the blue water bottle and the orange lights all compete with the phone. No hierarchy. |
+| **Blur** — defocus only | Better, but colour still pulls hard. Saturation reads as *near* regardless of focus. |
+| **Recede** — defocus + desaturate + lift | **Chosen.** The phone becomes unambiguously the subject while the shop stays legible as context. |
+| **Cutout** — background removed | Cleanest, and wrong here. It deletes the proof this is a real unit in a real shop, and the mask leaves visible artefacts around the wrist and beads. |
+
+**Recede is the default**, and it is compatible with the no-crop rule: it hides nothing *about the product*. Every mark, the hand, the shop and the shooting angle all remain — the surroundings simply stop competing. Removing the background is a different act, because it deletes evidence.
+
+The mechanism is atmospheric perspective — the eye reads low saturation as further away. That is the oldest depth cue in painting, and it does more work here than blur alone.
+
+**Cutout becomes the right choice only on a photo shot against a plain background** — at which point there is nothing to remove and the isolation is clean.
+
 ### Then
 
 ```
-python scripts/prep_photo.py sources/products/<file>.jpg -o sources/products/<sku>-hero.png
+python scripts/prep_photo.py <file>.jpg -o sources/products/<sku>.png
+python scripts/prep_photo.py <file>.jpg --treatment cutout    # own photo, plain bg
 ```
-
-Shot properly, the isolation is clean, no upscale is needed, and the device sits on white as an object rather than as a crop.
 
 ---
 
