@@ -2,7 +2,7 @@
 sensitivity: private
 entity_type: domain
 name: Gadget Pricing — Margin Targets and Philosophy
-last_updated: 2026-08-08
+last_updated: '2026-08-09'
 ---
 
 # Pricing — Margin Targets and Philosophy
@@ -137,3 +137,33 @@ Never just comply silently. Never lecture twice.
 ## Linked
 
 [[gadget-index]] · [[gadget-niche]] · [[gadget-brand]] · [[middleman-lesson]] · [[financial-fragility]]
+
+### HARD RULE — no vendor cost on a public surface — 2026-08-09 12:29
+
+Set by Emmanuel, 2026-08-09: *"u need approved price and always add profit price, because when customer see the price they stick to that."*
+
+**The rule: every number that reaches a customer is a SELLING price. Vendor cost never appears on a public surface. Ever.**
+
+Not on a story, not in a comparison, not in a WhatsApp reply, not "just as a rough idea".
+
+### Why it is absolute
+
+Anchoring is permanent and one-directional. The first number a buyer sees becomes the number they believe the phone is worth, and every figure after it reads as a mark-up rather than a price. A cost quoted once cannot be walked back — "that was my cost" sounds like an excuse even when it is true, and it tells the buyer exactly how much margin there is to argue over.
+
+It also leaks the sourcing position. A buyer who knows Yemzy's number can go to Yemzy.
+
+### The mechanic
+
+
+
+Bands are in  (): ₦10k under ₦150k, ₦20k to ₦350k, ₦30k to ₦600k, ₦40k above. Split 50/50 with Yemi afterwards.
+
+### Where this nearly went wrong
+
+The iPhone 14 Pro vs 15 comparison drafted on 2026-08-09 used ₦600,000 and ₦610,000. Both were vendor medians pulled straight from the parsed Yemzy feed. Correct public figures are **₦640,000 and ₦650,000**.
+
+**The failure mode is specific and worth naming:**  outputs vendor cost, because that is what the group posts. Anything drawn from that file is a cost until profit is added. Every price that moves from the price ladder onto a customer-facing surface has to pass through the band first.
+
+### Companion rule — confirm before publishing
+
+Also set 2026-08-09. Nothing goes on a public surface unverified: a price, a spec, a battery figure, a date, a claim about what a phone can do. Check it, or attribute it ("seller states"), or leave it out. The brand is built on the numbers being true, so a single confident wrong figure costs more than the post earns.
