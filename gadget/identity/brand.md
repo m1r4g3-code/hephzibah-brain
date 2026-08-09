@@ -2,23 +2,23 @@
 sensitivity: private
 entity_type: brand
 name: Hephzibah Gadgets — Brand Identity
-last_updated: 2026-08-08
+last_updated: '2026-08-09'
 relationships:
-  - target: "[[gadget-index]]"
-    type: part_of
-    strength: 10
-    first_seen: "2026-08-08"
-    last_reinforced: "2026-08-08"
-  - target: "[[specificity-as-credibility]]"
-    type: uses
-    strength: 9
-    first_seen: "2026-08-08"
-    last_reinforced: "2026-08-08"
-  - target: "[[middleman-lesson]]"
-    type: shaped_by
-    strength: 8
-    first_seen: "2026-08-08"
-    last_reinforced: "2026-08-08"
+- target: '[[gadget-index]]'
+  type: part_of
+  strength: 10
+  first_seen: '2026-08-08'
+  last_reinforced: '2026-08-08'
+- target: '[[specificity-as-credibility]]'
+  type: uses
+  strength: 9
+  first_seen: '2026-08-08'
+  last_reinforced: '2026-08-08'
+- target: '[[middleman-lesson]]'
+  type: shaped_by
+  strength: 8
+  first_seen: '2026-08-08'
+  last_reinforced: '2026-08-08'
 ---
 
 # Hephzibah Gadgets — Brand Identity
@@ -140,3 +140,13 @@ Product photography standard: matte black or plain surface, single light source,
 ## Linked
 
 [[gadget-index]] · [[yemi]] · [[lagos]] · [[middleman-lesson]] · [[specificity-as-credibility]] · [[design-system]]
+
+### Voice rule: no em dashes — 2026-08-09 11:26
+
+Emmanuel, 2026-08-09: no em dashes in customer-facing copy.
+
+Use a full stop, a comma, or split the sentence. The em dash reads as written-for-print rather than as someone talking, and every listing here is meant to sound like a person who knows devices speaking to a buyer.
+
+Applies to: listings, graphics copy, WhatsApp posts, captions, flyers. Everything a customer sees. Internal brain notes and code comments are unaffected.
+
+Also confirmed the same day: **no stock list on the daily post.** Broker stock sits at Ikeja and can sell to someone else within the hour, so a price published at 8am is a guess by lunchtime. Publishing a stale price on a brand whose whole position is 'the numbers I give you are true' costs more than the enquiries the list would generate. Live prices go out per buyer, on request, after the vendor confirms availability.
