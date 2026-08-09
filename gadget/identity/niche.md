@@ -2,7 +2,7 @@
 sensitivity: private
 entity_type: domain
 name: Gadget Niche — Categories In and Out
-last_updated: 2026-08-08
+last_updated: '2026-08-09'
 status: DEFAULT — needs operator confirmation (queue g001)
 ---
 
@@ -94,3 +94,25 @@ Rules:
 ## Linked
 
 [[gadget-index]] · [[gadget-brand]] · [[gadget-pricing]] · [[product-qualification]]
+
+### Category mix — corrected from real data — 2026-08-09 03:25
+
+Measured from 128 priced products in the Yemzy export (Apr-Aug 2026), plus the photo archive.
+
+| Category | Share of priced posts |
+|---|---|
+| iPhone | 81.2% |
+| iPad | 6.2% |
+| Windows laptops (HP EliteBook / ProBook) | 4.7% |
+| MacBook | 3.9% |
+| Samsung | 2.3% |
+| Android other (POCO, Tecno, Infinix) | 0.8% |
+| Apple Watch | 0.8% |
+
+Also in the photo archive but never price-parsed: PS4 and consoles, JBL and portable audio, AirPods, itel power stations, Green Lion keyboard cases.
+
+**Correction:** Emmanuel flagged (2026-08-09) that the business is NOT Apple-only. The first range poster listed iPhone / iPad / MacBook / Apple Watch / AirPods as category chips — a wishlist, not the book. Public categories are now **Phones · Laptops · Tablets · Audio · Gaming**.
+
+**The honest read:** iPhone is 81% of what actually gets priced, so it IS the anchor and content should stay weighted there. But the poster must not imply Apple-exclusivity — that costs the laptop and console enquiries, and laptops are the category best matched to a student network.
+
+**Still open:** the archive shows accessories and power stations that never appear in the priced feed. Sold, or just stocked by the vendor? Decides whether they belong on the poster at all.

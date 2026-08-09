@@ -77,19 +77,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
     "next_action": "Run /profile-audit to get current overview text. Rewrite Recent work section and CTA. Paste into Upwork overview editor."
   },
   {
-    "id": "q019",
-    "action": "Resend Cyrus testimonial text — original was over 800 chars",
-    "context": "Upwork testimonial request sent to Cyrus (osawayecyrus@gmail.com) on 2026-08-05. Emmanuel confirmed the review text sent was over 800 chars — Upwork's limit. Cyrus never confirmed submission. Need to send him a shorter version (under 800 chars) directly on WhatsApp. Draft: 'Emmanuel is one of the most technically sharp developers I have worked alongside. I watched him build complex n8n automation workflows connecting Claude AI, Kie.ai video generation, and multi-platform social publishing, delivered production-ready. He diagnoses the actual problem first and builds around it. If you need AI automation or Python engineering done properly, he is the person for it.' (~430 chars)",
-    "priority": "HIGH",
-    "revenue_impact": "INDIRECT",
-    "deadline": "2026-08-10",
-    "owner": "Emmanuel",
-    "created": "2026-08-08",
-    "state": "open",
-    "platform": "Upwork",
-    "next_action": "WhatsApp Cyrus the new shorter testimonial text (under 800 chars). Ask him to paste it into the Upwork testimonial form link already sent."
-  },
-  {
     "id": "q010",
     "action": "Complete Upwork ID verification",
     "context": "Own account (011b48d2eabbfa6361) active. Profile fully built. ID verification not completed — blocks account from being fully active. Settings → Identity Verification.",
@@ -281,7 +268,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 
 | Priority | ID | Action | Owner | Deadline | State |
 |---|---|---|---|---|---|
-| 🟠 HIGH | q019 | Resend Cyrus testimonial text (under 800 chars) | Emmanuel | 2026-08-10 | open |
 | 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
 | 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
 | 🟠 HIGH | q016 | Cert sprint: 14 Anthropic + 4 n8n Academy | Emmanuel | 2026-08-14 | open |
