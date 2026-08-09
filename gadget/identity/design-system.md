@@ -207,6 +207,10 @@ The result was the crunchy, over-processed look. Corrected:
 | `--warmth` | 2.0 | LAB b-shift, so luminance is untouched. Deliberately small — the correction already removed the cast, this only puts a touch back. |
 | `--contrast` | 0.13 | S-curve, not a contrast slider. Deepens shadows and opens highlights with black and white still anchored — what film does. |
 
+**Mixed lighting is the hard case, and it is the common one.** These shops have warm tungsten falling on the hand and cooler light behind. A global white balance locks onto the background and leaves the hand orange — protecting skin from *added* warmth does nothing about warmth that is already there.
+
+So skin is **actively normalised**, not merely spared: chroma above a ceiling (`--skin`, default 120) is rolled off softly, and the hue is nudged off pure orange toward red-brown. Standard skin retouching, and the only thing that survives mixed light. Study: `outputs/graphics/2026-08-09-skin-study.png`.
+
 **Skin protection is the part that matters.** Boosting chroma globally turns a hand orange long before the product looks rich, because Nigerian shop tungsten has already pushed skin warm. So the boost runs **selectively**: full strength on the device, the label and the shelves, tapering to roughly neutral across skin hues (H 0–22, wrapping). Warmth is held back on skin too.
 
 That is ordinary colourist practice, and it is the whole difference between a graded photograph and a saturation slider. A hand that has gone orange is the fastest way to look amateur.
