@@ -12,6 +12,55 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
+## Last Session: 2026-08-09 to 2026-08-10 — OS Upgrade (Business Intelligence Layer) + NZ Business Group PDF proposal
+
+**What we worked on:**
+- NZ Business Group job analyzed (composite 63, SKIP on own merits but used as upgrade catalyst)
+- PDF proposal built for NZ Business Group — Executive Management Operating System, 3 phases, 8-9 months
+  - Phase 1: $35,000 (daily intelligence layer, 3 months)
+  - Phase 1+2: $70,000 (adds weekly reporting + inbox intelligence, 6 months)
+  - Full: $100,000 (complete MOS, 8-9 months)
+  - `sources/proposals/2026-08-10-nz-bizgroup-reporting.json` (v3 — fixed deferred schema, realistic pricing, realistic scope)
+  - `outputs/strategy/2026-08-10-nz-bizgroup-reporting-proposal.pdf` — rendered and verified
+- War room analysis: full 5-framework sweep on NZ deal. Decision: Loom first (not PDF cold), then call, then PDF as SOW.
+- OS upgraded to "evolving Ryan / superhuman 3040 level" after Emmanuel's request:
+  - Principles 45-52 added: industry intel, feasibility gate, realistic timeline, value pricing, business model reading, unknown ID, scope protection, feasibility red team
+  - Principles 53-56 added: Weiss Conceptual Agreement, Challenger Sale commercial insight, MEDDPICC qualification, BLUF executive communication
+  - Business Intelligence Layer section added to CLAUDE.md
+  - 4 new brain concept nodes created and committed:
+    - `upwork/concepts/business-model-library.md`
+    - `upwork/concepts/realistic-scoping-framework.md`
+    - `upwork/concepts/value-based-pricing-framework.md`
+    - `upwork/concepts/executive-presence.md` (Weiss, Challenger Sale, MEDDPICC, BLUF, ROI business case, rapid industry intel)
+- Memory updated with OS upgrade record
+
+**What is LIVE and needs action:**
+1. **Upwork ID verification** (q010) — CRITICAL. Settings → Identity Verification. Blocked by ~$7.
+2. **Withdrawal method / Raenest** (q011) — CRITICAL. Can't get paid without this.
+3. **Bayonet solar (SolarCheck)** (q015) — send counter message with 3 asks (2yr confidentiality cap, monthly hour cap, 0.5-1% equity). OVERDUE since 2026-08-08.
+4. **Cert sprint** (q016) — 14 Anthropic Education + 4 n8n Academy. Deadline 2026-08-14.
+5. **Portfolio Looms** (q012) — 3 needed. SERAMAN first. Deadline 2026-08-13.
+6. **Intro video** (q013) — waiting on haircut. Script ready.
+7. **Overview rewrite** (q018) — Recent work section + new CTA.
+8. **Cyrus testimonial resend** (q019) — under 800 chars, WhatsApp. OVERDUE.
+9. **NZ Business Group** — if pursuing: send Loom first (not PDF cold), book call, get Conceptual Agreement on call, then send PDF as SOW. Do not send proposal cold.
+
+**What was decided:**
+- NZ job (composite 63) = SKIP on strict criteria, but engagement used as OS upgrade catalyst. If Emmanuel wants to bid: Loom with named risk first, call, then SOW.
+- Proposals priced below market reference ($25k-$75k for multi-system automation) are systemic failure. Never do this again.
+- SERAMAN is now the empirical baseline for timeline estimation. One pipeline, one company, 1.5+ months.
+- Conceptual Agreement (Weiss rule) required before any SOW over $10k.
+- MEDDPICC qualification required before investing time in proposals over $10k.
+- Commercial Insight (Challenger) is the new standard for discovery calls: teach before pitch.
+
+**Brain commits pushed:**
+- 4 concept nodes: business-model-library, realistic-scoping-framework, value-based-pricing-framework, executive-presence ✓
+- CLAUDE.md: principles 45-56 + Business Intelligence Layer section ✓
+- Memory: project_os_upgrade.md + MEMORY.md updated ✓
+- commit: 47eca22 — pushed to main ✓
+
+---
+
 ## Last Session: 2026-08-07 to 2026-08-08 — Portfolio batch 2 + Project Catalog + SolarCheck
 
 **What we worked on:**
