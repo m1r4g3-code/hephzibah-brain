@@ -12,6 +12,45 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
+## Last Session: 2026-08-10 — Deep Research Layer OS Upgrade (Principles 57-69 + 5 brain nodes)
+
+**What we worked on:**
+- Background research agent mined 10 areas: other $100k+ earners, Upwork algorithm, Blair Enns, SPIN Selling, AI niche demand, proposal A/B data, April Dunford positioning, Expert Vetted path, cold email frameworks, client retention
+- 13 new principles added to CLAUDE.md (57-69):
+  - Trust Equation, Private NPS penalty, Competitive alternatives = inertia, Implication questions
+  - Specialized profiles (+30% invitations), 7-day retainer sequence, Proposal word count 275-325
+  - AI agent language premium (2-3x budget), REPLY Method, Retainer fee arbitrage ($7,200/yr)
+  - Blair Enns deposit language, Copy-paste algorithmic detection, Dunford positioning order
+- 5 new brain concept nodes created:
+  - `upwork/concepts/trust-equation-client-retention.md` — Maister Trust Equation + 7-day sequence + fee arbitrage
+  - `upwork/concepts/spin-gap-selling-discovery.md` — SPIN + Gap Selling with automation examples
+  - `upwork/concepts/april-dunford-positioning.md` — 5-component framework for profile positioning
+  - `upwork/concepts/proposal-ab-data.md` — 10,000-proposal A/B conversion data
+  - `outreach/concepts/cold-email-frameworks.md` — REPLY Method + JMM + Berman
+- Memory updated: project_deep_research_upgrade.md + MEMORY.md updated
+- Brain committed: 73c51b2 pushed to main
+
+**Key decisions and findings:**
+- Optimal proposal word count is 275-325 (not 150-250) — confirmed by 10k-proposal A/B data
+- Private NPS 7-8 = JSS-negative — not neutral. This is why 5.0-star freelancers get stuck at 82% JSS
+- Competitive alternatives are inertia — the pricing anchor must be the cost of status quo, not other freelancers
+- Video hurts on proposals under $1k (-73%). Only use Loom on 75+ score OR $1k+ budget
+- Copy-paste opener = algorithmic ranking suppression (not just client perception)
+- Retainer clients net $7,200/year more than equivalent new clients from fee reduction alone
+
+**What is LIVE and needs action:**
+1. **Upwork ID verification** (q010) — CRITICAL. Settings → Identity Verification. Blocked by ~$7.
+2. **Withdrawal method / Raenest** (q011) — CRITICAL. Can't get paid without this.
+3. **Bayonet solar (SolarCheck)** (q015) — send counter message with 3 asks (2yr confidentiality cap, monthly hour cap, 0.5-1% equity). OVERDUE since 2026-08-08.
+4. **Cert sprint** (q016) — 14 Anthropic Education + 4 n8n Academy. Deadline 2026-08-14.
+5. **Portfolio Looms** (q012) — 3 needed. SERAMAN first. Deadline 2026-08-13.
+6. **Intro video** (q013) — waiting on haircut.
+7. **Overview rewrite** (q018) — Recent Work section + new CTA.
+8. **Cyrus testimonial resend** (q019) — under 800 chars, WhatsApp. OVERDUE.
+9. **NZ Business Group** — if pursuing: Loom first (named Graph API risk), call, Conceptual Agreement, then PDF as SOW.
+
+---
+
 ## Last Session: 2026-08-09 to 2026-08-10 — OS Upgrade (Business Intelligence Layer) + NZ Business Group PDF proposal
 
 **What we worked on:**
