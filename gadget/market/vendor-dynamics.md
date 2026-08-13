@@ -2,7 +2,7 @@
 sensitivity: private
 entity_type: concept
 name: Vendor Dynamics — Why Prices Differ
-last_updated: 2026-08-08
+last_updated: '2026-08-13'
 ---
 
 # Vendor Dynamics — Why One Phone Is Cheaper Than Another
@@ -182,3 +182,25 @@ This is also the practical answer to the branded-card question: the card is buil
 ## Linked
 
 [[gadget-index]] · [[price-ranges]] · [[broker-model]] · [[trust-as-margin]] · [[matte]] · [[yemi-group]]
+
+### CORRECTION — eSIM-only is a US-MARKET variant, not 'a phone from America' — 2026-08-13 11:44
+
+Emmanuel checked this independently on 2026-08-13 and the earlier note here was imprecise in a way that matters commercially.
+
+**What is actually true:**
+
+- **US-market** iPhone 14 and later are eSIM-only, with no physical SIM tray. Apple documents this: units purchased in the US can only be activated with eSIM.
+- **Non-US regional variants of the same model** commonly have a nano-SIM tray AND eSIM.
+- Some China, Hong Kong and Macau variants carry two physical SIMs.
+
+**Why the distinction is the whole point in Lagos:** "US used" here almost always means *imported from the United States*, not *built as the US hardware variant*. A phone can have spent its life in America and still be a regional variant with a tray. Emmanuel's example: **A2889 is not the US variant** (the US iPhone 14 Pro is A2650); A2889 covers markets including Canada, Japan, Mexico, Saudi Arabia and Guam. An A2889 with a SIM tray is completely normal and not a sign of anything.
+
+**The definitive check:** , the one ending in . That code names the region the phone was built for, regardless of what the seller says or where it was shipped from.
+
+**What this changes in practice:**
+
+1. Do not tell a buyer that a phone is eSIM-only because it came from America. Look at the side of the device, or read the model number.
+2. The carrier-lock check still matters on every unit either way. A tray gives a fallback; a lock still refuses the buyer's line.
+3. The carousel published 2026-08-13 was corrected before posting. Slide 06 now separates market variant from import origin, and slide 07 teaches the model-number check.
+
+**Also worth noting on our own stock:** the HAIKUO labels on the ten iPhone Air units show A3260 and A3280. Worth confirming which regions those are before describing any of them as a US or non-US version.
