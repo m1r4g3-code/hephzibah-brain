@@ -195,7 +195,7 @@ Emmanuel checked this independently on 2026-08-13 and the earlier note here was 
 
 **Why the distinction is the whole point in Lagos:** "US used" here almost always means *imported from the United States*, not *built as the US hardware variant*. A phone can have spent its life in America and still be a regional variant with a tray. Emmanuel's example: **A2889 is not the US variant** (the US iPhone 14 Pro is A2650); A2889 covers markets including Canada, Japan, Mexico, Saudi Arabia and Guam. An A2889 with a SIM tray is completely normal and not a sign of anything.
 
-**The definitive check:** , the one ending in . That code names the region the phone was built for, regardless of what the seller says or where it was shipped from.
+**The definitive check:** `Settings > General > About > Model Number`, the one ending in `/A`. That code names the region the phone was built for, regardless of what the seller says or where it was shipped from.
 
 **What this changes in practice:**
 
