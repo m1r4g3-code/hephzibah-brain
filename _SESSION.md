@@ -12,6 +12,51 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
+## Last Session: 2026-08-12 to 2026-08-13 — Nick proposal submitted + Loom review + thumbnail
+
+**What we worked on:**
+- Loom vs text debate resolved: USE LOOM for Nick's job (score 81, ongoing hourly, Nick is a content creator)
+- Loom reviewed (https://www.loom.com/share/a430d66f23714d4aaf54766f68937175): 83 WPM too slow, 36s wasted on job page, stumbled on "Matplotlib" 4 times, 3.9s dead pause at 0:32, "thank you for listening" weak ending
+- Video downloaded → CapCut edit → Loom upload blocked (free plan) → workaround: played edited video on screen, Loom screen-recorded it → uploaded to YouTube as unlisted
+- Rate held at $35/hr. Emmanuel pushed $20, held the line. Nick's average paid rate is $27.41/hr — $20 signals desperation.
+- **Proposal submitted to Nick (Build Automated X/Twitter Posting Tool):**
+  - 19 connects spent. 6 remaining.
+  - Cover: "Hey Nick, Mapped out the full system before sending this 90-second breakdown: [YouTube link] P.S. St. Pete's inventory data has been moving fast. Good market to stress-test the detection engine on first."
+  - Q1: SERAMAN 7-node pipeline as architectural proof
+  - Q2: Rolling Z-score + YoY seasonality + surprise-vs-national ranking + geographic cooldown + top 10 + performance feedback loop
+  - Q3: X API v2, Tweepy, media upload, OAuth, rate limits, analytics retrieval
+  - Q4: Matplotlib ax.annotate() + ax.text() + Ellipse patches + Pillow 1200x675 composition
+  - Q5: Full stack Python/pandas → Matplotlib/Pillow → Claude API few-shot → Tweepy v2 → PostgreSQL → APScheduler → Railway + promotional rotation flag
+  - Portfolio highlights: Kairos, Autonomous AI Outreach, YCT, Video Production Pipeline
+  - Rate: $35/hr. Rate increase: Never.
+- YouTube thumbnail generated for profile intro video — Emmanuel rejected it. Gave detailed Ideogram/Leonardo prompt instead (dark BG, person right, bold text left, n8n + Claude + Next.js logos, lemon accent, white space rules).
+- Testimonials: 7-8 days since sent (Aug 5-6). Should be appearing today. Check by end of day — if nothing, open Upwork support ticket.
+- Upwork OS template for Oba: already pushed to GitHub in previous session.
+
+**What is LIVE and needs action:**
+1. **Nick proposal** (q020) — submitted 2026-08-12. Follow up at 72h if no reply (2026-08-15).
+2. **Testimonials** (q014) — 7-8 days in. Check profile NOW. If nothing by end of day, open Upwork support ticket.
+3. **Cert sprint** (q016) — deadline 2026-08-14. TOMORROW.
+4. **Portfolio Looms** (q012) — deadline was 2026-08-13. Overdue. SERAMAN first.
+5. **ID verification** (q010) — still open. Blocks full account.
+6. **Withdrawal method** (q011) — still open. Can't get paid without this.
+7. **Overview rewrite** (q018) — still open. Recent work section + CTA.
+8. **Cyrus testimonial resend** (q019) — resend under 800 chars on WhatsApp.
+9. **YouTube thumbnail** — generate via Ideogram/Leonardo using the prompt. Upload to YouTube video as custom thumbnail.
+
+**What was decided:**
+- Loom always wins on jobs scoring 75+ or budget $1k+
+- Loom free plan does NOT allow video uploads — workaround: screen record the played video
+- $20/hr rate rejected. Floor is $35/hr. Never bid below this regardless of pressure.
+- Proposal Looms: start on diagram from second 1, not the job page. Target 90 seconds. Practice "Matplotlib" before recording.
+- Image generators (Ideogram/Leonardo) better for thumbnails than the renderer when a face photo is the centerpiece
+
+**Brain commits needed:**
+- _SESSION.md (this update) ✓
+- _QUEUE.md (add q019 Cyrus resend, add q020 Nick proposal, update q014 urgency) ✓
+
+---
+
 ## Last Session: 2026-08-10 — Deep Research Layer OS Upgrade (Principles 57-69 + 5 brain nodes)
 
 **What we worked on:**

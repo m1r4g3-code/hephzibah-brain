@@ -38,6 +38,32 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
     "next_action": "Done."
   },
   {
+    "id": "q020",
+    "action": "Follow up Nick proposal if no reply by 2026-08-15",
+    "context": "Proposal submitted 2026-08-12. Nick's job: Build Automated X/Twitter Posting Tool. $35/hr, 19 connects spent, 6 remaining. YouTube Loom link in cover letter. All 5 screening questions answered. 72h follow-up window = 2026-08-15.",
+    "priority": "HIGH",
+    "revenue_impact": "DIRECT",
+    "deadline": "2026-08-15",
+    "owner": "Emmanuel",
+    "created": "2026-08-12",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "Check Upwork messages. If no reply by 2026-08-15, send polite follow-up in the proposal thread."
+  },
+  {
+    "id": "q019",
+    "action": "Resend Cyrus testimonial request — under 800 chars on WhatsApp",
+    "context": "Cyrus (osawayecyrus@gmail.com) was sent a LinkedIn testimonial + Upwork recommendation request 2026-08-05. Not yet confirmed submitted. WhatsApp him directly with a short message and the link.",
+    "priority": "MEDIUM",
+    "revenue_impact": "INDIRECT",
+    "deadline": "2026-08-16",
+    "owner": "Emmanuel",
+    "created": "2026-08-10",
+    "state": "open",
+    "platform": "LinkedIn",
+    "next_action": "WhatsApp Cyrus directly. Keep under 800 chars. Include the Upwork recommendation link."
+  },
+  {
     "id": "q016",
     "action": "Complete cert sprint: all n8n Academy + Anthropic Education courses",
     "context": "James D. competitor analysis (2026-08-07) revealed he holds 18 certs — 4 n8n Academy + 14 Anthropic Education — all completed in August 2026. All free. Keyword density, credibility signals, verification links. n8n Academy: learn.n8n.io (QS101, N8N101, N8N102, N8N103). Anthropic Education: education.anthropic.com (14 courses). Emmanuel currently has 4 certs. Target: 18+.",
@@ -130,16 +156,16 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
   },
   {
     "id": "q014",
-    "action": "Follow up on 5 testimonials if not submitted by 2026-08-16",
-    "context": "5 LinkedIn testimonials in motion: Cyrus, Rejoice, Oba, Bayonet, Samuel. All emailed with review text + Upwork recommendation requests sent. Takes 8-10 days to appear. Check by 2026-08-16.",
-    "priority": "MEDIUM",
+    "action": "Check testimonials TODAY — 7-8 days in, should be appearing",
+    "context": "5 LinkedIn testimonials sent 2026-08-05/06: Cyrus, Rejoice, Oba, Bayonet, Samuel. Now 7-8 days in (2026-08-13). Window is 5-8 days. Check Upwork profile now. If nothing visible by end of day, open Upwork support ticket and ask them to push it through. Cyrus follow-up via WhatsApp handled in q019.",
+    "priority": "HIGH",
     "revenue_impact": "INDIRECT",
-    "deadline": "2026-08-16",
+    "deadline": "2026-08-13",
     "owner": "Emmanuel",
     "created": "2026-08-06",
     "state": "open",
     "platform": "Upwork",
-    "next_action": "Check profile by 2026-08-16. If any not submitted, WhatsApp the person directly."
+    "next_action": "Check Upwork profile → testimonials section. If not visible, open support ticket today."
   },
   {
     "id": "q015",
@@ -270,20 +296,22 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 |---|---|---|---|---|---|
 | 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
 | 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
+| 🟠 HIGH | q020 | Nick proposal follow-up if no reply | Emmanuel | 2026-08-15 | open |
+| 🟠 HIGH | q014 | Check testimonials TODAY — 7-8 days in | Emmanuel | 2026-08-13 | open |
 | 🟠 HIGH | q016 | Cert sprint: 14 Anthropic + 4 n8n Academy | Emmanuel | 2026-08-14 | open |
-| ✅ DONE | q017 | Project Catalog: 2 items ($499 agent + $149 diagnostic) | Emmanuel | — | resolved |
-| 🟠 HIGH | q012 | Record 3 portfolio Looms | Emmanuel | 2026-08-13 | open |
+| 🟠 HIGH | q012 | Record 3 portfolio Looms (OVERDUE) | Emmanuel | 2026-08-13 | open |
 | 🟠 HIGH | q015 | Confirm Bayonet solar payment terms | Emmanuel | 2026-08-08 | open |
 | 🟠 HIGH | q002 | Chase Bayonet — Revamp payment + logo | Emmanuel | — | open |
 | 🟠 HIGH | q003 | Petit Lit follow-up | Emmanuel | — | open |
 | 🟠 HIGH | q005 | Giovanni NGO — scope onboarding | Oba | — | open |
+| 🟡 MEDIUM | q019 | Cyrus testimonial resend — WhatsApp | Emmanuel | 2026-08-16 | open |
 | 🟡 MEDIUM | q018 | Rewrite overview: Recent work section + CTA | Emmanuel | 2026-08-14 | open |
 | 🟡 MEDIUM | q013 | Record + upload intro video | Emmanuel | — | open |
-| 🟡 MEDIUM | q014 | Follow up testimonials by 2026-08-16 | Emmanuel | 2026-08-16 | open |
 | 🟡 MEDIUM | q004 | LinkedIn posts 4-6 (overdue — reschedule) | Emmanuel | — | open |
 | 🟡 MEDIUM | q006 | Gadget OS design | Emmanuel | — | open |
 | 🟡 MEDIUM | q007 | SERAMAN scene 1/8 volume fix | Emmanuel | — | open |
 | 🟡 MEDIUM | q008 | SERAMAN Gemini Omni greenlight | Oba | — | open |
+| ✅ DONE | q017 | Project Catalog: 2 items ($499 agent + $149 diagnostic) | Emmanuel | — | resolved |
 | ✅ DONE | q001 | Upwork account restriction resolved | Emmanuel | — | resolved |
 | ✅ DONE | q009 | OS Tier 2 + 3 build | Emmanuel | — | resolved |
 
