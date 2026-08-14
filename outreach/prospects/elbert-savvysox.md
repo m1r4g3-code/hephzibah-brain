@@ -11,7 +11,7 @@ status: outreach_sent
 outreach_sent_on: 
 2026-07-27
 platform: direct
-send_from: adekoyaafolasade29@gmail.com
+send_from: adekoyaemmanuel15@gmail.com
 sensitivity: private
 ---
 
@@ -40,3 +40,5 @@ Reference the hologram pipeline work already done in Phase 1.
 2026-07-24 — Fiverr account suspended. Contact found: elbert@savvysox.com / (909) 989-9100. Recovery email drafted.
 
 **2026-07-27** — Auto-sent — 'Quick thing re: SavvySox'
+
+**2026-08-14** — Re-engagement sent from adekoyaemmanuel15@gmail.com — Subject: 'Re: Quick thing re: SavvySox'. Referenced Oba partnership, mentioned prior email before his travel, asked for a 15-minute call. Oba instructed to stop all further contact with Elbert (no messages, no LinkedIn activity). Emmanuel owns this lane now.
