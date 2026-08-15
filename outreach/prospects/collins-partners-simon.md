@@ -5,9 +5,9 @@ role: Partner
 email: simon@cplawyers.ca
 linkedin: 
 website: https://www.collinspartners.ca
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-15
 platform: cold
 signal: ops_gap
 signal_detail: Two-location personal injury law firm in Vancouver/Surrey with manual intake (basic contact form + phone), no booking system, no automated case status updates
@@ -29,3 +29,5 @@ I build automated intake flows: form submitted, case type categorized, right off
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-15** — Auto-sent — 'Quick thing re: Collins Partners LLP'

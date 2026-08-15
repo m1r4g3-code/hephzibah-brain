@@ -215,3 +215,19 @@ I build lead nurture pipelines in n8n: inquiry comes in, triggered follow-up seq
 
 Emmanuel
 ```
+
+## 2026-08-15 13:24 — collins-partners-simon
+**To:** simon@cplawyers.ca
+**Subject:** Quick thing re: Collins Partners LLP
+
+```
+Hey Simon,
+
+A two-location personal injury firm running intake through a contact form means every new case goes through manual review before anyone gets back to the client.
+
+I build automated intake flows: form submitted, case type categorized, right office alerted, consultation booked automatically. Both locations handled from one pipeline.
+
+3-week build. Is intake coordination a current bottleneck at the firm?
+
+Emmanuel
+```
