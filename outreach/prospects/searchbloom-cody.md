@@ -5,9 +5,9 @@ role: CEO / Founder
 email: hello@searchbloom.com
 linkedin: 
 website: https://www.searchbloom.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-15
 platform: cold
 signal: website_gap
 signal_detail: Multi-location franchise clients (Nordstrom, US Bank) with no visible automated reporting pipeline
@@ -29,3 +29,5 @@ I build n8n pipelines that pull this automatically on a schedule and send brande
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-15** — Auto-sent — 'Quick thing re: Searchbloom'

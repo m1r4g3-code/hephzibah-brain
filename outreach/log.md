@@ -135,3 +135,19 @@ I build automated reporting pipelines in n8n: scheduled pulls from every ad plat
 
 Emmanuel
 ```
+
+## 2026-08-15 07:06 — searchbloom-cody
+**To:** hello@searchbloom.com
+**Subject:** Quick thing re: Searchbloom
+
+```
+Hey Cody,
+
+Multi-location franchise accounts require the same report structure 20-40 times per month — GA4 numbers, keyword movement per location, GMB data, all compiled and emailed to individual location managers manually.
+
+I build n8n pipelines that pull this automatically on a schedule and send branded reports per location. Agencies usually recover 8-12 hours per franchise account per month.
+
+2-3 week build. Worth exploring?
+
+Emmanuel
+```
