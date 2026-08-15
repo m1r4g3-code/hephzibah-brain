@@ -12,6 +12,52 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
+## Last Session: 2026-08-15 — Prospector upgrades + signal-based outreach batch (6 prospects)
+
+**What we worked on:**
+- Built TechCrunch (tc) + ProductHunt (ph) sources into the prospector — signal-based outreach
+- TC source: finds recently-funded companies (funding_raised signal). Tested on WeRoad ($58M), Meridian ($17M), Serval ($47M). Conclusion: TC finds companies too large (200+ people) or building AI themselves. Not the right hunting ground for freelancer outreach.
+- PH source: Atom feed works, returns 50 real launches per run. Most launches are SaaS tool builders (Zetik, Clamshell, Nenspace) — not service buyers. Low conversion rate expected.
+- DR (DesignRush) + Maps remain the best sources. Maps gives smaller local agencies with personal emails.
+- Ran 3 city searches (Denver, Austin, Phoenix) + 2 DR categories (social-media, video) + 1 PH test.
+
+**6 new prospect nodes created:**
+1. **searchbloom-cody** (Cody Jensen, hello@searchbloom.com) — multi-location franchise reporting angle — SENT
+2. **ignite-visibility** (opportunity@ignitevisibility.com) — 340-person agency reporting automation — SENT
+3. **faceted-media-kimberly** (Kimberly Hogate, kim@facetedmedia.com) — 4-person shop, 100s of clients — SENT
+4. **the-brandsmen** (cheers@thebrandsmen.com) — alcohol brand social media scheduling — SENT
+5. **blackhawk-digital-jonathan** (Jonathan Windham, hello@blackhawkdm.com) — 600+ clients, Austin — QUEUED in Telegram
+6. **affordable-image-phoenix** (sales@affordableimage.com) — healthcare/dental social media niche — QUEUED in Telegram
+
+**Bugs fixed:**
+- `outreach.py`: crash when `name:` field is empty → fixed with safe split
+- `prospector.py DR`: sponsored-slot URL injection (all agencies got same highervisibility.com URL) → fixed with dedup (drop URLs appearing 2+ times)
+
+**What is LIVE and needs action:**
+1. **Nick proposal** (q020) — submitted 2026-08-12. FOLLOW UP TODAY (72h = 2026-08-15). Reply on Upwork.
+2. **Blackhawk Digital** — Telegram approval card waiting. Tap to approve, then send manually to hello@blackhawkdm.com.
+3. **Affordable Image Phoenix** — Telegram approval card waiting. Tap to approve, then send manually to sales@affordableimage.com.
+4. **Testimonials** (q014) — 10 days since sent. Check Upwork profile NOW. If not showing, open support ticket immediately.
+5. **Cert sprint** (q016) — deadline was 2026-08-14. OVERDUE. education.anthropic.com + learn.n8n.io.
+6. **Portfolio Looms** (q012) — OVERDUE. SERAMAN first.
+7. **ID verification** (q010) — still open. Blocks full account.
+8. **Withdrawal method** (q011) — still open. Can't get paid.
+9. **Overview rewrite** (q018) — still pending.
+10. **Cyrus testimonial resend** (q019) — still pending, WhatsApp under 800 chars.
+
+**What was decided:**
+- TC source = archive intelligence only (understand what funded companies exist), not primary outreach source
+- PH source = useful signal but most PH launches are product companies, not service buyers
+- DR + Maps combo is the outreach engine. Maps with US city names gives the right profile (owner-operated, 5-15 people)
+- Healthcare niche (dental/medical/vet) is an untapped angle — repetitive content across dozens of practices
+
+**Brain commits pushed:**
+- 6 prospect nodes: searchbloom-cody, ignite-visibility, faceted-media-kimberly, the-brandsmen, blackhawk-digital-jonathan, affordable-image-phoenix ✓
+- commit: pushed to hephzibah-brain main ✓
+- prospector.py and outreach.py bugs fixed + committed to Upwork OS master ✓
+
+---
+
 ## Last Session: 2026-08-12 to 2026-08-13 — Nick proposal submitted + Loom review + thumbnail
 
 **What we worked on:**
