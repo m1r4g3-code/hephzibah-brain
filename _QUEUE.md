@@ -39,16 +39,16 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
   },
   {
     "id": "q020",
-    "action": "Follow up Nick proposal if no reply by 2026-08-15",
-    "context": "Proposal submitted 2026-08-12. Nick's job: Build Automated X/Twitter Posting Tool. $35/hr, 19 connects spent, 6 remaining. YouTube Loom link in cover letter. All 5 screening questions answered. 72h follow-up window = 2026-08-15.",
-    "priority": "HIGH",
+    "action": "Nick proposal — X/Twitter Posting Tool",
+    "context": "Proposal submitted 2026-08-12. $35/hr, 19 connects spent. YouTube Loom in cover letter. 72h window passed (2026-08-15). Cannot follow up on Upwork — platform message thread not available. No off-platform contact captured for Nick. Treat as ghost unless Nick messages first.",
+    "priority": "LOW",
     "revenue_impact": "DIRECT",
     "deadline": "2026-08-15",
     "owner": "Emmanuel",
     "created": "2026-08-12",
     "state": "open",
     "platform": "Upwork",
-    "next_action": "Check Upwork messages. If no reply by 2026-08-15, send polite follow-up in the proposal thread."
+    "next_action": "Monitor Upwork notifications. If Nick replies, respond same session. Otherwise dead lead — log as ghosted."
   },
   {
     "id": "q019",
@@ -66,7 +66,7 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
   {
     "id": "q016",
     "action": "Complete cert sprint: all n8n Academy + Anthropic Education courses",
-    "context": "James D. competitor analysis (2026-08-07) revealed he holds 18 certs — 4 n8n Academy + 14 Anthropic Education — all completed in August 2026. All free. Keyword density, credibility signals, verification links. n8n Academy: learn.n8n.io (QS101, N8N101, N8N102, N8N103). Anthropic Education: education.anthropic.com (14 courses). Emmanuel currently has 4 certs. Target: 18+.",
+    "context": "James D. competitor analysis (2026-08-07) revealed he holds 18 certs — 4 n8n Academy + 14 Anthropic Education — all completed in August 2026. All free. Keyword density, credibility signals, verification links. n8n Academy: learn.n8n.io (QS101, N8N101, N8N102, N8N103). Anthropic Education: education.anthropic.com (14 courses). UPDATE 2026-08-15: Anthropic cert confirmed added by Emmanuel. Remaining: n8n Academy certs (N8N102, N8N103) + remaining Anthropic courses. Target: 18+.",
     "priority": "HIGH",
     "revenue_impact": "INDIRECT",
     "deadline": "2026-08-14",
@@ -105,15 +105,15 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
   {
     "id": "q010",
     "action": "Complete Upwork ID verification",
-    "context": "Own account (011b48d2eabbfa6361) active. Profile fully built. ID verification not completed — blocks account from being fully active. Settings → Identity Verification.",
+    "context": "RESOLVED 2026-08-15. Emmanuel confirmed ID verification is already done.",
     "priority": "CRITICAL",
     "revenue_impact": "DIRECT",
     "deadline": "2026-08-07",
     "owner": "Emmanuel",
     "created": "2026-08-06",
-    "state": "open",
+    "state": "resolved",
     "platform": "Upwork",
-    "next_action": "Settings → Identity Verification. Takes 10-15 min."
+    "next_action": "Done."
   },
   {
     "id": "q011",
@@ -294,9 +294,9 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 
 | Priority | ID | Action | Owner | Deadline | State |
 |---|---|---|---|---|---|
-| 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
+| ✅ DONE | q010 | Upwork ID verification | Emmanuel | — | resolved |
 | 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
-| 🟠 HIGH | q020 | Nick proposal follow-up if no reply | Emmanuel | 2026-08-15 | open |
+| 🟡 LOW | q020 | Nick proposal (ghost — no Upwork contact available) | Emmanuel | — | open |
 | 🟠 HIGH | q014 | Check testimonials TODAY — 7-8 days in | Emmanuel | 2026-08-13 | open |
 | 🟠 HIGH | q016 | Cert sprint: 14 Anthropic + 4 n8n Academy | Emmanuel | 2026-08-14 | open |
 | 🟠 HIGH | q012 | Record 3 portfolio Looms (OVERDUE) | Emmanuel | 2026-08-13 | open |
