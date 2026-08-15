@@ -167,3 +167,19 @@ I build content scheduling pipelines in n8n that take approved content and push 
 
 Emmanuel
 ```
+
+## 2026-08-15 13:23 — recruitment-boutique-jason
+**To:** enquiries@recruitment-boutique.com
+**Subject:** Quick thing re: Recruitment Boutique
+
+```
+Hey Jason,
+
+28-day candidate campaigns with weekly CV database searches and manual screening across multiple roles takes a serious ops burden.
+
+I build candidate sourcing pipelines in n8n that auto-pull from CV databases on a schedule, filter against client specs, and flag matches into a review queue. Agencies doing this typically cut manual screening time by 60-70%.
+
+2-3 week build. Is manual candidate screening your biggest time sink right now?
+
+Emmanuel
+```

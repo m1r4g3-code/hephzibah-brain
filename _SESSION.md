@@ -12,6 +12,44 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
+## Last Session: 2026-08-15 (continued) — Global expansion batch: UK, Canada, Kuwait + all-round automation
+
+**What we worked on:**
+- Ran 9 parallel background searches expanding geography (UK, Canada, Kuwait) and categories (development, real estate, recruitment, ecommerce)
+- Search sources: Google Maps (London, Toronto, Vancouver, Chicago, Kuwait) + DesignRush (app-dev, ecommerce)
+- DR ecommerce returned 0 agencies (URL issue). DR app-dev returned 10 agencies (6 with emails).
+- Kuwait returned smart-home automation companies (not right fit) + one tech co (GBS).
+- Unico Connect (DR app-dev) = SKIP: they're an AI-native dev company, not a buyer.
+- DR app-dev winner: Net Craft (Scottsdale AZ, Jason, 40+ team, Phoenix Suns client) but email domain mismatch, deferred.
+
+**5 new prospect nodes created and QUEUED in Telegram:**
+1. **recruitment-boutique-jason** (Jason, enquiries@recruitment-boutique.com, London) — 28-day candidate campaigns, CV screening automation
+2. **westminster-web-design** (info@westminsterwebdesign.co.uk, London) — social media management for clients, content scheduling pipeline
+3. **one-real-estate-chicago** (office@onerealestatechicago.com) — real estate office, lead nurture + listing alert drips
+4. **collins-partners-simon** (Simon Collins, simon@cplawyers.ca, Vancouver) — 2-location personal injury law firm, intake automation
+5. **canada-create-amir** (Amir Vincent, info@canadacreate.com, Toronto) — 18-year agency, reporting automation across GA4/Ads/Meta
+
+**What is LIVE and needs action:**
+1. **Nick proposal** (q020) — submitted 2026-08-12. FOLLOW UP TODAY (72h = 2026-08-15). Reply on Upwork.
+2. **Blackhawk Digital** (hello@blackhawkdm.com) — Telegram approval card still waiting. Jonathan Windham, CEO.
+3. **Affordable Image Phoenix** (sales@affordableimage.com) — Telegram approval card still waiting.
+4. **5 new prospects** (recruitment-boutique, westminster, one-real-estate, collins-partners, canada-create) — queued in Telegram, tap to approve.
+5. **Testimonials** (q014) — 10+ days since sent. Check Upwork profile. If not showing, open support ticket.
+6. **Cert sprint** (q016) — OVERDUE as of 2026-08-14.
+7. **Portfolio Looms** (q012) — OVERDUE. SERAMAN first.
+8. **ID verification** (q010) — still open.
+9. **Withdrawal method** (q011) — still open, can't get paid.
+10. **Cyrus testimonial resend** (q019) — pending.
+
+**What was decided:**
+- Development targets: best angle is to reach agencies/firms with manual ops (recruitment, law, real estate, full-service marketing)
+- Not all-round automation = also includes: intake, CRM drip, candidate pipeline, reporting, booking flows
+- Geography expansion: UK and Canada returning good results. Kuwait = smart home automation companies, low conversion expected.
+- Law firms (personal injury) are strong automation targets: manual intake, two-location routing, follow-up sequences.
+- Recruitment agencies are strong: 28-day manual campaigns are textbook automation pain.
+
+---
+
 ## Last Session: 2026-08-15 — Prospector upgrades + signal-based outreach batch (6 prospects)
 
 **What we worked on:**
