@@ -151,3 +151,19 @@ I build n8n pipelines that pull this automatically on a schedule and send brande
 
 Emmanuel
 ```
+
+## 2026-08-15 07:06 — the-brandsmen
+**To:** cheers@thebrandsmen.com
+**Subject:** Quick thing re: The Brandsmen
+
+```
+Hey,
+
+Social media management for alcohol brands means scheduling 15-20 posts per week across Instagram, TikTok, Facebook per client — all timed to the brand's calendar, formatted differently per platform, by hand.
+
+I build content scheduling pipelines in n8n that take approved content and push to every platform automatically, plus generate a monthly performance summary per brand.
+
+2-3 week build. Relevant for your current client load?
+
+Emmanuel
+```

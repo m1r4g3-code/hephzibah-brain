@@ -5,9 +5,9 @@ role: Owner
 email: cheers@thebrandsmen.com
 linkedin: 
 website: https://www.thebrandsmen.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-15
 platform: cold
 signal: website_gap
 signal_detail: Social media management for alcohol brands (spirits, wine, cocktails) with no content scheduling or reporting automation visible
@@ -29,3 +29,5 @@ I build content scheduling pipelines in n8n that take approved content and push 
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-15** — Auto-sent — 'Quick thing re: The Brandsmen'
