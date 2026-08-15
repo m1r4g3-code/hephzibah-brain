@@ -199,3 +199,19 @@ I build content scheduling pipelines in n8n that take a content calendar and aut
 
 Emmanuel
 ```
+
+## 2026-08-15 13:24 — one-real-estate-chicago
+**To:** office@onerealestatechicago.com
+**Subject:** Quick thing re: One Real Estate Chicago
+
+```
+Hey,
+
+Real estate leads go cold fast. Most offices are following up manually over email, which means anything that slips gets forgotten.
+
+I build lead nurture pipelines in n8n: inquiry comes in, triggered follow-up sequence starts, listing alerts go out automatically. No manual chasing per lead.
+
+2-week build. Is lead follow-up your main bottleneck right now?
+
+Emmanuel
+```

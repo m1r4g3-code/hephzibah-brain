@@ -5,9 +5,9 @@ role: Owner
 email: office@onerealestatechicago.com
 linkedin: 
 website: https://onerealestatechicago.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-15
 platform: cold
 signal: ops_gap
 signal_detail: Chicago real estate office with no visible CRM drip system or automated lead follow-up — leads likely followed up manually
@@ -29,3 +29,5 @@ I build lead nurture pipelines in n8n: inquiry comes in, triggered follow-up seq
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-15** — Auto-sent — 'Quick thing re: One Real Estate Chicago'
