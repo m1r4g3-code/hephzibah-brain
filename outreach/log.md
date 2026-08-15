@@ -231,3 +231,19 @@ I build automated intake flows: form submitted, case type categorized, right off
 
 Emmanuel
 ```
+
+## 2026-08-15 13:24 — canada-create-amir
+**To:** info@canadacreate.com
+**Subject:** Quick thing re: Canada Create
+
+```
+Hey Amir,
+
+An agency running SEO, Google Ads, video, and lead gen for clients since 2008 means monthly reporting is probably a full day of pulling data from different platforms and formatting it per client.
+
+I build automated reporting pipelines in n8n that pull from GA4, Google Ads, and Meta on a schedule and send formatted reports automatically.
+
+2-3 week build. Is reporting your biggest time overhead?
+
+Emmanuel
+```

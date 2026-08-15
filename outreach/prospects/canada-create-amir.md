@@ -5,9 +5,9 @@ role: Founder / Strategist
 email: info@canadacreate.com
 linkedin: 
 website: https://canadacreate.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-15
 platform: cold
 signal: ops_gap
 signal_detail: 18-year Toronto full-service agency (SEO, Google Ads, social ads, video, email marketing, e-com) serving international clients with no visible automated reporting pipeline
@@ -29,3 +29,5 @@ I build automated reporting pipelines in n8n that pull from GA4, Google Ads, and
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-15** — Auto-sent — 'Quick thing re: Canada Create'
