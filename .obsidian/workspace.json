@@ -11,10 +11,14 @@
             "id": "252a1aa79c8bd2ee",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "outreach/contacts/yemi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "yemi"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cyru",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,6 +185,11 @@
   },
   "active": "252a1aa79c8bd2ee",
   "lastOpenFiles": [
+    "outreach/contacts/giovanni.md",
+    "concepts/red-team-inversion.md",
+    "outreach/contacts/olami.md",
+    "outreach/contacts/oba.md",
+    "outreach/contacts/zaynab.md",
     "learning/books/art-of-plain-talk.md",
     "learning/books/super-thinking.md",
     "learning/books/hacker-mindset.md",
@@ -189,11 +198,9 @@
     "learning/books",
     "concepts/n8n.md",
     "yekini.md",
-    "outreach/contacts/oba.md",
     "outreach/contacts/cyrus.md",
     "concepts/client-intake-protocol.md",
     "_CONTEXT.md",
-    "outreach/contacts/olami.md",
     "outreach/contacts/zaynab.md.tmp.15744.2afed13eeb18",
     "concepts/ooda-loop.md",
     "concepts/oba-partnership.md",
@@ -204,7 +211,6 @@
     "_PIPELINE.md",
     "upwork/identity/pricing.md",
     "fiverr-clients.md",
-    "outreach/contacts/giovanni.md",
     "outreach/companies/seraman.md",
     "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.a7e3ad675f91",
     "upwork/clients/active/2026-06-22-giovanni-seraman.md.tmp.1556.d47b34ac4773",
@@ -212,9 +218,7 @@
     "Untitled.canvas",
     "concepts/builds-before-asking.md",
     "upwork/market/patterns/red-flags.md",
-    "outreach/contacts/zaynab.md",
     "ayo.md",
-    "upwork/concepts/kie-ai-veo3-prompt-engineering.md",
     "me/identity.md.tmp.12668.602eb26d93d3",
     "me/identity.md.tmp.12668.018cc6d6d988",
     "outreach/contacts/giovanni.md.tmp.12668.9118df80e3fc",

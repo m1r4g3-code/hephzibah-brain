@@ -11,9 +11,9 @@ Live performance tracker. Updated after every outcome. Source of truth for `/dai
 
 ---
 
-## Current State (as of 2026-08-14)
+## Current State (as of 2026-07-24)
 
-**Status:** Account active — connects loaded, bidding unblocked. Ready to bid.
+**Status:** Account active — payment method restriction blocking bidding. Fix payment method to unlock.
 
 | Metric | Value |
 |---|---|
@@ -24,9 +24,9 @@ Live performance tracker. Updated after every outcome. Source of truth for `/dai
 | Contracts completed | 0 |
 | Total revenue via Upwork | $0 |
 | JSS | — (no contracts yet) |
-| Connects remaining | ~65 (15k NGN bidding connects loaded 2026-08-14) |
+| Connects remaining | ~129 (estimate — not updated since 2026-05-29) |
 | Active contracts | 0 |
-| Account restriction | None — unblocked |
+| Account restriction | Payment method not added — BLOCKER |
 
 ---
 
@@ -62,25 +62,6 @@ Append a new section each week. Never delete old entries.
 - Social Media role initially scored as SKIP (wrong niche assumption, corrected — Emmanuel is multi-niche)
 
 **Notes:** First live proposals. Both sent to same Greece-based agency (Thessaloniki). Dual-bid strategy: automation + creative. OS writing pipeline fully operational. Roast skill added today after voice quality iteration. Both logged as ghosted as of 2026-07-24.
-
-### Week of 2026-08-14 (Week 12 — Connects Loaded, Bidding Begins)
-
-**Proposals sent:** 0 (connects just loaded — bidding starting)
-**Replies:** 0
-**Wins:** 0
-**Connects spent:** 0 (this week)
-**Revenue:** $0
-
-**Events:**
-- Cyrus sent 20k NGN. Emmanuel added 10k NGN own money = 30k total
-- 15k NGN used for verification connects
-- 15k NGN used for bidding connects (~65 connects loaded)
-- 10k NGN used for Claude Pro subscription
-- Elbert (SavvySox) re-engagement email sent 2026-08-14 from adekoyaemmanuel15@gmail.com. Oba instructed to go dark.
-- HephFlow portfolio slides (3 slides) rendered and saved to outputs/portfolio/
-- Chatbot (AI Personal Assistant) job outcome: hired someone else — logged as lost
-
----
 
 ### Week of 2026-07-24 (Week 9 — OS Structural Overhaul)
 

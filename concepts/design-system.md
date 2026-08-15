@@ -119,13 +119,6 @@ SEMANTIC
   error-muted:     rgba(255,69,69,0.12)
   info:            #4D9EFF    — blue (informational)
   info-muted:      rgba(77,158,255,0.12)
-
-EXTENDED PALETTE (secondary accents — use as supporting color, never replacing lemon)
-  terracotta:      #C1714C    — warm earthy red-orange. pairs with lemon for warmth contrast.
-  terracotta-muted: rgba(193,113,76,0.12)
-  terracotta-border: rgba(193,113,76,0.28)
-  — When to use: human/warmth contexts (testimonials, client names, "real person" proof points),
-    contrast accent in slides that use lemon as primary. Never both on same focal point.
 ```
 
 ### Light Theme (for LinkedIn posts, documents sent to clients)
