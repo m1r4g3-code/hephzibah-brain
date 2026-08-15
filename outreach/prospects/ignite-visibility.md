@@ -5,9 +5,9 @@ role: Business Development
 email: opportunity@ignitevisibility.com
 linkedin: 
 website: https://ignitevisibility.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-15
 platform: cold
 signal: website_gap
 signal_detail: 340-person agency with enterprise clients (Experian, Batteries Plus) — no automated reporting infrastructure visible
@@ -29,3 +29,5 @@ I build automated reporting pipelines in n8n: scheduled pulls from every ad plat
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-15** — Auto-sent — 'Quick thing re: Ignite Visibility'

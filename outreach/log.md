@@ -119,3 +119,19 @@ I build n8n pipelines that do that automatically: pulls from GA4 and Google Ads,
 
 Emmanuel
 ```
+
+## 2026-08-15 07:06 — ignite-visibility
+**To:** opportunity@ignitevisibility.com
+**Subject:** Quick thing re: Ignite Visibility
+
+```
+Hey,
+
+At 340+ staff and clients like Experian on your roster, you're probably generating 50+ client reports per month manually — pulling GA4, Meta, and Google Ads numbers into decks or PDFs per account.
+
+I build automated reporting pipelines in n8n: scheduled pulls from every ad platform, formatted per client spec, emailed out automatically. At this scale, teams typically recover 2-3 days per week on reporting.
+
+3-4 week build. Is reporting a manual bottleneck right now?
+
+Emmanuel
+```
