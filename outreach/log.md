@@ -183,3 +183,19 @@ I build candidate sourcing pipelines in n8n that auto-pull from CV databases on 
 
 Emmanuel
 ```
+
+## 2026-08-15 13:24 — westminster-web-design
+**To:** info@westminsterwebdesign.co.uk
+**Subject:** Quick thing re: Westminster Web Design
+
+```
+Hey,
+
+An agency that handles web design and social media management for London businesses means social media probably runs manually per client, every month.
+
+I build content scheduling pipelines in n8n that take a content calendar and auto-schedule platform-appropriate posts per client on a set cycle. Frees up whoever's doing the manual scheduling now.
+
+2-week build. Is social media management a significant part of your current client base?
+
+Emmanuel
+```

@@ -5,9 +5,9 @@ role: Owner
 email: info@westminsterwebdesign.co.uk
 linkedin: 
 website: https://westminsterwebdesign.co.uk
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-15
 platform: cold
 signal: ops_gap
 signal_detail: 12-year London agency doing web design AND social media management for business clients — content scheduling per client is manual, plus recurring monthly support contracts
@@ -29,3 +29,5 @@ I build content scheduling pipelines in n8n that take a content calendar and aut
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-15** — Auto-sent — 'Quick thing re: Westminster Web Design'
