@@ -103,3 +103,19 @@ Usually a 1-2 week build. Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-08-15 07:05 — faceted-media-kimberly
+**To:** kim@facetedmedia.com
+**Subject:** Quick thing re: Faceted Media
+
+```
+Hey Kimberly,
+
+4-person team managing hundreds of clients since 2011 — your monthly reporting is probably manual. Pulling GA4, Google Ads, and backlink numbers for each account, formatting it, emailing it out by hand.
+
+I build n8n pipelines that do that automatically: pulls from GA4 and Google Ads, formatted per client spec, emails on a schedule. Small agencies typically recover 10-15 hours a month on reporting alone.
+
+2-3 week build. Worth a quick call?
+
+Emmanuel
+```

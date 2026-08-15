@@ -5,9 +5,9 @@ role: Founder / Google Expert
 email: kim@facetedmedia.com
 linkedin: 
 website: https://facetedmedia.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-15
 platform: cold
 signal: website_gap
 signal_detail: 4-person boutique agency managing hundreds of clients since 2011 with no visible client reporting automation
@@ -29,3 +29,5 @@ I build n8n pipelines that do that automatically: pulls from GA4 and Google Ads,
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-15** — Auto-sent — 'Quick thing re: Faceted Media'
