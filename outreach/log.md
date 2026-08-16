@@ -119,3 +119,19 @@ I build content pipelines in n8n that generate and schedule platform-appropriate
 
 Emmanuel
 ```
+
+## 2026-08-16 01:37 — blackhawk-digital-jonathan
+**To:** hello@blackhawkdm.com
+**Subject:** Quick thing re: Blackhawk Digital Marketing
+
+```
+Hey Jonathan,
+
+600+ clients with a team of 6 across SEO, paid ads, and social — your monthly reporting cycle is probably the biggest time sink. Pulling Google Ads, Meta, and SEO metrics per account, formatting it, emailing it out.
+
+I build n8n pipelines that pull from every platform on a schedule, format per client spec, and email them automatically. Agencies your size typically recover 2 full days per month on reporting.
+
+3-4 week build. Worth a call?
+
+Emmanuel
+```
