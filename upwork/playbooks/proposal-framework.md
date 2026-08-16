@@ -174,7 +174,7 @@ A question mark creates an open loop the brain can't ignore. But the question mu
 - First word: not "I"
 - No AI-smell phrases (see `identity/voice.md`)
 - Confident, not eager
-- Length: 150–250 words
+- Length: 275–325 words
 - Bullets = specific findings, not skill lists
 
 ---
