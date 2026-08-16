@@ -103,3 +103,19 @@ Usually a 1-2 week build. Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-08-16 01:37 — affordable-image-phoenix
+**To:** sales@affordableimage.com
+**Subject:** Quick thing re: Affordable Image Marketing Agency
+
+```
+Hey,
+
+Social media for dental, medical, and vet practices means scheduling the same content types — appointment reminders, staff spotlights, patient tips, seasonal promos — across dozens of clinic accounts manually every month.
+
+I build content pipelines in n8n that generate and schedule platform-appropriate posts per practice from a single content calendar. Saves 8-12 hours per client per month on scheduling alone.
+
+2-3 week build. Is this a current pain point?
+
+Emmanuel
+```
