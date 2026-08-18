@@ -2,7 +2,7 @@
 sensitivity: private
 entity_type: system
 name: Priority Queue
-last_updated: 2026-08-16
+last_updated: 2026-07-27
 ---
 
 # Priority Queue — Upwork OS
@@ -257,71 +257,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
     "state": "resolved",
     "platform": "OS",
     "next_action": "Done. Monitor logs/ directory for daemon errors. Run prospector as needed."
-  },
-  {
-    "id": "q019",
-    "action": "Create $15 consultation offering on Upwork profile",
-    "context": "Principle 37: fastest JSS path on a new account. Each consultation = a completed contract = JSS contribution + 5-star review path. Set at $15 for a 15-minute call. Multiple consultations before first real contract = Rising Talent faster.",
-    "priority": "HIGH",
-    "revenue_impact": "INDIRECT",
-    "deadline": "2026-08-20",
-    "owner": "Emmanuel",
-    "created": "2026-08-16",
-    "state": "open",
-    "platform": "Upwork",
-    "next_action": "Profile → Consultations → Create → set $15 rate → 15-minute duration → save."
-  },
-  {
-    "id": "q020",
-    "action": "Confirm Available Now badge is currently active",
-    "context": "Principle 29: 2 connects/day, always on. Makes profile thumbnail stand out in search. Never turn it off.",
-    "priority": "HIGH",
-    "revenue_impact": "INDIRECT",
-    "deadline": "2026-08-17",
-    "owner": "Emmanuel",
-    "created": "2026-08-16",
-    "state": "open",
-    "platform": "Upwork",
-    "next_action": "Settings → Availability → confirm Available Now is toggled on."
-  },
-  {
-    "id": "q021",
-    "action": "Install Up Cat browser extension for first-mover advantage",
-    "context": "Principle 32: upcat.io sends Telegram-style notifications when qualifying jobs come in. Being among the first to apply is statistically 80% more likely to close. Set alerts for: n8n, AI automation, workflow automation.",
-    "priority": "MEDIUM",
-    "revenue_impact": "INDIRECT",
-    "deadline": "2026-08-20",
-    "owner": "Emmanuel",
-    "created": "2026-08-16",
-    "state": "open",
-    "platform": "Upwork",
-    "next_action": "Go to upcat.io → install browser extension → configure keyword alerts: n8n, AI automation, workflow automation."
-  },
-  {
-    "id": "q022",
-    "action": "Set up Rebrandly for custom Loom URLs",
-    "context": "Principle 40: custom Loom URLs (yourname.com/upwork-proposal) look professional and signal you are serious. Required step before sending Looms to clients scoring 75+.",
-    "priority": "MEDIUM",
-    "revenue_impact": "INDIRECT",
-    "deadline": "2026-08-20",
-    "owner": "Emmanuel",
-    "created": "2026-08-16",
-    "state": "open",
-    "platform": "Outreach",
-    "next_action": "Go to rebrandly.com → sign up (free tier) → connect custom domain or use branded link → create first Loom redirect."
-  },
-  {
-    "id": "q023",
-    "action": "Run uprankmir.com keyword ranking check after profile is fully built",
-    "context": "Principle 31: uprankmir.com (Upwork Mirror) shows which keywords profile is ranking for. Run AFTER q012 (portfolio Looms) and q018 (overview rewrite) are complete.",
-    "priority": "LOW",
-    "revenue_impact": "INDIRECT",
-    "deadline": null,
-    "owner": "Emmanuel",
-    "created": "2026-08-16",
-    "state": "open",
-    "platform": "Upwork",
-    "next_action": "After q012 and q018 are done: go to uprankmir.com → enter profile URL → check keyword rankings → identify gaps."
   }
 ]
 ```
@@ -349,11 +284,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 | 🟡 MEDIUM | q006 | Gadget OS design | Emmanuel | — | open |
 | 🟡 MEDIUM | q007 | SERAMAN scene 1/8 volume fix | Emmanuel | — | open |
 | 🟡 MEDIUM | q008 | SERAMAN Gemini Omni greenlight | Oba | — | open |
-| 🟠 HIGH | q019 | Create $15 consultation offering | Emmanuel | 2026-08-20 | open |
-| 🟠 HIGH | q020 | Confirm Available Now badge is active | Emmanuel | 2026-08-17 | open |
-| 🟡 MEDIUM | q021 | Install Up Cat browser extension | Emmanuel | 2026-08-20 | open |
-| 🟡 MEDIUM | q022 | Set up Rebrandly for custom Loom URLs | Emmanuel | 2026-08-20 | open |
-| 🔵 LOW | q023 | Run uprankmir.com ranking check (after q012+q018) | Emmanuel | — | open |
 | ✅ DONE | q001 | Upwork account restriction resolved | Emmanuel | — | resolved |
 | ✅ DONE | q009 | OS Tier 2 + 3 build | Emmanuel | — | resolved |
 

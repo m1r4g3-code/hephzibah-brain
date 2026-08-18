@@ -124,23 +124,6 @@ Check the completion meter. Fill every section including education (even if info
 
 ---
 
-## Day 0 — $15 Consultation Offering (set up same session as profile)
-
-Create a paid consultation on the Upwork profile. Set it at $15 for a 15-minute call.
-
-**Why this matters:** Each completed consultation = a completed contract = JSS contribution + a path to a 5-star review. On a new account with no contracts, JSS is invisible. The consultation is the fastest route to making JSS visible and unlocking the Rising Talent badge — faster than any proposal you send.
-
-**Setup:**
-1. Profile editor → Consultations → Create consultation
-2. Rate: $15. Duration: 15 minutes. Title: "Quick Automation Audit — 15 Minutes"
-3. Description: "You bring the problem, I'll give you an honest read on what it would take to automate and whether it's worth it. No pitch."
-
-**What to do on the call:** Ask what they're trying to solve. Listen. Give them a real answer. End with: "If you want to go further, I can scope that out — or this call might be all you needed." Either outcome is a win. The review is the prize.
-
-**If they leave a 5-star:** You have a completed contract and a review. JSS clock starts. Apply this 3-5 times before the first real proposal batch for maximum algorithm effect.
-
----
-
 ## Days 1-14 — Portfolio Build (non-negotiable, do before first proposal)
 
 Target: 12 pieces minimum. Ramshaw: "5x more likely to get hired with a good portfolio section."

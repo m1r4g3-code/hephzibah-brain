@@ -72,7 +72,7 @@ Questions to answer:
 
 ### Pass 2 — Psychology
 
-**Output:** Client archetype + hidden fear + what they need to believe to hire + commercial reframe.
+**Output:** Client archetype + hidden fear + what they need to believe to hire.
 
 Questions to answer:
 1. Which client archetype matches? (See `playbooks/client-types.md`)
@@ -80,7 +80,6 @@ Questions to answer:
 3. What has the client tried before? (Often implied in the description)
 4. What does the client need to believe about Emmanuel to hire him?
 5. What's the one thing that would make this client say "finally, someone who gets it"?
-6. **Commercial Reframe:** What non-obvious truth exists about their problem that they did NOT articulate in the post? Must be real, deeper, and more expensive than the stated problem. If none exists genuinely, skip.
 
 **Output format:**
 ```
@@ -113,35 +112,16 @@ Positioning angle: [how Emmanuel positions relative to this job]
 
 ---
 
-### Pass 3.5 — Psychological Weapons Pre-flight (composite 75+ or budget $1k+)
-
-Before drafting, decide how each weapon deploys. Full framework: `upwork/concepts/proposal-psychology-weapons.md`
-
-```
-ZEIGARNIK LOOP:    What incomplete opener forces the brain to keep reading?
-REFRAME:           What non-obvious truth do we teach before pitching? (skip if none genuine)
-LOSS FRAMING:      Number + concrete outcome + category escalation. Make the loss vivid.
-MIRROR HOOK:       What specific action described viscerally enough to visualize in real time?
-ENDOWMENT:         One sentence. Present tense. Their life after. Makes them mentally own the outcome.
-P.S. LINE:         Most human line. Specific to their post. Last thing they read.
-```
-
----
-
 ### Pass 4 — Draft
 
-**Output:** Full proposal text, 250-325 words.
+**Output:** Full proposal text, 150–250 words.
 
-**Structure:**
+**Structure (from `concepts/proposal-anatomy.md`):**
 ```
-[Line 1-2:   ZEIGARNIK LOOP — incomplete opener brain must close]
-[Line 3-4:   COMMERCIAL REFRAME — non-obvious truth (skip if none genuine)]
-[Line 5-7:   LOSS FRAMING — quantified loss + category escalation]
-[Line 8-9:   MIRROR NEURON HOOK — specific action, viscerally described]
-[Line 10-11: PROOF — proper noun + specific number + named failure]
-[Line 12:    ENDOWMENT PICTURE — their life after, present tense]
-[Line 13:    ZEIGARNIK CLOSE — low friction question]
-[P.S.:       PEAK-END RULE — human, specific, memorable]
+[Opener — 1 sentence. Their situation. NOT "I". Something specific from their job.]
+[Bullets — 3-4 observations about THEIR specific situation. Scannable. Not skills.]
+[Loom link — "I put together a quick walkthrough: [link]"]
+[Question — 1 sentence. Low friction. Answerable in 10 seconds.]
 ```
 
 **The "Mirror the Fear" hook — use this before writing the opener:**
@@ -174,7 +154,7 @@ A question mark creates an open loop the brain can't ignore. But the question mu
 - First word: not "I"
 - No AI-smell phrases (see `identity/voice.md`)
 - Confident, not eager
-- Length: 275–325 words
+- Length: 150–250 words
 - Bullets = specific findings, not skill lists
 
 ---

@@ -148,7 +148,7 @@ That is the entire written proposal. The Loom is the proposal. The text is a fra
 - "Masood — Quick thoughts on your automation project"
 - "E-commerce social media — Full audit"
 
-**Rebrandly URL (mandatory on proposals scoring 75+ or budget $1k+):** Before sending any high-value Loom, replace the default `loom.com/share/abc123xyz` with a branded URL via Rebrandly. Target format: `emmanuelh.com/upwork-proposal` or similar. The default random URL looks generated. A branded URL signals you take this seriously and have a process. Setup: see q022 in `_QUEUE.md`.
+**Rebrandly URL trick:** Instead of `loom.com/share/abc123xyz`, use Rebrandly to create a custom URL like `emmanuelh.com/upwork-proposal`. Looks professional. Signals you take this seriously.
 
 ---
 

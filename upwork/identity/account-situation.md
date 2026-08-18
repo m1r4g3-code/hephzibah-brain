@@ -1,53 +1,55 @@
 ---
 sensitivity: private
 entity_type: concept
-name: Current Upwork Account — Emmanuel's Own Account (Active)
-last_updated: 2026-08-16
+name: Current Upwork Account — Temporary Situation
+last_updated: 2026-07-22
 ---
 
-# Current Upwork Account — Emmanuel's Own Account (Active)
+# Current Upwork Account — Temporary Situation
 
 ## The Setup
 
-Emmanuel is now operating **his own Upwork account**. The friend/partner account arrangement is over.
+Emmanuel is currently operating a **friend/partner's** Upwork account, not his own.
 
-- Account belongs to Emmanuel
-- No revenue split — 100% take-home (minus Upwork fees)
-- Transitioned to own account: **August 2026**
-- Full Upwork OS strategy applies without restriction
+- Account belongs to a partner
+- Revenue split: **50/50** (gross contract value divided equally)
+- Emmanuel's own account launches approximately **June 2026**
+- When his account is ready, the partner reclaims this account
+- Goal: earn short-term cash for Claude subscriptions and expenses
 
 ## What This Changes for Strategy
 
 **Contract type preference:**
-- No short-contract bias anymore — long-term retainers are now viable and desirable
-- Build toward recurring clients — every retained client = $7,200/year more in fee savings (principle 66)
-- JSS compounds permanently on his profile — protect it at all costs
+- Bias toward **short, fixed-price or short hourly** contracts (under 1 month)
+- Avoid long-term retainers — Emmanuel won't be on this account long enough
+- Still protect JSS — bad reviews hurt the partner and Emmanuel's temporary reputation
 
-**Rate ladder (own account):**
+**Rate ladder (this account only):**
 
 | Milestone | Rate |
 |---|---|
-| Starting floor | $40/hr minimum — do not negotiate below this |
-| Rising Talent badge + first reviews | $45/hr |
-| JSS 90%+ + 5 reviews | $55/hr |
-| Top Rated + strong portfolio | $70/hr+ |
+| Now — Rising Talent, 0 reviews | $20/hr |
+| 1st contract completed, 5-star review | $25/hr |
+| 3rd review + JSS visible | $30/hr |
+| $500 total earned | $33/hr |
+| $1,000 earned or Top Rated badge | $38/hr |
 
-The goal is now badge building, JSS accumulation, and rate escalation over time. Play the long game.
+No need to chase Top Rated on this account — the goal is cash, not badge building.
 
 **Revenue logging:**
-- Log full contract value — take-home is 100% (minus Upwork's fee tier: 20% first $500, 10% to $10k, 5% after)
-- Track cumulative earnings per client — fee tier drops after $500 lifetime with each client
+- Log **gross** (full contract value) in metrics
+- Emmanuel's actual take-home = **50% of gross**
+- Note both figures when logging outcomes
 
-## What Stays the Same
+## Emmanuel's Own Account (ready to launch — July 2026)
 
-- Full Upwork OS strategy: elite positioning, keyword dominance, Loom on priority bids
-- JSS protection rules (principle 3) — now even more critical, JSS is his permanently
-- The bid gate (composite score thresholds) — no change
-- Profile keyword saturation — applies now and matters more than before
+- Account exists: `~011b48d2eabbfa6361` (inactive, unconfigured)
+- Was supposed to launch June 2026 — still pending as of July 22 2026
+- Rate floor: **$40/hr minimum** — no negotiating down from this
+- Full Upwork OS strategy applies: elite positioning, keyword dominance, Loom on every priority bid
+- Nothing from the partner's account transfers — JSS, reviews, history stays with the partner
+- Launch playbook: `upwork/playbooks/account-launch.md` — run this when ready to go live
 
-## Previous Context (archived)
+## Key Point
 
-- Was on a partner's account from approximately early 2026 through August 2026
-- That account had 50/50 revenue split and short-contract bias
-- Nothing from the partner's account transferred — JSS, reviews, history stays with the partner
-- Emmanuel took the cash, the reps, and the OS intelligence
+Work done on this account does NOT carry to Emmanuel's account. Every review, every JSS point, every client relationship belongs to the account owner. Emmanuel takes the cash, the reps, and the OS intelligence — that's it.
