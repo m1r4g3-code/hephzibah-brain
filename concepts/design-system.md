@@ -121,28 +121,33 @@ SEMANTIC
   info-muted:      rgba(77,158,255,0.12)
 ```
 
-### Light Theme (for LinkedIn posts, documents sent to clients)
+### LinkedIn Theme — "Apple Dark" (all LinkedIn content uses this, not the dark theme above)
+
+Decision: 2026-08-17. Lemon removed from LinkedIn entirely. Apple-registered accent language.
+Upwork/proposals/portfolio continue on the dark theme above unchanged.
 
 ```
 BACKGROUNDS
-  canvas:          #FAFAFA    — near-white (not pure — softer)
-  surface:         #FFFFFF    — card backgrounds
-  surface-raised:  #F5F5F5    — slightly elevated elements
+  canvas:          #141414    — warmer than #080808, less harsh, more refined
+  surface:         #1C1C1E    — Apple's exact iOS dark mode surface
+  surface-2:       #2C2C2E    — raised elements, secondary surfaces
 
-BORDERS
-  border-subtle:   rgba(0,0,0,0.06)
-  border-default:  rgba(0,0,0,0.10)
-  border-strong:   rgba(0,0,0,0.18)
+LINES
+  border-subtle:   rgba(255,255,255,0.08)   — barely visible hairlines
 
 TEXT
-  text-primary:    #0A0A0A    — near-black
-  text-secondary:  rgba(10,10,10,0.60)
-  text-tertiary:   rgba(10,10,10,0.36)
+  text-primary:    #F5F5F7    — Apple near-white (NOT pure #FFFFFF)
+  text-secondary:  rgba(245,245,247,0.60)
+  text-tertiary:   rgba(245,245,247,0.36)
 
-ACCENT (lemon on light — needs dark surface to pop)
-  On light backgrounds: accent becomes #0A0A0A (dark)
-  Use lemon only on dark panels within light layouts
+ACCENT (Apple blue — ONE per card, maximum. No lemon on LinkedIn ever.)
+  accent:          #0A84FF    — Apple dark mode blue
+  accent-muted:    rgba(10,132,255,0.12)
+  accent-border:   rgba(10,132,255,0.25)
 ```
+
+Typography: identical to main system (Poppins, Inter, JetBrains Mono). No changes.
+Lemon (#E8FF3A) is forbidden on all LinkedIn surfaces.
 
 ---
 
