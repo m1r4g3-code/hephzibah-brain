@@ -107,12 +107,6 @@ Before/after. Numbers only. No fluff. The image card carries the weight; text is
 
 Every post with a visual gets a branded card rendered via `scripts/render_card.py`.
 
-**Brand system for LinkedIn: "Apple Dark" variant** (updated 2026-08-17)
-- Canvas: `#141414` | Surface: `#1C1C1E` | Text: `#F5F5F7`
-- Accent: `#0A84FF` (Apple blue) — one per card maximum
-- NO lemon (`#E8FF3A`) on any LinkedIn surface. Ever.
-- Upwork/proposals keep Terminal Precision (lemon stays there).
-
 See [[linkedin-brand-system]] for the full visual spec.
 
 **Quick render command:**
