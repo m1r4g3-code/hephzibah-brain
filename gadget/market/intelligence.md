@@ -73,3 +73,15 @@ Baseline conditions this business operates in. Reviewed monthly, not appended to
 ## Linked
 
 [[gadget-index]] · [[gadget-competitors]] · [[winning-products]] · [[dead-stock]]
+
+### 2026-08-22 — iPhone 18 launch window opens in about three weeks
+**Type:** supply / price
+**Category:** phones
+**Observation:** Apple's compare page confirms the iPhone 17 line (17, 17 Pro, 17 Pro Max, Air, 17e) as current. Nothing about an iPhone 18 is announced. Bloomberg and analyst reporting points to a keynote around 9 September 2026 with retail from roughly the 18th, unconfirmed by Apple. Reporting also says the lineup SPLITS: only the 18 Pro and Pro Max in September plus a first foldable, with the standard 18 and 18e pushed to spring 2027.
+**So what:** Two consequences, one commercial and one for stock.
+
+1. **Content.** "Buy now or wait" is answerable honestly and differently per buyer. Pro buyers should wait three weeks. Everyone else should not, because the next standard iPhone is over six months out. Carousel published 2026-08-22.
+2. **Own exposure.** Ten iPhone Air units and the 17-series stock sit in front of a launch window. Our own dead-stock note says no bulk commitment within six weeks of a successor announcement. That window is now open, and these are broker units so the risk is a stale posted price rather than trapped capital, but the vendor's price will move.
+
+**Measured from the ladder, not assumed:** one generation of age costs about 5% (17 → 16, ₦820k → ₦780k). Two generations costs about 26% (17 → 15, ₦820k → ₦610k). So a launch does not crash last year's phone; it moves the two-year-old model into being the value pick. That is the honest advice to give a budget buyer.
+**Confidence:** high on the iPhone 17 line and on the ladder figures. Medium on the September dates and the split, which are reporting rather than Apple.
