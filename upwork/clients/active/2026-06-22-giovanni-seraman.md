@@ -251,6 +251,70 @@ Open question for Giovanni, not yet asked: does the "shown worn" preference exte
 
 ---
 
+## Scene-Correction Field Was Misused, Not Broken — Mechanism Fixed, Disc-O-Bed Job Completed (2026-08-20/21)
+
+Operator flagged that Giovanni likely submitted an independent test himself: a Disc-O-Bed Disc-Bunk (modular camping bunk/cot, job `6DMe8Ak`), the first genuinely novel furniture-scale product run through the pipeline. Script and image generation handled it correctly with zero prompt changes — validates the v5.20 axis system on real unseen product data (JOINT/CONNECTOR rule applied correctly, real numbers from his product description carried through, no lift-related issues since a bunk bed is never lifted).
+
+Video generation failed for 6 of 8 scenes with identical Kie `gemini-omni-video` failCode 500 "Internal Error" — a Kie-side outage, not a prompt problem (confirmed via raw API responses: clean-prompt scenes failed identically to the two affected ones below). `SERAMAN | All Videos Ready Gate` correctly blocked the job from being marked done — nothing broken reached posting.
+
+Separately, scenes 2 and 5 had genuine director feedback from Giovanni ("The aluminum bar along the tarp doesn't exist. Rest your hand on the orange mat.") typed into the "corrected line" field built in an earlier session. That field's mechanism only ever anticipated literal replacement dialogue — it spliced his raw English staging note directly into `says: '...'`, and never touched `IMAGE PROMPT` at all, so even the wording fix wouldn't have addressed the actual complaint (presenter gripping the aluminum frame rail instead of the orange fabric deck).
+
+**Fix, `NysDrlj3XSi7RDDo` (SERAMAN Scene Approval):** replaced the blind regex splice with a new `SERAMAN | Interpret Scene Correction` agent (same Anthropic-agent pattern as the existing `Clean Regen Prompt` node) that classifies the note as a wording fix vs. a staging fix vs. both, and rewrites `IMAGE PROMPT` + `VIDEO PROMPT` + `VOICEOVER TEXT` accordingly — never echoes the client's raw text into spoken dialogue. Corrected-line scenes now also auto-trigger image regeneration (confirmed operator preference: no longer gated behind the checkbox), via a new `Apply Voiceover Corrections → Get Job Record (Image)` connection that reuses the checkbox path's existing round-limited entry point rather than skipping into the middle of it — first wiring attempt skipped straight to `Get Sheet1 Data (Image Regen)` and broke the downstream round-counter step, caught via a real test run and corrected.
+
+**Verified against production, not simulation:** used `test_workflow` with pinned trigger data (real field labels pulled from a genuine prior execution, not guessed) — pinning only the trigger meant everything downstream ran for real. First run exercised the new correction path against Giovanni's actual note for job `6DMe8Ak`; confirmed by downloading and viewing the regenerated images directly — hand now flat on the orange fabric deck in both scenes, matching exactly what he asked for. Second run replayed a real "Approve All" for the same job, which resubmitted all 6 previously-failed scenes to Kie (now recovered) and completed the full pipeline through to final Creatomate render. Confirmed in the actual final rendered video, not just intermediate state.
+
+Final video: `https://f002.backblazeb2.com/file/creatomate-c8xg3hsxdu/cc7b32fe-b81c-4ddd-87a1-5cd059510ca0.mp4`
+
+Follow-up sent (2026-08-21) consolidated both threads into one message rather than risking contradiction with whatever had already gone out on Fiverr (no visibility into that thread from here): explained the correction box now handles any scene issue (wording or staging), not just VO text, and confirmed the Disc-O-Bed video was done with his note applied.
+
+### Giovanni's reply — two messages (2026-08-21)
+
+**Message 1** (general reaction to the fix + finished video):
+> I've seen both of them and I think the final product is excellent. There are still some small details, but as I said before, I sent you products that were difficult to produce so I could see how the system reacted. I'd definitely start testing with already-made products to see how it reacts. I see there are now two photos to upload. Let's see what happens. I'd say it's getting better and better. GREAT WORK. [...] I'm preparing the editorial plan until January. Let's see what happens.
+
+Also requested a copy change: replace the end-card "Shop now at: https://seraman.com/" with "Compra su Seraman.com" — "much cleaner and more direct."
+
+**Message 2** (sent after the correction-mechanism update went live):
+> When I saw the scenes, I corrected it by writing it in the box. I hope I did it correctly. Did you intervene at this point, or was it regenerating everything on its own? So now I can tell it what to do if I find a scene that's incorrect? As soon as I get back, I'll try to generate the video of the water purification tablets, which had several things wrong.
+
+**Read on this exchange:**
+- Confirms he deliberately stress-tested with hard products on purpose ("difficult to produce so I could see how the system reacted") and is now satisfied enough to move to normal production — a real trust milestone, not just politeness ("GREAT WORK" + noticing small remaining details unprompted).
+- **"Editorial plan until January"** is the load-bearing sentence — it signals recurring content volume planned out ~4-5 months, which is exactly the retainer-shaped opening the pricing note above has been waiting for ("reprice future scope with ROI framing," never renegotiate delivered work). Worth raising the long-form/retainer conversation soon, while he's expressing satisfaction — waiting risks him settling into "this is just free/uncapped" before a boundary is set. See [[project_giovanni_negotiation]] memory.
+- **"Water purification tablets"** is almost certainly Aquatabs — the product flagged in standing memory as possibly already reused for an NGO context without new scope being agreed. Not raised with Giovanni here (would be a bad-faith read on a message where he's happy and being transparent, and there's no confirmation yet it's the same use case) — just worth the operator watching for when this job actually runs, and factoring into the scope conversation above rather than reacting to this message in isolation.
+- His question ("did you intervene, or was it regenerating on its own?") got an honest answer: yes, automatic on our end for interpreting his note; separately flagged that this specific job hit an unrelated one-time Kie-provider hiccup needing manual resubmit, unconnected to how he used the box.
+
+**Fixed same session:** end-card CTA text changed from "Shop now at: https://seraman.com/" to "Compra su Seraman.com" in the Creatomate render template (`AH4d4awNiHliDToR`, node `SERAMAN | Render Final Video`, element `Text-BZZ`). Published, verified byte-exact against the rest of the JSON body (only that one text field changed).
+
+---
+
+## Hardening Pass — Cross-Job Dedup Bug, Idempotency, Alert/Coverage Gaps (2026-08-21)
+
+Operator's "editorial plan until January" comment prompted a "higher bar" audit against coming recurring volume, naming three suspects from an old 2026-07-06 hardening note (scene 1/8 regen using an old generation mode, no idempotency guard, Sheet2 stale duplicate rows) and explicitly excluding social posting.
+
+**Two of the three named suspects were already fixed** — confirmed by reading current node configs, not assumed from the stale note:
+- Scene 1/8 regen submission (`NysDrlj3XSi7RDDo`) is byte-for-byte identical to Branch A's first-pass submission (`fygNTt3a5LphUJO7`) — same model, params, everything.
+- Sheet2 writes are all keyed `update`/`appendOrUpdate` on `["SCENE","JOB_ID"]`, never a bare append; `AH4d4awNiHliDToR`'s URL-map builder additionally sorts by `row_number` for last-write-wins protection. No exploitable stale-duplicate path exists.
+
+**The real, more serious gap was new, found via a direct read of `94ON9lonhDLNPc99` (SERAMAN Error Handler):** node `Clear Stale Dedup Rows` deleted every `status:"started"` dedup row (table `AN3YgyQOI1D8BG42`) on **any** workflow error anywhere in the SERAMAN system, with no JOB_ID or time-window scoping. At one-job-at-a-time test volume this rarely collided with anything. Under Giovanni's coming recurring/overlapping volume, one job's failure would routinely wipe every *other* concurrently in-flight job's duplicate-submission protection — meaning a redelivered/duplicate Tally webhook during that window would no longer be blocked, and the full pipeline (script + 8 images + 8 videos) would rerun and re-charge. **Fix:** added a `processed_at < now-3h` condition (matchType `allConditions`) so only genuinely stuck rows get cleared, not rows for jobs still legitimately in progress. Confirmed `lt` is a valid condition operator for the string column via `explore_node_resources` before writing it (ISO 8601 timestamps sort correctly as strings).
+
+**Bonus fix found while verifying the above:** `Notify Seraman` — the single Gmail node all 5 workflows' error alerts ultimately route through — had the same missing-`resource`/`operation` defect already confirmed twice this session as a real silent-send-failure (not a safe runtime default, per `get_node_types`). The validator flagged it as "pre-existing, can be intentional"; fixed anyway rather than trusting that caveat, since this is the system's entire failure-visibility backbone.
+
+**Idempotency guards added** (no pre-submit check existed anywhere; a crash-then-manual-retry before a sheet's STATUS flips to Done would resubmit and burn duplicate paid credits):
+- `fygNTt3a5LphUJO7` (Generate Videos): new `SERAMAN | Get Existing Video Results` → `SERAMAN | Skip Already-Submitted Scenes` inserted between `Scene-count` and `Sort1` — drops any scene already holding a non-empty, non-FAILED `VIDEO URL` for the job before the branch split into the two Kie submit nodes. `Scene-count`'s own expected-count (used by `All Videos Ready Gate`) is computed before the filter, so it still reflects the full original scene set.
+- `AH4d4awNiHliDToR` (Edit Videos): new parallel Sheet3 lookup (`SERAMAN | Check Existing Final Video` → `SERAMAN | Normalize Existing Check`) merged via a position-combine `Merge` node with the existing video-map output, gated by a new IF node. False (normal) branch reaches `SERAMAN | Render Final Video` completely unchanged; true (already-rendered) branch terminates in a new No-Op rather than reusing the existing success-path update chain, since that chain's node-reference expression (`$('SERAMAN | Extract Final Video URL')...`) would break on a path where that node never ran.
+- **Not applied** to the three Scene Approval regen-submit nodes (`Regen Submit (Scene 1/8)`, `Regen Submit (Middle Scenes)`, `Submit Image Regen`) — investigated directly rather than mechanically copying the same pattern. Regen is *supposed* to overwrite an existing (flagged-as-wrong) Sheet2 value, so "does a URL already exist" isn't a valid "already done" signal here the way it is for first-pass generation — there's no round/timestamp marker in the current schema to distinguish "this regen round already completed" from "the prior, now-flagged-wrong result is still sitting there." Forcing a guard without a clean signal risked a worse bug (silently skipping a legitimate correction Giovanni actually asked for) than the one being prevented. Left as-is; flagged here rather than silently dropped.
+
+**Also fixed:**
+- `R2uqd2tnN687vcuH` (Generate Images) and `NysDrlj3XSi7RDDo` (Scene Approval) had no `errorWorkflow` configured at all — any unhandled throw in either alerted no one. Both now point at `94ON9lonhDLNPc99`, matching the other 3 workflows.
+- Two more broken alert nodes in Scene Approval, same defect class as ones fixed earlier this session: `SERAMAN | Approval Confirmed Alert` and `SERAMAN | Send Video For Review` — correct `sendTo`/`subject`/`message`/credential, just missing `resource`/`operation`.
+- `SERAMAN | Get Sheet1 Scene Data` (Scene Approval) read all of Sheet1 unfiltered, relying on a downstream JS fallback (`!jobId || scene.JOB_ID === jobId`) that would match every job's rows if `jobId` ever came back falsy, and an unbounded read that grows with total historical scene rows as volume climbs. Added a direct `JOB_ID` filter matching the pattern used everywhere else in the pipeline.
+
+**Explicitly out of scope this pass** (real gaps, bigger structural decisions, flagged not fixed): no 429/rate-limit handling for Kie bursts under concurrent jobs; no credential-expiry monitoring for any of the 6 credentials in use (the Creatomate key already expired once, 2026-07-05); Anthropic script-gen `retryOnFail=true, maxTries=3` left as-is (pennies per retry vs. Kie's $0.30–$1+/clip, and auto-retry on a transient LLM failure is often desirable).
+
+Every change published and verified against a fresh fetch of the live workflow (not assumed from the update call's own response) before moving to the next — same discipline used all session. One real process note: `addNode` operations silently drop `executeOnce` (not a supported field on that op) — caught on the first new Sheets node via verification, had to be set separately via `setNodeSettings` on both new read nodes added this pass.
+
+---
+
 ## Ad Creative — Background Music Research (2026-07-20)
 
 Investigated whether to replace the current stock background track. Key findings:
