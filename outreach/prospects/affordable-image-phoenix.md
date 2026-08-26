@@ -5,9 +5,9 @@ role: Owner
 email: sales@affordableimage.com
 linkedin: 
 website: https://affordableimage.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-08-26
 platform: cold
 signal: website_gap
 signal_detail: Social media management for dental, medical, and veterinary practices with no visible content scheduling or reporting automation. In business since 1996.
@@ -29,3 +29,5 @@ I build content pipelines in n8n that generate and schedule platform-appropriate
 Emmanuel
 
 ## Conversation Log
+
+**2026-08-26** — Auto-sent — 'Quick thing re: Affordable Image Marketing Agency'
