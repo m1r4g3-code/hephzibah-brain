@@ -94,6 +94,41 @@ Two test videos run: Gatorz Magnum OPz sunglasses + CVN4 Tactical Responder Band
 
 **Strategy:** Include scene-level approval + selective regen system in M2 delivery (not as paid M3). Rebuilds trust after these QC issues. Long-form ($1,500) pitched as clean M3 from restored trust position.
 
+## Session Log — 2026-08-25 to 2026-08-26
+
+**Status:** Relationship recovering after near-collapse. Active products in pipeline.
+
+**What happened this session:**
+
+- Aquatabs video delivered clean (after one manual flag-and-regen cycle). First complete product delivered through the full pipeline end-to-end.
+- K9 Tourniquet: images generated clean on first pass (zero flags — stronger result than Aquatabs). Video generation stuck mid-run due to Kie AI credit exhaustion. 6 of 8 scenes failed with "Credits insufficient." Retry loop (execution 1024) cycling every ~5 min — will not self-recover. Needs credit top-up then next retry goes through.
+- Medical kits: 3 types, 10 products each, launching imminent per Giovanni. Not started in pipeline yet.
+
+**Key discovery — Kie alert gap:**
+Generate Videos workflow has no Telegram/email alert for credit exhaustion (unlike Generate Images which does). Failure is loud in n8n logs, silent to Emmanuel. Priority fix: wire credit-exhaustion Telegram alert into Generate Videos workflow.
+
+**Giovanni communication — what was sent tonight:**
+1. "Aquatabs is done. You already have it in your inbox." — confirmed delivered
+2. "K9 Tourniquet images are locked, clean first pass — video is next." — sent, no timeline commitment made
+3. Advance ask: NOT sent. Decided to wait until K9 delivers. Sending a payment request before delivery would damage the recovering relationship.
+
+**Advance conversation — deferred:**
+For the 30-product batch, 40% upfront advance is the correct professional structure. Have this conversation AFTER K9 delivers, not before. Message to use when the time comes:
+
+> "Giovanni, for the thirty products — I run batches this size with 40% upfront before we start. That's what keeps the pipeline running clean without interruptions. Let me know when you want to move."
+
+**What NOT to do with Giovanni:**
+- Never mention Kie AI by name to him
+- Never frame credit costs as "processing costs Giovanni should help cover" — that's asking a client to fund tooling
+- Never stack a payment ask immediately after a good-news update in the same message session — clients feel the pattern "every update comes with a catch"
+
+**Pipeline status:**
+| Product | Images | Video | Delivered |
+|---|---|---|---|
+| Aquatabs | Done | Done | ✓ Delivered |
+| K9 Tourniquet | Done (clean, first pass) | Stuck — Kie credits | Pending top-up |
+| Medical kits | Not started | Not started | Not started |
+
 ## Client Feedback Log
 
 ### Giovanni, Jul 06 2026 3:12 PM (verbatim, on the sunglasses M2 test video)
