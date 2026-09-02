@@ -1045,3 +1045,17 @@ Is that accurate, or has it changed?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:30 — solv
+**To:** hello@nordic.design
+**Subject:** Client reporting at Solv
+
+```
+Hey,
+
+No CRM visible on Solv's site. Leads and follow-ups probably living in someone's inbox right now.
+
+Is that accurate, or has it changed?
+
+Emmanuel
+```
