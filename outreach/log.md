@@ -1031,3 +1031,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:28 — likesocialbiz
+**To:** info@likesocialbiz.com
+**Subject:** Client reporting at Likesocialbiz
+
+```
+Hey,
+
+No CRM visible on Likesocialbiz's site. Leads and follow-ups probably living in someone's inbox right now.
+
+Is that accurate, or has it changed?
+
+Emmanuel
+```
