@@ -905,3 +905,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 22:55 — azumo
+**To:** hello@azumo.co
+**Subject:** Client reporting at Azumo
+
+```
+Hey,
+
+No CRM visible on Azumo's site. Leads and follow-ups probably living in someone's inbox right now.
+
+Is that accurate, or has it changed?
+
+Emmanuel
+```
