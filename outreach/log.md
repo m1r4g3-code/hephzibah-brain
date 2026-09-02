@@ -359,3 +359,35 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-02 04:29 — addlium
+**To:** hi@addlium.com
+**Subject:** Quick thing re: Addlium
+
+```
+Hey,
+
+No client portal — clients are getting updates over email, which doesn't scale past 5 clients.
+
+I build automated reporting for agencies — GA, Meta, ad platforms formatted per client and emailed automatically, built in n8n. Usually 15-20 hours/week recovered. 1-2 week build.
+
+Worth a quick call?
+
+Emmanuel
+```
+
+## 2026-09-02 04:29 — forefront-web
+**To:** howdy@forefrontweb.com
+**Subject:** Quick thing re: Forefront Web
+
+```
+Hey,
+
+No automated reporting visible — monthly reports probably eat 1-2 days of someone's time.
+
+I build automated reporting for agencies — GA, Meta, ad platforms formatted per client and emailed automatically, built in n8n. Usually 15-20 hours/week recovered. 1-2 week build.
+
+Worth a quick call?
+
+Emmanuel
+```
