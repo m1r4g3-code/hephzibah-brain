@@ -1,14 +1,14 @@
 ---
-name: Brick Marketing
-company: Brick Marketing
+name: Doodle N Dash
+company: Doodle N Dash
 role: Owner
-email: info@brickmarketing.com
+email: info@doodlendash.com
 phone: 
-website: https://www.brickmarketing.com
+website: https://doodlendash.com
 address: United States
-category: email
+category: social-media
 biz_type: agency
-niche: email
+niche: social-media
 source: dr
 signal: website_gap
 status: outreach_sent
@@ -18,10 +18,9 @@ sensitivity: private
 ---
 
 ## Context
-Found on DesignRush (email agencies).
-Contact: Brick Marketing ()
-Website: https://www.brickmarketing.com
-Tech stack: WordPress
+Found on DesignRush (social-media agencies).
+Website: https://doodlendash.com
+Tech stack: unknown
 Type: agency
 Trigger: 
 
@@ -41,9 +40,9 @@ Emmanuel
 - No automated reporting visible — monthly reports probably eat 1-2 days of someone's time
 - No content scheduling tool detected — posting manually or paying per platform is expensive at scale
 - No CRM visible — leads and client comms probably tracked in spreadsheets or email threads
-- Offering 7+ services — delivering all of these manually for multiple clients is a capacity trap
+- Offering 5+ services — delivering all of these manually for multiple clients is a capacity trap
 
 ## Conversation Log
 2026-09-02 — Prospect created via dr prospector.
 
-**2026-09-02** — Auto-sent — 'Quick thing re: Brick Marketing'
+**2026-09-02** — Auto-sent — 'Quick thing re: Doodle N Dash'

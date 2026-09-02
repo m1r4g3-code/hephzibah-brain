@@ -439,3 +439,35 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-02 04:30 — brick-marketing
+**To:** info@brickmarketing.com
+**Subject:** Quick thing re: Brick Marketing
+
+```
+Hey,
+
+No client portal — clients are getting updates over email, which doesn't scale past 5 clients.
+
+I build automated reporting for agencies — GA, Meta, ad platforms formatted per client and emailed automatically, built in n8n. Usually 15-20 hours/week recovered. 1-2 week build.
+
+Worth a quick call?
+
+Emmanuel
+```
+
+## 2026-09-02 04:30 — doodle-n-dash
+**To:** info@doodlendash.com
+**Subject:** Quick thing re: Doodle N Dash
+
+```
+Hey,
+
+No client portal — clients are getting updates over email, which doesn't scale past 5 clients.
+
+I build automated reporting for agencies — GA, Meta, ad platforms formatted per client and emailed automatically, built in n8n. Usually 15-20 hours/week recovered. 1-2 week build.
+
+Worth a quick call?
+
+Emmanuel
+```
