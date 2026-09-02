@@ -279,3 +279,19 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-02 04:27 — ignite-visibility-4
+**To:** opportunity@ignitevisibility.com
+**Subject:** Quick thing re: Ignite Visibility
+
+```
+Hey,
+
+No automated reporting visible — monthly reports probably eat 1-2 days of someone's time.
+
+I build automated reporting for agencies — GA, Meta, ad platforms formatted per client and emailed automatically, built in n8n. Usually 15-20 hours/week recovered. 1-2 week build.
+
+Worth a quick call?
+
+Emmanuel
+```
