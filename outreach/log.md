@@ -919,3 +919,17 @@ Is that accurate, or has it changed?
 
 Emmanuel
 ```
+
+## 2026-09-02 22:57 — lounge-lizard
+**To:** sales@loungelizard.com
+**Subject:** Client delivery at Lounge Lizard
+
+```
+Hey,
+
+Lounge Lizard doesn't seem to have a client portal. Client updates going out manually over email at this point?
+
+Curious how you're handling it.
+
+Emmanuel
+```
