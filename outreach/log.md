@@ -1145,3 +1145,19 @@ Is monthly reporting still a manual process on your end?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:59 — pixready
+**To:** info@pixready.com
+**Subject:** Client reporting gap: Pixready
+
+```
+Hey,
+
+No CRM visible on Pixready's site. My guess is leads and your clients follow-ups are tracked in someone's inbox or a shared spreadsheet right now.
+
+Built a lead-to-client pipeline for a marketing agency last year: new contact in one place, auto-categorized, follow-up queued in Slack. About 2 weeks in n8n.
+
+Is that still how you're tracking things?
+
+Emmanuel
+```
