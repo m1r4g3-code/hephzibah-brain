@@ -975,3 +975,17 @@ Is that still how the team handles it?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:14 — chop-dawg
+**To:** hello@chopdawg.com
+**Subject:** Client reporting at Chop Dawg
+
+```
+Hey,
+
+Chop Dawg is running a lot of service lines. Delivery and reporting for all of those is probably a serious ops load right now.
+
+Which part of it eats the most team time?
+
+Emmanuel
+```
