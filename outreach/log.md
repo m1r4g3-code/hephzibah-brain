@@ -947,3 +947,17 @@ Curious how you're handling it.
 
 Emmanuel
 ```
+
+## 2026-09-02 23:04 — probey-services
+**To:** service@probeyservices.com
+**Subject:** Client reporting at Probey Services
+
+```
+Hey,
+
+No CRM visible on Probey Services's site. Leads and follow-ups probably living in someone's inbox right now.
+
+Is that accurate, or has it changed?
+
+Emmanuel
+```
