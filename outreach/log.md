@@ -989,3 +989,17 @@ Which part of it eats the most team time?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:23 — identity-dental-marketing
+**To:** grace@identitydental.com
+**Subject:** Client reporting at Identity Dental Marketing
+
+```
+Hey,
+
+Identity Dental Marketing's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
