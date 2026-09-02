@@ -877,3 +877,17 @@ Is that still how the team handles it?
 
 Emmanuel
 ```
+
+## 2026-09-02 22:53 — unico-connect
+**To:** hello@unicoconnect.com
+**Subject:** Client reporting at Unico Connect
+
+```
+Hey Malay Parekh,
+
+Unico Connect's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
