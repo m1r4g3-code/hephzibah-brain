@@ -1161,3 +1161,19 @@ Is that still how you're tracking things?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:59 — little-dragon-media
+**To:** info@littledragon.ca
+**Subject:** Lead tracking at Little Dragon Media
+
+```
+Hey,
+
+No CRM visible on Little Dragon Media's site. My guess is leads and your real estate agents follow-ups are tracked in someone's inbox or a shared spreadsheet right now.
+
+Built a lead-to-client pipeline for a marketing agency last year: new contact in one place, auto-categorized, follow-up queued in Slack. About 2 weeks in n8n.
+
+Is that still how you're tracking things?
+
+Emmanuel
+```
