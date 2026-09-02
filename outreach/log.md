@@ -849,3 +849,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 18:28 — 38th-kip-studio
+**To:** alicia@38andkip.com
+**Subject:** Quick thing re: 38th Kip Studio
+
+```
+Hey,
+
+38th Kip Studio's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
