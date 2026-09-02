@@ -1003,3 +1003,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:25 — aimers
+**To:** hello@aimers.io
+**Subject:** Client delivery at Aimers
+
+```
+Hey,
+
+Aimers doesn't seem to have a client portal. Client updates going out manually over email at this point?
+
+Curious how you're handling it.
+
+Emmanuel
+```
