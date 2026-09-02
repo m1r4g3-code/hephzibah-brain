@@ -1,33 +1,33 @@
 ---
-name: Smartsites
-company: Smartsites
+name: Growth Accelerators
+company: Growth Accelerators
 role: Owner
-email: contact@smartsites.com
+email: info@groacc.com
 phone: 
-website: https://www.smartsites.com/lp/digital-marketing-lp
+website: https://growacc.com
 address: United States
-category: email
+category: content
 biz_type: agency
-niche: email
+niche: content
 source: dr
 signal: website_gap
-status: outreach_sent
+status: prospect
 outreach_sent_on:
-2026-09-02
+platform: cold
 sensitivity: private
 ---
 
 ## Context
-Found on DesignRush (email agencies).
-Website: https://www.smartsites.com/lp/digital-marketing-lp
-Tech stack: WordPress, React/Next.js, HubSpot
+Found on DesignRush (content agencies).
+Website: https://growacc.com
+Tech stack: Shopify, WordPress, React/Next.js
 Type: agency
 Trigger: 
 
 ## Outreach Notes
 Hey,
 
-No client portal — clients are getting updates over email, which doesn't scale past 5 clients.
+No automated reporting visible — monthly reports probably eat 1-2 days of someone's time.
 
 I build automated reporting for agencies — GA, Meta, ad platforms formatted per client and emailed automatically, built in n8n. Usually 15-20 hours/week recovered. 1-2 week build.
 
@@ -36,12 +36,9 @@ Worth a quick call?
 Emmanuel
 
 ## Site Observations
-- No client portal — clients are getting updates over email, which doesn't scale past 5 clients
 - No automated reporting visible — monthly reports probably eat 1-2 days of someone's time
 - No content scheduling tool detected — posting manually or paying per platform is expensive at scale
-- Offering 7+ services — delivering all of these manually for multiple clients is a capacity trap
+- No CRM visible — leads and client comms probably tracked in spreadsheets or email threads
 
 ## Conversation Log
 2026-09-02 — Prospect created via dr prospector.
-
-**2026-09-02** — Auto-sent — 'Quick thing re: Smartsites'
