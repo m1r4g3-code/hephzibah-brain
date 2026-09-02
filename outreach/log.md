@@ -1087,3 +1087,17 @@ Curious how you're handling it.
 
 Emmanuel
 ```
+
+## 2026-09-02 23:33 — genie-crawl
+**To:** contact@geniecrawl.com
+**Subject:** Client reporting at Genie Crawl
+
+```
+Hey,
+
+No content scheduling tool on Genie Crawl's site. Posts going out manually, platform by platform?
+
+Is that still how the team handles it?
+
+Emmanuel
+```
