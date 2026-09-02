@@ -1209,3 +1209,19 @@ Client updates still going out manually?
 
 Emmanuel
 ```
+
+## 2026-09-03 00:02 — back2rank
+**To:** contact@back2rank.com
+**Subject:** Client reporting gap: Back2rank
+
+```
+Hey,
+
+Looks like Back2rank is still pulling client reports manually. At any volume that's probably 2-3 days a month compiling numbers per client before the deck is ready.
+
+I built an automated reporting system for a similar agency: pulls from GA, Meta, and their ad platforms, formats per client, sends itself weekly. Took 2 weeks in n8n.
+
+Is monthly reporting still a manual process on your end?
+
+Emmanuel
+```
