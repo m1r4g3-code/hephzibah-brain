@@ -1177,3 +1177,19 @@ Is that still how you're tracking things?
 
 Emmanuel
 ```
+
+## 2026-09-03 00:00 — shake-studios
+**To:** info@shakestudios.com
+**Subject:** Client reporting gap: Shake Studios
+
+```
+Hey,
+
+No CRM visible on Shake Studios's site. My guess is leads and your clients follow-ups are tracked in someone's inbox or a shared spreadsheet right now.
+
+Built a lead-to-client pipeline for a marketing agency last year: new contact in one place, auto-categorized, follow-up queued in Slack. About 2 weeks in n8n.
+
+Is that still how you're tracking things?
+
+Emmanuel
+```

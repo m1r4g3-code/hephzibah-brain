@@ -12,9 +12,9 @@ niche: video
 source: dr
 signal: website_gap
 subject: Client reporting gap: Shake Studios
-status: prospect
+status: outreach_sent
 outreach_sent_on:
-platform: cold
+2026-09-03
 sensitivity: private
 ---
 
@@ -43,3 +43,5 @@ Emmanuel
 
 ## Conversation Log
 2026-09-02 — Prospect created via dr prospector.
+
+**2026-09-03** — Auto-sent — 'Client reporting gap: Shake Studios'
