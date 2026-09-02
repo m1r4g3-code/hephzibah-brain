@@ -1241,3 +1241,19 @@ Is that still how you're tracking things?
 
 Emmanuel
 ```
+
+## 2026-09-03 00:04 — edesign-interactive
+**To:** hello@edesigninteractive.com
+**Subject:** healthcare reporting gap: Edesign Interactive
+
+```
+Hey,
+
+Edesign Interactive doesn't seem to have a client portal. If your healthcare practices are getting updates over email threads, that's probably 30+ minutes a day just on status messages.
+
+Built a lightweight portal for a 12-client agency: clients log in, see project status, get auto-notified when milestones hit. Done in 2 weeks.
+
+Client updates still going out manually?
+
+Emmanuel
+```
