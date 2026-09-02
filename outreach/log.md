@@ -835,3 +835,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 18:28 — imbd-agency
+**To:** info@imbdagency.com
+**Subject:** Quick thing re: Imbd Agency
+
+```
+Hey,
+
+Imbd Agency's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
