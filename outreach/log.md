@@ -961,3 +961,17 @@ Is that accurate, or has it changed?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:06 — bilberrry
+**To:** info@bilberrry.com
+**Subject:** Client reporting at Bilberrry
+
+```
+Hey,
+
+No content scheduling tool on Bilberrry's site. Posts going out manually, platform by platform?
+
+Is that still how the team handles it?
+
+Emmanuel
+```
