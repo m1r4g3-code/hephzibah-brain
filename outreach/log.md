@@ -1017,3 +1017,17 @@ Curious how you're handling it.
 
 Emmanuel
 ```
+
+## 2026-09-02 23:27 — netrocket
+**To:** contact@netrocket.pro
+**Subject:** Client reporting at Netrocket
+
+```
+Hey,
+
+Netrocket's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
