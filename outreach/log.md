@@ -863,3 +863,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 22:50 — goji-labs
+**To:** hello@gojilabs.com
+**Subject:** Content ops at Goji Labs
+
+```
+Hey,
+
+No content scheduling tool on Goji Labs's site. Posts going out manually, platform by platform?
+
+Is that still how the team handles it?
+
+Emmanuel
+```
