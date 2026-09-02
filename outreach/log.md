@@ -311,3 +311,19 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-02 04:28 — market-minds-creative
+**To:** info@marketmindscreativeagency.com
+**Subject:** Quick thing re: Market Minds Creative
+
+```
+Hey,
+
+No automated reporting visible — monthly reports probably eat 1-2 days of someone's time.
+
+I build automated reporting for agencies — GA, Meta, ad platforms formatted per client and emailed automatically, built in n8n. Usually 15-20 hours/week recovered. 1-2 week build.
+
+Worth a quick call?
+
+Emmanuel
+```
