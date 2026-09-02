@@ -1101,3 +1101,17 @@ Is that still how the team handles it?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:35 — pbj-marketing
+**To:** makeithappen@pbjmarketing.com
+**Subject:** Client delivery at Pbj Marketing
+
+```
+Hey,
+
+Pbj Marketing is running a lot of service lines. Delivery and reporting for all of those is probably a serious ops load right now.
+
+Which part of it eats the most team time?
+
+Emmanuel
+```
