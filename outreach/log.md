@@ -1225,3 +1225,19 @@ Is monthly reporting still a manual process on your end?
 
 Emmanuel
 ```
+
+## 2026-09-03 00:03 — discovermybusiness
+**To:** info@discovermybusiness.co
+**Subject:** Client reporting gap: Discovermybusiness
+
+```
+Hey Yauheni Chvanau,
+
+No CRM visible on Discovermybusiness's site. My guess is leads and your clients follow-ups are tracked in someone's inbox or a shared spreadsheet right now.
+
+Built a lead-to-client pipeline for a marketing agency last year: new contact in one place, auto-categorized, follow-up queued in Slack. About 2 weeks in n8n.
+
+Is that still how you're tracking things?
+
+Emmanuel
+```
