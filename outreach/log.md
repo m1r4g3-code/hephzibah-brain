@@ -675,3 +675,21 @@ Is reporting done manually on your end?
 
 Emmanuel
 ```
+
+## 2026-09-02 18:02 — digital-dot
+**To:** team@digitaldot.us
+**Subject:** Quick thing re: Digital Dot
+
+```
+Hey,
+
+Digital Dot doesn't have automated client reporting visible.
+
+That's 3-4 hours per client per month someone is manually compiling, formatting, and sending. At 10 clients, that's a part-time job you're not billing for.
+
+I build the pipeline that handles this automatically. GA, Meta, whatever ad platforms you run, formatted per client, delivered on schedule, no one touching it. Built in n8n. Most agencies I work with recover 15-20 hours a month in the first week.
+
+Is reporting done manually on your end?
+
+Emmanuel
+```
