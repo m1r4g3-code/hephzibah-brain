@@ -1,14 +1,14 @@
 ---
-name: Devenup Llc
-company: Devenup Llc
+name: Highervisibility
+company: Highervisibility
 role: Owner
-email: hello@devenup.com
+email: info@highervisibility.com
 phone: 
-website: https://devenup.com
+website: https://www.highervisibility.com/seo/services
 address: United States
-category: content
+category: social-media
 biz_type: agency
-niche: content
+niche: social-media
 source: dr
 signal: website_gap
 status: outreach_sent
@@ -18,9 +18,9 @@ sensitivity: private
 ---
 
 ## Context
-Found on DesignRush (content agencies).
-Website: https://devenup.com
-Tech stack: WordPress, HubSpot
+Found on DesignRush (social-media agencies).
+Website: https://www.highervisibility.com/seo/services
+Tech stack: Shopify, WordPress, React/Next.js
 Type: agency
 Trigger: 
 
@@ -38,8 +38,10 @@ Emmanuel
 ## Site Observations
 - No automated reporting visible — monthly reports probably eat 1-2 days of someone's time
 - No content scheduling tool detected — posting manually or paying per platform is expensive at scale
+- No CRM visible — leads and client comms probably tracked in spreadsheets or email threads
+- Offering 4+ services — delivering all of these manually for multiple clients is a capacity trap
 
 ## Conversation Log
 2026-09-02 — Prospect created via dr prospector.
 
-**2026-09-02** — Auto-sent — 'Quick thing re: Devenup Llc'
+**2026-09-02** — Auto-sent — 'Quick thing re: Highervisibility'
