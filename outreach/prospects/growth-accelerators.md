@@ -11,9 +11,9 @@ biz_type: agency
 niche: content
 source: dr
 signal: website_gap
-status: prospect
+status: outreach_sent
 outreach_sent_on:
-platform: cold
+2026-09-02
 sensitivity: private
 ---
 
@@ -42,3 +42,5 @@ Emmanuel
 
 ## Conversation Log
 2026-09-02 — Prospect created via dr prospector.
+
+**2026-09-02** — Auto-sent — 'Quick thing re: Growth Accelerators'
