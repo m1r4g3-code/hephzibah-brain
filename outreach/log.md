@@ -891,3 +891,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 22:54 — baunfire
+**To:** hello@baunfire.com
+**Subject:** Client reporting at Baunfire
+
+```
+Hey,
+
+Baunfire's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
