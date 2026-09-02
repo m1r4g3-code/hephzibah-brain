@@ -793,3 +793,17 @@ Is that accurate, or has it changed?
 
 Emmanuel
 ```
+
+## 2026-09-02 18:26 — zoek-marketing
+**To:** hi@gozoek.com
+**Subject:** Quick thing re: Zoek Marketing
+
+```
+Hey Sam Riemer,
+
+Zoek Marketing's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
