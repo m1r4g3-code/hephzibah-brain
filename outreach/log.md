@@ -1073,3 +1073,17 @@ Is that still how the team handles it?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:32 — emarket-experts
+**To:** info@emarketexperts.com.au
+**Subject:** Client reporting at Emarket Experts
+
+```
+Hey,
+
+Emarket Experts doesn't seem to have a client portal. Client updates going out manually over email at this point?
+
+Curious how you're handling it.
+
+Emmanuel
+```
