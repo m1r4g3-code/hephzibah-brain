@@ -1059,3 +1059,17 @@ Is that accurate, or has it changed?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:31 — sites-by-sara
+**To:** hello@sitesbysara.com
+**Subject:** Client reporting at Sites By Sara
+
+```
+Hey,
+
+No content scheduling tool on Sites By Sara's site. Posts going out manually, platform by platform?
+
+Is that still how the team handles it?
+
+Emmanuel
+```
