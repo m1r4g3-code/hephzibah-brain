@@ -779,3 +779,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 18:26 — delante
+**To:** info@delante.co
+**Subject:** Quick thing re: Delante
+
+```
+Hey,
+
+No CRM visible on Delante's site. Leads and follow-ups probably living in someone's inbox right now.
+
+Is that accurate, or has it changed?
+
+Emmanuel
+```
