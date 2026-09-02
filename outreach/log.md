@@ -821,3 +821,17 @@ Is that still the setup?
 
 Emmanuel
 ```
+
+## 2026-09-02 18:27 — janbask-digital-design
+**To:** info@janbaskdigitaldesign.com
+**Subject:** Quick thing re: Janbask Digital Design
+
+```
+Hey,
+
+Janbask Digital Design's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
