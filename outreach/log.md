@@ -1115,3 +1115,17 @@ Which part of it eats the most team time?
 
 Emmanuel
 ```
+
+## 2026-09-02 23:36 — thrive-internet-marketing-agency
+**To:** sales@thriveagency.com
+**Subject:** Quick thing re: Thrive Internet Marketing Agency
+
+```
+Hey,
+
+Thrive Internet Marketing Agency is running a lot of service lines. Delivery and reporting for all of those is probably a serious ops load right now.
+
+Which part of it eats the most team time?
+
+Emmanuel
+```
