@@ -765,3 +765,17 @@ Is reporting done manually on your end?
 
 Emmanuel
 ```
+
+## 2026-09-02 18:26 — redefine-web
+**To:** hello@redefineweb.com
+**Subject:** Quick thing re: Redefine Web
+
+```
+Hey,
+
+Redefine Web's client reporting looks manual from the outside. At any real volume that's probably 2-3 days a month disappearing into spreadsheets.
+
+Is that still the setup?
+
+Emmanuel
+```
