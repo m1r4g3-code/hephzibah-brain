@@ -933,3 +933,17 @@ Curious how you're handling it.
 
 Emmanuel
 ```
+
+## 2026-09-02 22:58 — osom-studio
+**To:** office@osomstudio.com
+**Subject:** Client delivery at Osom Studio
+
+```
+Hey,
+
+Osom Studio doesn't seem to have a client portal. Client updates going out manually over email at this point?
+
+Curious how you're handling it.
+
+Emmanuel
+```
