@@ -1289,3 +1289,19 @@ Is monthly reporting still a manual process on your end?
 
 Emmanuel
 ```
+
+## 2026-09-04 13:05 — digitilizeweb
+**To:** info@digitilizeweb.com
+**Subject:** real reporting gap: Digitilizeweb
+
+```
+Hey,
+
+Looks like Digitilizeweb is still pulling client reports manually. At any volume that's probably 2-3 days a month compiling numbers for real estate agents before the deck is ready.
+
+I built an automated reporting system for a similar agency: pulls from GA, Meta, and their ad platforms, formats per client, sends itself weekly. Took 2 weeks in n8n.
+
+Is monthly reporting still a manual process on your end?
+
+Emmanuel
+```

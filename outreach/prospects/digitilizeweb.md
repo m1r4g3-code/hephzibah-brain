@@ -12,9 +12,9 @@ niche: seo
 source: dr
 signal: website_gap
 subject: real reporting gap: Digitilizeweb
-status: prospect
+status: outreach_sent
 outreach_sent_on:
-platform: cold
+2026-09-04
 sensitivity: private
 ---
 
@@ -45,3 +45,5 @@ Emmanuel
 
 ## Conversation Log
 2026-09-02 — Prospect created via dr prospector.
+
+**2026-09-04** — Auto-sent — 'real reporting gap: Digitilizeweb'
