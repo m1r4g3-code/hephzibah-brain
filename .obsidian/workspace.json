@@ -11,10 +11,14 @@
             "id": "252a1aa79c8bd2ee",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "upwork/concepts/ramshaw-advanced-tactics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ramshaw-advanced-tactics"
             }
           }
         ]
@@ -181,8 +185,10 @@
   },
   "active": "252a1aa79c8bd2ee",
   "lastOpenFiles": [
-    "outreach/contacts/yemi.md",
+    "upwork/concepts/spin-gap-selling-discovery.md",
+    "outreach/contacts/cyrus.md",
     "outreach/contacts/giovanni.md",
+    "outreach/contacts/yemi.md",
     "concepts/red-team-inversion.md",
     "outreach/contacts/olami.md",
     "outreach/contacts/oba.md",
@@ -195,7 +201,6 @@
     "learning/books",
     "concepts/n8n.md",
     "yekini.md",
-    "outreach/contacts/cyrus.md",
     "concepts/client-intake-protocol.md",
     "_CONTEXT.md",
     "outreach/contacts/zaynab.md.tmp.15744.2afed13eeb18",
@@ -214,7 +219,6 @@
     "Untitled.canvas",
     "concepts/builds-before-asking.md",
     "upwork/market/patterns/red-flags.md",
-    "ayo.md",
     "me/identity.md.tmp.12668.602eb26d93d3",
     "me/identity.md.tmp.12668.018cc6d6d988",
     "outreach/contacts/giovanni.md.tmp.12668.9118df80e3fc",

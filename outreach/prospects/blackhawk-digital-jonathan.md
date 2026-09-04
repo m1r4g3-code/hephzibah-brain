@@ -5,9 +5,9 @@ role: CEO / Founder
 email: hello@blackhawkdm.com
 linkedin: 
 website: https://blackhawkdm.com
-status: outreach_sent
+status: prospect
 outreach_sent_on: 
-2026-08-26
+referred_by: cold
 platform: cold
 signal: website_gap
 signal_detail: 600+ clients across 30+ industries with a 6-person team and no visible automated reporting pipeline
@@ -29,5 +29,3 @@ I build n8n pipelines that pull from every platform on a schedule, format per cl
 Emmanuel
 
 ## Conversation Log
-
-**2026-08-26** — Auto-sent — 'Quick thing re: Blackhawk Digital Marketing'

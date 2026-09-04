@@ -12,45 +12,6 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
-## Last Session: 2026-08-25 to 2026-08-26 — Profile optimization, LinkedIn posts, Giovanni crisis recovery
-
-**What we worked on:**
-- Upwork profile updated via MCP: title ("n8n Automation Expert | AI Agent Developer | Full-Stack | Claude Code", 69 chars), overview keyword density (n8n 17x, full-stack 7x, Claude Code 4x), skills (added Full-Stack Development + Claude; removed Marketing Automation + Chatbot Development)
-- upworkmrr.com rank checked — $0 earnings, Nigeria #351,880 overall. Clarified: upworkmrr ranks by MRR (earnings), not keywords. Keyword changes affect UMA algorithm (invitations), separate from leaderboard.
-- 3 LinkedIn posts created and rendered (1080×675 PNG, Hephzibah brand system):
-  - Post 1 (dark): "80% cheaper." — GPT price drop → `outputs/assets/2026-08-26-linkedin-price-drop.png`
-  - Post 2 (light): "1B weekly users." — ChatGPT 1B users → `outputs/assets/2026-08-26-linkedin-1b-users.png`
-  - Post 3 (dark): "same export / same paste / same 90 min." — The Monday Thing operational pain → `outputs/assets/2026-08-26-linkedin-monday-thing.png`
-- Giovanni (SERAMAN) relationship recovery: near-collapse, recovered with direct message. Key insight: his pain was TIME not quality. "Send us the next one, deliver it finished" was the right play. He replied "as long as it works."
-- Aquatabs video: delivered clean after one flag-and-regen cycle. First complete product through full pipeline.
-- K9 Tourniquet: images generated clean (first pass, zero flags). Video stuck — Kie AI credit exhaustion (6 of 8 scenes failed). Retry loop cycling, won't self-recover.
-- Extended chess analysis on Giovanni advance ask: three draft versions rejected. Final decision: wait until K9 delivers, then have 40% advance conversation the following day as a clean business message.
-- Identified: Generate Videos workflow has no Kie credit exhaustion alert (unlike Generate Images). Priority fix needed.
-
-**What is LIVE and needs action:**
-1. **Top up Kie AI credits** — K9 video will not deliver without this. Call Oba to split the cost ($20-50 minimum). TONIGHT.
-2. **Giovanni advance conversation** — send AFTER K9 delivers. Message ready: "Giovanni, for the thirty products — I run batches this size with 40% upfront before we start. That's what keeps the pipeline running clean without interruptions. Let me know when you want to move."
-3. **Wire Kie credit exhaustion Telegram alert into Generate Videos** — currently silent to Emmanuel on credit failure. Gap confirmed this session.
-4. **Manual Upwork changes** (cannot do via MCP): Rate $17.26 → $55/hr | portfolio titles to include keywords | 2 free certifications ("n8n Automation" + "Full-Stack AI Development")
-5. **LinkedIn Post 1** — ready to post today (8AM WAT): 80% price drop image + caption. Post 2 48h after, Post 3 48h after that.
-
-**What was decided:**
-- Never tell Giovanni about Kie AI or "processing costs." That's tooling. He hired for deliveries.
-- Never attach a payment ask to a good-news update in the same client session — rhythm matters more than message quality when trust is fragile.
-- The correct advance framing: "40% upfront before we start the batch" (professional standard), not "help cover processing costs" (asking client to fund tooling).
-- Aquatabs quality verdict: pipeline improvements are real, but not proven at scale. Small batch (3-5 products) before full 30.
-- LinkedIn post strategy: Post 1 + 2 = news reaction posts. Post 3 = pain mirror post (makes companies feel seen).
-
-**Brain commits needed:**
-- _SESSION.md ✓ (this update)
-- _QUEUE.md — add Kie alert, Giovanni advance conversation
-- giovanni-seraman.md — updated with tonight's session log ✓
-- concepts/client-communication-rhythm.md — new concept node ✓
-- iris_narrative.md ✓
-- iris_opinions.md ✓
-
----
-
 ## Last Session: 2026-08-07 to 2026-08-08 — Portfolio batch 2 + Project Catalog + SolarCheck
 
 **What we worked on:**

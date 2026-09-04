@@ -38,58 +38,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
     "next_action": "Done."
   },
   {
-    "id": "q020",
-    "action": "Top up Kie AI credits — K9 video blocked",
-    "context": "K9 Tourniquet video stuck in credit-exhausted retry loop (execution 1024). 6 of 8 scenes failed with 'Credits insufficient.' Loop retries every ~5 min, will not self-recover. Call Oba to split cost (~$20-50 minimum top-up). Once credits live, next retry cycle completes K9 automatically.",
-    "priority": "CRITICAL",
-    "revenue_impact": "DIRECT",
-    "deadline": "2026-08-26",
-    "owner": "Emmanuel",
-    "created": "2026-08-26",
-    "state": "open",
-    "platform": "SERAMAN",
-    "next_action": "Call Oba tonight. Split Kie credit top-up. K9 delivers on next retry after top-up."
-  },
-  {
-    "id": "q021",
-    "action": "Giovanni — 40% advance conversation for 30-product batch",
-    "context": "30-product batch deal pending. Must have this conversation AFTER K9 delivers — not before. Rhythm matters: don't attach payment ask to good-news update in same client session. Message ready: 'Giovanni, for the thirty products — I run batches this size with 40% upfront before we start. That's what keeps the pipeline running clean without interruptions. Let me know when you want to move.'",
-    "priority": "HIGH",
-    "revenue_impact": "DIRECT",
-    "deadline": "2026-08-28",
-    "owner": "Emmanuel",
-    "created": "2026-08-26",
-    "state": "open",
-    "platform": "Direct",
-    "next_action": "Wait for K9 video to deliver. Then send advance message as its own separate conversation — not in the same message session as the K9 delivery notification."
-  },
-  {
-    "id": "q022",
-    "action": "Wire Kie credit exhaustion Telegram alert into Generate Videos workflow",
-    "context": "Generate Videos has no alert when Kie returns 'Credits insufficient.' Generate Images does have this alert. Gap confirmed 2026-08-26 — K9 exhaustion was loud in n8n logs but silent to Emmanuel. Fix: add a specific error-catch node for the Kie credit error code → Telegram alert 'Kie credits exhausted. Top up to resume.'",
-    "priority": "HIGH",
-    "revenue_impact": "INDIRECT",
-    "deadline": null,
-    "owner": "Emmanuel",
-    "created": "2026-08-26",
-    "state": "open",
-    "platform": "n8n",
-    "next_action": "In n8n, open Generate Videos workflow. Find Kie submit nodes. Add error branch catching 'Credits insufficient' response → Telegram notification node."
-  },
-  {
-    "id": "q023",
-    "action": "LinkedIn — Post 1 (80% price drop) today 8AM WAT",
-    "context": "Post 1 rendered and ready: outputs/assets/2026-08-26-linkedin-price-drop.png. Dark card. Caption: starts with '80% cheaper.' OpenAI GPT price drop. Post 2 (1B users, light card) 48h after. Post 3 (Monday Thing, dark card) 48h after that. First comment within 60 seconds with hashtags + portfolio link.",
-    "priority": "HIGH",
-    "revenue_impact": "INDIRECT",
-    "deadline": "2026-08-26",
-    "owner": "Emmanuel",
-    "created": "2026-08-26",
-    "state": "open",
-    "platform": "LinkedIn",
-    "next_action": "Post at 8AM WAT. First comment within 60 seconds. Stay online 60 min to reply to comments."
-  },
-  {
     "id": "q016",
     "action": "Complete cert sprint: all n8n Academy + Anthropic Education courses",
     "context": "James D. competitor analysis (2026-08-07) revealed he holds 18 certs — 4 n8n Academy + 14 Anthropic Education — all completed in August 2026. All free. Keyword density, credibility signals, verification links. n8n Academy: learn.n8n.io (QS101, N8N101, N8N102, N8N103). Anthropic Education: education.anthropic.com (14 courses). Emmanuel currently has 4 certs. Target: 18+.",
