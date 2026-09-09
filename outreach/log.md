@@ -117,3 +117,17 @@ Still happy to connect if the timing works.
 
 Emmanuel
 ```
+
+## 2026-09-09 06:35 — dr-rola-charisma-clinics
+**To:** rola@charismamc.ae
+**Subject:** Re: Quick question — Charisma Medical Group (Charisma Clinics)
+
+```
+Hey Dr.,
+
+Just circling back on this. Did my last email land okay?
+
+Still happy to connect if the timing works.
+
+Emmanuel
+```
