@@ -103,3 +103,17 @@ Usually a 1-2 week build. Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-09 06:34 — deem-independent-food-company
+**To:** deem@indpt.com
+**Subject:** Re: Quick question — The Independent Food Company
+
+```
+Hey Deem,
+
+Just circling back on this. Did my last email land okay?
+
+Still happy to connect if the timing works.
+
+Emmanuel
+```
