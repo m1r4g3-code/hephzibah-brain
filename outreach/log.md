@@ -1275,3 +1275,19 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:24 — trueblaze-accounting-tax
+**To:** adam.d@trueblaze.com
+**Subject:** Quick thing: TrueBlaze Accounting & Tax
+
+```
+Hey,
+
+TrueBlaze Accounting & Tax: no automated email flows visible.
+
+Abandoned carts, post-purchase sequences, winback campaigns are sitting idle. Set this up for a consumer brand earlier this year. First 30 days: $4k recovered from abandoned carts alone.
+
+Is email still manual on your end?
+
+Emmanuel
+```
