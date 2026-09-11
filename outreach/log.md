@@ -1035,3 +1035,19 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:18 — lab-digital-creative
+**To:** hello@labdigitalcreative.com
+**Subject:** Quick thing: LAB Digital Creative
+
+```
+Hey,
+
+LAB Digital Creative has no visible review system. Buyers without social proof leave.
+
+Automated this for an e-commerce store. Post-purchase sequence collects reviews and publishes them automatically. They hit 40 reviews in 6 weeks. Conversion rate went up 12%.
+
+Is review collection still manual?
+
+Emmanuel
+```
