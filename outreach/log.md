@@ -249,3 +249,19 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:26 — next-digital-ad-agency
+**To:** info@nextadagency.com
+**Subject:** Client reporting gap: NEXT! Digital Ad Agency
+
+```
+Hey,
+
+Looks like NEXT! Digital Ad Agency is still pulling client reports manually. At any volume that's probably 2-3 days a month compiling numbers per client before the deck is ready.
+
+I built an automated reporting system for a similar agency: pulls from GA, Meta, and their ad platforms, formats per client, sends itself weekly. Took 2 weeks in n8n.
+
+Is monthly reporting still a manual process on your end?
+
+Emmanuel
+```
