@@ -1257,3 +1257,21 @@ Is reporting still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:23 — iowa-it-support-and-managed-it-services
+**To:** info@netstandard.com
+**Subject:** Quick thing: Iowa IT Support and Managed IT Services Company in Des Moines | NetStandard
+
+```
+Hey,
+
+Iowa IT Support and Managed IT Services Company in Des Moines | NetStandard: no online booking. customers still have to call or email to book.
+
+At any real volume, potential clients hit a dead end and find someone else.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
