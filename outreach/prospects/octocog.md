@@ -1,9 +1,10 @@
 ---
+outreach_sent_on: 2026-09-11
 name: OctoCog Team
 company: OctoCog
 email: info@octocog.com
 website: https://octocog.com
-status: prospect
+status: outreach_sent
 referred_by: manual_research
 subject: Automating your client work
 ---
@@ -24,3 +25,5 @@ Does that kind of manual overhead sound familiar on your end?
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'Automating your client work'

@@ -1171,3 +1171,39 @@ Is reporting still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:21 — whitewater-group
+**To:** jr@helmscpa.com
+**Subject:** Quick thing: Whitewater Group
+
+```
+Hey,
+
+Whitewater Group: no online booking. customers still have to call or email to book.
+
+At any real volume, potential clients hit a dead end and find someone else.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
+
+## 2026-09-11 22:21 — octocog
+**To:** info@octocog.com
+**Subject:** Automating your client work
+
+```
+Hey,
+
+Managing web, email, SEO, and social for clients across restaurants, nonprofits, and education all at once usually means a lot of manual status tracking and reporting work behind the scenes.
+
+I build client management automation for agencies your size. The main wins: automated weekly client reports pulling from Google Analytics, social platforms, and email tools, and a single dashboard showing the current status of every client's deliverables. Built on n8n.
+
+One agency I helped reduced their end-of-month reporting from 2 days to about 3 hours total across all clients.
+
+Does that kind of manual overhead sound familiar on your end?
+
+Emmanuel
+```
