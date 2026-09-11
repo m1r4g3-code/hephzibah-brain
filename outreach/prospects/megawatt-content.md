@@ -1,9 +1,10 @@
 ---
+outreach_sent_on: 2026-09-11
 name: Megawatt Team
 company: Megawatt Content
 email: hello@megawattcontent.com
 website: https://megawattcontent.com
-status: prospect
+status: outreach_sent
 referred_by: manual_research
 subject: Content distribution automation
 ---
@@ -24,3 +25,5 @@ Is that kind of time sink something your team currently deals with?
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'Content distribution automation'

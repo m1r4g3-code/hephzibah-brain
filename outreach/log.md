@@ -1137,3 +1137,21 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:21 — megawatt-content
+**To:** hello@megawattcontent.com
+**Subject:** Content distribution automation
+
+```
+Hey,
+
+B2B content agencies at your stage usually hit the same wall: great content going out, but the distribution and reporting workflow for each client is still mostly manual.
+
+I build content automation systems for agencies. The setup handles scheduling across channels, tracks performance per piece, and compiles client reports automatically. Built on n8n so you own it, not a SaaS subscription you pay for forever.
+
+Agencies I have helped reduced their Monday morning publishing prep from 90 minutes to 10 minutes per client.
+
+Is that kind of time sink something your team currently deals with?
+
+Emmanuel
+```
