@@ -1339,3 +1339,21 @@ Is field reporting still a manual process on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:25 — goodyou-marketing
+**To:** info@goodyoumarketing.com
+**Subject:** Multi-channel reporting automation
+
+```
+Hey,
+
+Running campaigns across Yahoo DSP, Google, and Meta for brand clients means you are pulling reports from three different dashboards every week. That consolidation and formatting work takes real time.
+
+I build automated multi-channel reporting systems for media agencies. The setup pulls spend, impressions, and conversions from each platform, standardizes the metrics, and produces one client-ready report on schedule. Built on n8n, you own the workflow.
+
+Agencies I have helped cut weekly reporting prep from 5 to 6 hours down to about 30 minutes.
+
+Is multi-platform reporting still a manual process for your team?
+
+Emmanuel
+```

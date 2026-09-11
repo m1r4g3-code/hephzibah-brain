@@ -1,9 +1,10 @@
 ---
+outreach_sent_on: 2026-09-11
 name: GoodYou Marketing Team
 company: GoodYou Marketing
 email: info@goodyoumarketing.com
 website: https://www.goodyoumarketing.com
-status: prospect
+status: outreach_sent
 referred_by: manual_research
 subject: Multi-channel reporting automation
 ---
@@ -24,3 +25,5 @@ Is multi-platform reporting still a manual process for your team?
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'Multi-channel reporting automation'
