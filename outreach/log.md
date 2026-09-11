@@ -553,3 +553,21 @@ Is field reporting still a manual process on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:56 — baker-sullivan-hoover
+**To:** contact.us@bsh-cpa.com
+**Subject:** Quick thing: Baker Sullivan Hoover
+
+```
+Hey,
+
+Baker Sullivan Hoover: no online booking. customers still have to call or email to book.
+
+At any real volume, potential clients hit a dead end and find someone else.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
