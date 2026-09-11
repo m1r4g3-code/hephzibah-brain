@@ -297,3 +297,17 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:28 — search-pros
+**To:** brandon@searchpros.com
+**Subject:** Field reporting at Search Pros
+
+```
+Hey,
+
+Search Pros's field reporting looks like it's still going through Excel or email. That's a lot of manual data movement between the field and whoever's building the monthly numbers.
+
+Is field reporting still a manual process on your end?
+
+Emmanuel
+```
