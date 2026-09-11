@@ -281,3 +281,19 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:28 — get-found-fast-seo-digital-marketing
+**To:** info@getfoundfast.com
+**Subject:** Quick thing: Get Found Fast SEO & Digital Marketing
+
+```
+Hey,
+
+No email marketing visible. No automated follow-up after a visitor leaves.
+
+I do automation work: Klaviyo sequences, booking integrations, reporting pipelines. Usually 1-2 weeks depending on scope.
+
+Worth a quick call?
+
+Emmanuel
+```
