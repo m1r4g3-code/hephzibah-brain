@@ -981,3 +981,39 @@ Is customer response still manual after hours?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:17 — tma-accounting
+**To:** info@tmaaccounting.com
+**Subject:** Quick thing: TMA Accounting
+
+```
+Hey,
+
+TMA Accounting: no live chat. questions go unanswered outside business hours.
+
+At any real volume, every after-hours question goes cold.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
+
+## 2026-09-11 22:17 — flagship-digital-marketing
+**To:** info@flagshipdm.com
+**Subject:** Automating your client updates
+
+```
+Hey,
+
+You mention giving clients regular plain-English updates on their campaigns. That kind of reporting, done well, takes real time to compile and write each week.
+
+I build automated campaign reporting systems for agencies. Pulls ad spend, conversions, and lead counts from Google and Meta, formats a clean per-client summary, and sends automatically on your schedule. You get to review before it goes out, but the assembly is done.
+
+Agencies I have helped get from 3 to 4 hours per client on manual reporting down to a 10-minute review.
+
+Would that be useful at your current client load?
+
+Emmanuel
+```

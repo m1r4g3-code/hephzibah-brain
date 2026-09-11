@@ -1,9 +1,10 @@
 ---
+outreach_sent_on: 2026-09-11
 name: Flagship DM Team
 company: Flagship Digital Marketing
 email: info@flagshipdm.com
 website: https://flagshipdm.com
-status: prospect
+status: outreach_sent
 referred_by: manual_research
 subject: Automating your client updates
 ---
@@ -24,3 +25,5 @@ Would that be useful at your current client load?
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'Automating your client updates'
