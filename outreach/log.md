@@ -1325,3 +1325,17 @@ Would that be worth a quick conversation?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:25 — ls2group
+**To:** info@ls2group.com
+**Subject:** Field reporting at LS2group
+
+```
+Hey,
+
+LS2group's field reporting looks like it's still going through Excel or email. That's a lot of manual data movement between the field and whoever's building the monthly numbers.
+
+Is field reporting still a manual process on your end?
+
+Emmanuel
+```
