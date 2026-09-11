@@ -1069,3 +1069,21 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:19 — mckinley-jones-associates
+**To:** mjones@mja-cpa.com
+**Subject:** Quick thing: McKinley Jones & Associates
+
+```
+Hey,
+
+McKinley Jones & Associates: no online booking. customers still have to call or email to book.
+
+At any real volume, potential clients hit a dead end and find someone else.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
