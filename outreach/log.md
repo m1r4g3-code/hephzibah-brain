@@ -507,3 +507,19 @@ Is email still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 18:03 — pop-creative
+**To:** info@popcreativegroup.com
+**Subject:** Quick thing: POP Creative
+
+```
+Hey,
+
+POP Creative has no visible review system. Buyers without social proof leave.
+
+Automated this for an e-commerce store. Post-purchase sequence collects reviews and publishes them automatically. They hit 40 reviews in 6 weeks. Conversion rate went up 12%.
+
+Is review collection still manual?
+
+Emmanuel
+```
