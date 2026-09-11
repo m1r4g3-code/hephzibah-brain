@@ -6,9 +6,9 @@ email: rob@wtfdivorce.com
 linkedin: https://www.linkedin.com/in/rob-roseman/
 instagram: 
 website: https://wtfdivorce.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-09-11
 platform: direct
 sensitivity: private
 subject: podcast, YouTube, 117k. same content 3 times
@@ -31,3 +31,5 @@ Is distribution still all hands on for WTF Divorce, or do you have some of it ru
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'podcast, YouTube, 117k. same content 3 times'

@@ -199,3 +199,21 @@ Is that still manual on your end or do you have something set up?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:12 — rob-roseman-wtfdivorce
+**To:** rob@wtfdivorce.com
+**Subject:** podcast, YouTube, 117k. same content 3 times
+
+```
+Hey Rob,
+
+Running a podcast, YouTube, and 117k on Instagram means the same content is probably going to 3 different places in 3 different formats every week.
+
+And the email list on top of that.
+
+That's the part most media founders leave manual the longest. I automate it so the content goes out without anyone formatting or scheduling it manually.
+
+Is distribution still all hands on for WTF Divorce, or do you have some of it running?
+
+Emmanuel
+```
