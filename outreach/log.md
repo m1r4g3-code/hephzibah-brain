@@ -781,3 +781,17 @@ Is posting still handled by someone on the team?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:00 — premier-marketing
+**To:** info@premiermarketingus.com
+**Subject:** Field reporting at Premier Marketing
+
+```
+Hey,
+
+Premier Marketing's field reporting looks like it's still going through Excel or email. That's a lot of manual data movement between the field and whoever's building the monthly numbers.
+
+Is field reporting still a manual process on your end?
+
+Emmanuel
+```
