@@ -861,3 +861,19 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:03 — the-agency-angle-marketing-group
+**To:** info@gettheagency.com
+**Subject:** law reporting gap: The Agency Angle - Marketing Group
+
+```
+Hey,
+
+The Agency Angle - Marketing Group looks like it's still compiling client reports manually. At any real volume that's 2-3 days a month that could run automatically.
+
+Did this for a content agency earlier this year. Pulls from GA, Meta, and ad platforms, formats per client, sends itself. They got 18 hours a month back and haven't touched a report since.
+
+Is reporting still manual on your end?
+
+Emmanuel
+```
