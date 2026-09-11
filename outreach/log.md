@@ -413,3 +413,19 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:43 — lead-it-consulting
+**To:** info@leaditconsulting.net
+**Subject:** Quick thing: Lead IT Consulting
+
+```
+Hey,
+
+Lead IT Consulting: no automated email flows visible.
+
+Abandoned carts, post-purchase sequences, winback campaigns are sitting idle. Set this up for a consumer brand earlier this year. First 30 days: $4k recovered from abandoned carts alone.
+
+Is email still manual on your end?
+
+Emmanuel
+```
