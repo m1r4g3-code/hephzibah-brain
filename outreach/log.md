@@ -765,3 +765,19 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:00 — terillium
+**To:** info@terillium.com
+**Subject:** real estate posting ops: Terillium
+
+```
+Hey,
+
+No content scheduler visible at Terillium. Running social for real estate clients manually probably eats 8-10 hours a week that could run on its own.
+
+Built a multi-platform publisher for a digital agency. Copy approved in one place, posted everywhere on schedule. Team got 40 hours a month back. Nothing posted manually now.
+
+Is posting still handled by someone on the team?
+
+Emmanuel
+```
