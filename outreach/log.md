@@ -711,3 +711,21 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:59 — jason-moll-cpa
+**To:** jason@jasonmollcpa.com
+**Subject:** Quick thing: Jason Moll, CPA
+
+```
+Hey,
+
+Jason Moll, CPA: no email marketing visible. no automated follow-up after a visitor leaves.
+
+At any real volume, follow-up depends on whoever remembered to send it.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
