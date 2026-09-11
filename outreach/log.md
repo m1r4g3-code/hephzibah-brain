@@ -877,3 +877,21 @@ Is reporting still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:03 — sjc-marketing
+**To:** info@sjc.marketing
+**Subject:** Client reporting for your accounts
+
+```
+Hey,
+
+Managing reporting across manufacturing, fitness, and chamber clients means pulling different metrics on different schedules. That assembly work adds up fast when you are doing it manually each week.
+
+I build automated reporting systems for agencies using n8n. The setup pulls from Meta, Google Analytics, and LinkedIn, formats the numbers per client, and sends weekly or monthly reports automatically. No more copy-pasting dashboards together.
+
+Agencies I have done this for recovered 8 to 12 hours a week on reporting alone.
+
+Is this something that currently eats time on your team?
+
+Emmanuel
+```

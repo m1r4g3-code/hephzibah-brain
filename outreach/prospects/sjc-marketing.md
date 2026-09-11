@@ -1,9 +1,10 @@
 ---
+outreach_sent_on: 2026-09-11
 name: SJC Marketing Team
 company: SJC Marketing
 email: info@sjc.marketing
 website: https://sjc.marketing
-status: prospect
+status: outreach_sent
 referred_by: manual_research
 subject: Client reporting for your accounts
 ---
@@ -24,3 +25,5 @@ Is this something that currently eats time on your team?
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'Client reporting for your accounts'
