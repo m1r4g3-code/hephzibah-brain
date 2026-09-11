@@ -607,3 +607,19 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:57 — evan-hutcheson-cpa-llc
+**To:** evan@evanhcpa.com
+**Subject:** Quick thing: Evan Hutcheson, CPA, LLC
+
+```
+Hey,
+
+Evan Hutcheson, CPA, LLC: no automated email flows visible.
+
+Abandoned carts, post-purchase sequences, winback campaigns are sitting idle. Set this up for a consumer brand earlier this year. First 30 days: $4k recovered from abandoned carts alone.
+
+Is email still manual on your end?
+
+Emmanuel
+```
