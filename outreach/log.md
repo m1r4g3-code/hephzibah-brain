@@ -795,3 +795,19 @@ Is field reporting still a manual process on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:01 — sunil-kawatra-cpa
+**To:** kawatracpa@gmail.com
+**Subject:** Quick thing: Sunil Kawatra CPA
+
+```
+Hey,
+
+Sunil Kawatra CPA: no automated email flows visible.
+
+Abandoned carts, post-purchase sequences, winback campaigns are sitting idle. Set this up for a consumer brand earlier this year. First 30 days: $4k recovered from abandoned carts alone.
+
+Is email still manual on your end?
+
+Emmanuel
+```
