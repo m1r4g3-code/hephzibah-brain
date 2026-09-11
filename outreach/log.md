@@ -491,3 +491,19 @@ Is reporting still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 18:02 — philadelphia-web-design-company
+**To:** randy@becalledfirst.com
+**Subject:** Quick thing: Philadelphia Web Design Company
+
+```
+Hey,
+
+Philadelphia Web Design Company: no automated email flows visible.
+
+Abandoned carts, post-purchase sequences, winback campaigns are sitting idle. Set this up for a consumer brand earlier this year. First 30 days: $4k recovered from abandoned carts alone.
+
+Is email still manual on your end?
+
+Emmanuel
+```
