@@ -539,3 +539,17 @@ Still sending updates by hand?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:55 — baker-tilly
+**To:** tommy.caraffa@bakertilly.com
+**Subject:** Field reporting at Baker Tilly
+
+```
+Hey Eric Dembinski,
+
+Baker Tilly's field reporting looks like it's still going through Excel or email. That's a lot of manual data movement between the field and whoever's building the monthly numbers.
+
+Is field reporting still a manual process on your end?
+
+Emmanuel
+```
