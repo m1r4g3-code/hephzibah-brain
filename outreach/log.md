@@ -811,3 +811,19 @@ Is email still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:01 — ael-management-business-bookkeeping
+**To:** anna@aelmgt.com
+**Subject:** Quick thing: AEL Management - Business Bookkeeping
+
+```
+Hey,
+
+AEL Management - Business Bookkeeping: no automated email flows visible.
+
+Abandoned carts, post-purchase sequences, winback campaigns are sitting idle. Set this up for a consumer brand earlier this year. First 30 days: $4k recovered from abandoned carts alone.
+
+Is email still manual on your end?
+
+Emmanuel
+```
