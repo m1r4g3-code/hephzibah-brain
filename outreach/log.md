@@ -1119,3 +1119,21 @@ Still sending updates by hand?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:20 — lawrie-dunbar-cpas
+**To:** info@ld-cpas.com
+**Subject:** Quick thing: Lawrie & Dunbar, CPAs
+
+```
+Hey,
+
+Lawrie & Dunbar, CPAs: no live chat. questions go unanswered outside business hours.
+
+At any real volume, every after-hours question goes cold.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
