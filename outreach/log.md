@@ -233,3 +233,19 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:26 — utility-trailer-of-texas-inc
+**To:** unlimited@utilitytrailers.com
+**Subject:** Quick thing: Utility Trailer of Texas, Inc
+
+```
+Hey,
+
+No email marketing visible. No automated follow-up after a visitor leaves.
+
+I do automation work: Klaviyo sequences, booking integrations, reporting pipelines. Usually 1-2 weeks depending on scope.
+
+Worth a quick call?
+
+Emmanuel
+```
