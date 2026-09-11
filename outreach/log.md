@@ -589,3 +589,21 @@ Worth a quick call to see if it fits what you are building?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:56 — layercake-technologies
+**To:** help@layercaketech.com
+**Subject:** Quick thing: LayerCake Technologies
+
+```
+Hey,
+
+LayerCake Technologies: no live chat. questions go unanswered outside business hours.
+
+At any real volume, every after-hours question goes cold.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
