@@ -1357,3 +1357,19 @@ Is multi-platform reporting still a manual process for your team?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:26 — peachin-schwartz-weingardt-pc
+**To:** info-cra@crossroadsadvise.com
+**Subject:** Quick thing: Peachin Schwartz & Weingardt PC
+
+```
+Hey,
+
+Peachin Schwartz & Weingardt PC: no automated email flows visible.
+
+Abandoned carts, post-purchase sequences, winback campaigns are sitting idle. Set this up for a consumer brand earlier this year. First 30 days: $4k recovered from abandoned carts alone.
+
+Is email still manual on your end?
+
+Emmanuel
+```
