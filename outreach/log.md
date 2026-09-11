@@ -571,3 +571,21 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:56 — jackrabbit-accounting
+**To:** hello@jackrabbitaccounting.com
+**Subject:** QuickBooks reporting automation
+
+```
+Hey Sean,
+
+Managing monthly financials across a bunch of QuickBooks Online files for different clients takes time. The part that usually eats the most hours is pulling each client's numbers, formatting the report, and getting it out.
+
+I build automated reporting workflows for accounting firms using n8n. The setup pulls directly from QBO, formats the monthly P&L and cash flow report per client, and emails it out automatically on your schedule. No more manual assembly per client.
+
+Firms I have done this for went from spending 2 to 3 hours per client monthly on report delivery down to about 10 minutes of review before it sends itself.
+
+Worth a quick call to see if it fits what you are building?
+
+Emmanuel
+```

@@ -1,9 +1,10 @@
 ---
+outreach_sent_on: 2026-09-11
 name: Sean Larsen
 company: Jackrabbit Accounting
 email: hello@jackrabbitaccounting.com
 website: https://jackrabbitaccounting.com
-status: prospect
+status: outreach_sent
 referred_by: manual_research
 subject: QuickBooks reporting automation
 ---
@@ -24,3 +25,5 @@ Worth a quick call to see if it fits what you are building?
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'QuickBooks reporting automation'
