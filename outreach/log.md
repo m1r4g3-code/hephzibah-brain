@@ -1307,3 +1307,21 @@ Is lead tracking still manual?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:24 — compete-now
+**To:** info@competenow.biz
+**Subject:** Client reporting for your SEO and ads work
+
+```
+Hey,
+
+Running SEO, Google Ads, and email for law firm and B2B clients means pulling performance data from three or four different places and compiling it into something the client can actually read. That assembly work adds up.
+
+I build automated client reporting for agencies. The setup pulls from Google Analytics, Search Console, and your ad platforms, formats the numbers into client-ready summaries, and sends them on schedule. No more manual export and copy-paste.
+
+Agencies I have helped cut their monthly reporting time from a full day down to about an hour of review total.
+
+Would that be worth a quick conversation?
+
+Emmanuel
+```

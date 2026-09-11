@@ -1,9 +1,10 @@
 ---
+outreach_sent_on: 2026-09-11
 name: Compete Now Team
 company: Compete Now
 email: info@competenow.biz
 website: https://startcompeting.com
-status: prospect
+status: outreach_sent
 referred_by: manual_research
 subject: Client reporting for your SEO and ads work
 ---
@@ -24,3 +25,5 @@ Would that be worth a quick conversation?
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'Client reporting for your SEO and ads work'
