@@ -1,17 +1,17 @@
 ---
-name: Neon Canvas
-company: Neon Canvas
+name: Cobblestone Marketing
+company: Cobblestone Marketing
 role: Owner
-email: marketing@neoncanvas.com
-phone: +1 901-295-6366
-website: https://www.neoncanvas.com/
-address: 5100 Poplar Ave Ste 2114, Memphis, TN 38137, United States
+email: emellen@cobblemarketing.com
+phone: +1 901-264-9099
+website: https://cobblemarketing.com/
+address: 152 N Tucker St Ste 102, Memphis, TN 38104, United States
 category: Marketing agency
 biz_type: agency
 niche: 
 source: maps
 signal: website_gap
-subject: Client delivery: Neon Canvas
+subject: Client delivery: Cobblestone Marketing
 status: outreach_sent
 outreach_sent_on:
 2026-09-11
@@ -20,15 +20,15 @@ sensitivity: private
 
 ## Context
 Found via Google Maps search.
-Website: https://www.neoncanvas.com/
-Tech stack: WordPress, React/Next.js, HubSpot
+Website: https://cobblemarketing.com/
+Tech stack: WordPress, HubSpot
 Type: agency
 Trigger: 
 
 ## Outreach Notes
 Hey,
 
-Neon Canvas doesn't seem to have a client portal. If your clients are getting updates over email, that's 30+ minutes a day on status messages alone.
+Cobblestone Marketing doesn't seem to have a client portal. If your clients are getting updates over email, that's 30+ minutes a day on status messages alone.
 
 Set this up for a 12-client agency: clients log in, see project status, get auto-notified. They cut 2 hours a day from client comms and none of it runs manually.
 
@@ -44,4 +44,4 @@ Emmanuel
 ## Conversation Log
 2026-09-11 — Prospect created via maps prospector.
 
-**2026-09-11** — Auto-sent — 'Client delivery: Neon Canvas'
+**2026-09-11** — Auto-sent — 'Client delivery: Cobblestone Marketing'

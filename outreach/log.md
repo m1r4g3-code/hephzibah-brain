@@ -1087,3 +1087,35 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:19 — neon-canvas
+**To:** marketing@neoncanvas.com
+**Subject:** Client delivery: Neon Canvas
+
+```
+Hey,
+
+Neon Canvas doesn't seem to have a client portal. If your clients are getting updates over email, that's 30+ minutes a day on status messages alone.
+
+Set this up for a 12-client agency: clients log in, see project status, get auto-notified. They cut 2 hours a day from client comms and none of it runs manually.
+
+Still sending updates by hand?
+
+Emmanuel
+```
+
+## 2026-09-11 22:20 — cobblestone-marketing
+**To:** emellen@cobblemarketing.com
+**Subject:** Client delivery: Cobblestone Marketing
+
+```
+Hey,
+
+Cobblestone Marketing doesn't seem to have a client portal. If your clients are getting updates over email, that's 30+ minutes a day on status messages alone.
+
+Set this up for a 12-client agency: clients log in, see project status, get auto-notified. They cut 2 hours a day from client comms and none of it runs manually.
+
+Still sending updates by hand?
+
+Emmanuel
+```
