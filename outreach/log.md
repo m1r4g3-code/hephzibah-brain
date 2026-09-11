@@ -895,3 +895,19 @@ Is this something that currently eats time on your team?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:03 — digital-kings-networking-inc
+**To:** info@digitalkingsnetworking.com
+**Subject:** Client reporting gap: Digital Kings Networking Inc.
+
+```
+Hey,
+
+No CRM visible at Digital Kings Networking Inc.. Leads for your clients are probably tracked in email threads or a spreadsheet.
+
+Built the same thing for a marketing agency: new contact auto-tagged, follow-up queued in Slack, nothing falls through. They stopped losing leads to inbox chaos. About 2 weeks in n8n.
+
+Is lead tracking still manual?
+
+Emmanuel
+```
