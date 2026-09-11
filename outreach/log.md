@@ -217,3 +217,19 @@ Is distribution still all hands on for WTF Divorce, or do you have some of it ru
 
 Emmanuel
 ```
+
+## 2026-09-11 17:16 — leadige-media-group
+**To:** hello@leadige.agency
+**Subject:** Quick thing: Leadige Media Group
+
+```
+Hey,
+
+No live chat. Questions go unanswered outside business hours.
+
+I do automation work: Klaviyo sequences, booking integrations, reporting pipelines. Usually 1-2 weeks depending on scope.
+
+Worth a quick call?
+
+Emmanuel
+```
