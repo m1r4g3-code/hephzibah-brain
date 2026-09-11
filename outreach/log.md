@@ -1291,3 +1291,19 @@ Is email still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:24 — big-river-digital-llc
+**To:** team@bigriverdigital.ai
+**Subject:** Client reporting gap: Big River Digital LLC
+
+```
+Hey Vanessa Rodley,
+
+No CRM visible at Big River Digital LLC. Leads for your clients are probably tracked in email threads or a spreadsheet.
+
+Built the same thing for a marketing agency: new contact auto-tagged, follow-up queued in Slack, nothing falls through. They stopped losing leads to inbox chaos. About 2 weeks in n8n.
+
+Is lead tracking still manual?
+
+Emmanuel
+```
