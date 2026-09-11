@@ -675,3 +675,21 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:58 — jenny-s-love-accounting
+**To:** 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com
+**Subject:** Quick thing: Jenny's Love Accounting
+
+```
+Hey,
+
+Jenny's Love Accounting: no live chat. questions go unanswered outside business hours.
+
+At any real volume, every after-hours question goes cold.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
