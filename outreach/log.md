@@ -929,3 +929,21 @@ Worth a 15-minute conversation?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:15 — duffy-marketing
+**To:** info@duffymarketing.com
+**Subject:** Lead tracking across direct mail and digital
+
+```
+Hey,
+
+Tracking leads across direct mail and digital for home service clients is the tricky part. Each source has its own report, and combining them into something the client can actually read takes time.
+
+I build automated lead consolidation and reporting for agencies like yours. The setup pulls from Google Ads, Meta, and call tracking into one weekly report per client, formatted and emailed automatically. Built on n8n so you own it.
+
+One agency I did this for was spending 6 hours every Friday on manual report assembly for 12 clients. Now it runs overnight Thursday.
+
+Does manual reporting eat much time on your end?
+
+Emmanuel
+```
