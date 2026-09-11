@@ -639,3 +639,21 @@ Is email still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:58 — bellenfant-pllc
+**To:** info@bellenfantcpa.com
+**Subject:** Quick thing: Bellenfant, PLLC
+
+```
+Hey,
+
+Bellenfant, PLLC: no email marketing visible. no automated follow-up after a visitor leaves.
+
+At any real volume, follow-up depends on whoever remembered to send it.
+
+Done this exact fix for similar businesses. Usually 1-2 weeks, and the teams I've worked with typically get 10-15 hours a week back once it's running.
+
+Is it still manual on your end?
+
+Emmanuel
+```
