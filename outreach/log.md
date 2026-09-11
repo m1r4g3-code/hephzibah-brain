@@ -445,3 +445,17 @@ Is reporting still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:51 — prudent-accountants
+**To:** info@prudentaccountants.com
+**Subject:** Field reporting at Prudent Accountants
+
+```
+Hey,
+
+Prudent Accountants's field reporting looks like it's still going through Excel or email. That's a lot of manual data movement between the field and whoever's building the monthly numbers.
+
+Is field reporting still a manual process on your end?
+
+Emmanuel
+```
