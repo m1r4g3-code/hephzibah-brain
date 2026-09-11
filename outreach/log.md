@@ -163,3 +163,21 @@ I build n8n pipelines that pull from every platform on a schedule, format per cl
 
 Emmanuel
 ```
+
+## 2026-09-11 17:12 — zain-ali-zainith
+**To:** zain@zainith.agency
+**Subject:** Zainith client reporting
+
+```
+Hey Zain,
+
+Saw Zainith is doing shop management for multiple clients. That usually means someone on the team is pulling performance data and compiling reports manually every month.
+
+At that scale it's probably 8-12 hours a week. Not the worst problem until you're trying to take on 3 more clients.
+
+I automate that end to end. Reports go out on schedule, no one touches them.
+
+Is reporting still manual at Zainith or already handled?
+
+Emmanuel
+```
