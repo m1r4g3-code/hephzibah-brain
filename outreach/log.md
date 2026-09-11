@@ -343,3 +343,21 @@ Worth a quick call?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:42 — mayrim-zoho-crm
+**To:** info@mayrim.org
+**Subject:** Zoho CRM audience filtering
+
+```
+Hey,
+
+Saw Mayrim is working on filtered campaign segmentation inside Zoho CRM. Custom field filtering into targeted email and SMS runs is something I've set up for a few nonprofits and community orgs.
+
+The approach: Zoho Campaigns or Zoho CRM workflows pull contacts matching your custom field criteria, push them into the right campaign sequence automatically. No manual list building per send.
+
+I've done this for organizations at similar scale. Clients using the same setup are running 3-4 segmented campaign types without touching a contact list manually.
+
+Is there a good time this week to walk through what you have built so far?
+
+Emmanuel
+```
