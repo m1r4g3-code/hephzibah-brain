@@ -623,3 +623,19 @@ Is email still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 21:57 — lk-tech-cincinnati-managed-it-services-c
+**To:** %20hello@lktechnologies.com
+**Subject:** Quick thing: LK TECH - Cincinnati Managed IT Services Company
+
+```
+Hey,
+
+LK TECH - Cincinnati Managed IT Services Company: no automated email flows visible.
+
+Abandoned carts, post-purchase sequences, winback campaigns are sitting idle. Set this up for a consumer brand earlier this year. First 30 days: $4k recovered from abandoned carts alone.
+
+Is email still manual on your end?
+
+Emmanuel
+```
