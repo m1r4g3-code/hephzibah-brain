@@ -965,3 +965,19 @@ Is it still manual on your end?
 
 Emmanuel
 ```
+
+## 2026-09-11 22:17 — paradigm-marketing-creative-memphis-bran
+**To:** info@2dimes.com
+**Subject:** Quick thing: Paradigm Marketing & Creative | Memphis Branding, Web Design, Advertising & Marketing Agency
+
+```
+Hey,
+
+Paradigm Marketing & Creative | Memphis Branding, Web Design, Advertising & Marketing Agency has no live chat. After-hours questions go cold.
+
+Did this for a Shopify brand last quarter. Set up AI chat that handles queries 24/7 and pushes hesitant buyers to checkout. They went from losing after-hours leads to 30+ extra conversations a month.
+
+Is customer response still manual after hours?
+
+Emmanuel
+```
