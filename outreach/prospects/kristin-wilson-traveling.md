@@ -6,9 +6,9 @@ email: hello@travelingwithkristin.com
 linkedin: 
 instagram: 
 website: https://travelingwithkristin.com
-status: prospect
+status: outreach_sent
 outreach_sent_on: 
-referred_by: cold
+2026-09-11
 platform: direct
 sensitivity: private
 subject: same intake, 50 times
@@ -31,3 +31,5 @@ Is that still manual on your end or do you have something set up?
 Emmanuel
 
 ## Conversation Log
+
+**2026-09-11** — Auto-sent — 'same intake, 50 times'

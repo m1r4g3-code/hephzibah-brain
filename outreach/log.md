@@ -181,3 +181,21 @@ Is reporting still manual at Zainith or already handled?
 
 Emmanuel
 ```
+
+## 2026-09-11 17:12 — kristin-wilson-traveling
+**To:** hello@travelingwithkristin.com
+**Subject:** same intake, 50 times
+
+```
+Hey Kristin,
+
+Saw you run relocation consulting alongside the podcast and YouTube. Every client probably goes through the same thing: intake form, qualification call, country research, document checklist.
+
+That's the same process 50 times a year. All of it is automatable.
+
+I build systems that handle intake to onboarding without anyone touching it. Consultants usually get 6-8 hours back a week.
+
+Is that still manual on your end or do you have something set up?
+
+Emmanuel
+```
