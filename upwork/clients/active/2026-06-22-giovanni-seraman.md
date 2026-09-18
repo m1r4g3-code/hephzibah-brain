@@ -860,4 +860,17 @@ The operator sent the same 0:42 screenshot again after the "fixed" link, said "i
 
 **Lesson:** a hallucination that survives one targeted fix is telling you the fix addressed the wrong variable — swap the actual risky element (the action/motion, not just the adjacent wording) before retrying blind. And when a defect is reported at one specific timestamp twice, verify future attempts at that exact timestamp and at higher time-resolution than the original check used, not just "somewhere in the scene, roughly."
 
+## Negotiation posture — maintenance + long-form pitch sent same day as the fix closed (2026-09-17)
+
+Once KpgRaVA's final video was confirmed genuinely fixed ("correctttt dats it" from the operator), moved immediately into the next planned negotiation step from [[project_giovanni_negotiation]] ("close M2 first, then boundary + reprice, lead with maintenance value") — same day, while the relief of a real fix was still fresh rather than letting the moment pass.
+
+**Two asks drafted, both client-facing (operator sends, not sent directly — no Gmail auth available this session):**
+
+1. **Maintenance retainer — €600/month**, plain figure stated directly per [[feedback_confident_ask_framing]] (no "whatever works for you" hedging). Scope: ongoing monitoring, bug fixes, pipeline/prompt updates and management as Kie/Creatomate change underneath the system — plus a new deliverable, a one-page usage dashboard (Kie credits, Claude usage, all subscriptions in one view) with pre-exhaustion alerts, framed as protecting the investment already made rather than a new cost center.
+2. **Long-form video project** — scope-only, no price yet (operator's explicit choice over quoting a fixed milestone now). Positioned as a real step up from the current 60s format: broader and more advanced camera positioning, richer visual styling, more engaging. No call requested — operator explicitly ruled that out, so the pitch is text-only and invites a go-ahead to start scoping rather than a meeting.
+
+**Context this ask leans on:** Giovanni was actively traveling for sales while this exact pipeline was misbehaving — meaning the tool is already load-bearing for his real sales activity, which is the actual leverage behind both asks (not "please buy more," but "this is already working for you, let's make it more reliable and take it further"). Not yet known: whether Giovanni has replied, or whether the €600/mo figure lands as high, low, or right given he already committed to M1 ($500) + M2 without visible pushback on price so far.
+
+**Open:** no response from Giovanni logged yet as of this write-up. Next session should check for a reply before assuming either offer needs re-pitching.
+
 Job `KpgRaVA`'s real, correct final video: `https://f002.backblazeb2.com/file/creatomate-c8xg3hsxdu/385ef6ff-d2f9-4e48-b3a0-36f017ac3ddf.mp4` (given directly to Giovanni since the email button was broken on the copy already in his inbox). All 3 verification one-offs from this round archived after use.
