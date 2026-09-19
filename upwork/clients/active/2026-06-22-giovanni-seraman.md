@@ -873,4 +873,14 @@ Once KpgRaVA's final video was confirmed genuinely fixed ("correctttt dats it" f
 
 **Open:** no response from Giovanni logged yet as of this write-up. Next session should check for a reply before assuming either offer needs re-pitching.
 
-Job `KpgRaVA`'s real, correct final video: `https://f002.backblazeb2.com/file/creatomate-c8xg3hsxdu/385ef6ff-d2f9-4e48-b3a0-36f017ac3ddf.mp4` (given directly to Giovanni since the email button was broken on the copy already in his inbox). All 3 verification one-offs from this round archived after use.
+Job `KpgRaVA`'s real, correct final video: `https://f002.backblazeb2.com/file/creatomate-c8xg3hsxdu/de58a864-036d-4314-88a5-3ac0fb910fa8.mp4` (given directly to Giovanni since the email button was broken on the copy already in his inbox). All 3 verification one-offs from this round archived after use.
+
+## Publish-confusion follow-up (2026-09-19): approval gate already existed, wording was stale, and my manual re-render skipped it
+
+Giovanni asked how to publish, saying he had no confirmation email showing text, link and hashtags. Inspected the live workflows: the gate he described already exists. Scene Approval's "Send Video For Review" email carries the video link, the ready caption block (text, link, hashtags) and an "Approve or flag scenes" Tally button; ticking "Approve all scenes" auto-publishes to all 4 platforms via Blotato, followed by a publishing report email.
+
+**Two real causes of the confusion.** (1) Stale wording contradicted itself: the review email said to tick approve "to publish it" but also "copy and paste when you publish", and the approval alert said "ready for posting and delivery" — both read as manual posting. Fixed in the live Scene Approval workflow (versionId b73913a2-0cdf-4d8d-8699-93ce5bc3c5aa, byte-verified against source): both emails now say approval publishes automatically, nothing to post manually. (2) KpgRaVA's fixed video was rendered by calling Edit Videos directly, which bypassed caption generation and the review email entirely; he only has the old email with the broken button. Same "fix must reach the delivered artifact" gap, now on the approval step.
+
+**Verified before he approves:** Sheet3 row 56 holds FINAL VIDEO URL `de58a864-036d-4314-88a5-3ac0fb910fa8.mp4` (the verified-clean render), STATUS Ready, and a valid Italian caption with the product link and 4 hashtags (within every platform cap). Approving now would publish the correct video.
+
+**Correction:** earlier notes in this file listed `385ef6ff...` as the final link. That was an intermediate render from execution 1171, not the final. Corrected above to `de58a864...`. A draft reply I wrote earlier also said there is no caption/hashtag confirmation step; that was wrong and was not to be sent.
