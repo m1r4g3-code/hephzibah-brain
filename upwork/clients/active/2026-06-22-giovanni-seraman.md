@@ -884,3 +884,12 @@ Giovanni asked how to publish, saying he had no confirmation email showing text,
 **Verified before he approves:** Sheet3 row 56 holds FINAL VIDEO URL `de58a864-036d-4314-88a5-3ac0fb910fa8.mp4` (the verified-clean render), STATUS Ready, and a valid Italian caption with the product link and 4 hashtags (within every platform cap). Approving now would publish the correct video.
 
 **Correction:** earlier notes in this file listed `385ef6ff...` as the final link. That was an intermediate render from execution 1171, not the final. Corrected above to `de58a864...`. A draft reply I wrote earlier also said there is no caption/hashtag confirmation step; that was wrong and was not to be sent.
+
+## Full pipeline audit + first three fixes (2026-09-19)
+
+Ran the deep-audit over all 8 SERAMAN workflows plus a live data scan of Sheet1/2/3 (exec 1221). **Status FAIL, no P0 found** (nothing currently reaching a client wrong). Fixed and verified three items, each with a version diff showing only the intended nodes changed, no running executions at the time, and one-off test workflows archived after use:
+- **H1 (P1) Generate Images zero-row silent success.** Proved live first (exec 1223: a job with no Ready rows ended "success", Count Scenes never ran, no alert). Fixed via `alwaysOutputData` on `Get Scene Prompts` plus Count Scenes filtering empty placeholders and throwing unless exactly 8 real scenes. Logic proven in isolation with 8/7/0 rows (exec 1224) before touching live; live re-test (exec 1226) now errors loudly naming the job. Version e69474ef.
+- **H3 (P1) Two Gmail nodes in Product Automation had no resource/operation** (`Reject Invalid Input`, `Duplicate Submission Alert`). Set explicit message/send. Version 04ecb4bc. Not runtime-tested (would need a real incomplete Tally submission).
+- **S3 (P2) Approval alert claimed publishing that could not be confirmed.** Reworded to "publishing started, report email follows". Version bf0ac2fd.
+
+**Still open, awaiting decision:** H2 Sheet2 `appendOrUpdate` on SCENE+JOB_ID (live evidence: KpgRaVA at rows 2-8 and 15, duplicate scene rows on 3 jobs; changes live write behavior so needs explicit go-ahead); S1 no 402 check on Scene Approval's 3 regen submits; S2 Edit Videos misses a scene with no Sheet2 row; S4 eight stale Ready rows in Sheet3 (four with final URLs: M1MozPE, PRPyp21, bZglPAL, WJgNezL) need Emmanuel to say which were actually posted; unauthenticated active CUGAR Retry webhook; Post to Socials depends on a free OpenAI credit whose output is only used for the YouTube title.
