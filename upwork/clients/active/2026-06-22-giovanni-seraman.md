@@ -893,3 +893,23 @@ Ran the deep-audit over all 8 SERAMAN workflows plus a live data scan of Sheet1/
 - **S3 (P2) Approval alert claimed publishing that could not be confirmed.** Reworded to "publishing started, report email follows". Version bf0ac2fd.
 
 **Still open, awaiting decision:** H2 Sheet2 `appendOrUpdate` on SCENE+JOB_ID (live evidence: KpgRaVA at rows 2-8 and 15, duplicate scene rows on 3 jobs; changes live write behavior so needs explicit go-ahead); S1 no 402 check on Scene Approval's 3 regen submits; S2 Edit Videos misses a scene with no Sheet2 row; S4 eight stale Ready rows in Sheet3 (four with final URLs: M1MozPE, PRPyp21, bZglPAL, WJgNezL) need Emmanuel to say which were actually posted; unauthenticated active CUGAR Retry webhook; Post to Socials depends on a free OpenAI credit whose output is only used for the YouTube title.
+
+## SERAMAN maintenance backlog: deliberately deferred, ready to pick up (2026-09-19)
+
+Emmanuel's call: nothing more touches the live pipeline until a supervised maintenance window. Stability comes first, since an unstable workflow is part of what weakened the pricing negotiation. Everything below was found in the 2026-09-19 audit; the exact fix and check for each is recorded so a future session can execute without re-deriving.
+
+**Applied and verified 2026-09-19 (rollback versions if ever needed, via `restore_workflow_version`):**
+- Generate Images `R2uqd2tnN687vcuH`: now `e69474ef-05f2-484b-a8b3-edbb81cd2a9c`, previous `1e601b64-e210-475a-9aae-40d810ff9c7e`.
+- Product Automation `bIDbAPsBbK9wh0c6`: now `04ecb4bc-098d-4577-9707-ec240b73e424`, previous `52d7547d-500d-4a7d-ba28-3689c030e05e`.
+- Scene Approval `NysDrlj3XSi7RDDo`: now `bf0ac2fd-9a6e-450f-a92f-197b71af550e`, previous `b73913a2-0cdf-4d8d-8699-93ce5bc3c5aa`.
+
+**Deferred, in suggested order (run in a supervised window with a real test job that Emmanuel triggers, and record the current versionId of each workflow before touching it):**
+1. **H2, Sheet2 upsert (P1).** Generate Videos `fygNTt3a5LphUJO7`, node `Append row in sheet`: `setNodeParameter /operation "append"` and clear `matchingColumns`. Makes "highest row_number wins" in Edit Videos strictly true. Check: one job with a forced scene retry, rows land contiguously at the bottom with the newer row lower. Risk: changes live write behavior, cannot be tested without spending Kie credits, which is why it waits. The stable version to roll back to is the one dated 2026-09-02T18:19Z.
+2. **S1, no 402 check on Scene Approval regen submits (P2).** Add an IF on `$json.code === 402` after `Regen Submit (Scene 1/8)`, `Regen Submit (Middle Scenes)` and `Submit Image Regen`, routed to a deduped credits alert like the one in Generate Videos.
+3. **S2, Edit Videos misses a scene with no Sheet2 row (P2).** In `Code in JavaScript`, after building `videoUrls`, throw if any of `video1`..`video8` is missing.
+4. **S4, stale Ready rows in Sheet3 (P2).** M1MozPE (row 47), PRPyp21 (49), bZglPAL (50), WJgNezL (55) have final videos; lavG0gX (43), 6DMl1zY (44), Z9DMVo5 (45), bZgDQJ7 (54) have none. Needs Emmanuel to confirm which were actually posted before setting STATUS to Done. Reason it matters: Post to Socials filters on STATUS=Ready, so an approval from an old email would republish.
+5. **CUGAR Retry webhook (P2).** `r0lk6wyxan4h7yDM` is public, unauthenticated, active, and can start paid Kie generation. Add header auth or deactivate.
+6. **Post to Socials free-OpenAI dependency (P2).** Its output is only used for the YouTube title; per-platform hashtag logic is unused because one caption is posted everywhere.
+7. **P3 cleanup:** dead static-data writes (`_expectedImages`, `_expectedScenes`), Error Handler pointing at itself, engineer-worded Creatomate failure email going only to the client, Sheet3 rows marked Done with no final video (PRB1RG5, OQjgD1A, 6DrPK95, kbkxD6Z, RWkjjdQ, plus 8 blank-JOB_ID rows), jeG9az9 with 6 of 8 scenes.
+
+Full audit report was given in the 2026-09-19 session; the live integrity scan numbers: Sheet1 304 rows / 38 jobs, Sheet2 298 rows (191 Stale), Sheet3 55 rows.
