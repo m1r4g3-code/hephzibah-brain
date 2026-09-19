@@ -913,3 +913,11 @@ Emmanuel's call: nothing more touches the live pipeline until a supervised maint
 7. **P3 cleanup:** dead static-data writes (`_expectedImages`, `_expectedScenes`), Error Handler pointing at itself, engineer-worded Creatomate failure email going only to the client, Sheet3 rows marked Done with no final video (PRB1RG5, OQjgD1A, 6DrPK95, kbkxD6Z, RWkjjdQ, plus 8 blank-JOB_ID rows), jeG9az9 with 6 of 8 scenes.
 
 Full audit report was given in the 2026-09-19 session; the live integrity scan numbers: Sheet1 304 rows / 38 jobs, Sheet2 298 rows (191 Stale), Sheet3 55 rows.
+
+## KpgRaVA published via the approval form; cover-image gap found (2026-09-19)
+
+Giovanni approved through the Tally form (Scene Approval exec 1219, then Post to Socials exec 1220, success, 2m41s). Four posts submitted (Instagram, TikTok, Facebook, YouTube Shorts) using the correct video `de58a864...` and the Sheet3 caption. This is the first live publish of the fixed K9 video and confirms the approval-to-publish path works end to end. Bonus: the H1 test error (exec 1226) also fired the Error Handler (exec 1227), confirming the alert chain works.
+
+He then asked why the scene 1 image still isn't the cover. Cause is on our side, not his: Edit Videos already renders a scene-1 thumbnail (snapshot at 3s, saved to Sheet3 `THUMBNAIL URL`, Backblaze-hosted so it does not expire), but Post to Socials never reads it, and the Blotato create-post nodes pass no cover options. Platforms pick their own default frame. What the Blotato node supports (checked in its node type definition): Instagram `instagramCoverImageUrl` (Reels, max 8MB) and TikTok `videoCoverTimestamp` (ms; use 3000 to match the thumbnail). Facebook and YouTube expose no cover option, so those stay platform-chosen unless set by hand in the app.
+
+**Added to the deferred maintenance backlog (item 8, P3 feature):** in Post to Socials, add `Get THUMBNAIL URL` to the `Edit Fields` mapping, set `options.instagramCoverImageUrl` on the IG node and `options.videoCoverTimestamp` 3000 on the TikTok node. Touches live publishing, so it waits for the supervised window like the rest.
