@@ -945,3 +945,7 @@ Found the real PAX Wow product URL by browsing Seraman's own shop category page 
 ## bZglPAL (PAX Wow) approval message drafted for operator (2026-09-23)
 
 Since this job's review email would have gone out weeks ago (2026-09-08) with the broken/guessed-link version, and no fresh automated email exists for it in this session's scope, drafted a plain approval message for the operator to send directly (WhatsApp/email) rather than re-triggering the full automated review-email chain a second time today. Approval link: `https://tally.so/r/yPGyxd?job_id=bZglPAL`.
+
+## bZglPAL confirmed published; Giovanni stepping away for a while (2026-09-23)
+
+Giovanni approved and confirmed the PAX Wow (bZglPAL) publish -- "This was the first video actually published. Very nice. Let's move on." -- closing out the last of the three stuck-video threads found in this session's audit (e5PYDoO, bZglPAL both now real, live, confirmed by him; M1MozPE/PRPyp21 remain untouched, no evidence he's aware of them). He added "when I get back, I'll make some more" -- signals a travel/away period of unknown length. No reply sent with any ask attached, per standing discipline. **Next session: don't read silence during this window as being ignored -- he told us directly he's stepping away.** Whenever he does resume, that's the natural next opening for the parked threads (the 600-to-15 credibility gap, the long-form €6k anchor) once real production volume resumes.
