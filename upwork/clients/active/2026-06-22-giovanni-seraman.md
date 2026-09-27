@@ -1054,3 +1054,8 @@ Handled manually: verified Sheet1 all 8 scenes Done (approve publishes, no regen
 - Round 3 results: A5 rendered but accuracy-compromised (https://f002.backblazeb2.com/file/creatomate-c8xg3hsxdu/c2ad7431-be59-4115-b253-e088a319277b.mp4, do not use as-is). A6 never completed.
 - Revised hypothesis for round 4 (not yet built): the "unwrapped foil" accuracy risk is specifically tied to CALM/routine narrative framing for this product, not to the motion-vs-static question. To cleanly test motion-vs-narrative without the confound, any future "neutral" staging needs the product held/gripped as an object being carried, never as a task being performed, regardless of urgency level.
 - Tool status: all known aggregation/timing bugs fixed as of round 3 (4 image-poll rounds, runOnceForEachItem on all Extract/Build nodes, executeOnce fixed). Test job remains rD1DZro.
+
+## 2026-09-28 — Hook test round 3 sent to Giovanni (A, C, A5)
+- Operator sent Giovanni all 3 links directly (A-threat_reflex, C-operator_kit, A5-motion_neutral), including A5 despite the known product-accuracy defect (blanket shown unwrapped in the first ~3s before resolving to sealed). Operator's call, already sent -- not blocking retroactively.
+- IMPORTANT FOR NEXT STEP: if Giovanni prefers A5, do NOT let that exact clip go to production. It needs the sealed-product fix first (same motion/energy, product described as held/carried, never unwrapped/deployed -- root cause already diagnosed). Treat any "I like A5" from Giovanni as "build the corrected version," not "ship this file."
+- Waiting on Giovanni's reaction. No further hook-test rounds queued until his feedback comes back.
