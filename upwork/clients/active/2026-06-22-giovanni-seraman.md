@@ -1089,3 +1089,8 @@ Operator: A5 already accepted by Giovanni, no need to ask about packaging. Proce
 - Consequence beyond the test: any production job (Generate Images / Generate Videos) will fail on Kie until Giovanni tops up. The hook test tool has no credits alert, so the test itself gave no warning before the drain.
 - Test spend this session was material: round 4 alone was about 369 credits (3 x (18 image + 105 video)), plus rounds 1-3 and the round 5 images (~36). Could not split exact share of the drain between tests and production.
 - Not retried. Top-up is Giovanni's call, the operator asked no one yet. Round 5 stays parked until credits exist.
+
+### Plan after round 5 credit block (operator decision, 2026-09-28)
+- No balance check to be added to the hook test tool. Production already errors and alerts Giovanni automatically on Kie credit exhaustion (Generate Images + Generate Videos credits alerts).
+- The working hook formula is B1 (person in motion, one simple product gesture, real product details stated). Next step is integrating it into the script writer system prompt.
+- Sequence: run the last test round (round 5, B4/B5) once Kie is topped up, to see whether a threat-plus-motion variant beats B1, THEN write the script writer prompt change with whichever formula wins. No prompt change before round 5 is resolved.
