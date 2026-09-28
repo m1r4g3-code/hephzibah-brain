@@ -1082,3 +1082,10 @@ Operator: A5 already accepted by Giovanni, no need to ask about packaging. Proce
 - B1 (person_in_motion) beats all three. B3 (threat_reflex_adapted) would have won on hook, but the model hallucinated while handling the glasses (pull from pocket + unfold arms = multi-step manipulation).
 - Pattern across A5 (unwrapped foil) and B3 (glasses handling): the model's defects come from multi-step object manipulation, not from motion or tension. B1 worked with one simple gesture (snatch, one flick of the arms).
 - Candidate round 5 (not built, awaiting go): keep B3's tension beat but restrict manipulation to a single simple gesture, product already in hand.
+
+## Hook test round 5 blocked: Kie credits exhausted (2026-09-28)
+- Round 5 (B4 tension_held_open, B5 forehead_pull_down, GATORZ sunglasses, exec 1587): both scene-1 images generated, then Submit Scene1 Video returned 402 "Credits insufficient" for both variants. No clips exist for round 5. Tool marks them video_failed and the later Check Video calls 422 "taskId is required" (expected fallout, not a new bug).
+- Verified real balance via GET api.kie.ai/api/v1/chat/credit: -10 credits. The Kie account is empty.
+- Consequence beyond the test: any production job (Generate Images / Generate Videos) will fail on Kie until Giovanni tops up. The hook test tool has no credits alert, so the test itself gave no warning before the drain.
+- Test spend this session was material: round 4 alone was about 369 credits (3 x (18 image + 105 video)), plus rounds 1-3 and the round 5 images (~36). Could not split exact share of the drain between tests and production.
+- Not retried. Top-up is Giovanni's call, the operator asked no one yet. Round 5 stays parked until credits exist.
