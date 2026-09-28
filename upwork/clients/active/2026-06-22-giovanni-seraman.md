@@ -1066,3 +1066,14 @@ Handled manually: verified Sheet1 all 8 scenes Done (approve publishes, no regen
 - What this tells us: the beat he responded to is a human handling the blanket, i.e. the very behaviour the model produced when framing was calm/routine. Owner did not object to the unwrapped product; he described it as "starting to fold the blanket."
 - Two readings, unresolved: (1) unwrapped-product opening is acceptable to the owner and the "defect" matters less than I judged; (2) he liked the human-action narrative and did not check pack fidelity. Cannot distinguish without asking or testing.
 - Decision pending with Mo: ship A5 as chosen vs build a product-faithful version keeping the person-handling-blanket beat. No credits spent yet.
+
+## Hook test round 4: new product (GATORZ Delta OPz sunglasses, job 9N6oBDY) (2026-09-28)
+Operator: A5 already accepted by Giovanni, no need to ask about packaging. Proceed to round 4 on a different product.
+- Tool change: every OLD job's Scene 2-8 video URLs in Sheet2 are 404 (Kie temp files expire), only rD1DZro was still live. So the tool now delivers the Scene 1 clip only (Video Ok? true -> new "HookTest | Scene1 Only Result" Set -> Merge input 0). Creatomate render nodes left in place but disconnected. Full 60s comparison renders are only possible on fresh jobs from now on. testJobId now 9N6oBDY. Product photos (Tally private URLs) still return 200 for old jobs, so any past product can be used for scene-1-only tests.
+- Variants (Scene 1 only, ~369 Kie credits total): B1 person_in_motion (A5 beat adapted: hand snatches sunglasses off dashboard, whip-pan, flicks arms open), B2 glare_relief (blown-out sun glare cut by the lens), B3 threat_reflex_adapted (A mechanic: sunglasses pulled from jacket pocket after a dusk tree-line whip-pan). All 3 rendered first pass, no stalls.
+- Frame check vs reference photo (matte black chunky frame, dark smoke lens, riveted hinge plate with chevron logo):
+  - B1 best fidelity: hinge plate with rivets and the real chevron logo reproduced, dark matte frame, no invented marks. Highest motion.
+  - B2 usable but least identifiable: thinner rim, no hinge/logo detail visible, lens reads lighter/see-through. Strong white-out opening, then ~7s static hold (low kinetic energy).
+  - B3 weakest fidelity: frame reads greyish/thinner, thin ribbon-like arms, strongly mirrored lens (reference is non-mirror). Long fiddling with the arms, tension does not read as threat.
+- Audio not checked (frame check only). Operator verdict on hooks: pending.
+- Kie tempfile URLs are temporary; if a variant is chosen, re-host or re-render soon.
