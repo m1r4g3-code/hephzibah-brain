@@ -1077,3 +1077,8 @@ Operator: A5 already accepted by Giovanni, no need to ask about packaging. Proce
   - B3 weakest fidelity: frame reads greyish/thinner, thin ribbon-like arms, strongly mirrored lens (reference is non-mirror). Long fiddling with the arms, tension does not read as threat.
 - Audio not checked (frame check only). Operator verdict on hooks: pending.
 - Kie tempfile URLs are temporary; if a variant is chosen, re-host or re-render soon.
+
+### Operator verdict on round 4 (2026-09-28)
+- B1 (person_in_motion) beats all three. B3 (threat_reflex_adapted) would have won on hook, but the model hallucinated while handling the glasses (pull from pocket + unfold arms = multi-step manipulation).
+- Pattern across A5 (unwrapped foil) and B3 (glasses handling): the model's defects come from multi-step object manipulation, not from motion or tension. B1 worked with one simple gesture (snatch, one flick of the arms).
+- Candidate round 5 (not built, awaiting go): keep B3's tension beat but restrict manipulation to a single simple gesture, product already in hand.
