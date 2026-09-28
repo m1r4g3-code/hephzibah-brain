@@ -1059,3 +1059,10 @@ Handled manually: verified Sheet1 all 8 scenes Done (approve publishes, no regen
 - Operator sent Giovanni all 3 links directly (A-threat_reflex, C-operator_kit, A5-motion_neutral), including A5 despite the known product-accuracy defect (blanket shown unwrapped in the first ~3s before resolving to sealed). Operator's call, already sent -- not blocking retroactively.
 - IMPORTANT FOR NEXT STEP: if Giovanni prefers A5, do NOT let that exact clip go to production. It needs the sealed-product fix first (same motion/energy, product described as held/carried, never unwrapped/deployed -- root cause already diagnosed). Treat any "I like A5" from Giovanni as "build the corrected version," not "ship this file."
 - Waiting on Giovanni's reaction. No further hook-test rounds queued until his feedback comes back.
+
+## Giovanni's verdict on hook test round 3 (2026-09-28)
+- Reaction to the 3 links (A, C, A5): "They're all really good ... If I had to choose one, I'd choose the second one, where you see a person starting to fold the blanket." Called it "almost a mini-movie."
+- Verified which clip that is: the URL Mo passed back (c2ad7431...) is A5 (motion_neutral), NOT C. So the owner's pick is the exact clip flagged as accuracy-compromised (foil shown unwrapped/being handled in opening frames).
+- What this tells us: the beat he responded to is a human handling the blanket, i.e. the very behaviour the model produced when framing was calm/routine. Owner did not object to the unwrapped product; he described it as "starting to fold the blanket."
+- Two readings, unresolved: (1) unwrapped-product opening is acceptable to the owner and the "defect" matters less than I judged; (2) he liked the human-action narrative and did not check pack fidelity. Cannot distinguish without asking or testing.
+- Decision pending with Mo: ship A5 as chosen vs build a product-faithful version keeping the person-handling-blanket beat. No credits spent yet.
