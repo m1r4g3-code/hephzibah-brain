@@ -1118,3 +1118,19 @@ Template for Scene 1 hook prompts, product-agnostic:
 3. Exactly one simple, continuous physical gesture completes the shot (a pull-down, a raise, a turn, a snatch-and-settle) -- never two or more discrete manipulation steps.
 4. State the product's real distinguishing details explicitly in the prompt (frame shape, material, hardware, logo placement) to anchor fidelity, same as the no-invent block used since round 4.
 Next step (not yet done, needs operator go-ahead): integrate this template into the SERAMAN script writer system prompt so Scene 1 image/video prompts are generated this way by default instead of the current per-scene prompt style. This is a live-pipeline change and will need its own verification pass on a real job before being trusted at scale.
+
+## Hook formula integrated into live production script writer (2026-09-29)
+Operator: "add all hooks so dat it choose the one dat works best for the product" -- dynamic selection, not a single fixed replacement.
+- Target: `SERAMAN | Generate Script` (langchain agent) in `SERAMAN Product Automation` (bIDbAPsBbK9wh0c6), the real system prompt that writes every job's 8-scene script. v5.37 -> v5.38.
+- Change: Scene 1's absolute "No human. No VO." rule replaced with a new SCENE 1 -- HOOK SELECTION block defining 3 selectable types the agent picks per product's buyer-trust category:
+  - Type A ATMOSPHERIC (product only, no human) -- the original format, kept as the safe default and mandatory for high-trust/medical/sealed-dose categories.
+  - Type B HAND-KINETIC (hand only, no face) -- confirmed by B1 (round 4 winner).
+  - Type C PRESENTER-TENSION (presenter visible, whip-pan into tension, one gesture, never speaks) -- confirmed by A5/B5.
+- Added the cross-round confirmed hard rule to Scene 1 instructions: product stays in one ready-to-use state through exactly one continuous gesture, regardless of hook type -- every hallucination across all 5 rounds traced to multi-step manipulation (unwrap/unfold/pocket-then-open), never to motion or tension itself.
+- Added Scene 2 continuity handling for when Type C is used (presenter already shown reacting in Scene 1 -- Scene 2 must not re-introduce him fresh).
+- Added a new `fast whip-pan...` entry to LOCKED VEO MOTION VOCABULARY (Type C only).
+- Updated the OUTPUT FORMAT JSON example and the pre-output TRUST SCORE VALIDATION checklist to match.
+- Verified before touching anything: read `SERAMAN | Sanitize No-Dialogue Audio` directly -- it keys only on whether `video_prompt` contains a `dice:` line, not on scene_number/type/human-presence, so Type C (presenter visible but silent) is fully compatible with existing downstream audio handling.
+- Verification discipline: built the edit as a set of anchor-verified string splices (each anchor asserted to match exactly once) against the real system prompt text, not free-hand retyping into the live node. After submitting via the n8n API, diffed the live node's stored value against the local verified source byte-for-byte -- caught 4 single-character drifts (straight vs typographic apostrophe, in prose illustrating the apostrophe rule itself) from the initial manual transcription into the tool call, fixed via a second programmatic patch, re-diffed clean (byte-identical, 113,159 chars).
+- Published: versionId now matches activeVersionId, confirmed live.
+- NOT YET verification-tested on a real job. This is a live-pipeline change reaching production immediately. Recommend watching the next real Tally submission's Generate Script output closely -- confirm the JSON still parses, Scene 1 picks a sensible hook type for that product's category, and Scene 2 handles the Type C continuity note correctly if triggered.
