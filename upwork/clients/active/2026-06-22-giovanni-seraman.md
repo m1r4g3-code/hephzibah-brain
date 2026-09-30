@@ -1210,3 +1210,22 @@ Operator reviewed a full ChatGPT conversation export (`giovanni.txt`, dropped at
 **4. Context, not a new opportunity:** the export also contains several one-off product ad scripts Giovanni wrote by hand with ChatGPT (Aquatabs, Cougar Merino shirt) before/alongside the n8n pipeline. Useful internal evidence that the pipeline directly automates work he was doing manually -- reinforces the pipeline's ROI narrative if a value/renewal conversation comes up, but not something to surface to him as "I saw you doing this."
 
 Status: identified, not yet acted on. No pitch drafted or sent. Revisit when a natural opening exists (e.g. after the video pipeline work stabilizes) rather than raising unprompted while a hook/fidelity bug is still fresh.
+
+## v5.39 real render test: CONFIRMED CLEAN, both image and video (2026-09-30)
+
+Closed the loop the operator's own standard required ("actually re-render before calling it done") -- completed after the earlier image-only check nearly produced a false-negative verdict, corrected below.
+
+**Image test (execution 1897, real Kie job, task f5eace2ebb123d086c4c5357f86df35b, 18 credits):** Scene 1 correctly rendered as Type B (hand-kinetic) using the real, byte-verified v5.39 image_prompt on the same binoculars product (job rD1J6bR's data). Re-hosted to Drive after the Kie temp CDN link proved unreliable for direct download (see note below).
+
+**False-negative self-correction, worth remembering:** first-pass verdict on the image was "still hallucinating" -- flagged an extra square button with a chevron icon plus an overly-bold logo badge as invented. Operator pushed back ("there's nothing wrong with it"). Re-verified by cropping both the generated image and the REAL product reference photos (both angles) at full resolution side by side. Correction: the real product's front bridge genuinely has a raised rocker switch, a dial with the Vortex checkmark logo, and a second badge with the same logo -- this is not a flat surface. The "flat, no raised buttons" characterization in the CONTROL SURFACES rule (and in the original v5.38 failure writeup it was based on) is only true for the REAR eyepiece/diopter area (confirmed against the second reference photo: flat, embossed "-D-"/"-R+" only, small "LIFT" latch, no raised buttons there). The rule as shipped is real-product-correct for the rear view but over-broad for the front view -- flagged as a backlog fix (not urgent, didn't cause a defect here, could cause one on a future rear-eyepiece macro shot).
+
+**Video test (execution 1928/1929, real Kie gemini-omni-video job, task 399a5fec94578ff921c5c010cbc01135, 105 credits):** submitted using the approved Scene 1 image as the seed frame plus the matching video_prompt. Verified via contact sheet (8 frames across the full 8s) and a full-resolution final-frame close-up -- exactly the check that caught the v5.38 failure, since that one only became unambiguous in the video's final close-up despite looking closer to correct in the still.
+
+- **Motion:** single continuous gesture -- hand enters, grips, lifts the product off the surface -- never resolves to a static hold, matches the confirmed no-hallucination pattern from the isolated A/B hook-testing rounds.
+- **Fidelity:** final close-up shows the "+/-" rocker and center dial consistent with the real product's actual front console. No repeat of the v5.38 defect (fabricated button module + "VX" badge).
+
+**Download infrastructure note:** both the sandbox's direct curl/PowerShell downloads and n8n's own HTTP node hit repeated failures on Kie's `tempfile.aiquickdraw.com` temp CDN links tonight (sandbox: consistent partial-transfer truncation; n8n: `ECONNRESET`/"aborted" after ~30-125s, confirmed independently from two different networks). Regenerating produced a fresh link that worked briefly, but the reliable fix was re-hosting through n8n to Google Drive (download -> upload -> public share) for both the image and the video -- worth defaulting to this pattern for any future real-render verification rather than assuming a Kie temp link will stay downloadable.
+
+**Verdict: v5.39 is confirmed clean end-to-end (real image + real video, not just text-level or single-frame verification) and stays live as published.** No further action needed on this specific fix; the CONTROL SURFACES rule precision issue (flat vs. raised, view-dependent) is the one open backlog item, not urgent.
+
+Total Kie spend this round: 18 (image) + 105 (video) = 123 credits.

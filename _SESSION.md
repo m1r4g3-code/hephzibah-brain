@@ -12,30 +12,6 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
-## Last Session: 2026-09-30 — Brittney interview drill + Adelaja intro video + brain catch-up
-
-**What we worked on:**
-- Adelaja intro video trimmed: 69s → 63.6s. 5 dead air cuts + 1 stutter removed via ffmpeg. Visual-checked (21 frames). Approved and sent.
-- Oba sent video to Brittney Graham (Senior AI Full Stack Developer, Chicago) on Upwork at 00:13 Sept 30 + follow-up message.
-- Full interview drill done for Brittney — all 10 questions locked. Rate anchored at $45.
-- Call prep brief written: `outputs/intel/2026-09-30-brittney-senior-ai-fullstack-call-prep.md`
-- Brain pulled — OS's Giovanni node had 322 lines of active SERAMAN engineering (v5.23, K9 Tourniquet blocked by Kie credit exhaustion, 30-product medkit launch incoming, "editorial plan until January" unactioned since 2026-08-21).
-
-**What is LIVE and needs action:**
-1. **Brittney reply** (q019) — follow up 2026-10-02 if no response.
-2. **Giovanni retainer** (q020) — 40+ days since "editorial plan until January." Oba triggers conversation this week.
-3. **Kie credits** — K9 Tourniquet blocked on `code 402`. Top up to unblock the job.
-
-**What was decided:**
-- Rate for Brittney call: $45. Don't accept $25-30 floor.
-- IRIS writes critical new items to _QUEUE.md only. SESSION notes go to _SESSION_IRIS.md going forward to avoid OS conflict.
-
-**Brain commits needed:**
-- _SESSION.md (this update) ✓
-- _QUEUE.md (q019, q020 added) ✓
-
----
-
 ## Last Session: 2026-08-07 to 2026-08-08 — Portfolio batch 2 + Project Catalog + SolarCheck
 
 **What we worked on:**

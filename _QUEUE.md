@@ -25,32 +25,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 ```json
 [
   {
-    "id": "q019",
-    "action": "Follow up Brittney Graham if no reply by 2026-10-02",
-    "context": "Proposal + Adelaja intro video sent via Oba on Upwork 2026-09-30. Senior AI Full Stack Developer, Chicago company, $25-47/hr, full-time. Zero client spend history. Rate anchored at $45. Interview drill complete. Call prep at outputs/intel/2026-09-30-brittney-senior-ai-fullstack-call-prep.md.",
-    "priority": "HIGH",
-    "revenue_impact": "DIRECT",
-    "deadline": "2026-10-02",
-    "owner": "Oba",
-    "created": "2026-09-30",
-    "state": "open",
-    "platform": "Upwork",
-    "next_action": "If no reply by 2026-10-02: Oba sends follow-up message on Upwork. If reply received: Emmanuel runs the call using the prep brief."
-  },
-  {
-    "id": "q020",
-    "action": "Giovanni retainer — close open loops (reply + monthly pace)",
-    "context": "€600/month maintenance retainer pitch drafted and sent 2026-09-19 per [[project_giovanni_negotiation]] plan. Scope: monitoring, bug fixes, pipeline/prompt updates, new usage dashboard (Kie credits, Claude usage, pre-exhaustion alerts). Second ask: long-form video project (scope-only, no price, text-pitch). No reply recorded on either ask as of last OS log. Editorial plan open loop: Giovanni mentioned monthly content calendar on 2026-08-21 and 2026-08-27, operator asked for monthly pace — no number came back. Retainer scope (what €600/mo covers) depends on knowing his cadence. Also: v5.39 shipped 2026-09-30, hook-selection + product-fidelity bug fixed on real binoculars job — live proof point for the reliability argument.",
-    "priority": "HIGH",
-    "revenue_impact": "DIRECT",
-    "deadline": "2026-10-03",
-    "owner": "Oba",
-    "created": "2026-09-30",
-    "state": "open",
-    "platform": "Direct",
-    "next_action": "Check if Giovanni replied to the retainer pitch. If no reply: Oba follows up referencing v5.39 as proof of ongoing reliability. Separately: nudge Giovanni for his monthly editorial pace so the retainer scope can be properly defined."
-  },
-  {
     "id": "q001",
     "action": "Resolve Upwork account restriction",
     "context": "RESOLVED 2026-08-05. Restriction lifted. Own account (011b48d2eabbfa6361) now active and being built.",
@@ -294,8 +268,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 
 | Priority | ID | Action | Owner | Deadline | State |
 |---|---|---|---|---|---|
-| 🟠 HIGH | q019 | Follow up Brittney Graham if no reply | Oba | 2026-10-02 | open |
-| 🟠 HIGH | q020 | Giovanni retainer — trigger editorial plan conversation | Oba | 2026-10-03 | open |
 | 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
 | 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
 | 🟠 HIGH | q016 | Cert sprint: 14 Anthropic + 4 n8n Academy | Emmanuel | 2026-08-14 | open |
