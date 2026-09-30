@@ -25,6 +25,32 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 ```json
 [
   {
+    "id": "q019",
+    "action": "Follow up Brittney Graham if no reply by 2026-10-02",
+    "context": "Proposal + Adelaja intro video sent via Oba on Upwork 2026-09-30. Senior AI Full Stack Developer, Chicago company, $25-47/hr, full-time. Zero client spend history. Rate anchored at $45. Interview drill complete. Call prep at outputs/intel/2026-09-30-brittney-senior-ai-fullstack-call-prep.md.",
+    "priority": "HIGH",
+    "revenue_impact": "DIRECT",
+    "deadline": "2026-10-02",
+    "owner": "Oba",
+    "created": "2026-09-30",
+    "state": "open",
+    "platform": "Upwork",
+    "next_action": "If no reply by 2026-10-02: Oba sends follow-up message on Upwork. If reply received: Emmanuel runs the call using the prep brief."
+  },
+  {
+    "id": "q020",
+    "action": "Giovanni retainer — trigger editorial plan conversation",
+    "context": "Giovanni said 'I'm preparing the editorial plan until January' on 2026-08-21. 40+ days unactioned as of 2026-09-30. Fiverr suspended. Need to transition to Upwork or direct contract. Oba handles Giovanni voice. This is the highest-value open pipeline item — 4+ months of recurring content.",
+    "priority": "HIGH",
+    "revenue_impact": "DIRECT",
+    "deadline": "2026-10-03",
+    "owner": "Oba",
+    "created": "2026-09-30",
+    "state": "open",
+    "platform": "Direct",
+    "next_action": "Oba messages Giovanni: 'Hey, you mentioned the editorial plan until January — want to scope that out properly so we have a clean structure going forward?'"
+  },
+  {
     "id": "q001",
     "action": "Resolve Upwork account restriction",
     "context": "RESOLVED 2026-08-05. Restriction lifted. Own account (011b48d2eabbfa6361) now active and being built.",
@@ -268,6 +294,8 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 
 | Priority | ID | Action | Owner | Deadline | State |
 |---|---|---|---|---|---|
+| 🟠 HIGH | q019 | Follow up Brittney Graham if no reply | Oba | 2026-10-02 | open |
+| 🟠 HIGH | q020 | Giovanni retainer — trigger editorial plan conversation | Oba | 2026-10-03 | open |
 | 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
 | 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
 | 🟠 HIGH | q016 | Cert sprint: 14 Anthropic + 4 n8n Academy | Emmanuel | 2026-08-14 | open |
