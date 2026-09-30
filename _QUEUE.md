@@ -39,8 +39,8 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
   },
   {
     "id": "q020",
-    "action": "Giovanni retainer — trigger editorial plan conversation",
-    "context": "Giovanni said 'I'm preparing the editorial plan until January' on 2026-08-21. 40+ days unactioned as of 2026-09-30. Fiverr suspended. Need to transition to Upwork or direct contract. Oba handles Giovanni voice. This is the highest-value open pipeline item — 4+ months of recurring content.",
+    "action": "Giovanni retainer — close open loops (reply + monthly pace)",
+    "context": "€600/month maintenance retainer pitch drafted and sent 2026-09-19 per [[project_giovanni_negotiation]] plan. Scope: monitoring, bug fixes, pipeline/prompt updates, new usage dashboard (Kie credits, Claude usage, pre-exhaustion alerts). Second ask: long-form video project (scope-only, no price, text-pitch). No reply recorded on either ask as of last OS log. Editorial plan open loop: Giovanni mentioned monthly content calendar on 2026-08-21 and 2026-08-27, operator asked for monthly pace — no number came back. Retainer scope (what €600/mo covers) depends on knowing his cadence. Also: v5.39 shipped 2026-09-30, hook-selection + product-fidelity bug fixed on real binoculars job — live proof point for the reliability argument.",
     "priority": "HIGH",
     "revenue_impact": "DIRECT",
     "deadline": "2026-10-03",
@@ -48,7 +48,7 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
     "created": "2026-09-30",
     "state": "open",
     "platform": "Direct",
-    "next_action": "Oba messages Giovanni: 'Hey, you mentioned the editorial plan until January — want to scope that out properly so we have a clean structure going forward?'"
+    "next_action": "Check if Giovanni replied to the retainer pitch. If no reply: Oba follows up referencing v5.39 as proof of ongoing reliability. Separately: nudge Giovanni for his monthly editorial pace so the retainer scope can be properly defined."
   },
   {
     "id": "q001",
