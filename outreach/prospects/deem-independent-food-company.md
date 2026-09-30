@@ -6,8 +6,8 @@ email: deem@indpt.com
 linkedin: 
 instagram: 
 website: https://indpt.com
-status: followup_sent
-outreach_sent_on: 2026-09-09
+status: outreach_sent
+outreach_sent_on: 2026-08-31
 referred_by: cold
 platform: cold
 sensitivity: private
@@ -28,5 +28,3 @@ Kill shot: "You built 6 distinct brands from scratch, each with its own identity
 2026-09-02 — Cold email sent to deem@indpt.com. Subject: "6 brands, one content system". Gmail API (token). Message ID: 1a05f650e8eee85c. Portfolio link included. Status: outreach_sent.
 
 Sent demo reference: "Built a demo for a 5-brand sports group in Abu Dhabi last week. Worth seeing?"
-
-**2026-09-09** — Auto-sent — 'Re: Quick question — The Independent Food Company'

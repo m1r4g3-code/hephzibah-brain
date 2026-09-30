@@ -12,36 +12,6 @@ This prevents cold starts. Context should never have to be rebuilt from scratch.
 
 ---
 
-## Last Session: 2026-09-30 — Brittney interview drill + Adelaja intro video + brain catch-up
-
-**What we worked on:**
-- Adelaja intro video trimmed: 69s original → 63.6s. 5 dead air cuts + 1 stutter removed via ffmpeg filter_complex. Visual check done (21 frames). Strong closing smile. Verdict: ready to send.
-- Oba sent the video to Brittney Graham (Senior AI Full Stack Developer, Chicago) as a Google Drive link at 00:13 Sept 30. Follow-up message added: "Here's the intro, happy to jump on a call anytime."
-- Full interview drill completed for Brittney call — all 10 questions locked:
-  Q1 intro, Q2 recent projects (SERAMAN + Hephzibah OS), Q3 timezone (WAT, fully flexible), Q4 availability (fully open), Q5 what draws you (Claude stack), Q6 Claude API daily use (MCP orchestration), Q7 multi-agent walkthrough, Q8 MCP definition, Q9 RAG failure modes, Q10 rate ($45, justified by production depth).
-- Rate locked at $45 (not $47 ceiling, but above floor — justified by "gap between someone who read the docs and someone who ran it in production").
-- Call prep brief written: `outputs/intel/2026-09-30-brittney-senior-ai-fullstack-call-prep.md`
-- Key coaching notes: don't pre-flag timezone issues, complete trailing answers, no "to be honest" fillers, no Yoruba/Pidgin register.
-
-**What is LIVE and needs action:**
-1. **Brittney Graham reply** — waiting on Upwork. Follow up in 48h if no response (2026-10-02).
-2. **Giovanni retainer** — "editorial plan until January" trigger from 2026-08-21 is 40 days unactioned. Platform transition needed: Fiverr → Upwork or direct. Oba handles voice.
-3. **Kie credits** — exhausted, blocking K9 Tourniquet job completion. Top up before any new SERAMAN jobs run.
-4. **Brain staleness** — _SESSION.md and _QUEUE.md last updated 2026-08-07. 53 days of unlogged activity. Brain is significantly behind.
-
-**What was decided:**
-- Rate anchor: $45 going into the Brittney call. Don't accept $25-30 floor.
-- Adelaja intro video: approved and sent. No reshoot needed.
-- If Brittney calls and other engineers are present: close with second call booked before hanging up.
-- MEDDPICC: Economic Buyer not confirmed (Brittney may be recruiter/screener). Get to engineering lead.
-
-**Brain commits needed:**
-- _SESSION.md (this update) ✓
-- _QUEUE.md (add q019, q020) — doing now
-- `outputs/intel/2026-09-30-brittney-senior-ai-fullstack-call-prep.md` ✓
-
----
-
 ## Last Session: 2026-08-07 to 2026-08-08 — Portfolio batch 2 + Project Catalog + SolarCheck
 
 **What we worked on:**

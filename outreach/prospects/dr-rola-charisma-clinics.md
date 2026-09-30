@@ -7,8 +7,8 @@ linkedin:
 instagram: https://www.instagram.com/dr.rola_alshhadat/
 website: https://charismamedicalgroup.com
 whatsapp: +971564532828
-status: followup_sent
-outreach_sent_on: 2026-09-09
+status: outreach_sent
+outreach_sent_on: 2026-08-31
 referred_by: cold
 platform: cold
 sensitivity: private
@@ -29,5 +29,3 @@ Kill shot: "Every Botox patient should receive a rebooking message at week 10. I
 2026-09-02 — Cold email sent to rola@charismamc.ae. Subject: "Charisma: patient follow-up automation". Gmail API (token). Message ID: 1a05f6510bb1156f. Portfolio link included. Botox week 10 / filler month 5 rebooking angle. Status: outreach_sent.
 
 WhatsApp to +971564532828 (clinic number, to be forwarded): "Hi, could you pass this to Dr. Rola? Reaching out about a patient communication system for the clinic: automated rebooking reminders, post-treatment sequences, review collection. Sent her an email too. Emmanuel Adekoya."
-
-**2026-09-09** — Auto-sent — 'Re: Quick question — Charisma Medical Group (Charisma Clinics)'

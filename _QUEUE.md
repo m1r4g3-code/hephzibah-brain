@@ -38,32 +38,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
     "next_action": "Done."
   },
   {
-    "id": "q019",
-    "action": "Follow up Brittney Graham if no reply",
-    "context": "Proposal + Adelaja intro video sent via Oba on Upwork 2026-09-30. Zero client spend history — first Upwork hire. Rate anchored at $45. Interview drill complete. Call prep at outputs/intel/2026-09-30-brittney-senior-ai-fullstack-call-prep.md.",
-    "priority": "HIGH",
-    "revenue_impact": "DIRECT",
-    "deadline": "2026-10-02",
-    "owner": "Oba",
-    "created": "2026-09-30",
-    "state": "open",
-    "platform": "Upwork",
-    "next_action": "If no reply by 2026-10-02: send follow-up on Upwork. If reply: run /prep-call brief already exists."
-  },
-  {
-    "id": "q020",
-    "action": "Giovanni retainer — trigger the editorial plan conversation",
-    "context": "Giovanni said 'editorial plan until January' on 2026-08-21. 40 days unactioned as of 2026-09-30. Fiverr suspended. Need to transition to Upwork or direct. Oba handles Giovanni voice. Platform: direct or new Upwork contract. This is the highest-value open pipeline item.",
-    "priority": "HIGH",
-    "revenue_impact": "DIRECT",
-    "deadline": "2026-10-03",
-    "owner": "Oba",
-    "created": "2026-09-30",
-    "state": "open",
-    "platform": "Direct",
-    "next_action": "Oba to message Giovanni: 'Hey, you mentioned an editorial plan until January — want to get that scoped properly so we can keep things running smoothly?'"
-  },
-  {
     "id": "q016",
     "action": "Complete cert sprint: all n8n Academy + Anthropic Education courses",
     "context": "James D. competitor analysis (2026-08-07) revealed he holds 18 certs — 4 n8n Academy + 14 Anthropic Education — all completed in August 2026. All free. Keyword density, credibility signals, verification links. n8n Academy: learn.n8n.io (QS101, N8N101, N8N102, N8N103). Anthropic Education: education.anthropic.com (14 courses). Emmanuel currently has 4 certs. Target: 18+.",
@@ -294,8 +268,6 @@ Revenue multiplier: DIRECT=1.5 | INDIRECT=1.0 | MAINTENANCE=0.5
 
 | Priority | ID | Action | Owner | Deadline | State |
 |---|---|---|---|---|---|
-| 🟠 HIGH | q019 | Follow up Brittney Graham if no reply | Oba | 2026-10-02 | open |
-| 🟠 HIGH | q020 | Giovanni retainer — trigger editorial plan conversation | Oba | 2026-10-03 | open |
 | 🔴 CRITICAL | q010 | Upwork ID verification | Emmanuel | 2026-08-07 | open |
 | 🔴 CRITICAL | q011 | Add withdrawal method | Emmanuel | 2026-08-07 | open |
 | 🟠 HIGH | q016 | Cert sprint: 14 Anthropic + 4 n8n Academy | Emmanuel | 2026-08-14 | open |
