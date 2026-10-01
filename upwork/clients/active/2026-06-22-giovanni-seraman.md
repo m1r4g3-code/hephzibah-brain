@@ -1269,3 +1269,41 @@ Total Kie spend this round: 18 (image) + 105 (video) = 123 credits.
 - Medical/sealed-dose products still use the atmospheric exception -- untested on v5.40.
 
 Kie spend this round: 18 + 105 = 123 credits.
+
+## v5.41: Scene 1 rebuilt on A5, Giovanni's strongest pick (2026-10-01)
+
+**Operator correction on v5.40:** the hook "didn't look like" A5, Giovanni's strongest pick in the hook tests (B5 was his second). The v5.40 hook was B5-shaped: one continuous close-up with a whip-pan open and a tension beat. A5 is a three-beat mini-movie. Operator decision: "if we're to use one it should be A5 since it's strong." A5 is now the single default. B5 is parked as a possible per-job option later.
+
+**A5 structure (from frame-by-frame review of the original A5 clip):**
+1. 0-3s: wide establishing shot of a person at a dusk campsite (tent, the whole setting visible), making one use gesture.
+2. ~3-4s: campfire cutaway, then a whip-pan across the tree line.
+3. 4-8s: a hand holds the product up to camera against the dusk sky, with handheld drift.
+
+A5's own defect: the sealed blanket was shown unwrapped. The one-state / one-gesture rule stays.
+
+**Pre-encode render (golden hour, exec 2086):** the structure matched A5 beat for beat, and the operator: "wooww cool love it." Three defects found and fixed in the prompt:
+- golden hour read softer and more stock than A5, so blue-hour dusk is now mandatory
+- the hero showed the eyepiece end instead of the front objectives
+- invented lettering on the focus wheel
+
+**What changed:**
+- Writer v5.40 -> v5.41: chunk 02 field-hook section rewritten (three beats with timings, A5 camp + campfire as the default setting, blue-hour lighting, front-face hero, no-text-on-product clause, approved binoculars example). Cross-references updated in chunks 00, 06, 07, 09 and 10.
+- QA editor v2 -> v3: the Scene 1 exemption now protects all three beats, the cutaway and whip-pan, the blue-hour light, and the no-text clause.
+
+**Verification:**
+- **Isolated harness** (webhook-fed, prompt POSTed byte-exact from local files; writer + QA editor with the same models; memory keyed per execution):
+  - runs t1-t3: all three beats, blue hour, front hero, QA editor left Scene 1 byte-identical. All three chose a bare ridge with a grass cutaway, so the A5 camp + campfire was made the default.
+  - runs t4/t5 (execs 2108, 2109): camp, tent, campfire cutaway, near-verbatim match to the approved version. QA editor untouched again.
+- **Real render of t5's prompts** (exec 2110):
+  - Confirmed: blue-hour moody camp, he raises the binoculars, campfire cutaway, whip-pan, and the hero shows the front objectives with green coating.
+  - **Remaining defect:** small invented lettering still appears on the focus wheel despite the clause. That's video-model behaviour and is reduced, not eliminated.
+- **Production:** all 11 chunks byte-verified (assembled 127,823 chars == local v5.41), editor 10,262 chars == v3. Published as live version **72b74f27-251e-4488-abac-7086aa019680**. **Rollback: 3f2c0f14-1985-477c-adad-27d4693d93b6 (v5.40).**
+- Cleanup: one-offs EhA8hAAodjnSXgj5 and dW8q2kAbJDv2XlRP archived. Data table ONEOFF_v541_hook_test (CLEgEv9xJiqZDXGk) still holds the test rows.
+
+**Open:**
+- First real Tally job on v5.41 still to be watched end-to-end.
+- Simple Memory keying on Product_Description is still the replay risk.
+- Focus-wheel lettering.
+- Job rD1J6bR's review email still carries the old Scene 1. Whether to regenerate it is the operator's call.
+
+Kie spend: two renders x 123 = 246 credits.
