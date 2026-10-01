@@ -1307,3 +1307,77 @@ A5's own defect: the sealed blanket was shown unwrapped. The one-state / one-ges
 - Job rD1J6bR's review email still carries the old Scene 1. Whether to regenerate it is the operator's call.
 
 Kie spend: two renders x 123 = 246 credits.
+
+## v5.42: Scene 1 hook library + rotation (2026-10-01, late)
+
+**Why:** the operator flagged that one hook on every video won't work. Giovanni posts every video to the same IG/TikTok/FB/YT feeds, so an identical opener (and v5.41 defaulted almost everything to the camp + campfire) becomes a recognisable template, and the hook stops stopping the scroll. The ask was dynamic and product-fit, with every opener still strong.
+
+**Design: only proven hooks, chosen by fit, rotated by memory.**
+- **Library** (client-approved only, nothing invented):
+  - A5 field mini-movie (primary; client's #1)
+  - B5 tension close-up (client's #2)
+  - ATMOSPHERIC (medical / sealed-dose / certification only)
+- **Product-fit table:**
+  - Wearables, optics, flashlights, knives, jackets: A5 and B5 both strong.
+  - Packs, footwear, bulky gear, sealed/packaged goods: A5 only.
+  - K9: A5 only, in the K9 FIELD setting.
+  - Medical: ATMOSPHERIC.
+- **Seven lived-in settings, each with its own A5 cutaway:**
+
+  | Setting | Cutaway |
+  |---|---|
+  | CAMP | campfire |
+  | TRAIL | boots on roots |
+  | TAILGATE | dust in headlights |
+  | RIDGE (with pack and gear) | wind in the grass |
+  | LAKESHORE (canoe) | ripples |
+  | TRAINING (sandbags) | boots on gravel |
+  | K9 FIELD | paws in the mud |
+
+  Bare settings read flat, so every setting carries a human-made element.
+- **Rotation rules:**
+  - B5 when both hooks fit and the last two non-medical openers were A5.
+  - Never B5 twice in a row, so A5 stays at about 2 in every 3.
+  - The setting is never one used in the last 3 jobs.
+- **Fix found in testing:** products worn or carried after the beat-one gesture (packs, apparel, eyewear, K9 harness) stay on the body in beat three, and the camera moves in on them. They're never taken off to be held up (hidden state change).
+- **No-text clause:** now names the product's own parts (no more "focus wheel" on a backpack).
+
+**Pipeline changes (production bIDbAPsBbK9wh0c6):**
+- New data table **SERAMAN_hook_history** (KJkxn24L5WtpeYxD): job_id, product, hook_id, hook_setting. Started empty.
+- `SERAMAN | Get Hook History`: reads the last 6 rows, newest first. Settings: executeOnce, alwaysOutputData, onError continue.
+- `SERAMAN | Pack Hook History`: builds a single `hook_history` item, paired to Restore Job Fields so the sheet-append `.item` lookups still resolve. Wired Restore Job Fields → Get → Pack → System Prompt Chunks.
+- Generate Script input now carries `recent_scene1_hooks`.
+- Writer v5.42 outputs `hook_id` and `hook_setting` on Scene 1. Downstream nodes map named columns only, so the extra fields are harmless.
+- `SERAMAN | Log Hook Choice` (branch off the Script Editor Agent, onError continue) appends the choice for the next job.
+- QA editor v4: the Scene 1 exemption covers A5 and B5 and protects hook_id and hook_setting.
+
+**Verification:**
+- **13 isolated runs** (harness rcIbm0oT58evXcgZ, webhook-fed byte-exact prompts, same models; writer + editor + real data-table read/log + an item-pairing check through Split Scenes). Every run picked the correct hook and setting, and the editor left Scene 1 intact:
+
+  | Run | Product | History in | Result |
+  |---|---|---|---|
+  | s1 | binoculars | none | A5 / CAMP |
+  | s2 | binoculars | real table: A5 CAMP, A5 TRAIL | B5 / TAILGATE |
+  | s3 | binoculars | B5, A5, A5 | A5 / RIDGE |
+  | s4 | rescue blanket | A5 CAMP, A5 TRAIL | A5 / TAILGATE, stays sealed |
+  | s5 | tourniquet | none | ATMOSPHERIC |
+  | s6 | sunglasses | A5, A5 | B5 / TRAIL (editor also stripped "aluminum") |
+  | s7b | pack | B5 TRAIL, A5 CAMP | A5 / TAILGATE, worn-pack hero |
+  | s8b | K9 harness | none | A5 / K9 FIELD, harness stays on the dog |
+  | s9 | binoculars | real empty production table | A5 / CAMP, pairing OK |
+
+- **Real B5 render** of s2 (exec 2128): whip-pan down the dirt track, man at the open tailgate, tension glance, raises the binoculars and holds. Front objectives with green coating, no visible invented lettering. Video: https://tempfile.aiquickdraw.com/v/7e0a6fdbb84b9667f66f5fc6e7bf8152_0_1790893421.mp4 (temporary).
+- **Production draft** byte-verified (11 chunks; assembled 135,054 chars == local v5.42; editor == v4; wiring and node settings checked), then published.
+  - Live: **53d3f04c-3a38-4862-a8d1-9cfe8f0ea44d**.
+  - **Rollback: 72b74f27-251e-4488-abac-7086aa019680 (v5.41).** Rolling back also requires reconnecting Restore Job Fields → System Prompt Chunks if the version restore doesn't.
+- **Cleanup:**
+  - Archived: harness rcIbm0oT58evXcgZ and render H1bHbQbIAvIqi9og.
+  - Test data tables left in place (delete later): ONEOFF_hook_history_test 95cLVXxYDHHy2cZp, ONEOFF_v542_results pZVcY0WvwjliYdOE, ONEOFF_v541_hook_test CLEgEv9xJiqZDXGk.
+
+**Open:**
+- First real job on v5.42: confirm Get/Pack/Log run in production and a row lands in SERAMAN_hook_history.
+- Focus-wheel lettering is reduced but not eliminated (video model).
+- Simple Memory replay risk is unchanged.
+- The Giovanni message should now say his two favourite hooks rotate.
+
+Kie spend: one B5 render, 123 credits.
