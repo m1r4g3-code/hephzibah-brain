@@ -1381,3 +1381,5 @@ Kie spend: two renders x 123 = 246 credits.
 - The Giovanni message should now say his two favourite hooks rotate.
 
 Kie spend: one B5 render, 123 credits.
+
+**Sent to Giovanni (2026-10-01, by operator):** hook library update. A5 and B5 both built in, the system picks per product and rotates scenery, A5 stays primary, nothing changes on his side. Included two temp render links, unlabeled: B5 tailgate (7e0a6fdb...) and A5 camp (2861d3a5...). Both are tempfile.aiquickdraw.com links, which can expire or stall. If he says they won't load, re-host to Drive. Awaiting his reaction.
