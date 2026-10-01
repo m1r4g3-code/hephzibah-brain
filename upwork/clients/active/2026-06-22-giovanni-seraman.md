@@ -1229,3 +1229,43 @@ Closed the loop the operator's own standard required ("actually re-render before
 **Verdict: v5.39 is confirmed clean end-to-end (real image + real video, not just text-level or single-frame verification) and stays live as published.** No further action needed on this specific fix; the CONTROL SURFACES rule precision issue (flat vs. raised, view-dependent) is the one open backlog item, not urgent.
 
 Total Kie spend this round: 18 (image) + 105 (video) = 123 credits.
+
+## v5.40 + QA editor fix: the tested hook finally reaches production (2026-10-01)
+
+**Operator verdict on v5.39's hook (correcting the "confirmed clean" verdict above):** "the hook is too basic not even close to the one we shortlisted... even the hook giovanni liked wasnt used why." Correct. v5.39 was product-accurate but not a hook: a hand lifting binoculars off a table, near-locked camera.
+
+**Root cause, from facts, not guesses.** Compared the actual winning prompt (B5, pulled from exec 1587's Build Variants output) against what production generated:
+- B5 (winner, closest to A5 which Giovanni picked): "Fast whip-pan from a dusk tree line to a close shot of a man with the sunglasses already resting on his forehead, one held second of tension... in one single smooth motion his hand pulls the sunglasses down over his eyes."
+- Production: "Near-locked camera with imperceptible micro-drift, a single hand enters frame... lifting it a few centimeters off the weathered surface."
+- Every winner shared five ingredients: a real-world setting, a person, a whip-pan/handheld camera, a tension beat, one gesture that puts the product into use. Production had none.
+
+**Why the integration lost them -- rules that overrode the tested formula:**
+1. v5.38's "Type B -- confirmed by B1" was defined as "hand only, no face, never a reaction to danger" -- kept B1's label, dropped B1's content (dashboard, whip-pan, motion).
+2. My v5.39 change made Type B the default for optics/outdoor -- pushed binoculars away from the B5 style. Self-inflicted.
+3. Whip-pan was locked to "Type C only" in the motion vocabulary ("do not improvise").
+4. LOCKED COLOR AESTHETIC forced the shop amber grade on every scene ("no scene is exempt").
+5. Background rule banned any environment not in the reference image.
+6. Image-prompt rules said "Cold Open and B-Roll (no human) -- Product-only shot", and "Cold open: Locked or near-locked camera... atmospheric hold." Both hard-coded a product shot.
+7. **Biggest hidden one: the downstream SERAMAN | Script Editor Agent (QA editor) had QA CHECK 4 "Reject or repair: dramatic handheld, cinematic whip pans... environment changes" and QA CHECK 2 "repair anything that... changes the environment."** Even a correct hook from the writer would have been stripped back out before reaching Kie. This explains why the tested hooks never appeared in production regardless of writer wording.
+- Not the cause: the image pipeline. Generate Images already sends Scene 1 product photos only (same as the hook tests).
+
+**Fix shipped:**
+- Writer v5.39 -> v5.40: Scene 1 = THE FIELD HOOK by default (the 5 ingredients, proven B5 example quoted, binoculars worked example). Atmospheric product-only kept only for medical/sealed-dose/certification. Explicit Scene 1 exemptions added to the background lock, locked color (+ checklist + field rules), motion vocabulary, image MUST-NOT list, and the cold-open camera rule.
+- Caught during testing: the agent cannot see product photos (gets URLs as text), so "state real details" made it guess "black objective barrels" on the olive-green Vortex. Added: only state details the product description gives; never guess color/finish/material.
+- Control Surfaces rule corrected to view-dependent (front bridge has rocker+dial+badge; rear eyepiece is flat) -- closes the backlog item above.
+- QA editor: added SCENE 1 EXCEPTION -- leaves setting, person, whip-pan, handheld, own lighting untouched; product-fidelity, physics, claims, negative tail still enforced. QA CHECK 4 scoped to scenes 2-8.
+
+**Deployment architecture change:** the writer prompt is now stored in `SERAMAN | System Prompt Chunks` (Set node, 11 ordered chunks c00-c10, includeOtherFields) joined by `SERAMAN | Assemble System Prompt` (Code, per-item, preserves `.item` pairing for Append Script in sheet), between Restore Job Fields and Generate Script; writer systemMessage is `={{ $json.sys }}`. Reason: the single 123K-char paste kept failing/getting cut off; chunks are small enough to send and byte-verify individually. Future prompt edits: edit the relevant chunk only. Local source: scratchpad `generate_script_systemMessage_v540.txt` + `v540_chunk_00..10.txt`.
+
+**Verification (all on the real binoculars data, isolated first, production untouched until the end):**
+- 3 consecutive writer runs (execs 2026, 2028, 2033) all produced the field hook -- consistent, not luck.
+- Writer -> QA editor v2 chain (exec 2033): editor left Scene 1 byte-identical (whip-pan kept, no shop grade added, no guessed color); it only edited VO/end-card wording in other scenes.
+- Real render: image (18 credits) + video (105 credits). Contact sheet: 0s whip-pan blur over dusk ridge, 1s lands on man in field jacket with binoculars at chest, 2s head snaps (tension), 3s raises binoculars, 4-8s scanning with handheld drift. Binoculars render dark olive (correct), no invented button module/badge. Minor nit: in the last frames his eyes sit just above the eyecups. Video: https://drive.google.com/file/d/1UeFtWHU_dz4D6WRCIkDwQnfm9ZwHw13T/view
+- Production draft byte-verified (all 11 chunks, assembled 123,609 chars == local v5.40; editor 9,585 chars == v2), then published. Live version 3f2c0f14-1985-477c-adad-27d4693d93b6. **Rollback: 691cf69e-55d9-405e-822f-2c99b4112ff7 (v5.39).**
+
+**Open risks / follow-ups:**
+- Simple Memory on Generate Script is keyed on Product_Description. Re-submitting the same product replays old scripts as chat history (could bias toward an old hook). Test runs used a tagged description to avoid it. Consider clearing or rekeying per JOB_ID.
+- Not yet run through a real Tally job end-to-end on v5.40 (writer -> editor -> images -> Scene Approval). First real job should be watched: confirm the JSON parses, Scene 1 is a field hook, the sheet append still resolves `$('SERAMAN | Restore Job Fields').item`.
+- Medical/sealed-dose products still use the atmospheric exception -- untested on v5.40.
+
+Kie spend this round: 18 + 105 = 123 credits.
