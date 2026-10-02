@@ -1489,3 +1489,13 @@ Indicative price: €1,500–2,000 build, maintenance folded into the retainer (
 - **The private sheet also lists** what to confirm (customer price, VAT, stock for quantity, warranty handling in Italy, laser class not stated anywhere, three assumed service lines) and what was left out on purpose (no supplier or manufacturer prices, no other shops' links).
 - **Reusable:** saved as the skill `.claude/skills/offer-dossier/` with the HTML templates. Render via headless Chrome.
 - **Next:** operator decides when and how to show it. Planned opener: send the PDF with one line and ask how he prepares offers for units today.
+
+**Offer-dossier demo SENT to Giovanni (2026-10-02, by the operator, by email).**
+- **Attachments (three files):** the proposal PDF, the private notes PDF, and a third file from the same folder (most likely the cover preview image `preview_cover.png`).
+- **Message:** "Ciao Giovanni," opener, thanks for the video, then "I built an assistant around your catalog and asked it for an offer on the Talon HD 12x50... It found two wrong values on your product page. How do you prepare offers like this today?", closing "Grazie mille".
+- **Timing:** sent the same day as his "excellent" reply, while he is travelling. I had suggested waiting until the next morning.
+- **No price or pitch attached.**
+- **Awaiting reply.** PREDICTION-007 logged.
+- **If he engages:** offer a small paid pilot for one job, then setup + monthly.
+- **Still unknown:** whether he answered the 2026-09-17 retainer/long-form message.
+- **Correction logged:** the channel with Giovanni is email, not Upwork chat. Messages open "Ciao Giovanni," and close "Grazie mille".
