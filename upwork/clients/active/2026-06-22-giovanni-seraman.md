@@ -1473,3 +1473,19 @@ Indicative price: €1,500–2,000 build, maintenance folded into the retainer (
 **Falsifiers:**
 - He refuses another tool or subscription.
 - The pilot goes unused for a week.
+
+**Demo built (2026-10-02, not yet shown to Giovanni): Seraman offer dossier for the Vortex Talon HD 10K 12x50.**
+- **Built from public sources only:** shop.seraman.com product 6827 (price € 2.691,54 IVA inclusa, code LRF-TLN1250, availability, delivery, photos, logo) and vortexoptics.com (specs, box contents, warranty). Nothing from the private material.
+- **Output** in `demos/seraman-offer-dossier/`:
+  - `Seraman_Proposta_Talon_HD_10K_12x50.pdf`: 5 pages, Italian, his logo and colours, real product photos.
+  - `Seraman_Assistant_Notes_PRIVATE.pdf`: 1 page, English, for him only.
+- **Public finding that makes the demo land:** his live product page has two wrong spec lines. Both are lengths shown as angles; the proposal uses the correct values and the private sheet shows before/after.
+
+  | Field | His page says | Manufacturer says |
+  |---|---|---|
+  | Campo visivo lineare | 6,9° a 915 metri | 272 ft @ 1,000 yd (about 83 m at 914 m) |
+  | Messa a fuoco minima | 63,5° | 25 ft (about 7.6 m) |
+
+- **The private sheet also lists** what to confirm (customer price, VAT, stock for quantity, warranty handling in Italy, laser class not stated anywhere, three assumed service lines) and what was left out on purpose (no supplier or manufacturer prices, no other shops' links).
+- **Reusable:** saved as the skill `.claude/skills/offer-dossier/` with the HTML templates. Render via headless Chrome.
+- **Next:** operator decides when and how to show it. Planned opener: send the PDF with one line and ask how he prepares offers for units today.
