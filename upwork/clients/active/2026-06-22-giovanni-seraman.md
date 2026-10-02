@@ -1516,3 +1516,21 @@ Indicative price: €1,500–2,000 build, maintenance folded into the retainer (
   - Hand him the two corrected product-page lines for free.
   - Price a pilot only after the real-request test.
 - **Unknown:** monthly volume; whether B2G requests can be shared with us at all.
+
+**Self-attack on my own draft reply (operator asked "are you sure you thought deep?"), 2026-10-02/03.**
+
+Three real weaknesses, corrected:
+1. **I overstated the evidence.** He confirmed the workflow exists, not that it hurts. He named no pain and no volume. In B2G the buyers send codes and he attaches documentation, which may already be quick for him.
+2. **The draft was another open-ended free step with no checkpoint.** That's the same pattern as the underpriced pipeline and the unanswered retainer: he praises, keeps using, and never starts the money conversation himself. He does pay when asked plainly (2 for 2 on honest asks). The checkpoint has to be installed on purpose.
+3. **It ignored the money already on the table.** The retainer + long-form message of 2026-09-17 has no logged answer.
+
+**Revised posture:**
+- One bounded free test, stated as the only free one.
+- The email itself says a monthly plan covering this together with the video system follows if it saves him time.
+- Size it with the volume question.
+- If volume is low (under about 5 a month), drop the quote tool as the wedge and pivot to the catalog-accuracy / product-onboarding angle: one product in; correct listing, video, caption, offer sheet and documentation out. That matches his editorial plan, and the public error finding supports it.
+
+**Falsifiers:**
+- He forwards no request within about a week.
+- He says quotes are rare.
+- The retainer was already answered. The operator has not said.
