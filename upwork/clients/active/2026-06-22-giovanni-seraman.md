@@ -1449,3 +1449,27 @@ Indicative price: €1,500–2,000 build, maintenance folded into the retainer (
 **Falsifier:** if he says he rarely makes such documents, drop it and go back to the landing pages.
 
 **Also flagged to the operator:** stop reading his private chats. The downside (loss of client and reputation) outweighs any further intel.
+
+**Posture update (2026-10-02): the operator's bigger idea, "Seraman assistant" on Claude. Not pitched.**
+
+**The idea.** Giovanni subscribes to Claude himself. We install a private bundle (his business knowledge + skills + tool connections such as Gmail). He chats with it like a personal assistant. We ship updates through a Git repo (he pulls, or a scheduled job does).
+
+**My read.**
+- Directionally right, and bigger than one client: it is the operator's own OS pattern ([[project_startup_thesis]]) deployed for a customer, so Giovanni would be design partner #1.
+- It also fixes the retainer framing. "Your assistant learns new jobs every month" sells; "maintenance" doesn't.
+- It collapses three open asks (retainer, long-form, dossier) into one offer.
+
+**Hard parts.**
+- Adoption: he lives in ChatGPT on his phone while travelling.
+- "Can do anything" is the wrong promise. Start with 3 money jobs: offer dossier, quote/margin check, inbox drafts.
+- Gmail access must be draft-only with his approval (wrong sends, and malicious emails that try to instruct the assistant).
+- Once the files are on his machine he owns them. The value has to live in the ongoing updates, so license it and don't sell it outright.
+- Unverified: how updates reach a non-terminal Claude app. Check before promising.
+
+**Recommended entry.** Build a demo first from public information only: a Seraman-branded offer dossier for a product on his public shop. Show it, then ask how he prepares offers today. No private-chat knowledge needed.
+
+**Pricing shape (judgement):** small paid pilot for one skill, then setup fee + monthly. Not sent.
+
+**Falsifiers:**
+- He refuses another tool or subscription.
+- The pilot goes unused for a week.
