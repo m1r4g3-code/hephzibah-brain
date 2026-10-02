@@ -1534,3 +1534,49 @@ Three real weaknesses, corrected:
 - He forwards no request within about a week.
 - He says quotes are rare.
 - The retainer was already answered. The operator has not said.
+
+## Giovanni asks for a competitor price monitor (relayed by the operator, 2026-10-02/03). Client-initiated new scope.
+
+**His message, in substance:**
+- He corrected the two Talon page values. They happen "when I don't automatically check product coding."
+- He will forward a quote request when one comes ("we'll see what happens").
+- "The videos are there, the articles are there, I'm doing some work on Google Ads... I think the important thing for a company is checking competitor numbers."
+- He describes the tool: take 4 or 5 competitor sites (or more via sitemaps), analyse the products they sell, match which ones are the same, compare prices. Filters: different products, identical products, identical / lower / higher prices. "I see it as an HTML template." "Let me know what you think."
+
+**Read.**
+- This is the first time he has named, unprompted, what he wants next. It confirms the self-attack above: quotes are not his pain (he did not answer the volume question); competitive pricing is.
+- He treats the operator as his technical partner and asks for an opinion.
+- No budget mentioned.
+
+**Feasibility, checked on public pages:**
+- His own shop exposes a sitemap (586 URLs, about 482 product pages listed).
+- robots.txt allows crawling except /admin/.
+- Product pages carry structured name/price/currency plus the manufacturer code in the text (e.g. LRF-TLN1250). So matching by manufacturer code or EAN is realistic for branded goods.
+- Hard parts:
+  - Matching when codes are missing or formatted differently.
+  - Competitor sites that block automated reading.
+  - Scrapers breaking when sites change (this is the ongoing maintenance).
+
+**His alternative (BATNA).** Off-the-shelf price monitors:
+- Prisync: about $99/mo for 100 products, $199/mo for 1,000, $399/mo for 5,000.
+- Price2Spy: from about $40/mo, with automatic matching as a paid add-on.
+- These track product URLs you give them. They do not map a competitor's whole catalogue or show what competitors sell that he doesn't.
+
+**Posture.**
+- **Chess:** this is the paid project and the natural home for the monthly plan. Prices change, so the value is recurring and visible.
+- **Poker:** he may assume it comes inside the existing relationship. State "separate project" in the first reply.
+- **BATNA:** see above.
+- **OODA:** answer fast with substance while his own idea is fresh.
+- **Voss:** give the opinion he asked for, then ask for the competitor list. It's a small action that commits him.
+- **Red-team:**
+  - Do not build a free demo on his real competitors' full data.
+  - Do not host it on his n8n instance this time. We host and he gets a private page, so the asset does not walk away as the pipeline did.
+  - Say plainly that matching is not 100% and show confidence levels.
+  - Public prices only, polite request rates.
+
+**Price shape (my judgement, not sent):**
+- Fixed setup about €1,500–2,000 for up to 5 competitor sites + dashboard.
+- Monthly about €350 for refresh and upkeep, or about €600/mo bundled with video-system care (revives the 2026-09-17 retainer with something visible).
+- Fallback if he balks: a paid phase 1 on one category and two competitors.
+
+**Still unknown:** whether he answered the retainer message (assumed not).
