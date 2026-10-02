@@ -1499,3 +1499,20 @@ Indicative price: €1,500–2,000 build, maintenance folded into the retainer (
 - **If he engages:** offer a small paid pilot for one job, then setup + monthly.
 - **Still unknown:** whether he answered the 2026-09-17 retainer/long-form message.
 - **Correction logged:** the channel with Giovanni is email, not Upwork chat. Messages open "Ciao Giovanni," and close "Grazie mille".
+
+**Giovanni's reply to the offer-dossier demo (relayed by the operator; within about a day of the 2026-10-02 send).**
+- **Verbatim substance:** he attended a ceremony that morning moving the "Battle Flag" of the Special Forces unit where he served. He read both files: "They're very interesting." "The quote file is really well done." Quotes are prepared in two ways today:
+  1. Online: when a customer requests something specific, a summary file is prepared.
+  2. Offline, B2G: "they often know the products much better than I do", they send a direct request with the product code, and he attaches comprehensive documentation for the products requested.
+- **Read:**
+  - The need is confirmed in both flows, in his own words. Any pitch can now stand on what he told us.
+  - The two flows need different outputs. Online = a summary/persuasion file (what we showed). B2G = a quote plus a documentation pack built from product codes (datasheets, manuals, certificates). No selling is needed there; speed and completeness are.
+  - He did not mention the two shop-page errors, and asked for nothing.
+  - He shared a personal, identity-level moment (the Special Forces flag ceremony). Acknowledge it properly; it is trust, not small talk.
+- **Posture for the next message:**
+  - No price yet.
+  - Offer a live test on his next real request (he may strip the customer's name).
+  - Ask one question to size it: roughly how many per month.
+  - Hand him the two corrected product-page lines for free.
+  - Price a pilot only after the real-request test.
+- **Unknown:** monthly volume; whether B2G requests can be shared with us at all.
