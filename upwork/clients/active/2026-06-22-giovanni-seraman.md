@@ -1414,3 +1414,38 @@ Kie spend: one B5 render, 123 credits.
   - No invented text, no state change. Matches the A5 structure.
 - **One improvement spotted:** the very first frame is near-black (a fade-in from black, the same as in the original A5 test clip, so most likely the Creatomate template rather than the generated clip). It costs roughly the first half-second of the hook, which is the part that has to stop the scroll. Worth checking the template's opening fade. Not changed yet.
 - **Not a defect, noted:** in beat one the man faces away, so the shirt front isn't seen until beat three.
+
+## Negotiation posture: "offer dossier builder" idea (2026-10-02). Source-sensitive, NOT pitched.
+
+**Trigger.** The operator shared a 9-page PDF, "Winter Warrior | Dossier tecnico-commerciale" (Split Skis folding tactical ski, proposal to Armed Forces procurement, €1,745 ski + €200 skins). It came from the same private ChatGPT material as the 2026-09-30 opportunities scan. The operator asked whether to pitch Giovanni a "personal AI assistant" for packaging deals. Do not commit the PDF, and do not reference it to Giovanni.
+
+**What the dossier shows (internal read):** he builds B2B / military procurement offer documents by hand with ChatGPT. This one has real commercial defects:
+- A leftover AI artifact on the cover ("cite non disponibili nel PDF").
+- It tells the buyer the manufacturer's site sells the skins at €150 while he quotes €200, and that the ski price is the manufacturer's public price. That exposes his margin and the direct-buy route.
+- An unresolved spec conflict printed in the document (turning radius 17 m vs 18 m).
+- Schematic placeholder drawings instead of product photos.
+- No Seraman branding, contact or call to action anywhere.
+- Repeated "this is not an offer" disclaimers.
+
+**Position.**
+- **Chess:** the need is real, and it's tied to bigger money than social video (procurement deals). But "personal AI assistant" is the wrong frame: he already has ChatGPT, so it invites "I already have one." The sellable thing is specific: a branded offer/dossier builder on the same n8n stack. Form in, PDF out, real images, his prices only, spec conflicts flagged privately to him.
+- **Poker:** we hold information he doesn't know we hold. Any pitch that only makes sense if we saw his chats is a relationship-ending tell with a sophisticated ex-soldier client.
+- **BATNA:** his fallback is to keep doing it by hand for free. Ours is the existing video work.
+- **OODA:** he's travelling to sell right now. Relevant, but don't pitch while he drives.
+- **Voss:** get him to name the need with a calibrated question, then ask for an example, then audit it openly.
+- **Red-team:**
+  - "How did you know?" must have an honest answer. The question-first route makes that moot.
+  - Stacking a third ask on an unanswered retainer + long-form pitch (sent/drafted 2026-09-17, outcome not logged) dilutes all three.
+  - A win and an ask placed together read as one transaction.
+
+**Recommended sequence:**
+1. Today: a warm one-line reply only.
+2. Establish the retainer/long-form status first.
+3. When he's back and has seen a second clean video, ask one calibrated question about how he prepares offers for units/professional buyers.
+4. Only after he shares an example himself, audit it and quote a fixed-price build.
+
+Indicative price: €1,500–2,000 build, maintenance folded into the retainer (judgement, not validated).
+
+**Falsifier:** if he says he rarely makes such documents, drop it and go back to the landing pages.
+
+**Also flagged to the operator:** stop reading his private chats. The downside (loss of client and reputation) outweighs any further intel.
