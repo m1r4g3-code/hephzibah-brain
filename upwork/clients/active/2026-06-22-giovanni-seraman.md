@@ -1396,3 +1396,21 @@ Kie spend: one B5 render, 123 credits.
 - **Run time:** 05:19:20 to 05:27:38 UTC.
 - **Still to watch on this job:** his image approval, the video render of Scene 1, the final edit.
 - **Next job:** expected to be A5 on a non-CAMP setting, or B5 after two A5s.
+
+**Job ArGVpgW finished end-to-end and posted (2026-10-02). First real video with the v5.42 hook.**
+- **Timeline (UTC):**
+  - 05:19 submit
+  - 05:27 script + images
+  - 05:37–05:43 videos (exec 2180)
+  - 05:43–05:44 edit (exec 2182)
+  - 05:47–05:48 posted (exec 2184)
+  - About 29 minutes including his approvals. IMAGE REGEN ROUND = 2.
+- **Final video:** https://f002.backblazeb2.com/file/creatomate-c8xg3hsxdu/96a26e21-d3a7-4286-b0f0-574f52d57e71.mp4 (60.0s, 720x1280).
+- **Scene 1 as rendered (frame-checked):**
+  - Blue-hour hillside camp, tent and campfire.
+  - Man in the merino t-shirt, seen from behind, looking over the valley.
+  - Campfire cutaway, then a whip-pan across the pines.
+  - Close move in on the shirt as worn (shoulder seam and knit texture sharp).
+  - No invented text, no state change. Matches the A5 structure.
+- **One improvement spotted:** the very first frame is near-black (a fade-in from black, the same as in the original A5 test clip, so most likely the Creatomate template rather than the generated clip). It costs roughly the first half-second of the hook, which is the part that has to stop the scroll. Worth checking the template's opening fade. Not changed yet.
+- **Not a defect, noted:** in beat one the man faces away, so the shirt front isn't seen until beat three.
