@@ -1383,3 +1383,16 @@ Kie spend: two renders x 123 = 246 credits.
 Kie spend: one B5 render, 123 credits.
 
 **Sent to Giovanni (2026-10-01, by operator):** hook library update. A5 and B5 both built in, the system picks per product and rotates scenery, A5 stays primary, nothing changes on his side. Included two temp render links, unlabeled: B5 tailgate (7e0a6fdb...) and A5 camp (2861d3a5...). Both are tempfile.aiquickdraw.com links, which can expire or stall. If he says they won't load, re-host to Drive. Awaiting his reaction.
+
+**Giovanni's reply (2026-10-02):** "I'd say it's excellent." He's travelling (150 km to go today) and started a video before leaving: "Let's see how it turns out. Grazie mille."
+
+**First real job on v5.42: PASSED the script + image stage (2026-10-02, exec 2174, job ArGVpgW, Armadillo Merino COUGAR short-sleeve merino t-shirt).**
+- **History read:** Get/Pack Hook History ran in production with the empty table and gave `hook_history: []`.
+- **Hook choice:** the writer chose A5 / CAMP, which is correct for an empty history.
+- **Worn-product rule:** applied unprompted. The man is already wearing the t-shirt, beat three is "a close handheld move in on the shirt as worn", and the no-text clause names the collar, hem and cuffs. The writer stated no colour and didn't put him in a field jacket.
+- **Pairing:** Append Script in sheet resolved JOB_ID and REFERENCE IMAGE through the new nodes, so item pairing is intact.
+- **Downstream:** Generate Images sub-execution 2176 ran 221s and sent the review email. The submission was marked completed.
+- **History write:** Log Hook Choice wrote row 1 to SERAMAN_hook_history (A5 / CAMP).
+- **Run time:** 05:19:20 to 05:27:38 UTC.
+- **Still to watch on this job:** his image approval, the video render of Scene 1, the final edit.
+- **Next job:** expected to be A5 on a non-CAMP setting, or B5 after two A5s.
