@@ -1656,3 +1656,25 @@ Facts checked:
 - Video care stays a separate later conversation.
 
 Final numbers come after his competitor list and scraping check.
+
+**Account map, Giovanni (2026-10-03). Projects by strength of evidence, with a 12-month revenue view.**
+
+| Project | Evidence | Price |
+|---|---|---|
+| Competitor monitor | He requested it | €450/mo, 6-month minimum, or €900 phase 1 |
+| Video pipeline care | Relies on it; hiccups happen | About €250/mo, separate later |
+| Long-form video | Distributor-approval use; scoped at $1,500 | About €1,500 |
+| Catalogue code/EAN/spec audit | 2 errors found; he admitted the cause; helps Google Ads | About €750 one-off |
+| Ads video formats | — | Small add-on |
+| Offer/doc-pack jobs | Weak; "we'll see" | — |
+| Assistant tier | Month 3+ | About €250/mo |
+| Website / landing pages | Only if he raises it (private source) | — |
+
+**12-month scenarios:**
+- Conservative (45%): about €3,600.
+- Base (35%): about €9,900.
+- Upside (20%): about €15,000.
+- Expected value about €8k.
+- From Giovanni by 2026-12-31: realistically about €1.5–3k.
+
+**Reality check:** about $1,000 + €200 paid so far over about 3 months.
