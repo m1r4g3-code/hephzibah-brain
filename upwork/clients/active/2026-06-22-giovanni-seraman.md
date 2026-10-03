@@ -1698,3 +1698,11 @@ Plus hosting and upkeep at about €250/mo, justified separately: weekly runs, s
 - Interface: email first (his habit), Telegram/WhatsApp optional.
 - We pay API and charge monthly; there are no subscription limits on his side, and the product data lives in our "product brain".
 - Timing: after the monitor.
+
+**Proposal PDF + assistant price (2026-10-03).**
+- **Proposal brief** for the competitor-monitor PDF written to `demos/seraman-competitor-proposal/PROMPT_proposal_pdf.md`. It works for the Upwork OS or for this session. Placeholders: his competitor list, category, EAN status, site-check results, sender name/brand.
+- **Recommended:** produce the PDF in this session after the site check. The HTML→PDF method and the dossier design system already exist here.
+- **Assistant price recommendation:**
+  - Build €4,000, phased. Phase 1 €2,500: email in/out, product lookup on his site, video-from-link, competitor questions. Phase 2 €1,500: offers / doc packs, listing checks, memory over the product data.
+  - Then €390/mo: Claude API usage under fair use, hosting, upkeep, small improvements.
+- **Sequence:** after the monitor is delivered and paid.
