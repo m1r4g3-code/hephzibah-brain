@@ -1642,3 +1642,17 @@ Facts checked:
 - Bundle €650/mo.
 
 **Break-even line for him:** €290/mo = a 1% pricing improvement on about €29,000 of monthly sales.
+
+**Pricing re-think after the operator's doubt (2026-10-03).** The itemized version above has real flaws against a maths-minded negotiator:
+- Showing the SaaS comparison plants an alternative he may not have known about.
+- Itemizing (€290 monitor + €360 video) lets him take the cheap line and drop the rest.
+- A day-rate justification frames the work as hours, which caps value and invites "8 days, not 10".
+
+**Revised recommendation:**
+- One clear offer with outcome-based (ROI) maths, plus one smaller paid alternative.
+- **A:** €450/month, no setup fee, 6-month minimum. It includes the build, weekly updates and fixes; about €5,400/yr, the same money as before. That fits his pattern of never paying more than about $500 at once, makes the maths trivial, and locks in recurring revenue; we host, so we keep it.
+- **B:** a €900 one-off phase 1 (one category, two competitors) as the proof route.
+- Keep the SaaS comparison and the day rates in reserve; use them only if he raises them.
+- Video care stays a separate later conversation.
+
+Final numbers come after his competitor list and scraping check.
