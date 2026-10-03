@@ -1580,3 +1580,38 @@ Three real weaknesses, corrected:
 - Fallback if he balks: a paid phase 1 on one category and two competitors.
 
 **Still unknown:** whether he answered the retainer message (assumed not).
+
+## Hiccup: job ArOz0PD failed at image generation (AVIF photo). Recovered, and fixed at the source (2026-10-03)
+
+**What happened.**
+- Giovanni submitted BCB windproof/waterproof matches (shop product 942) on 2026-10-02 at 22:55 UTC.
+- Script + QA editor ran fine: A5 / TRAIL, rotation working against history [A5 CAMP].
+- Generate Images (exec 2290) rejected all 8 scenes. Kie returned `500 "image_input file type not supported"` because PRODUCT IMAGE 2 was an **.avif** file (a lifestyle shot: a match lit in the rain).
+- The All Images Ready Gate raised the error as designed. Main exec 2289 errored.
+
+**Second defect found while checking.** Log Hook Choice never ran for this job. The editor's first connection was Split Scenes, which carries the whole Generate Images branch; when it errored, the run stopped before the log step. The rotation memory would have missed this job.
+
+**Recovery (one-off EqJFj8eU7a0rLlTa, archived).**
+- Converted his AVIF to JPG locally (ffmpeg). His own photo was kept: it isn't on the shop page, so swapping in a studio shot would have changed his creative choice.
+- Uploaded it to his Google Drive with public view: https://drive.google.com/uc?id=1BqCiCuaJ7ExYkVqz20hqpnz-7F6jWjgx&export=download (byte-identical to the local JPG).
+- Updated PRODUCT IMAGE 2 and cleared GENERATED IMAGE URL on Sheet1 rows 371–378.
+- Re-ran Generate Images for ArOz0PD (exec 2304): **all 8 images generated, and the review email was sent to Giovanni.** Scene 1 (trail, green match container) and Scene 2 (presenter holding the container) checked visually and look right.
+- Backfilled the missing history row (A5 / TRAIL), after confirming that is what the writer chose.
+- Kie spend: 8 images × 18 = 144 credits.
+
+**Permanent fixes (production, tested, published):**
+1. **Extract Fields** now keeps only jpg/jpeg/png/webp (or extensionless) photo URLs. If one photo is unsupported (AVIF, HEIC…), the job continues with the other. If photo 1 is bad and photo 2 is good, photo 2 is promoted.
+2. **Validate Input** now requires a *non-empty* Product_Image (it was "exists", which an empty string passes). An all-unsupported submission is rejected at intake with the existing "submission incomplete" email, before any Opus or Kie spend.
+3. **Log Hook Choice** now runs before Split Scenes, so the rotation memory survives later failures.
+
+**Testing:**
+- Filter logic: 8 local cases, including this job's real file names.
+- Expressions: re-tested inside n8n (one-off AIEjt8HQT0hbSEsG, archived). jpg+avif → jpg only; avif+jpg → jpg promoted; two good → both kept; all-unsupported → rejection branch.
+- The production diff touched only those 2 nodes plus the editor's connection order.
+- **Live version:** 820ea344-da04-4394-96e0-bc7d93e23781.
+- **Rollback:** 53d3f04c (v5.42 before these fixes).
+
+**Still open:**
+- Mark Submission Completed did not run for ArOz0PD (the main exec errored before it). Cosmetic; the duplicate check uses the submission id.
+- Recommend restricting the Tally upload field to JPG/PNG/WEBP so AVIF/HEIC can't be uploaded at all. That's a Tally setting; we have no Tally access.
+- Unrelated: watchdog exec 2190 (2026-10-02 06:40) was a one-off Google Sheets 500 and later runs are fine. Generate Images (R2uqd2tnN687vcuH) also has an unpublished draft (26aff624) that differs from its live version (e69474ef). It predates this session, so I left it untouched.
