@@ -1615,3 +1615,30 @@ Three real weaknesses, corrected:
 - Mark Submission Completed did not run for ArOz0PD (the main exec errored before it). Cosmetic; the duplicate check uses the submission id.
 - Recommend restricting the Tally upload field to JPG/PNG/WEBP so AVIF/HEIC can't be uploaded at all. That's a Tally setting; we have no Tally access.
 - Unrelated: watchdog exec 2190 (2026-10-02 06:40) was a one-off Google Sheets 500 and later runs are fine. Generate Images (R2uqd2tnN687vcuH) also has an unpublished draft (26aff624) that differs from its live version (e69474ef). It predates this session, so I left it untouched.
+
+**Price backup for the competitor-monitor proposal (2026-10-03). The operator wants it maths-proof ("he is a math person").**
+
+Facts checked:
+- **His catalogue:** about 480 product pages in his sitemap.
+- **Prisync (pricing page):**
+  - URL plans: $99/mo for 100 products, $199/mo for 1,000, $399/mo for 5,000. Competitor links are added manually per product; a matching service costs extra.
+  - Channel plans (automatic, Google Shopping channels): $199 / $399 / $599.
+- **Italian freelance IT day rates:** average about €283/day; mid-level €280–440; Assintel 2025 €347–540.
+
+**Honest comparison for about 480 products and 5 competitors.**
+- Cheapest DIY path: Prisync URL Premium, about €2,050/yr, plus about 2,400 competitor links to find and paste by hand (about 40 h, about €1,400 of his time at the average day rate). That's about €3,450 in year 1.
+- Channel Premium: about €4,100/yr. It only sees sellers on Google Shopping and needs GTINs.
+- Ours on the monitor-only path: €1,800 + €290 × 12 = **€5,280 in year 1, €3,480/yr after**.
+- **We are more expensive in year 1. Say so openly.** We win on four points:
+  - no manual matching
+  - his whole competitors' catalogues, including what they sell that he doesn't
+  - product-code/EAN cleanup that also unlocks Google's free price benchmark and helps Shopping ads
+  - one partner for everything
+
+**Revised pricing structure.** Itemize so each line stands alone:
+- Setup €1,800: about 10 working days, roughly €180/day against an Italian average of €283.
+- Monitor €290/mo.
+- Video system care + up to 4 jobs/mo €360.
+- Bundle €650/mo.
+
+**Break-even line for him:** €290/mo = a 1% pricing improvement on about €29,000 of monthly sales.
