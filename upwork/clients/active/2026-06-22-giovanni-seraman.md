@@ -1678,3 +1678,23 @@ Final numbers come after his competitor list and scraping check.
 - From Giovanni by 2026-12-31: realistically about €1.5–3k.
 
 **Reality check:** about $1,000 + €200 paid so far over about 3 months.
+
+**Operator decision (2026-10-03): competitor monitor at a €1,800 one-off.** New fact from the operator: Giovanni has always said money isn't the problem; he wants to see the reason behind a price. That reverses my €450/mo "no setup" rethink. With price sensitivity low and justification the gate, an itemized, deliverable-based €1,800 is right.
+
+**Breakdown (deliverables, not day rates):**
+
+| Deliverable | Price |
+|---|---|
+| Catalogue import + code/EAN cleanup of about 480 products | €350 |
+| 5 competitor collectors, about €150 each (varies by site difficulty) | €750 |
+| Matching engine with confidence levels + manual overrides | €400 |
+| Filter page + Excel export + price-change history | €300 |
+
+Plus hosting and upkeep at about €250/mo, justified separately: weekly runs, server, fixes when competitor sites change.
+
+**Assistant design, from the operator's concerns** (he isn't technical; Claude plan limits and context; the agent could build things we would otherwise sell). Recommendation:
+- Do NOT give him a general Claude app with builder powers.
+- Build a hosted "Seraman assistant" instead: Claude via API on our side, a closed toolbox (run video pipeline from a product link, query competitor data, draft offers or doc packs, check a listing), no rights to edit workflows or write code.
+- Interface: email first (his habit), Telegram/WhatsApp optional.
+- We pay API and charge monthly; there are no subscription limits on his side, and the product data lives in our "product brain".
+- Timing: after the monitor.
