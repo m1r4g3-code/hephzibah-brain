@@ -1706,3 +1706,19 @@ Plus hosting and upkeep at about €250/mo, justified separately: weekly runs, s
   - Build €4,000, phased. Phase 1 €2,500: email in/out, product lookup on his site, video-from-link, competitor questions. Phase 2 €1,500: offers / doc packs, listing checks, memory over the product data.
   - Then €390/mo: Claude API usage under fair use, hosting, upkeep, small improvements.
 - **Sequence:** after the monitor is delivered and paid.
+
+## ArOz0PD second hiccup: approved scenes, no final video or email. Recovered, ordering fixed (2026-10-03)
+
+**Giovanni (relayed, 2026-10-03):** "Thank you for correcting the image. I approved the scenes, but I'm not receiving any notifications. I need to check if my competitors have EAN or UPC codes. They often don't use them, and often they don't even use the manufacturer code. I'll do this analysis and update you."
+
+**Cause.** n8n (execution order v1) runs parallel branches top-to-bottom by canvas position, not by connection order. In the main workflow the Sheet3 registration (`Store Description for Job` → `Append row in sheet`) sat to the right of the image branch at the same height, so it ran only after the whole image branch finished. The AVIF crash earlier today killed the run before it, so ArOz0PD never got a Sheet3 row. My image-stage recovery did not add one. After his approval, Generate Videos succeeded (exec 2341) but Edit Videos (exec 2342) exited in 1.6s at `Check Existing Final Video`: no row, no render, no email, no error.
+
+**Recovery.** One-off 6cdKociVvR4aV86o (exec 2371, 10:44–10:47 UTC, now archived): appended the Sheet3 row (row 64), ran Edit Videos, wrote the caption, sent the review email (Gmail id 1a101600c400b015). Final video: https://f002.backblazeb2.com/file/creatomate-c8xg3hsxdu/e6305c32-3733-4069-8f3a-ea5aa240d531.mp4 (60s, 720x1280). Contact sheet checked: field hook, product hero, presenter scenes with captions all present.
+
+**Permanent fix (main bIDbAPsBbK9wh0c6, published 89e536eb, rollback 820ea344).** Positions only, verified zero parameter/connection/settings diffs: `Store Description for Job` and `Append row in sheet` moved to y=-520 so they run before `Get Presenter Variants`; `Log Hook Choice` moved to y=-520 so it runs before `Split Scenes`. This also replaces this morning's connection-reorder attempt for the hook log, which could not have worked.
+
+**Not yet proven on a live job.** The new order is derived from n8n's documented rule and matches what ArOz0PD showed; the next real submission confirms it (check that the Sheet3 row and the hook-history row exist while images are still generating).
+
+**Still open.** Edit Videos still exits silently when the Sheet3 row is missing (should alert). Mark Submission Completed was not run for ArOz0PD.
+
+**Competitor monitor, effect of his EAN remark.** If competitors publish neither EAN nor manufacturer code, matching falls back to brand + product name + attributes with an AI check. Fewer "certain" matches, more "probable / to check". The matching engine and his review step become the core of the job. Price unchanged at €1,800 until his analysis and site list arrive; the proposal's "codes are the reliable keys" sentence must be rewritten then.
